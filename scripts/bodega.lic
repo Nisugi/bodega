@@ -768,7 +768,7 @@ end
 module Bodega
   module Uploader
     # Bot account configuration for anonymous uploads
-    GITHUB_TOKEN = "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"
+    GITHUB_TOKEN = "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"
     GITHUB_REPO = "Nisugi/bodega"
 
     def self.upload_all_files
@@ -793,25 +793,50 @@ module Bodega
           return
         end
 
-        uploaded_files = 0
-        skipped_files = 0
+        # Collect files that need uploading
+        files_to_upload = {}
+        skipped_files = []
 
         files.each do |file|
           basename = File.basename(file)
           if should_upload_file?(basename, upload_tracking)
-            upload_file(basename)
-            update_upload_tracking(basename, upload_tracking)
-            uploaded_files += 1
+            file_path = Assets.local_path(basename)
+            if File.exist?(file_path)
+              json_content = File.read(file_path)
+              files_to_upload[basename] = json_content
+              Log.out("Preparing #{basename} for upload", label: :upload)
+            end
           else
             Log.out("Skipping #{basename} - already uploaded (same content)", label: :upload)
-            skipped_files += 1
+            skipped_files << basename
           end
+        end
+
+        # Upload all changed files in one gist
+        if files_to_upload.any?
+          Log.out("Creating gist with #{files_to_upload.size} file(s)...", label: :upload)
+
+          gist_url = create_multi_file_gist(files_to_upload)
+
+          if gist_url
+            Log.out("Gist created: #{gist_url}", label: :upload)
+
+            # Create trigger issue
+            create_trigger_issue(gist_url, files_to_upload)
+
+            # Update tracking for all uploaded files
+            files_to_upload.keys.each do |filename|
+              update_upload_tracking(filename, upload_tracking)
+            end
+          end
+        else
+          Log.out("No files need uploading", label: :upload)
         end
 
         # Save updated tracking data
         save_upload_tracking(upload_tracking)
 
-        Log.out("Upload complete! #{uploaded_files} uploaded, #{skipped_files} skipped", label: :upload)
+        Log.out("Upload complete! #{files_to_upload.size} uploaded, #{skipped_files.size} skipped", label: :upload)
 
       rescue => exception
         Log.out("Upload failed: #{exception.message}", label: :upload)
@@ -819,34 +844,77 @@ module Bodega
       end
     end
 
-    def self.upload_file(filename)
-      file_path = Assets.local_path(filename)
+    def self.create_multi_file_gist(files_hash)
+      require 'net/http'
+      require 'uri'
+      require 'json'
 
-      unless File.exist?(file_path)
-        Log.out("File not found: #{filename}", label: :upload)
-        return
+      # GitHub Gists API endpoint
+      api_url = "https://api.github.com/gists"
+
+      timestamp = Time.now.strftime("%Y-%m-%d %H:%M:%S")
+
+      # Create gist description
+      town_names = files_hash.keys.map { |f| f.gsub('.json', '').gsub('_', ' ').split.map(&:capitalize).join(' ') }
+      description = "Bodega shop data update - #{town_names.join(', ')} - #{timestamp}"
+
+      # Build gist payload with all files
+      gist_data = {
+        description: description,
+        public: true,
+        files: {}
+      }
+
+      # Add each JSON file to the gist
+      files_hash.each do |filename, content|
+        begin
+          # Validate that content is valid JSON before adding to gist
+          JSON.parse(content)
+          gist_data[:files][filename] = { content: content }
+          Log.out("Added #{filename} to gist (#{content.length} bytes)", label: :upload)
+        rescue JSON::ParserError => e
+          Log.out("Skipping #{filename} - invalid JSON: #{e.message}", label: :upload)
+        end
       end
 
-      Log.out("Uploading #{filename}...", label: :upload)
+      if gist_data[:files].empty?
+        Log.out("No valid files to upload", label: :upload)
+        return nil
+      end
 
-      begin
-        # Read the JSON file
-        json_content = File.read(file_path)
+      Log.out("Gist payload size: #{gist_data.to_json.length} bytes", label: :upload)
+      Log.out("Total files: #{gist_data[:files].size}", label: :upload)
 
-        # Extract town name from filename
-        town_name = filename.gsub('.json', '').gsub('_', ' ').split.map(&:capitalize).join(' ')
+      # Make API request
+      uri = URI(api_url)
+      request = Net::HTTP::Post.new(uri)
+      request['Content-Type'] = 'application/json'
+      request['Accept'] = 'application/vnd.github.v3+json'
+      request['Authorization'] = "Bearer #{GITHUB_TOKEN}"
+      request['User-Agent'] = 'Bodega-Script/1.0'
+      request.body = gist_data.to_json
 
-        # Create issue via GitHub API with bot authentication
-        create_github_issue(town_name, json_content)
+      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+        http.request(request)
+      end
 
-        Log.out("Created GitHub issue for #{filename}", label: :upload)
-
-      rescue => e
-        Log.out("Failed to create GitHub issue for #{filename}: #{e.message}", label: :upload)
+      if response.code.to_i >= 200 && response.code.to_i < 300
+        response_data = JSON.parse(response.body)
+        return response_data['html_url']
+      else
+        Log.out("Gist creation failed with HTTP #{response.code}", label: :upload)
+        Log.out("Response body: #{response.body}", label: :upload)
+        error_msg = begin
+          JSON.parse(response.body)['message']
+        rescue
+          "HTTP #{response.code}"
+        end
+        Log.out("Failed to create gist: #{error_msg}", label: :upload)
+        return nil
       end
     end
 
-    def self.create_github_issue(town_name, json_content)
+    def self.create_trigger_issue(gist_url, files_hash)
       require 'net/http'
       require 'uri'
       require 'json'
@@ -854,30 +922,57 @@ module Bodega
       # GitHub Issues API endpoint
       api_url = "https://api.github.com/repos/#{GITHUB_REPO}/issues"
 
-      # Create timestamp
       timestamp = Time.now.strftime("%Y-%m-%d %H:%M:%S")
 
-      # Validate JSON content
-      begin
-        parsed_json = JSON.parse(json_content)
-        item_count = count_items_in_json(parsed_json)
-      rescue JSON::ParserError
-        raise "Invalid JSON format"
+      # Calculate summary statistics
+      total_items = 0
+      total_shops = 0
+      files_hash.each do |filename, content|
+        begin
+          data = JSON.parse(content)
+          total_shops += data['shops'].length if data['shops']
+          total_items += count_items_in_json(data)
+        rescue
+          # Skip if parse fails
+        end
       end
+
+      # Create issue body
+      issue_body = <<~ISSUE_BODY
+        ## Bodega Shop Data Update
+
+        **Timestamp:** #{timestamp}
+        **Files Updated:** #{files_hash.keys.join(', ')}
+        **Total Shops:** #{total_shops} shops across #{files_hash.size} town(s)
+        **Total Items:** #{total_items} items
+        **Gist URL:** #{gist_url}
+
+        ### Files in this update:
+        #{files_hash.map { |f, c| "- #{f} (#{c.length} bytes)" }.join("\n")}
+
+        ### Processing Instructions
+        1. Download JSON files from the gist
+        2. Validate each file's structure
+        3. Update the repository data
+        4. Close this issue when complete
+
+        ---
+        *This issue was automatically created by the Bodega script using bot authentication.*
+      ISSUE_BODY
 
       # Create issue payload
       issue_data = {
-        title: "Shop data update - #{town_name} - #{timestamp}",
-        body: create_issue_body(town_name, json_content, item_count, timestamp),
-        labels: ["data-update", "auto-generated", "town-#{town_name.downcase.gsub(' ', '-')}"]
+        title: "Shop data update - #{files_hash.size} file(s) - #{timestamp}",
+        body: issue_body,
+        labels: ["data-update"]
       }
 
-      # Make API request with bot authentication
+      # Make API request
       uri = URI(api_url)
       request = Net::HTTP::Post.new(uri)
       request['Content-Type'] = 'application/json'
       request['Accept'] = 'application/vnd.github.v3+json'
-      request['Authorization'] = "token #{GITHUB_TOKEN}"
+      request['Authorization'] = "Bearer #{GITHUB_TOKEN}"
       request['User-Agent'] = 'Bodega-Script/1.0'
       request.body = issue_data.to_json
 
@@ -894,28 +989,10 @@ module Bodega
         rescue
           "HTTP #{response.code}"
         end
-        raise "GitHub API error: #{error_msg}"
+        Log.out("Failed to create issue: #{error_msg}", label: :upload)
       end
     end
 
-    def self.create_issue_body(town_name, json_content, item_count, timestamp)
-      <<~ISSUE_BODY
-        ## Shop Data Update for #{town_name}
-
-        **Timestamp:** #{timestamp}
-        **Items:** #{item_count} total items
-        **Generated by:** Bodega Script v1.0
-
-        ### JSON Data
-
-        ```json
-        #{json_content}
-        ```
-
-        ---
-        *This issue was automatically created by the Bodega script using bot authentication. The data will be processed and merged automatically if validation passes.*
-      ISSUE_BODY
-    end
 
     def self.load_upload_tracking
       tracking_file = Assets.local_path("../upload_tracking.json")
