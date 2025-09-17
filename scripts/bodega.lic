@@ -9,10 +9,14 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.4.1
+  version: 0.4.2
   tags: playershops
 
   changelog:
+    v0.4.2 - Remove unnecessary item cache for simplified smart caching
+             - Only shop cache needed for browse data comparison
+             - Load cached item data from existing JSON files on demand
+             - Significantly reduced cache file sizes
     v0.4.1 - Fix smart caching logic for proper cache efficiency
              - Handle "unknown" prices from bootstrap correctly
              - Only re-inspect items with actual price changes
@@ -333,33 +337,11 @@ module Bodega
       Bodega::Assets::LOCAL_FS_ROOT
     end
 
-    def self.item_cache_file
-      cache_dir + "item_cache.json"
-    end
 
     def self.shop_cache_file
       cache_dir + "shop_cache.json"
     end
 
-    def self.load_item_cache
-      return {} unless File.exist?(item_cache_file)
-      begin
-        cache = JSON.parse(File.read(item_cache_file))
-        validate_item_cache(cache)
-        cache
-      rescue JSON::ParserError => e
-        Log.out("Item cache corrupted, starting fresh: #{e.message}", label: :cache)
-        {}
-      rescue => e
-        Log.out("Item cache invalid, starting fresh: #{e.message}", label: :cache)
-        {}
-      end
-    end
-
-    def self.save_item_cache(cache)
-      FileUtils.mkdir_p(cache_dir)
-      File.write(item_cache_file, JSON.pretty_generate(cache))
-    end
 
     def self.load_shop_cache
       return {} unless File.exist?(shop_cache_file)
@@ -381,50 +363,18 @@ module Bodega
       File.write(shop_cache_file, JSON.pretty_generate(cache))
     end
 
-    def self.should_reinspect_item?(item_id, item_cache, max_age_days = 7)
-      return true unless item_cache[item_id]
 
-      last_updated = Time.parse(item_cache[item_id]['last_updated']) rescue nil
-      return true unless last_updated
-
-      (Time.now - last_updated) > (max_age_days * 24 * 60 * 60)
-    end
-
-    def self.cleanup_removed_items(item_cache, shop_cache)
-      # Get all currently active item IDs from shop cache
-      active_items = Set.new
-      shop_cache.each do |town, shops|
-        shops.each do |shop_id, shop_data|
-          next unless shop_data['browse_data']
-          active_items.merge(shop_data['browse_data'].keys)
-        end
-      end
-
-      # Remove items that are no longer in any shop (sold/removed)
-      removed_count = 0
-      item_cache.delete_if do |item_id, item_data|
-        if !active_items.include?(item_id)
-          removed_count += 1
-          true
-        else
-          false
-        end
-      end
-
-      Log.out("Removed #{removed_count} items from cache (no longer in shops)", label: :cache) if removed_count > 0
-    end
 
     def self.get_cache_max_age
       (Opts.send(:"cache-max-age") || 7).to_i
     end
 
     def self.cache_empty?
-      !File.exist?(item_cache_file) || !File.exist?(shop_cache_file)
+      !File.exist?(shop_cache_file)
     end
 
     def self.find_existing_json_files
       Dir.glob(cache_dir + "*.json").reject do |f|
-        f.include?("item_cache.json") ||
         f.include?("shop_cache.json") ||
         f.include?("upload_tracking.json") ||
         f.include?("manifest.json")
@@ -437,7 +387,6 @@ module Bodega
 
       Log.out("Bootstrapping cache from #{existing_files.size} existing JSON files...", label: :cache)
 
-      item_cache = {}
       shop_cache = {}
       bootstrapped_items = 0
 
@@ -468,11 +417,6 @@ module Bodega
                   'price' => item.dig('details', 'cost') || 'unknown'
                 }
 
-                # Populate item cache with full inspection data
-                item_cache[item_id] = {
-                  'last_updated' => town_data['created_at'] || Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                  'data' => item
-                }
                 bootstrapped_items += 1
               end
             end
@@ -490,7 +434,6 @@ module Bodega
       end
 
       if bootstrapped_items > 0
-        save_item_cache(item_cache)
         save_shop_cache(shop_cache)
         Log.out("Cache bootstrapped: #{bootstrapped_items} items from #{existing_files.size} files", label: :cache)
       else
@@ -498,15 +441,6 @@ module Bodega
       end
     end
 
-    def self.validate_item_cache(cache)
-      return unless cache.is_a?(Hash)
-
-      cache.each do |item_id, item_data|
-        unless item_data.is_a?(Hash) && item_data['last_updated'] && item_data['data']
-          raise "Invalid item cache structure for item #{item_id}"
-        end
-      end
-    end
 
     def self.validate_shop_cache(cache)
       return unless cache.is_a?(Hash)
@@ -579,7 +513,7 @@ module Bodega
     end
 
     def self.cached_files()
-      glob("*.json").reject do |f| f.include?("manifest.json") || f.include?("item_cache.json") end
+      glob("*.json").reject do |f| f.include?("manifest.json") end
     end
 
     def self.stream_download(remote)
@@ -794,10 +728,8 @@ module Bodega
         Cache.bootstrap_cache_from_json
       end
 
-      # Load caches
-      item_cache = Cache.load_item_cache
+      # Load shop cache
       shop_cache = Cache.load_shop_cache
-      max_age_days = Cache.get_cache_max_age
 
       # Parse current shop inventory (collect browse data)
       current_rooms = inv.reduce([]) do |acc, row|
@@ -850,20 +782,15 @@ module Bodega
         end
       end
 
-      # Items that need re-inspection due to age
-      stale_items = existing_items.select do |item_id|
-        Cache.should_reinspect_item?(item_id, item_cache, max_age_days)
-      end
-
-      items_to_inspect = new_items + changed_items + stale_items
-      items_from_cache = existing_items - changed_items - stale_items
+      items_to_inspect = new_items + changed_items
+      items_from_cache = existing_items - changed_items
 
       # Calculate cache efficiency
       total_items = current_ids.size
       cache_hits = items_from_cache.size
       cache_efficiency = total_items > 0 ? (cache_hits.to_f / total_items * 100).round(1) : 0
 
-      Log.out("Shop #{shop_id}: #{new_items.size} new, #{changed_items.size} changed, #{stale_items.size} stale, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
+      Log.out("Shop #{shop_id}: #{new_items.size} new, #{changed_items.size} changed, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
 
       # Inspect only items that need it
       newly_inspected = {}
@@ -873,11 +800,6 @@ module Bodega
           begin
             item_data = Parser.scan_item(item_id)
             newly_inspected[item_id] = item_data
-            # Update item cache with inspection data
-            item_cache[item_id] = {
-              'last_updated' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-              'data' => item_data
-            }
           rescue => e
             Log.out("Failed to inspect item #{item_id}: #{e.message}", label: :cache)
           end
@@ -890,32 +812,49 @@ module Bodega
         'browse_data' => current_browse_data
       }
 
-      # Build rooms with mixed cached/new data
+      # Build rooms with newly inspected data only
+      # For cached items, we'll need to load from existing JSON on demand
       current_rooms.map do |room|
         room.items = (room.items || []).map do |item_data|
           item_id = item_data.is_a?(Hash) ? item_data['id'] : item_data
 
           if newly_inspected[item_id]
             newly_inspected[item_id]
-          elsif item_cache[item_id] && items_from_cache.include?(item_id)
-            item_cache[item_id]['data']
+          elsif items_from_cache.include?(item_id)
+            # For cached items, find existing data from town JSON
+            find_existing_item_data(town, item_id)
           else
-            # Fallback: inspect item if not in cache
+            # Fallback: inspect item if not handled above
             Log.out("Cache miss for item #{item_id}, inspecting", label: :cache)
-            inspected_data = Parser.scan_item(item_id)
-            item_cache[item_id] = {
-              'last_updated' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-              'data' => inspected_data
-            }
-            inspected_data
+            Parser.scan_item(item_id)
           end
         end
         room
       end.map(&:to_h).tap do
-        # Save updated caches
-        Cache.save_item_cache(item_cache)
+        # Save updated shop cache
         Cache.save_shop_cache(shop_cache)
       end
+    end
+
+    def self.find_existing_item_data(town, item_id)
+      # Load existing town JSON to find cached item data
+      town_file = Cache.cache_dir + "#{town}.json"
+      return nil unless File.exist?(town_file)
+
+      begin
+        town_data = JSON.parse(File.read(town_file))
+        town_data['shops']&.each do |shop|
+          shop['inv']&.each do |room|
+            room['items']&.each do |item|
+              return item if item['id'].to_s == item_id.to_s
+            end
+          end
+        end
+      rescue => e
+        Log.out("Failed to load cached item data from #{town_file}: #{e.message}", label: :cache)
+      end
+
+      nil
     end
 
     def self.scan_item(id)
@@ -968,14 +907,7 @@ module Bodega
         end
       end
 
-      # Cleanup removed items from cache if smart caching was used
-      if Opts.smart
-        item_cache = Cache.load_item_cache
-        shop_cache = Cache.load_shop_cache
-        Cache.cleanup_removed_items(item_cache, shop_cache)
-        Cache.save_item_cache(item_cache)
-        Cache.save_shop_cache(shop_cache)
-      end
+      # Smart caching cleanup is handled per-shop during parsing
 
       @created_files
     end
