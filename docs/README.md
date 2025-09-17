@@ -18,7 +18,6 @@ Your shop data will be automatically processed and the website will update withi
 - 🏪 **Multi-town coverage** - All major towns and player shops
 - ⏰ **Live news ticker** - See exact update times with "time ago" display
 - ⚡ **Community-powered data** - Players contribute updates automatically
-- 🚀 **Smart caching** - 5-10x faster subsequent scans with intelligent item tracking
 - 📦 **Large file support** - API handles files up to 25MB
 - 🤖 **Automated processing** - GitHub Actions validates and merges data
 - 🌐 **Free global hosting** - GitHub Pages with CDN
@@ -47,12 +46,6 @@ Your shop data will be automatically processed and the website will update withi
 # Update specific shop
 ;bodega --parser --shop="Silverwood Manor" --save --upload
 
-# Smart caching mode (only inspect new/changed items - much faster!)
-;bodega --parser --smart --save --upload
-
-# Force full refresh (updates cache)
-;bodega --parser --force-full --save --upload
-
 # Test without uploading
 ;bodega --parser --dry-run
 ```
@@ -66,18 +59,6 @@ Your shop data will be automatically processed and the website will update withi
 5. **Website updates** reflect your contributions with detailed per-town timestamps
 6. **Fallback system** uses GitHub Gists if API is unavailable
 
-### Smart Caching System
-
-**New in 2024**: The bodega script now includes intelligent caching to dramatically improve performance:
-
-- **`--smart`**: Only inspects new items or items that have changed, making subsequent scans 5-10x faster
-- **`--force-full`**: Forces inspection of all items and updates the cache
-- **`--cache-max-age=N`**: Items older than N days get re-inspected (default: 7 days)
-- **Automatic cleanup**: Removes items from cache that are no longer in shops
-- **Zero setup**: Cache is automatically created and maintained
-
-**First run**: `--smart` inspects all items and creates cache
-**Subsequent runs**: Only inspects new/changed items, dramatically faster execution
 
 See [`UPLOAD_GUIDE.md`](./UPLOAD_GUIDE.md) for detailed instructions.
 
