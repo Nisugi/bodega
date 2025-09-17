@@ -352,15 +352,24 @@ module Bodega
 
 
     def self.shop_cache_file(town)
-      cache_dir + "#{town}_cache.json"
+      # Normalize town name for filename (replace spaces with underscores)
+      normalized_town = town.downcase.gsub(/\s+/, '_')
+      cache_dir + "#{normalized_town}_cache.json"
     end
 
 
     def self.load_shop_cache(town)
       cache_file = shop_cache_file(town)
-      return {} unless File.exist?(cache_file)
+      Log.out("Loading cache from: #{cache_file}", label: :cache)
+
+      unless File.exist?(cache_file)
+        Log.out("Cache file does not exist: #{cache_file}", label: :cache)
+        return {}
+      end
+
       begin
         cache = JSON.parse(File.read(cache_file))
+        Log.out("Loaded cache with #{cache.keys.size} shops: #{cache.keys.inspect}", label: :cache)
         validate_shop_cache(cache)
         cache
       rescue JSON::ParserError => e
@@ -696,6 +705,7 @@ module Bodega
       # Get cached browse data for this shop
       cached_shop_data = shop_cache[cache_key] || {}
       cached_browse_data = cached_shop_data['browse_data'] || {}
+      Log.out("Cache lookup for '#{cache_key}': found #{cached_browse_data.keys.size} cached items", label: :cache)
 
       # Compare browse data to determine what changed
       current_ids = Set.new(current_browse_data.keys)
