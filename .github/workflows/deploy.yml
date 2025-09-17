@@ -28,8 +28,8 @@ jobs:
       run: |
         echo "Updating data-loader.js to work with GitHub Pages..."
 
-        # Make sure the fetch URLs use relative paths
-        sed -i 's|fetch(`\${townName}\.json`)|fetch(`./\${townName}.json`)|g' data-loader.js
+        # Make sure the data file paths use relative paths
+        sed -i "s|'data/|'./data/|g" data-loader.js
 
         echo "Updated data-loader.js successfully"
 
