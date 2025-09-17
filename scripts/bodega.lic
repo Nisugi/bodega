@@ -664,10 +664,13 @@ module Bodega
     def self.extract_shop_name_from_inv(inv)
       # Look for shop name in inventory header
       inv.each do |line|
-        if line.match(/(.+) is located in \[.+\]/)
-          return $1.strip
+        if match = line.match(/(.+) is located in \[.+\]/)
+          shop_name = match[1].strip
+          Log.out("Extracted shop name: '#{shop_name}'", label: :cache)
+          return shop_name
         end
       end
+      Log.out("No shop name found in inv", label: :cache)
       nil
     end
 
@@ -675,6 +678,7 @@ module Bodega
       # Use shop name from inv data to create unique cache key
       shop_name = extract_shop_name_from_inv(inv)
       cache_key = shop_name || shop_id
+      Log.out("Using cache key: '#{cache_key}' (shop_name: #{shop_name.inspect}, shop_id: #{shop_id})", label: :cache)
 
       # Load shop cache for this town
       shop_cache = Cache.load_shop_cache(town)
