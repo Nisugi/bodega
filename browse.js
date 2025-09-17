@@ -57,7 +57,7 @@ class BrowseEngine {
 
         items.forEach(item => {
             const town = item.town || 'Unknown Town';
-            const shop = item.shop || 'Unknown Shop';
+            const shop = item.shopName || 'Unknown Shop';
             const room = item.room || 'Main Room';
 
             // Initialize town
@@ -256,7 +256,7 @@ class BrowseEngine {
             <td class="item-price">${this.formatPrice(item.price)}</td>
             <td class="item-properties">${properties}</td>
             <td class="item-town">${item.town}</td>
-            <td class="item-shop">${item.shop}</td>
+            <td class="item-shop">${item.shopName}</td>
         `;
 
         // Add click handler for item details
@@ -305,7 +305,7 @@ class BrowseEngine {
             window.searchEngine.showItemDetails(item);
         } else {
             // Fallback: simple alert if search engine not available
-            alert(`${item.name}\nPrice: ${this.formatPrice(item.price)}\nShop: ${item.shop}\nTown: ${item.town}`);
+            alert(`${item.name}\nPrice: ${this.formatPrice(item.price)}\nShop: ${item.shopName}\nTown: ${item.town}`);
         }
     }
 
