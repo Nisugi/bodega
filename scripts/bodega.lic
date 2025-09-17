@@ -769,7 +769,7 @@ module Bodega
   module Uploader
     # Upload endpoints - API method preferred for better reliability
     API_ENDPOINTS = [
-      "https://bodega-upload.netlify.app/api/upload",
+      "https://funny-eclair-b53982.netlify.app/api/upload",
       # Fallback endpoints can be added here
     ]
 
