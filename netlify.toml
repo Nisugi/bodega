@@ -1,8 +1,8 @@
 [build]
   functions = "netlify/functions"
 
-[functions]
-  # Increase timeout for processing large uploads
+# Function configuration
+[functions."*"]
   timeout = 30
 
 [[headers]]
