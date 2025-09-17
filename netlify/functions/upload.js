@@ -196,8 +196,11 @@ async function handleIndividualFileUpload(uploadData) {
   console.log(`Final file received for session ${session_id}. Creating gist...`);
 
   try {
-    // Create gist with all collected files
-    const gistResult = await createGist(session.files);
+    // Reassemble any split files before creating gist
+    const reassembledFiles = await reassembleSplitFiles(session.files);
+
+    // Create gist with reassembled files
+    const gistResult = await createGist(reassembledFiles);
 
     if (!gistResult.success) {
       console.error('Failed to create gist:', gistResult.error);
@@ -265,6 +268,82 @@ async function handleIndividualFileUpload(uploadData) {
       })
     };
   }
+}
+
+async function reassembleSplitFiles(files) {
+  const reassembled = {};
+  const splitFiles = {};
+
+  // First, identify split files and regular files
+  for (const [filename, content] of Object.entries(files)) {
+    if (filename.includes('_part') && filename.includes('of')) {
+      // This is a split file like "wehnimers_landing_part1of3.json"
+      const match = filename.match(/^(.+)_part(\d+)of(\d+)\.json$/);
+      if (match) {
+        const [, baseName, partNum, totalParts] = match;
+        const originalName = `${baseName}.json`;
+
+        if (!splitFiles[originalName]) {
+          splitFiles[originalName] = {};
+        }
+
+        splitFiles[originalName][partNum] = {
+          content: content,
+          totalParts: parseInt(totalParts)
+        };
+      } else {
+        // Fallback for malformed split filename
+        reassembled[filename] = content;
+      }
+    } else {
+      // Regular file
+      reassembled[filename] = content;
+    }
+  }
+
+  // Reassemble split files
+  for (const [originalName, parts] of Object.entries(splitFiles)) {
+    console.log(`Reassembling ${originalName} from ${Object.keys(parts).length} parts`);
+
+    const totalParts = parts['1']?.totalParts || Object.keys(parts).length;
+    const allShops = [];
+    let baseData = null;
+
+    // Sort parts by part number and combine shops
+    for (let i = 1; i <= totalParts; i++) {
+      const part = parts[i.toString()];
+      if (!part) {
+        console.error(`Missing part ${i} for ${originalName}`);
+        continue;
+      }
+
+      try {
+        const partData = JSON.parse(part.content);
+
+        if (!baseData) {
+          baseData = { ...partData };
+          delete baseData.shops;
+          delete baseData.chunk_info;
+        }
+
+        if (partData.shops && Array.isArray(partData.shops)) {
+          allShops.push(...partData.shops);
+        }
+      } catch (error) {
+        console.error(`Error parsing part ${i} of ${originalName}:`, error);
+      }
+    }
+
+    if (baseData && allShops.length > 0) {
+      baseData.shops = allShops;
+      reassembled[originalName] = JSON.stringify(baseData);
+      console.log(`Reassembled ${originalName}: ${allShops.length} shops, ${reassembled[originalName].length} bytes`);
+    } else {
+      console.error(`Failed to reassemble ${originalName}`);
+    }
+  }
+
+  return reassembled;
 }
 
 async function createGist(files) {
