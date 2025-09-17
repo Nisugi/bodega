@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-17 23:02:30 UTC",
-  "run_time": "01m 57s",
+  "created_at": "2025-09-17 23:04:11 UTC",
+  "run_time": "58s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -25,7 +25,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 246120919,
+              "id": "246120919",
               "name": "a bundle of eonake arrows",
               "details": {
                 "raw": [
@@ -43,7 +43,7 @@
               }
             },
             {
-              "id": 246108304,
+              "id": "246108304",
               "name": "a bundle of urglaes-tipped arrows",
               "details": {
                 "raw": [
@@ -59,7 +59,7 @@
               }
             },
             {
-              "id": 246099869,
+              "id": "246099869",
               "name": "a bundle of glowbark bolts",
               "details": {
                 "raw": [
@@ -77,7 +77,7 @@
               }
             },
             {
-              "id": 261208661,
+              "id": "261208661",
               "name": "a pair of teal gloves",
               "details": {
                 "raw": [
@@ -121,7 +121,7 @@
               }
             },
             {
-              "id": 262159307,
+              "id": "262159307",
               "name": "some vaalin-threaded black handwraps",
               "details": {
                 "raw": [
@@ -147,7 +147,7 @@
               }
             },
             {
-              "id": 262159317,
+              "id": "262159317",
               "name": "some vaalin-threaded black handwraps",
               "details": {
                 "raw": [
@@ -173,7 +173,7 @@
               }
             },
             {
-              "id": 262164562,
+              "id": "262164562",
               "name": "an ancient Paradis trail knife",
               "details": {
                 "raw": [
@@ -194,7 +194,7 @@
               }
             },
             {
-              "id": 261959560,
+              "id": "261959560",
               "name": "a cedar-hafted feras javelin",
               "details": {
                 "raw": [
@@ -224,7 +224,7 @@
               }
             },
             {
-              "id": 261214972,
+              "id": "261214972",
               "name": "a vultite broadsword",
               "details": {
                 "raw": [
@@ -258,7 +258,7 @@
               }
             },
             {
-              "id": 262107262,
+              "id": "262107262",
               "name": "a ruby-handled mithril lance",
               "details": {
                 "raw": [
@@ -296,7 +296,7 @@
               }
             },
             {
-              "id": 262018150,
+              "id": "262018150",
               "name": "an ora-tipped steel claidhmore",
               "details": {
                 "raw": [
@@ -318,7 +318,7 @@
               }
             },
             {
-              "id": 241365570,
+              "id": "241365570",
               "name": "a heavy faewood runestaff",
               "details": {
                 "raw": [
@@ -352,7 +352,7 @@
           "branch": "north",
           "items": [
             {
-              "id": 262642146,
+              "id": "262642146",
               "name": "a suit of sylvan-crafted leather armor",
               "details": {
                 "raw": [
@@ -378,7 +378,7 @@
               }
             },
             {
-              "id": 262334279,
+              "id": "262334279",
               "name": "a suit of ceremonial elven leather armor covered in white vaalin sigils",
               "details": {
                 "raw": [
@@ -406,7 +406,7 @@
               }
             },
             {
-              "id": 261214987,
+              "id": "261214987",
               "name": "a braided ghostvine bracelet dotted with dried skull-like snapdragons",
               "details": {
                 "raw": [
@@ -429,7 +429,7 @@
               }
             },
             {
-              "id": 262150585,
+              "id": "262150585",
               "name": "a battered golvern tower shield inscribed with elemental runes",
               "details": {
                 "raw": [
@@ -454,7 +454,7 @@
               }
             },
             {
-              "id": 262150587,
+              "id": "262150587",
               "name": "a small vultite buckler studded with obsidian shards",
               "details": {
                 "raw": [
@@ -478,7 +478,7 @@
               }
             },
             {
-              "id": 262150613,
+              "id": "262150613",
               "name": "a spiked rhimar buckler etched with silvery runes",
               "details": {
                 "raw": [
@@ -503,7 +503,7 @@
               }
             },
             {
-              "id": 262150586,
+              "id": "262150586",
               "name": "a spiked gornar buckler etched with golden runes",
               "details": {
                 "raw": [
@@ -539,7 +539,7 @@
           "branch": "east",
           "items": [
             {
-              "id": 263161064,
+              "id": "263161064",
               "name": "a burnished bronze-plated pack with reinforced stitching",
               "details": {
                 "raw": [
@@ -564,7 +564,7 @@
               }
             },
             {
-              "id": 262000585,
+              "id": "262000585",
               "name": "a crimson spidersilk bag suffused with faint sable undertones",
               "details": {
                 "raw": [
@@ -586,7 +586,7 @@
               }
             },
             {
-              "id": 261959550,
+              "id": "261959550",
               "name": "a salt-stained driftwood pegleg",
               "details": {
                 "raw": [
@@ -605,7 +605,7 @@
               }
             },
             {
-              "id": 262107276,
+              "id": "262107276",
               "name": "a bone-chained white leather eyepatch",
               "details": {
                 "raw": [
@@ -625,7 +625,7 @@
               }
             },
             {
-              "id": 262171162,
+              "id": "262171162",
               "name": "a sable-hued silk haversack clasped with a crimson diamond",
               "details": {
                 "raw": [
@@ -651,7 +651,7 @@
               }
             },
             {
-              "id": 262000584,
+              "id": "262000584",
               "name": "a copper-hued silk backpack with woven turquoise linen straps",
               "details": {
                 "raw": [
@@ -677,7 +677,7 @@
               }
             },
             {
-              "id": 261211296,
+              "id": "261211296",
               "name": "some shifting urnon gears",
               "details": {
                 "raw": [
@@ -697,7 +697,7 @@
               }
             },
             {
-              "id": 261959547,
+              "id": "261959547",
               "name": "a grotesquely discolored goat skull pin dangling broken teeth on tiny chains",
               "details": {
                 "raw": [
@@ -718,7 +718,7 @@
               }
             },
             {
-              "id": 262164574,
+              "id": "262164574",
               "name": "a crystalline vial holding an ethereal red tarantula hawk wasp",
               "details": {
                 "raw": [
@@ -753,7 +753,7 @@
               }
             },
             {
-              "id": 262159316,
+              "id": "262159316",
               "name": "a pair of armored gloves with jagged knuckle-studs",
               "details": {
                 "raw": [
@@ -792,7 +792,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 159726,
+              "id": "159726",
               "name": "a medium-sized bolt of elesine cloth",
               "details": {
                 "raw": [
@@ -804,7 +804,7 @@
               }
             },
             {
-              "id": 159720,
+              "id": "159720",
               "name": "some ornate mithril half plate",
               "details": {
                 "raw": [
@@ -828,7 +828,7 @@
               }
             },
             {
-              "id": 159719,
+              "id": "159719",
               "name": "a polished veil iron buckler",
               "details": {
                 "raw": [
@@ -851,7 +851,7 @@
               }
             },
             {
-              "id": 159718,
+              "id": "159718",
               "name": "a kakore-hafted vultite war mattock",
               "details": {
                 "raw": [
@@ -886,7 +886,7 @@
               }
             },
             {
-              "id": 159729,
+              "id": "159729",
               "name": "a braided brown leather wand harness",
               "details": {
                 "raw": [
@@ -908,7 +908,7 @@
               }
             },
             {
-              "id": 159730,
+              "id": "159730",
               "name": "a elven leather smoking jacket",
               "details": {
                 "raw": [
@@ -929,7 +929,7 @@
               }
             },
             {
-              "id": 159732,
+              "id": "159732",
               "name": "a pair of vaalin-sigiled silk gloves",
               "details": {
                 "raw": [
@@ -952,7 +952,7 @@
               }
             },
             {
-              "id": 159731,
+              "id": "159731",
               "name": "a pair of vaalin-sigiled silk gloves",
               "details": {
                 "raw": [
@@ -975,7 +975,7 @@
               }
             },
             {
-              "id": 159733,
+              "id": "159733",
               "name": "a silver star-embroidered pale blue silk wizard's hat",
               "details": {
                 "raw": [
@@ -996,7 +996,7 @@
               }
             },
             {
-              "id": 159717,
+              "id": "159717",
               "name": "a scratched veil iron war hammer",
               "details": {
                 "raw": [
@@ -1018,7 +1018,7 @@
               }
             },
             {
-              "id": 159770,
+              "id": "159770",
               "name": "a pearl inset eonake brooch",
               "details": {
                 "raw": [
@@ -1047,7 +1047,7 @@
               }
             },
             {
-              "id": 159768,
+              "id": "159768",
               "name": "a sheet of arcane vellum",
               "details": {
                 "raw": [
@@ -1071,7 +1071,7 @@
               }
             },
             {
-              "id": 159766,
+              "id": "159766",
               "name": "a purple carmiln light crossbow",
               "details": {
                 "raw": [
@@ -1112,7 +1112,7 @@
               }
             },
             {
-              "id": 159765,
+              "id": "159765",
               "name": "a faewood runestaff",
               "details": {
                 "raw": [
@@ -1147,7 +1147,7 @@
               }
             },
             {
-              "id": 159764,
+              "id": "159764",
               "name": "a full-crescent veil iron handaxe",
               "details": {
                 "raw": [
@@ -1171,7 +1171,7 @@
               }
             },
             {
-              "id": 159763,
+              "id": "159763",
               "name": "a villswood quarter staff",
               "details": {
                 "raw": [
@@ -1193,7 +1193,7 @@
               }
             },
             {
-              "id": 159762,
+              "id": "159762",
               "name": "a burnished platinum circlet",
               "details": {
                 "raw": [
@@ -1222,7 +1222,7 @@
               }
             },
             {
-              "id": 159761,
+              "id": "159761",
               "name": "a blue spinel inset ora barrette",
               "details": {
                 "raw": [
@@ -1260,7 +1260,7 @@
               }
             },
             {
-              "id": 159760,
+              "id": "159760",
               "name": "a deringo hand crossbow",
               "details": {
                 "raw": [
@@ -1296,7 +1296,7 @@
               }
             },
             {
-              "id": 159727,
+              "id": "159727",
               "name": "a mangled steel spoon",
               "details": {
                 "raw": [
@@ -1309,7 +1309,7 @@
               }
             },
             {
-              "id": 159725,
+              "id": "159725",
               "name": "a glyph-etched gold stickpin",
               "details": {
                 "raw": [
@@ -1342,7 +1342,7 @@
               }
             },
             {
-              "id": 159721,
+              "id": "159721",
               "name": "some pliant ashen leathers",
               "details": {
                 "raw": [
@@ -1367,7 +1367,7 @@
               }
             },
             {
-              "id": 159724,
+              "id": "159724",
               "name": "a banded coral snake",
               "details": {
                 "raw": [
@@ -1392,7 +1392,7 @@
               }
             },
             {
-              "id": 159723,
+              "id": "159723",
               "name": "a step-cut pink dreamstone circlet",
               "details": {
                 "raw": [
@@ -1426,7 +1426,7 @@
               }
             },
             {
-              "id": 159722,
+              "id": "159722",
               "name": "a coral studded mithril medallion",
               "details": {
                 "raw": [
@@ -1469,7 +1469,7 @@
           "branch": "north",
           "items": [
             {
-              "id": 159728,
+              "id": "159728",
               "name": "a sturdy veil iron backsword",
               "details": {
                 "raw": [
@@ -1491,7 +1491,7 @@
               }
             },
             {
-              "id": 159716,
+              "id": "159716",
               "name": "a fine rhimar falchion",
               "details": {
                 "raw": [
@@ -1530,7 +1530,7 @@
               }
             },
             {
-              "id": 159715,
+              "id": "159715",
               "name": "a fine ora longsword",
               "details": {
                 "raw": [
@@ -1560,7 +1560,7 @@
               }
             },
             {
-              "id": 159774,
+              "id": "159774",
               "name": "a House Brigatta snowglobe",
               "details": {
                 "raw": [
@@ -1576,7 +1576,7 @@
               }
             },
             {
-              "id": 159752,
+              "id": "159752",
               "name": "a delicately carved mistwood table leg",
               "details": {
                 "raw": [
@@ -1589,7 +1589,7 @@
               }
             },
             {
-              "id": 159743,
+              "id": "159743",
               "name": "a keenly-edged invar claidhmore",
               "details": {
                 "raw": [
@@ -1611,7 +1611,7 @@
               }
             },
             {
-              "id": 159780,
+              "id": "159780",
               "name": "a scratched fireleaf runestaff",
               "details": {
                 "raw": [
@@ -1652,7 +1652,7 @@
               }
             },
             {
-              "id": 159769,
+              "id": "159769",
               "name": "a mesille hand crossbow",
               "details": {
                 "raw": [
@@ -1684,7 +1684,7 @@
               }
             },
             {
-              "id": 159767,
+              "id": "159767",
               "name": "a wyrwood hand crossbow",
               "details": {
                 "raw": [
@@ -1707,7 +1707,7 @@
               }
             },
             {
-              "id": 159771,
+              "id": "159771",
               "name": "a glyph-etched gold crown",
               "details": {
                 "raw": [
@@ -1741,7 +1741,7 @@
               }
             },
             {
-              "id": 159775,
+              "id": "159775",
               "name": "a stability contract",
               "details": {
                 "raw": [
@@ -1765,7 +1765,7 @@
               }
             },
             {
-              "id": 159751,
+              "id": "159751",
               "name": "an emerald-set chased gold horn",
               "details": {
                 "raw": [
@@ -1783,7 +1783,7 @@
               }
             },
             {
-              "id": 159749,
+              "id": "159749",
               "name": "a goat-horned humanoid skull",
               "details": {
                 "raw": [
@@ -1801,7 +1801,7 @@
               }
             },
             {
-              "id": 159747,
+              "id": "159747",
               "name": "some crimson silk casting gloves with silvery sigils",
               "details": {
                 "raw": [
@@ -1819,7 +1819,7 @@
               }
             },
             {
-              "id": 159742,
+              "id": "159742",
               "name": "a chased silver neckchain",
               "details": {
                 "raw": [
@@ -1848,7 +1848,7 @@
               }
             },
             {
-              "id": 159741,
+              "id": "159741",
               "name": "a silver and fire opal circlet",
               "details": {
                 "raw": [
@@ -1878,7 +1878,7 @@
               }
             },
             {
-              "id": 159740,
+              "id": "159740",
               "name": "an alexandrite inset eonake circlet",
               "details": {
                 "raw": [
@@ -1912,7 +1912,7 @@
               }
             },
             {
-              "id": 159781,
+              "id": "159781",
               "name": "an aquamarine inset mithril medallion",
               "details": {
                 "raw": [
@@ -1945,7 +1945,7 @@
               }
             },
             {
-              "id": 159773,
+              "id": "159773",
               "name": "a delicate star sapphire necklace",
               "details": {
                 "raw": [
@@ -1975,7 +1975,7 @@
               }
             },
             {
-              "id": 159772,
+              "id": "159772",
               "name": "a topaz-inset silver necklace",
               "details": {
                 "raw": [
@@ -2004,7 +2004,7 @@
               }
             },
             {
-              "id": 159750,
+              "id": "159750",
               "name": "some heavy leather boots",
               "details": {
                 "raw": [
@@ -2026,7 +2026,7 @@
               }
             },
             {
-              "id": 159748,
+              "id": "159748",
               "name": "an old rope belt",
               "details": {
                 "raw": [
@@ -2048,7 +2048,7 @@
               }
             },
             {
-              "id": 159746,
+              "id": "159746",
               "name": "a twice-wrapped dark leather belt with twisted bone buckles",
               "details": {
                 "raw": [
@@ -2070,7 +2070,7 @@
               }
             },
             {
-              "id": 159745,
+              "id": "159745",
               "name": "a silvery silk wizard's hat",
               "details": {
                 "raw": [
@@ -2089,7 +2089,7 @@
               }
             },
             {
-              "id": 159744,
+              "id": "159744",
               "name": "a pair of dwarven work boots",
               "details": {
                 "raw": [
@@ -2116,7 +2116,7 @@
           "branch": "east",
           "items": [
             {
-              "id": 198243339,
+              "id": "198243339",
               "name": "a villswood tower shield emblazoned with a glowing scarlet-inked pentacle",
               "details": {
                 "raw": [
@@ -2144,7 +2144,7 @@
               }
             },
             {
-              "id": 198268283,
+              "id": "198268283",
               "name": "a vibrant blood red lock",
               "details": {
                 "raw": [
@@ -2175,7 +2175,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 201047007,
+              "id": "201047007",
               "name": "a brass-studded invar buckler",
               "details": {
                 "raw": [
@@ -2193,7 +2193,7 @@
               }
             },
             {
-              "id": 200761319,
+              "id": "200761319",
               "name": "an etched imflass shield",
               "details": {
                 "raw": [
@@ -2228,7 +2228,7 @@
               }
             },
             {
-              "id": 201047004,
+              "id": "201047004",
               "name": "some flame red chain hauberk",
               "details": {
                 "raw": [
@@ -2246,7 +2246,7 @@
               }
             },
             {
-              "id": 200761320,
+              "id": "200761320",
               "name": "some vultite spiked brigandine armor",
               "details": {
                 "raw": [
@@ -2270,7 +2270,7 @@
               }
             },
             {
-              "id": 201047006,
+              "id": "201047006",
               "name": "a mithril-bound invar aegis",
               "details": {
                 "raw": [
@@ -2294,7 +2294,7 @@
               }
             },
             {
-              "id": 201047003,
+              "id": "201047003",
               "name": "some jet black chain hauberk",
               "details": {
                 "raw": [
@@ -2323,7 +2323,7 @@
               }
             },
             {
-              "id": 200374057,
+              "id": "200374057",
               "name": "a burnished faewood runestaff",
               "details": {
                 "raw": [
@@ -2359,7 +2359,7 @@
               }
             },
             {
-              "id": 197599634,
+              "id": "197599634",
               "name": "some vultite brigandine armor",
               "details": {
                 "raw": [
@@ -2396,7 +2396,7 @@
           "branch": "east",
           "items": [
             {
-              "id": 200991417,
+              "id": "200991417",
               "name": "a Mandis Crystal shard",
               "details": {
                 "raw": [
@@ -2408,7 +2408,7 @@
               }
             },
             {
-              "id": 200374055,
+              "id": "200374055",
               "name": "a laje-inlaid vultite lantern shield",
               "details": {
                 "raw": [
@@ -2439,7 +2439,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 198445261,
+              "id": "198445261",
               "name": "a piece of crumpled paper",
               "details": {
                 "raw": [
@@ -2472,7 +2472,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 196377322,
+              "id": "196377322",
               "name": "a rune-trimmed wizard's cloak",
               "details": {
                 "raw": [
@@ -2488,7 +2488,7 @@
               }
             },
             {
-              "id": 196377318,
+              "id": "196377318",
               "name": "some deathstone earrings",
               "details": {
                 "raw": [
@@ -2517,7 +2517,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 159714,
+              "id": "159714",
               "name": "a glistening vultite morning star",
               "details": {
                 "raw": [
@@ -2539,7 +2539,7 @@
               }
             },
             {
-              "id": 159713,
+              "id": "159713",
               "name": "some black ora full plate",
               "details": {
                 "raw": [
@@ -2567,7 +2567,7 @@
               }
             },
             {
-              "id": 159712,
+              "id": "159712",
               "name": "some tooled spiked reinforced leather",
               "details": {
                 "raw": [
@@ -2592,7 +2592,7 @@
               }
             },
             {
-              "id": 159711,
+              "id": "159711",
               "name": "a gleaming spiked imflass aegis",
               "details": {
                 "raw": [
@@ -2616,7 +2616,7 @@
               }
             },
             {
-              "id": 159710,
+              "id": "159710",
               "name": "an oil-rubbed ashen leather sheath",
               "details": {
                 "raw": [
@@ -2699,7 +2699,7 @@
           "branch": "south",
           "items": [
             {
-              "id": 158028,
+              "id": "158028",
               "name": "a well-crafted oak-hafted imflass handaxe",
               "details": {
                 "raw": [
@@ -2715,7 +2715,7 @@
               }
             },
             {
-              "id": 158027,
+              "id": "158027",
               "name": "a well-crafted oak-hafted imflass handaxe",
               "details": {
                 "raw": [
@@ -2731,7 +2731,7 @@
               }
             },
             {
-              "id": 158026,
+              "id": "158026",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2747,7 +2747,7 @@
               }
             },
             {
-              "id": 158025,
+              "id": "158025",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2763,7 +2763,7 @@
               }
             },
             {
-              "id": 158024,
+              "id": "158024",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2779,7 +2779,7 @@
               }
             },
             {
-              "id": 158023,
+              "id": "158023",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2795,7 +2795,7 @@
               }
             },
             {
-              "id": 158022,
+              "id": "158022",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2811,7 +2811,7 @@
               }
             },
             {
-              "id": 158021,
+              "id": "158021",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2827,7 +2827,7 @@
               }
             },
             {
-              "id": 158020,
+              "id": "158020",
               "name": "a well-crafted oak-hilted imflass backsword",
               "details": {
                 "raw": [
@@ -2843,7 +2843,7 @@
               }
             },
             {
-              "id": 158019,
+              "id": "158019",
               "name": "a well-crafted oak-hilted vultite falchion",
               "details": {
                 "raw": [
@@ -2859,7 +2859,7 @@
               }
             },
             {
-              "id": 158018,
+              "id": "158018",
               "name": "a well-crafted oak-hilted vultite falchion",
               "details": {
                 "raw": [
@@ -2875,7 +2875,7 @@
               }
             },
             {
-              "id": 158017,
+              "id": "158017",
               "name": "a well-crafted oak-hilted vultite falchion",
               "details": {
                 "raw": [
@@ -2910,7 +2910,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 184710,
+              "id": "184710",
               "name": "a mithril ring with veins of fuchsia-green alexandrite",
               "details": {
                 "raw": [
@@ -2933,7 +2933,7 @@
               }
             },
             {
-              "id": 184709,
+              "id": "184709",
               "name": "a mist-swirled glass eyeball talisman",
               "details": {
                 "raw": [
@@ -2962,7 +2962,7 @@
               }
             },
             {
-              "id": 184708,
+              "id": "184708",
               "name": "some vultite brigandine armor",
               "details": {
                 "raw": [
@@ -3002,7 +3002,7 @@
               }
             },
             {
-              "id": 184707,
+              "id": "184707",
               "name": "a scorched lor runestaff",
               "details": {
                 "raw": [
@@ -3020,7 +3020,7 @@
               }
             },
             {
-              "id": 184706,
+              "id": "184706",
               "name": "a mithril and garnet pendant",
               "details": {
                 "raw": [
@@ -3056,7 +3056,7 @@
               }
             },
             {
-              "id": 184702,
+              "id": "184702",
               "name": "a rolaren morning star",
               "details": {
                 "raw": [
@@ -3086,7 +3086,7 @@
               }
             },
             {
-              "id": 184701,
+              "id": "184701",
               "name": "a scorched deringo runestaff",
               "details": {
                 "raw": [
@@ -3116,7 +3116,7 @@
               }
             },
             {
-              "id": 184700,
+              "id": "184700",
               "name": "a vultite aegis",
               "details": {
                 "raw": [
@@ -3136,7 +3136,7 @@
               }
             },
             {
-              "id": 184699,
+              "id": "184699",
               "name": "a square of sky blue marbrinus",
               "details": {
                 "raw": [
@@ -3152,7 +3152,7 @@
               }
             },
             {
-              "id": 184698,
+              "id": "184698",
               "name": "a mithglin bastard sword",
               "details": {
                 "raw": [
@@ -3187,7 +3187,7 @@
               }
             },
             {
-              "id": 184697,
+              "id": "184697",
               "name": "an orase runestaff",
               "details": {
                 "raw": [
@@ -3221,7 +3221,7 @@
               }
             },
             {
-              "id": 184696,
+              "id": "184696",
               "name": "a feathery soft white vellum",
               "details": {
                 "raw": [
@@ -3249,7 +3249,7 @@
               }
             },
             {
-              "id": 184695,
+              "id": "184695",
               "name": "a baby blue mithril bastard sword",
               "details": {
                 "raw": [
@@ -3282,7 +3282,7 @@
               }
             },
             {
-              "id": 184694,
+              "id": "184694",
               "name": "a spiral-carved lapis bangle bracelet",
               "details": {
                 "raw": [
@@ -3304,7 +3304,7 @@
               }
             },
             {
-              "id": 184693,
+              "id": "184693",
               "name": "a jade-leafed small copper tree",
               "details": {
                 "raw": [
@@ -3330,7 +3330,7 @@
           "branch": "north",
           "items": [
             {
-              "id": 184741,
+              "id": "184741",
               "name": "a fir-hafted faenor battle axe",
               "details": {
                 "raw": [
@@ -3363,7 +3363,7 @@
               }
             },
             {
-              "id": 184740,
+              "id": "184740",
               "name": "a scorched mithglin flail",
               "details": {
                 "raw": [
@@ -3391,7 +3391,7 @@
               }
             },
             {
-              "id": 184739,
+              "id": "184739",
               "name": "a cracked fireleaf runestaff",
               "details": {
                 "raw": [
@@ -3409,7 +3409,7 @@
               }
             },
             {
-              "id": 184738,
+              "id": "184738",
               "name": "an invar-tipped steel claidhmore",
               "details": {
                 "raw": [
@@ -3442,7 +3442,7 @@
               }
             },
             {
-              "id": 184737,
+              "id": "184737",
               "name": "a braided copper and gold necklace",
               "details": {
                 "raw": [
@@ -3459,7 +3459,7 @@
               }
             },
             {
-              "id": 184736,
+              "id": "184736",
               "name": "a thick orase shield",
               "details": {
                 "raw": [
@@ -3489,7 +3489,7 @@
               }
             },
             {
-              "id": 184735,
+              "id": "184735",
               "name": "a grainy bright green sphere",
               "details": {
                 "raw": [
@@ -3513,7 +3513,7 @@
               }
             },
             {
-              "id": 184734,
+              "id": "184734",
               "name": "an ivory chainsil gown pinned with mermaid's-tear sapphires",
               "details": {
                 "raw": [
@@ -3533,7 +3533,7 @@
               }
             },
             {
-              "id": 184733,
+              "id": "184733",
               "name": "a bejeweled jellyfish earcuff",
               "details": {
                 "raw": [
@@ -3565,7 +3565,7 @@
               }
             },
             {
-              "id": 184732,
+              "id": "184732",
               "name": "a faenor-tipped rhimar trident",
               "details": {
                 "raw": [
@@ -3594,7 +3594,7 @@
           "branch": "east",
           "items": [
             {
-              "id": 184728,
+              "id": "184728",
               "name": "a silver-sheened snowy glass bottle",
               "details": {
                 "raw": [
@@ -3619,7 +3619,7 @@
               }
             },
             {
-              "id": 184727,
+              "id": "184727",
               "name": "an acid-stained mithglin flail",
               "details": {
                 "raw": [
@@ -3650,7 +3650,7 @@
               }
             },
             {
-              "id": 184726,
+              "id": "184726",
               "name": "a crystal-set polished bone amulet",
               "details": {
                 "raw": [
@@ -3662,7 +3662,7 @@
               }
             },
             {
-              "id": 184721,
+              "id": "184721",
               "name": "a thanot-hafted mithril-spiked maul",
               "details": {
                 "raw": [
@@ -3690,7 +3690,7 @@
               }
             },
             {
-              "id": 184720,
+              "id": "184720",
               "name": "a red-eyed toy swamp monster",
               "details": {
                 "raw": [
@@ -3710,7 +3710,7 @@
               }
             },
             {
-              "id": 184719,
+              "id": "184719",
               "name": "an ornate ora metal breastplate",
               "details": {
                 "raw": [
@@ -3750,7 +3750,7 @@
               }
             },
             {
-              "id": 184718,
+              "id": "184718",
               "name": "a solid silver mockingbird pin",
               "details": {
                 "raw": [
@@ -3799,7 +3799,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 159807,
+              "id": "159807",
               "name": "an indigo witchwood runestaff",
               "details": {
                 "raw": [
@@ -3834,7 +3834,7 @@
               }
             },
             {
-              "id": 159806,
+              "id": "159806",
               "name": "a translucent black glaes waraxe",
               "details": {
                 "raw": [
@@ -3861,7 +3861,7 @@
               }
             },
             {
-              "id": 159805,
+              "id": "159805",
               "name": "some imflass chain mail armor constructed of alternating silver and light-blue links",
               "details": {
                 "raw": [
@@ -3901,7 +3901,7 @@
               }
             },
             {
-              "id": 159804,
+              "id": "159804",
               "name": "a well-balanced ruic heavy crossbow",
               "details": {
                 "raw": [
@@ -3925,7 +3925,7 @@
               }
             },
             {
-              "id": 159797,
+              "id": "159797",
               "name": "a stout fireleaf runestaff",
               "details": {
                 "raw": [
@@ -3955,7 +3955,7 @@
               }
             },
             {
-              "id": 159796,
+              "id": "159796",
               "name": "an orase runestaff",
               "details": {
                 "raw": [
@@ -3989,7 +3989,7 @@
               }
             },
             {
-              "id": 159795,
+              "id": "159795",
               "name": "a banded orase runestaff",
               "details": {
                 "raw": [
@@ -4023,7 +4023,7 @@
               }
             },
             {
-              "id": 159794,
+              "id": "159794",
               "name": "a pale white lor runestaff",
               "details": {
                 "raw": [
@@ -4057,7 +4057,7 @@
               }
             },
             {
-              "id": 159793,
+              "id": "159793",
               "name": "a scratched fireleaf runestaff",
               "details": {
                 "raw": [
@@ -4079,7 +4079,7 @@
               }
             },
             {
-              "id": 159792,
+              "id": "159792",
               "name": "a cracked faewood runestaff",
               "details": {
                 "raw": [
@@ -4118,7 +4118,7 @@
               }
             },
             {
-              "id": 159791,
+              "id": "159791",
               "name": "a smooth rowan runestaff",
               "details": {
                 "raw": [
@@ -4149,7 +4149,7 @@
               }
             },
             {
-              "id": 159790,
+              "id": "159790",
               "name": "a burnished rowan runestaff",
               "details": {
                 "raw": [
@@ -4187,7 +4187,7 @@
               }
             },
             {
-              "id": 159789,
+              "id": "159789",
               "name": "a dented kakore runestaff",
               "details": {
                 "raw": [
@@ -4223,7 +4223,7 @@
               }
             },
             {
-              "id": 159788,
+              "id": "159788",
               "name": "a rough orase runestaff",
               "details": {
                 "raw": [
@@ -4261,7 +4261,7 @@
               }
             },
             {
-              "id": 159787,
+              "id": "159787",
               "name": "a steel-capped deringo runestaff",
               "details": {
                 "raw": [
@@ -4299,7 +4299,7 @@
               }
             },
             {
-              "id": 159786,
+              "id": "159786",
               "name": "an elegant faewood runestaff",
               "details": {
                 "raw": [
@@ -4332,7 +4332,7 @@
           "branch": "northeast",
           "items": [
             {
-              "id": 159829,
+              "id": "159829",
               "name": "a rolaren-beaded whip",
               "details": {
                 "raw": [
@@ -4367,7 +4367,7 @@
               }
             },
             {
-              "id": 159828,
+              "id": "159828",
               "name": "a gleaming vaalorn helm",
               "details": {
                 "raw": [
@@ -4405,7 +4405,7 @@
               }
             },
             {
-              "id": 159827,
+              "id": "159827",
               "name": "a praying white ora figurine",
               "details": {
                 "raw": [
@@ -4428,7 +4428,7 @@
               }
             },
             {
-              "id": 159826,
+              "id": "159826",
               "name": "a praying white ora figurine",
               "details": {
                 "raw": [
@@ -4451,7 +4451,7 @@
               }
             },
             {
-              "id": 159825,
+              "id": "159825",
               "name": "a folded black roltalen tent",
               "details": {
                 "raw": [
@@ -4484,7 +4484,7 @@
               }
             },
             {
-              "id": 159824,
+              "id": "159824",
               "name": "a steel claidhmore",
               "details": {
                 "raw": [
@@ -4505,7 +4505,7 @@
               }
             },
             {
-              "id": 159817,
+              "id": "159817",
               "name": "a simple red sunstone necklace",
               "details": {
                 "raw": [
@@ -4539,7 +4539,7 @@
               }
             },
             {
-              "id": 159816,
+              "id": "159816",
               "name": "a brilliant red sunstone earcuff",
               "details": {
                 "raw": [
@@ -4559,7 +4559,7 @@
               }
             },
             {
-              "id": 159815,
+              "id": "159815",
               "name": "a faceted blue tourmaline necklace",
               "details": {
                 "raw": [
@@ -4593,7 +4593,7 @@
               }
             },
             {
-              "id": 159814,
+              "id": "159814",
               "name": "a heart-cut ruby ring",
               "details": {
                 "raw": [
@@ -4614,7 +4614,7 @@
               }
             },
             {
-              "id": 159813,
+              "id": "159813",
               "name": "a star emerald studded gold torc",
               "details": {
                 "raw": [
@@ -4635,7 +4635,7 @@
               }
             },
             {
-              "id": 159812,
+              "id": "159812",
               "name": "an opal and green garnet tiara",
               "details": {
                 "raw": [
@@ -4664,7 +4664,7 @@
               }
             },
             {
-              "id": 159811,
+              "id": "159811",
               "name": "a burnt cedar moth carving",
               "details": {
                 "raw": [
@@ -4685,7 +4685,7 @@
               }
             },
             {
-              "id": 159810,
+              "id": "159810",
               "name": "a petal-cut blue dreamstone band",
               "details": {
                 "raw": [
@@ -4729,7 +4729,7 @@
           "branch": "northwest",
           "items": [
             {
-              "id": 159843,
+              "id": "159843",
               "name": "a wavy rowan stick",
               "details": {
                 "raw": [
@@ -4752,7 +4752,7 @@
               }
             },
             {
-              "id": 159842,
+              "id": "159842",
               "name": "a small statue",
               "details": {
                 "raw": [
@@ -4771,7 +4771,7 @@
               }
             },
             {
-              "id": 159841,
+              "id": "159841",
               "name": "an onyx-inlaid imflass band",
               "details": {
                 "raw": [
@@ -4793,7 +4793,7 @@
               }
             },
             {
-              "id": 159837,
+              "id": "159837",
               "name": "a garnet-set platinum rod",
               "details": {
                 "raw": [
@@ -4812,7 +4812,7 @@
               }
             },
             {
-              "id": 159836,
+              "id": "159836",
               "name": "a glaes-bound blackened tsark tusk",
               "details": {
                 "raw": [
@@ -4847,7 +4847,7 @@
               }
             },
             {
-              "id": 159835,
+              "id": "159835",
               "name": "an invar-bound carved boar tusk",
               "details": {
                 "raw": [
@@ -4882,7 +4882,7 @@
               }
             },
             {
-              "id": 159834,
+              "id": "159834",
               "name": "a steel-bound dark minotaur horn",
               "details": {
                 "raw": [
@@ -4956,7 +4956,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 197787934,
+              "id": "197787934",
               "name": "a shield-marked dark indigo orb",
               "details": {
                 "raw": [
@@ -4985,7 +4985,7 @@
               }
             },
             {
-              "id": 197787933,
+              "id": "197787933",
               "name": "a rich sunset orange orb",
               "details": {
                 "raw": [
@@ -5014,7 +5014,7 @@
               }
             },
             {
-              "id": 197787932,
+              "id": "197787932",
               "name": "a rich sunset orange orb",
               "details": {
                 "raw": [
@@ -5043,7 +5043,7 @@
               }
             },
             {
-              "id": 197787931,
+              "id": "197787931",
               "name": "a rich sunset orange orb",
               "details": {
                 "raw": [
@@ -5072,7 +5072,7 @@
               }
             },
             {
-              "id": 197787914,
+              "id": "197787914",
               "name": "a fist-marked hoarfrost white orb",
               "details": {
                 "raw": [
@@ -5103,7 +5103,7 @@
               }
             },
             {
-              "id": 197787913,
+              "id": "197787913",
               "name": "a scroll-marked sunset orange orb",
               "details": {
                 "raw": [
@@ -5132,7 +5132,7 @@
               }
             },
             {
-              "id": 197787912,
+              "id": "197787912",
               "name": "a shining hoarfrost white orb",
               "details": {
                 "raw": [
@@ -5161,7 +5161,7 @@
               }
             },
             {
-              "id": 197787907,
+              "id": "197787907",
               "name": "a shining hoarfrost white orb",
               "details": {
                 "raw": [
@@ -5190,7 +5190,7 @@
               }
             },
             {
-              "id": 197787906,
+              "id": "197787906",
               "name": "an aegis-marked dark indigo orb",
               "details": {
                 "raw": [
@@ -5219,7 +5219,7 @@
               }
             },
             {
-              "id": 197787905,
+              "id": "197787905",
               "name": "a mug-marked hoarfrost white orb",
               "details": {
                 "raw": [
@@ -5271,7 +5271,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 173420,
+              "id": "173420",
               "name": "an inverted iron kettle head",
               "details": {
                 "raw": [
@@ -5286,7 +5286,7 @@
               }
             },
             {
-              "id": 173419,
+              "id": "173419",
               "name": "a polished brass arm",
               "details": {
                 "raw": [
@@ -5314,7 +5314,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 181158,
+              "id": "181158",
               "name": "a white opal studded ora bracelet",
               "details": {
                 "raw": [
@@ -5348,7 +5348,7 @@
               }
             },
             {
-              "id": 181157,
+              "id": "181157",
               "name": "a diamond-set gold crown",
               "details": {
                 "raw": [
@@ -5382,7 +5382,7 @@
               }
             },
             {
-              "id": 181156,
+              "id": "181156",
               "name": "a gleaming ora greathelm",
               "details": {
                 "raw": [
@@ -5420,7 +5420,7 @@
               }
             },
             {
-              "id": 181155,
+              "id": "181155",
               "name": "an emerald-set silver bracer",
               "details": {
                 "raw": [
@@ -5458,7 +5458,7 @@
               }
             },
             {
-              "id": 181154,
+              "id": "181154",
               "name": "a dented glowbark runestaff",
               "details": {
                 "raw": [
@@ -5492,7 +5492,7 @@
               }
             },
             {
-              "id": 181153,
+              "id": "181153",
               "name": "a glittering peridot neckchain",
               "details": {
                 "raw": [
@@ -5521,7 +5521,7 @@
               }
             },
             {
-              "id": 181152,
+              "id": "181152",
               "name": "a glittering platinum bracer",
               "details": {
                 "raw": [
@@ -5555,7 +5555,7 @@
               }
             },
             {
-              "id": 181151,
+              "id": "181151",
               "name": "a golden topaz studded ora clasp",
               "details": {
                 "raw": [
@@ -5589,7 +5589,7 @@
               }
             },
             {
-              "id": 181150,
+              "id": "181150",
               "name": "a pear-cut peridot bracelet",
               "details": {
                 "raw": [
@@ -5618,7 +5618,7 @@
               }
             },
             {
-              "id": 181149,
+              "id": "181149",
               "name": "an enruned blue sapphire earcuff",
               "details": {
                 "raw": [
@@ -5647,7 +5647,7 @@
               }
             },
             {
-              "id": 181148,
+              "id": "181148",
               "name": "a snake-etched platinum earring",
               "details": {
                 "raw": [
@@ -5676,7 +5676,7 @@
               }
             },
             {
-              "id": 181147,
+              "id": "181147",
               "name": "a flame-edged cinderous token",
               "details": {
                 "raw": [
@@ -5691,7 +5691,7 @@
               }
             },
             {
-              "id": 181146,
+              "id": "181146",
               "name": "a fine ora stickpin",
               "details": {
                 "raw": [
@@ -5726,7 +5726,7 @@
               }
             },
             {
-              "id": 181145,
+              "id": "181145",
               "name": "a carved pink dreamstone tiara",
               "details": {
                 "raw": [
@@ -5760,7 +5760,7 @@
               }
             },
             {
-              "id": 181144,
+              "id": "181144",
               "name": "a bloodstone studded mithril ring",
               "details": {
                 "raw": [
@@ -5787,7 +5787,7 @@
               }
             },
             {
-              "id": 181143,
+              "id": "181143",
               "name": "a topaz-inset gold pendant",
               "details": {
                 "raw": [
@@ -5826,7 +5826,7 @@
               }
             },
             {
-              "id": 181142,
+              "id": "181142",
               "name": "an onyx-inlaid star emerald pendant",
               "details": {
                 "raw": [
@@ -5856,7 +5856,7 @@
               }
             },
             {
-              "id": 181141,
+              "id": "181141",
               "name": "a golden beryl inset gold stickpin",
               "details": {
                 "raw": [
@@ -5890,7 +5890,7 @@
               }
             },
             {
-              "id": 181140,
+              "id": "181140",
               "name": "a chased mithril earcuff",
               "details": {
                 "raw": [
@@ -5937,7 +5937,7 @@
           "branch": "entry",
           "items": [
             {
-              "id": 181003,
+              "id": "181003",
               "name": "some ornate mithril leg greaves",
               "details": {
                 "raw": [
@@ -5958,7 +5958,7 @@
               }
             },
             {
-              "id": 180999,
+              "id": "180999",
               "name": "some embossed imflass studded leather",
               "details": {
                 "raw": [
@@ -5980,7 +5980,7 @@
               }
             },
             {
-              "id": 180998,
+              "id": "180998",
               "name": "an ancient mesille runestaff",
               "details": {
                 "raw": [
@@ -6002,7 +6002,7 @@
               }
             },
             {
-              "id": 180997,
+              "id": "180997",
               "name": "a sturdy mesille runestaff",
               "details": {
                 "raw": [
@@ -6023,7 +6023,7 @@
               }
             },
             {
-              "id": 180996,
+              "id": "180996",
               "name": "a wyrwood composite bow",
               "details": {
                 "raw": [
@@ -6045,7 +6045,7 @@
               }
             },
             {
-              "id": 180995,
+              "id": "180995",
               "name": "a glaes-tipped ora Hammer of Kai",
               "details": {
                 "raw": [
@@ -6068,7 +6068,7 @@
               }
             },
             {
-              "id": 180994,
+              "id": "180994",
               "name": "a spiked imflass aegis",
               "details": {
                 "raw": [
@@ -6092,7 +6092,7 @@
               }
             },
             {
-              "id": 180993,
+              "id": "180993",
               "name": "a beech-hafted imflass limb-cleaver",
               "details": {
                 "raw": [
@@ -6119,7 +6119,7 @@
           "branch": "north",
           "items": [
             {
-              "id": 181019,
+              "id": "181019",
               "name": "some old spiked mithril half plate",
               "details": {
                 "raw": [
@@ -6144,7 +6144,7 @@
               }
             },
             {
-              "id": 181018,
+              "id": "181018",
               "name": "an exquisite orase runestaff",
               "details": {
                 "raw": [
@@ -6165,7 +6165,7 @@
               }
             },
             {
-              "id": 181014,
+              "id": "181014",
               "name": "some blackened rolaren studded leather",
               "details": {
                 "raw": [
