@@ -102,7 +102,12 @@ module Bodega
     FLAG_PREFIX = "--"
 
     def self.parse_command(h, c)
-      h[c.to_sym] = true
+      # Handle --parse as alias for --parser
+      if c == "parse"
+        h[:parser] = true
+      else
+        h[c.to_sym] = true
+      end
     end
 
     def self.parse_flag(h, f)
@@ -578,6 +583,7 @@ module Bodega
     end
 
     def self.to_json()
+      @created_files = []
       Utils.benchmark(template: "scanned shops in {{run_time}}") do
         towns_to_search.each do |town|
           start = Time.now
@@ -592,17 +598,22 @@ module Bodega
             shops: shops,
           }
 
-          save_json(name: town,
-                    data: data)
+          filename = save_json(name: town, data: data)
+          @created_files << filename if filename
         end
       end
+      @created_files
+    end
+
+    def self.created_files
+      @created_files || []
     end
 
     def self.save_json(name:, data:)
       return Utils.pp(data) if Opts["dry-run"]
-      Assets.write_local_json(data,
-                              Utils.safe_string(Opts.to_h
-                                  .fetch(:shop, name)))
+      filename = Utils.safe_string(Opts.to_h.fetch(:shop, name))
+      Assets.write_local_json(data, filename)
+      return "#{filename}.json"
     end
 
     def self.manifest(url_root: Opts.to_h.fetch(:url, Assets::URL), _file: nil)
@@ -776,13 +787,13 @@ module Bodega
     # Gist configuration (fallback only)
     GITHUB_REPO = "Nisugi/bodega"
 
-    def self.upload_all_files
+    def self.upload_all_files(specific_files = nil)
       return if Opts["dry-run"]
 
       Log.out("Starting upload process...", label: :upload)
 
       # Try API upload first, fallback to gist/issue method
-      if upload_via_api()
+      if upload_via_api(specific_files)
         Log.out("Upload complete via API!", label: :upload)
         return
       else
@@ -798,8 +809,8 @@ module Bodega
         # Load upload tracking data
         upload_tracking = load_upload_tracking()
 
-        # Get all JSON files
-        files = Assets.cached_files()
+        # Get all JSON files or use specific files list
+        files = specific_files || Assets.cached_files()
 
         if files.empty?
           Log.out("No files to upload", label: :upload)
@@ -979,14 +990,14 @@ module Bodega
       end
     end
 
-    def self.upload_via_api()
+    def self.upload_via_api(specific_files = nil)
       begin
         require 'net/http'
         require 'uri'
         require 'json'
 
-        # Get all JSON files
-        files = Assets.cached_files()
+        # Get all JSON files or use specific files list
+        files = specific_files || Assets.cached_files()
 
         if files.empty?
           Log.out("No files to upload", label: :upload)
@@ -1278,12 +1289,13 @@ module Bodega
       ##
       if Opts.parser
         Log.out(Opts.to_h, label: :opts)
-        Bodega::Parser.to_json()  if (Opts.save or Opts["dry-run"])
+        created_files = Bodega::Parser.to_json()  if (Opts.save or Opts["dry-run"])
         Bodega::Parser.manifest() if Opts.manifest
 
         # Auto-upload after parsing if requested
         if Opts.upload and (Opts.save or Opts["dry-run"])
-          Bodega::Uploader.upload_all_files
+          # Only upload files that were just created during parsing
+          Bodega::Uploader.upload_all_files(created_files)
         end
       end
 
