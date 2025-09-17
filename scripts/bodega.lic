@@ -9,10 +9,14 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.5.1
+  version: 0.5.2
   tags: playershops
 
   changelog:
+    v0.5.2 - Fix critical item ID data type mismatch in cache comparison
+             - Ensure item IDs are always compared as strings (not mixed string/int)
+             - Resolves 0% cache efficiency issue where identical items weren't matching
+             - Smart caching now works correctly with high efficiency on subsequent runs
     v0.5.1 - Fix cache key conflicts by using shop_id prefix
              - Use "shop_1", "shop_2" etc as cache keys for uniqueness
              - Simplified approach to ensure each shop gets separate cache entry
@@ -695,7 +699,9 @@ module Bodega
       current_rooms.each do |room|
         (room.items || []).each do |item_data|
           next unless item_data.is_a?(Hash)
-          current_browse_data[item_data['id']] = {
+          # Ensure item ID is always a string for consistent comparison
+          item_id = item_data['id'].to_s
+          current_browse_data[item_id] = {
             'name' => item_data['name'],
             'price' => item_data['price']
           }
