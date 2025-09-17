@@ -196,11 +196,18 @@ class DataLoader {
                 properties.isContainer = true;
             }
 
-            // Armor type parsing
+            // Armor type parsing - improved to catch robes and other armor
             const armorMatch = line.match(/is (.*?) armor that/i) ||
-                             line.match(/The .* is (.*?) armor/i);
+                             line.match(/The .* is (.*?) armor/i) ||
+                             line.match(/covers.*torso/i) ||
+                             line.match(/covers.*chest/i) ||
+                             line.match(/covers.*body/i) ||
+                             line.match(/protects.*body/i) ||
+                             line.match(/armor.*covers/i) ||
+                             line.match(/robe.*covers/i) ||
+                             line.match(/robes.*cover/i);
             if (armorMatch) {
-                properties.armorType = armorMatch[1].toLowerCase();
+                properties.armorType = armorMatch[1] ? armorMatch[1].toLowerCase() : 'armor';
                 properties.isArmor = true;
             }
 
@@ -280,7 +287,16 @@ class DataLoader {
             // Container detection - only if it has storage capacity
             if (line.match(/can store.*amount/i) ||
                 line.match(/container.*capacity/i) ||
-                line.match(/\b(bag|sack|backpack|pouch|satchel|chest|box|case|trunk|basket)\b/i)) {
+                line.match(/holds.*amount/i) ||
+                line.match(/storage.*capacity/i)) {
+                properties.isContainer = true;
+                properties.itemType = 'container';
+            }
+
+            // Additional container detection by name - but only if not already identified as armor/weapon
+            if (!properties.isWeapon && !properties.isArmor && !properties.isShield &&
+                line.match(/\b(bag|sack|backpack|pouch|satchel|chest|strongbox|trunk|basket|belt|sheath|scabbard|harness|bandolier)\b/i) &&
+                !line.match(/robe|armor|mail|scale|chain|plate|leather|hide|skin/i)) {
                 properties.isContainer = true;
                 properties.itemType = 'container';
             }
@@ -320,11 +336,12 @@ class DataLoader {
 
         // Determine primary item type with proper priority
         if (!properties.itemType) {
-            // Priority order: Container > Armor > Shield > Weapon > Jewelry > Misc
-            if (properties.isContainer) properties.itemType = 'container';
+            // Priority order: Weapon > Armor > Shield > Container > Jewelry > Misc
+            // Weapons and armor should take precedence over container classification
+            if (properties.isWeapon) properties.itemType = 'weapon';
             else if (properties.isArmor) properties.itemType = 'armor';
             else if (properties.isShield) properties.itemType = 'shield';
-            else if (properties.isWeapon) properties.itemType = 'weapon';
+            else if (properties.isContainer) properties.itemType = 'container';
             else if (properties.isJewelry) properties.itemType = 'jewelry';
             else properties.itemType = 'miscellaneous';
         }

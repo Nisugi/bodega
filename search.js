@@ -301,13 +301,28 @@ class SearchEngine {
     createItemRow(item) {
         const row = document.createElement('tr');
 
-        // Item name (clickable)
+        // Item name (clickable with URL link)
         const nameCell = document.createElement('td');
+        const nameContainer = document.createElement('div');
+        nameContainer.className = 'item-name-container';
+
         const nameLink = document.createElement('span');
         nameLink.className = 'item-name';
         nameLink.textContent = item.name;
         nameLink.addEventListener('click', () => this.showItemDetails(item));
-        nameCell.appendChild(nameLink);
+
+        const urlButton = document.createElement('button');
+        urlButton.className = 'url-button';
+        urlButton.title = 'Copy link to this item';
+        urlButton.innerHTML = '🔗';
+        urlButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.copyItemURL(item);
+        });
+
+        nameContainer.appendChild(nameLink);
+        nameContainer.appendChild(urlButton);
+        nameCell.appendChild(nameContainer);
 
         // Price
         const priceCell = document.createElement('td');
@@ -625,11 +640,110 @@ class SearchEngine {
             timeout = setTimeout(later, wait);
         };
     }
+
+    generateItemURL(item) {
+        // Create a unique identifier for the item
+        const params = new URLSearchParams({
+            item: item.id,
+            shop: item.shopId,
+            town: item.town
+        });
+        return `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+    }
+
+    copyItemURL(item) {
+        const url = this.generateItemURL(item);
+
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(url).then(() => {
+                this.showToast('Item URL copied to clipboard!');
+            }).catch(() => {
+                this.fallbackCopyURL(url);
+            });
+        } else {
+            this.fallbackCopyURL(url);
+        }
+    }
+
+    fallbackCopyURL(url) {
+        // Fallback for older browsers
+        const textArea = document.createElement('textarea');
+        textArea.value = url;
+        textArea.style.position = 'fixed';
+        textArea.style.opacity = '0';
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            this.showToast('Item URL copied to clipboard!');
+        } catch (err) {
+            this.showToast('Failed to copy URL. Please copy manually: ' + url);
+        }
+        document.body.removeChild(textArea);
+    }
+
+    showToast(message) {
+        // Create or update toast notification
+        let toast = document.getElementById('url-toast');
+        if (!toast) {
+            toast = document.createElement('div');
+            toast.id = 'url-toast';
+            toast.className = 'toast';
+            document.body.appendChild(toast);
+        }
+
+        toast.textContent = message;
+        toast.style.display = 'block';
+
+        // Auto-hide after 3 seconds
+        setTimeout(() => {
+            toast.style.display = 'none';
+        }, 3000);
+    }
+
+    // Handle URL parameters on page load
+    handleURLParameters() {
+        const params = new URLSearchParams(window.location.search);
+        const itemId = params.get('item');
+        const shopId = params.get('shop');
+        const town = params.get('town');
+
+        if (itemId && shopId && town) {
+            // Find and display the specific item
+            this.findAndShowItemFromURL(itemId, shopId, town);
+        }
+    }
+
+    findAndShowItemFromURL(itemId, shopId, town) {
+        // Search through all loaded data to find the item
+        setTimeout(() => {
+            const dataLoader = window.dataLoader;
+            if (dataLoader && dataLoader.allItems.length > 0) {
+                const item = dataLoader.allItems.find(item =>
+                    item.id === itemId &&
+                    item.shopId === shopId &&
+                    item.town === town
+                );
+
+                if (item) {
+                    // Show item details
+                    this.showItemDetails(item);
+
+                    // Also search for the item name to show it in results
+                    document.getElementById('search-input').value = item.name;
+                    this.performSearch();
+                }
+            }
+        }, 1000); // Wait for data to load
+    }
 }
 
 // Initialize search engine when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     window.searchEngine = new SearchEngine();
+
+    // Handle URL parameters for direct item linking
+    window.searchEngine.handleURLParameters();
 
     // Wait for data to load, then perform initial search
     const checkDataLoaded = () => {
