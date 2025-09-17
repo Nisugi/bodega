@@ -9,10 +9,14 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.4.2
+  version: 0.4.3
   tags: playershops
 
   changelog:
+    v0.4.3 - Fix shop cache to use unique shop names as keys
+             - Prevent multiple shops with same ID from overwriting cache data
+             - Extract shop name from browse output for unique identification
+             - Improved cache key generation for proper shop separation
     v0.4.2 - Remove unnecessary item cache for simplified smart caching
              - Only shop cache needed for browse data comparison
              - Load cached item data from existing JSON files on demand
@@ -401,6 +405,8 @@ module Bodega
 
           town_data['shops'].each do |shop|
             shop_id = shop['id'].to_s
+            shop_name = shop['name']
+            cache_key = shop_name || shop_id
             browse_data = {}
 
             next unless shop['inv']
@@ -422,7 +428,7 @@ module Bodega
             end
 
             # Populate shop cache with browse data for comparison
-            shop_cache[town_name][shop_id] = {
+            shop_cache[town_name][cache_key] = {
               'last_scan' => town_data['created_at'] || Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
               'browse_data' => browse_data
             }
@@ -722,7 +728,21 @@ module Bodega
       .map(&:to_h)
     end
 
+    def self.extract_shop_name_from_inv(inv)
+      # Look for shop name in inventory header
+      inv.each do |line|
+        if line.match(/(.+) is located in \[.+\]/)
+          return $1.strip
+        end
+      end
+      nil
+    end
+
     def self.smart_parse_inv(town, shop_id, inv)
+      # Use shop name from inv data to create unique cache key
+      shop_name = extract_shop_name_from_inv(inv)
+      cache_key = shop_name || shop_id
+
       # Check if cache needs bootstrapping from existing JSON files
       if Cache.cache_empty?
         Cache.bootstrap_cache_from_json
@@ -754,7 +774,7 @@ module Bodega
 
       # Get cached browse data for this shop
       shop_cache[town] ||= {}
-      cached_shop_data = shop_cache[town][shop_id] || {}
+      cached_shop_data = shop_cache[town][cache_key] || {}
       cached_browse_data = cached_shop_data['browse_data'] || {}
 
       # Compare browse data to determine what changed
@@ -790,7 +810,7 @@ module Bodega
       cache_hits = items_from_cache.size
       cache_efficiency = total_items > 0 ? (cache_hits.to_f / total_items * 100).round(1) : 0
 
-      Log.out("Shop #{shop_id}: #{new_items.size} new, #{changed_items.size} changed, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
+      Log.out("Shop #{cache_key}: #{new_items.size} new, #{changed_items.size} changed, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
 
       # Inspect only items that need it
       newly_inspected = {}
@@ -807,7 +827,7 @@ module Bodega
       end
 
       # Update shop cache with current browse data
-      shop_cache[town][shop_id] = {
+      shop_cache[town][cache_key] = {
         'last_scan' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         'browse_data' => current_browse_data
       }
