@@ -642,6 +642,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Also listen for the custom dataLoaded event
     window.addEventListener('dataLoaded', () => {
+        console.log('Received dataLoaded event, starting search...');
         window.searchEngine.performSearch();
     });
 

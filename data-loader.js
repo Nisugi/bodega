@@ -439,7 +439,10 @@ window.dataLoader.getAllItems = function() {
 
 // Auto-load data when page loads
 document.addEventListener('DOMContentLoaded', async () => {
+    console.log('Starting data load...');
     await window.dataLoader.loadAllData();
+    console.log('Data loading complete, dispatching dataLoaded event');
+    console.log('Total items loaded:', window.dataLoader.allData.length);
     // Notify search.js that data is loaded
     window.dispatchEvent(new CustomEvent('dataLoaded'));
 });
