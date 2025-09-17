@@ -489,8 +489,19 @@ jobs:
         }
 
         // Initialize when DOM is loaded
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', async function() {
             window.dataLoader = new DataLoader();
+
+            // Add backward compatibility method
+            window.dataLoader.getAllItems = function() {
+                return this.allData;
+            };
+
+            // Automatically load data
+            await window.dataLoader.loadAllData();
+
+            // Dispatch custom event to notify when data is loaded
+            window.dispatchEvent(new CustomEvent('dataLoaded'));
         });
         EOF
 
