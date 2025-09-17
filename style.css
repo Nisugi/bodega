@@ -572,6 +572,52 @@ header h1 {
     background: #f8f9fb;
 }
 
+/* Town Timestamps */
+.town-timestamps-container {
+    background: #f0f8ff;
+    border: 1px solid #d1e7ff;
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.town-timestamps-container h4 {
+    color: #2e5d8a;
+    margin-bottom: 8px;
+    font-size: 12px;
+    border-bottom: 1px solid #d1e7ff;
+    padding-bottom: 4px;
+}
+
+.town-timestamp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+    border-bottom: 1px solid #e6f3ff;
+}
+
+.town-timestamp:last-child {
+    border-bottom: none;
+}
+
+.town-name {
+    font-weight: bold;
+    color: #357abd;
+    flex: 1;
+}
+
+.time-ago {
+    color: #666;
+    font-size: 10px;
+    cursor: help;
+}
+
+.time-ago:hover {
+    color: #333;
+}
+
 /* Responsive adjustments for browse mode */
 @media (max-width: 768px) {
     .mode-tabs {
@@ -585,5 +631,15 @@ header h1 {
 
     .shop-item, .room-item {
         padding: 8px;
+    }
+
+    .town-timestamps-container {
+        margin: 5px 10px;
+        font-size: 10px;
+    }
+
+    .town-timestamp {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }

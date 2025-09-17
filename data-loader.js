@@ -69,6 +69,7 @@ class DataLoader {
     processAllData(townDataArray) {
         this.allItems = [];
         this.towns = [];
+        this.townTimestamps = {};
         this.totalShops = 0;
         let oldestUpdate = null;
 
@@ -78,9 +79,11 @@ class DataLoader {
             this.towns.push(townData.town);
             this.totalShops += townData.shops.length;
 
-            // Track oldest update time
+            // Track per-town update time
             if (townData.created_at) {
                 const updateTime = new Date(townData.created_at);
+                this.townTimestamps[townData.town] = updateTime;
+
                 if (!oldestUpdate || updateTime < oldestUpdate) {
                     oldestUpdate = updateTime;
                 }
@@ -361,8 +364,64 @@ class DataLoader {
         document.getElementById('town-count').textContent = this.towns.length;
 
         if (this.lastUpdated) {
-            document.getElementById('last-updated').textContent = this.lastUpdated.toLocaleDateString();
+            document.getElementById('last-updated').textContent =
+                this.lastUpdated.toLocaleDateString() + ' ' + this.lastUpdated.toLocaleTimeString();
         }
+
+        // Add detailed town timestamp info
+        this.updateTownTimestamps();
+    }
+
+    updateTownTimestamps() {
+        const timestampContainer = document.getElementById('town-timestamps') || this.createTimestampContainer();
+
+        // Clear existing content
+        timestampContainer.innerHTML = '<h4>Town Updates:</h4>';
+
+        // Sort towns by most recent update
+        const sortedTowns = Object.keys(this.townTimestamps)
+            .sort((a, b) => this.townTimestamps[b] - this.townTimestamps[a]);
+
+        sortedTowns.forEach(town => {
+            const timestamp = this.townTimestamps[town];
+            const timeAgo = this.getTimeAgo(timestamp);
+            const fullTime = timestamp.toLocaleDateString() + ' at ' + timestamp.toLocaleTimeString();
+
+            const townDiv = document.createElement('div');
+            townDiv.className = 'town-timestamp';
+            townDiv.innerHTML = `
+                <span class="town-name">${town}</span>:
+                <span class="time-ago" title="${fullTime}">${timeAgo}</span>
+            `;
+            timestampContainer.appendChild(townDiv);
+        });
+    }
+
+    createTimestampContainer() {
+        const container = document.createElement('div');
+        container.id = 'town-timestamps';
+        container.className = 'town-timestamps-container';
+
+        // Insert after the main stats
+        const stats = document.getElementById('stats');
+        stats.parentNode.insertBefore(container, stats.nextSibling);
+
+        return container;
+    }
+
+    getTimeAgo(date) {
+        const now = new Date();
+        const diffMs = now - date;
+        const diffMins = Math.floor(diffMs / 60000);
+        const diffHours = Math.floor(diffMs / 3600000);
+        const diffDays = Math.floor(diffMs / 86400000);
+
+        if (diffMins < 1) return 'just now';
+        if (diffMins < 60) return `${diffMins}m ago`;
+        if (diffHours < 24) return `${diffHours}h ago`;
+        if (diffDays < 7) return `${diffDays}d ago`;
+
+        return date.toLocaleDateString();
     }
 
     populateTownFilter() {
