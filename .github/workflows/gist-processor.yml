@@ -9,19 +9,13 @@ permissions:
   issues: write
 
 jobs:
-  process-gist:
+  extract-and-download:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'data-update')
+    outputs:
+      gist_id: ${{ steps.extract-gist.outputs.gist_id }}
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-
     - name: Extract gist URL from issue
       id: extract-gist
       run: |
@@ -53,61 +47,143 @@ jobs:
         echo "Gist ID: $gist_id"
         echo "gist_id=$gist_id" >> $GITHUB_OUTPUT
 
-    - name: Process gist files
+    - name: Download gist files
       run: |
-        # Fetch gist data
+        # Fetch gist metadata
         gist_api_url="https://api.github.com/gists/${{ steps.extract-gist.outputs.gist_id }}"
         echo "Fetching gist from: $gist_api_url"
 
         gist_data=$(curl -s "$gist_api_url")
 
-        # Process each file in the gist
+        # Create directory for artifacts
+        mkdir -p shop-data
+
+        # Process each file
         files=$(echo "$gist_data" | jq -r '.files | keys[]')
 
         for file in $files; do
           if [[ "$file" == *.json ]]; then
-            echo "Processing file: $file"
+            echo "Downloading file: $file"
 
-            # Check if file is truncated (large files are truncated in API response)
-            is_truncated=$(echo "$gist_data" | jq -r ".files[\"$file\"].truncated // false")
+            # Always use raw_url to ensure we get the full content
+            raw_url=$(echo "$gist_data" | jq -r ".files[\"$file\"].raw_url")
+            echo "Fetching from: $raw_url"
 
-            if [ "$is_truncated" = "true" ]; then
-              # File is truncated, fetch from raw URL
-              raw_url=$(echo "$gist_data" | jq -r ".files[\"$file\"].raw_url")
-              echo "File is truncated, fetching from raw URL: $raw_url"
-              content=$(curl -s "$raw_url")
-            else
-              # File is not truncated, use content from API response
-              content=$(echo "$gist_data" | jq -r ".files[\"$file\"].content")
-            fi
+            # Download directly to shop-data directory
+            curl -s "$raw_url" -o "shop-data/$file"
 
-            # Save to temporary file
-            echo "$content" > "temp_$file"
-
-            # Validate JSON
-            if ! jq . "temp_$file" > /dev/null 2>&1; then
-              echo "Invalid JSON in $file"
-              continue
-            fi
-
-            # Validate structure
-            town=$(jq -r '.town' "temp_$file")
-            shops=$(jq -r '.shops | length' "temp_$file")
-
-            if [ "$town" == "null" ] || [ "$shops" == "null" ]; then
-              echo "Invalid data structure in $file"
-              continue
-            fi
-
-            echo "Valid data: $town with $shops shops"
-
-            # Copy to data directory
-            cp "temp_$file" "data/$file"
-            echo "Updated data/$file"
+            # Show file size for verification
+            size=$(stat -c%s "shop-data/$file")
+            echo "Downloaded $file: $size bytes"
           fi
         done
 
-    - name: Commit changes
+        # List downloaded files
+        echo "Downloaded files:"
+        ls -la shop-data/
+
+    - name: Upload shop data as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: shop-data-files
+        path: shop-data/*.json
+        retention-days: 1
+
+  validate-data:
+    runs-on: ubuntu-latest
+    needs: extract-and-download
+
+    steps:
+    - name: Download shop data artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: shop-data-files
+        path: shop-data
+
+    - name: Validate JSON files
+      id: validate
+      run: |
+        echo "Validating downloaded JSON files..."
+
+        validation_failed=false
+        valid_files=""
+
+        for file in shop-data/*.json; do
+          filename=$(basename "$file")
+          echo "Validating $filename..."
+
+          # Validate JSON syntax
+          if ! jq . "$file" > /dev/null 2>&1; then
+            echo "ERROR: Invalid JSON in $filename"
+            validation_failed=true
+            continue
+          fi
+
+          # Validate structure
+          town=$(jq -r '.town' "$file")
+          shops=$(jq -r '.shops | length' "$file")
+
+          if [ "$town" == "null" ] || [ "$shops" == "null" ]; then
+            echo "ERROR: Invalid data structure in $filename"
+            validation_failed=true
+            continue
+          fi
+
+          echo "✓ Valid: $filename - $town with $shops shops"
+          valid_files="$valid_files $filename"
+        done
+
+        if [ "$validation_failed" = true ]; then
+          echo "validation_status=failed" >> $GITHUB_OUTPUT
+        else
+          echo "validation_status=passed" >> $GITHUB_OUTPUT
+        fi
+
+        echo "valid_files=$valid_files" >> $GITHUB_OUTPUT
+
+    - name: Upload validation results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-results
+        path: |
+          shop-data/*.json
+        retention-days: 7
+
+  commit-changes:
+    runs-on: ubuntu-latest
+    needs: validate-data
+    if: needs.validate-data.outputs.validation_status == 'passed'
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download validated data
+      uses: actions/download-artifact@v4
+      with:
+        name: shop-data-files
+        path: temp-data
+
+    - name: Update data files
+      run: |
+        echo "Updating data files..."
+
+        # Ensure data directory exists
+        mkdir -p data
+
+        # Copy validated files to data directory
+        for file in temp-data/*.json; do
+          filename=$(basename "$file")
+          echo "Updating data/$filename"
+          cp "$file" "data/$filename"
+        done
+
+        # Show what's being committed
+        echo "Files to be committed:"
+        ls -la data/*.json
+
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -119,14 +195,15 @@ jobs:
           git commit -m "Update shop data from gist upload
 
         - Processed from issue #${{ github.event.issue.number }}
-        - Gist data validated and merged
+        - Gist data validated and merged using artifact pipeline
+        - Files downloaded directly from raw URLs to handle large files
 
         Co-Authored-By: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.id }}+${{ github.event.issue.user.login }}@users.noreply.github.com>"
 
           git push origin main
         fi
 
-    - name: Comment and close issue
+    - name: Close issue with success message
       uses: actions/github-script@v7
       with:
         script: |
@@ -139,6 +216,11 @@ jobs:
             The data from your gist has been validated and merged into the repository.
             The website will update automatically within 1-2 minutes.
 
+            Processing details:
+            - All files downloaded successfully
+            - JSON validation passed
+            - Data committed to repository
+
             Thank you for contributing to the shop database! 🎉`
           });
 
@@ -149,8 +231,20 @@ jobs:
             state: 'closed'
           });
 
-    - name: Handle errors
-      if: failure()
+  handle-failure:
+    runs-on: ubuntu-latest
+    needs: [extract-and-download, validate-data]
+    if: failure()
+
+    steps:
+    - name: Download validation artifacts if available
+      uses: actions/download-artifact@v4
+      with:
+        name: validation-results
+        path: failed-data
+      continue-on-error: true
+
+    - name: Comment on issue with failure
       uses: actions/github-script@v7
       with:
         script: |
@@ -160,11 +254,14 @@ jobs:
             repo: context.repo.repo,
             body: `❌ **Processing failed**
 
-            There was an error processing your gist upload. Please check:
+            There was an error processing your gist upload.
+
+            Common issues to check:
             - The gist URL is correct and accessible
             - The JSON files are valid
-            - The data structure matches the expected format
+            - The data structure matches the expected format (must have 'town' and 'shops' fields)
 
+            The workflow artifacts have been preserved for debugging.
             Please review the error and try again, or contact support for help.`
           });
 
