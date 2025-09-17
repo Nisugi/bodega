@@ -162,6 +162,8 @@ module Bodega
     NEW_ROOM = %r[^(?<room_title>.*)\s\((?<branch>\w+)\)$]
     SIGN     = %r[^Written on]
     ITEM     = %r[^(?<item_id>\d+)\)]
+    # Pattern to capture full browse item data: ID, name, and price
+    ITEM_BROWSE = %r[^\s*(?<item_id>\d+)\)\s+(?<name>.*?)\s+for\s+(?<price>[\d,]+)\s+silver]
   end
 end
 
@@ -389,8 +391,8 @@ module Bodega
       active_items = Set.new
       shop_cache.each do |town, shops|
         shops.each do |shop_id, shop_data|
-          next unless shop_data['item_ids']
-          active_items.merge(shop_data['item_ids'])
+          next unless shop_data['browse_data']
+          active_items.merge(shop_data['browse_data'].keys)
         end
       end
 
@@ -446,7 +448,7 @@ module Bodega
 
           town_data['shops'].each do |shop|
             shop_id = shop['id'].to_s
-            item_ids = []
+            browse_data = {}
 
             next unless shop['inv']
 
@@ -455,9 +457,14 @@ module Bodega
 
               room['items'].each do |item|
                 item_id = item['id'].to_s
-                item_ids << item_id
 
-                # Populate item cache from existing data
+                # Extract browse data from existing JSON for comparison
+                browse_data[item_id] = {
+                  'name' => item['name'],
+                  'price' => item.dig('details', 'cost') || 'unknown'
+                }
+
+                # Populate item cache with full inspection data
                 item_cache[item_id] = {
                   'last_updated' => town_data['created_at'] || Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                   'data' => item
@@ -466,10 +473,10 @@ module Bodega
               end
             end
 
-            # Populate shop cache
+            # Populate shop cache with browse data for comparison
             shop_cache[town_name][shop_id] = {
               'last_scan' => town_data['created_at'] || Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-              'item_ids' => item_ids
+              'browse_data' => browse_data
             }
           end
 
@@ -503,7 +510,8 @@ module Bodega
       cache.each do |town, shops|
         next unless shops.is_a?(Hash)
         shops.each do |shop_id, shop_data|
-          unless shop_data.is_a?(Hash) && shop_data['last_scan'] && shop_data['item_ids'].is_a?(Array)
+          unless shop_data.is_a?(Hash) && shop_data['last_scan'] &&
+                 (shop_data['browse_data'].is_a?(Hash) || shop_data['item_ids'].is_a?(Array))
             raise "Invalid shop cache structure for #{town}/#{shop_id}"
           end
         end
@@ -738,9 +746,22 @@ module Bodega
     end
 
     def self.add_item(acc, row)
-      acc.last.items.push(
-        row.match(Messages::ITEM)[:item_id]
-      )
+      # Try to capture full browse data first, fallback to ID only
+      if browse_match = row.match(Messages::ITEM_BROWSE)
+        item_data = browse_match.to_h
+        acc.last.items.push({
+          'id' => item_data[:item_id],
+          'name' => item_data[:name].strip,
+          'price' => item_data[:price]
+        })
+      elsif id_match = row.match(Messages::ITEM)
+        # Fallback for items without price info
+        acc.last.items.push({
+          'id' => id_match[:item_id],
+          'name' => nil,
+          'price' => nil
+        })
+      end
     end
 
     def self.parse_inv(inv)
@@ -754,7 +775,10 @@ module Bodega
       end
       .map do |room|
         max_item_depth = (Opts["max-item-depth"] || 100).to_i
-        room.items = room.items.take(max_item_depth).map do |id| Parser.scan_item(id) end
+        room.items = room.items.take(max_item_depth).map do |item_data|
+          item_id = item_data.is_a?(Hash) ? item_data['id'] : item_data
+          Parser.scan_item(item_id)
+        end
         room
       end
       .map(&:to_h)
@@ -771,7 +795,7 @@ module Bodega
       shop_cache = Cache.load_shop_cache
       max_age_days = Cache.get_cache_max_age
 
-      # Parse current shop inventory (same as regular parse_inv but collect item IDs)
+      # Parse current shop inventory (collect browse data)
       current_rooms = inv.reduce([]) do |acc, row|
         break acc if row.include?("SHOP INSPECT")
         Parser.add_room(acc, row) if row.match(Messages::NEW_ROOM)
@@ -780,36 +804,54 @@ module Bodega
         acc
       end
 
-      # Get all current item IDs
-      current_item_ids = Set.new
-      current_rooms.each { |room| current_item_ids.merge(room.items || []) }
+      # Get current browse data for comparison
+      current_browse_data = {}
+      current_rooms.each do |room|
+        (room.items || []).each do |item_data|
+          next unless item_data.is_a?(Hash)
+          current_browse_data[item_data['id']] = {
+            'name' => item_data['name'],
+            'price' => item_data['price']
+          }
+        end
+      end
 
-      # Get cached item IDs for this shop
+      # Get cached browse data for this shop
       shop_cache[town] ||= {}
       cached_shop_data = shop_cache[town][shop_id] || {}
-      cached_item_ids = Set.new(cached_shop_data['item_ids'] || [])
+      cached_browse_data = cached_shop_data['browse_data'] || {}
 
-      # Determine which items to inspect
-      new_items = current_item_ids - cached_item_ids
-      removed_items = cached_item_ids - current_item_ids
-      existing_items = current_item_ids & cached_item_ids
+      # Compare browse data to determine what changed
+      current_ids = Set.new(current_browse_data.keys)
+      cached_ids = Set.new(cached_browse_data.keys)
+
+      new_items = current_ids - cached_ids
+      removed_items = cached_ids - current_ids
+      existing_items = current_ids & cached_ids
+
+      # Check for price/name changes in existing items
+      changed_items = existing_items.select do |item_id|
+        current_item = current_browse_data[item_id]
+        cached_item = cached_browse_data[item_id]
+        current_item['name'] != cached_item['name'] || current_item['price'] != cached_item['price']
+      end
 
       # Items that need re-inspection due to age
       stale_items = existing_items.select do |item_id|
         Cache.should_reinspect_item?(item_id, item_cache, max_age_days)
       end
 
-      items_to_inspect = new_items + stale_items
-      items_from_cache = existing_items - stale_items
+      items_to_inspect = new_items + changed_items + stale_items
+      items_from_cache = existing_items - changed_items - stale_items
 
       # Calculate cache efficiency
-      total_items = current_item_ids.size
+      total_items = current_ids.size
       cache_hits = items_from_cache.size
       cache_efficiency = total_items > 0 ? (cache_hits.to_f / total_items * 100).round(1) : 0
 
-      Log.out("Shop #{shop_id}: #{new_items.size} new, #{stale_items.size} stale, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
+      Log.out("Shop #{shop_id}: #{new_items.size} new, #{changed_items.size} changed, #{stale_items.size} stale, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
 
-      # Inspect only new/stale items
+      # Inspect only items that need it
       newly_inspected = {}
       if items_to_inspect.any?
         max_item_depth = (Opts["max-item-depth"] || 100).to_i
@@ -817,7 +859,7 @@ module Bodega
           begin
             item_data = Parser.scan_item(item_id)
             newly_inspected[item_id] = item_data
-            # Update item cache
+            # Update item cache with inspection data
             item_cache[item_id] = {
               'last_updated' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
               'data' => item_data
@@ -828,28 +870,30 @@ module Bodega
         end
       end
 
-      # Update shop cache with current inventory
+      # Update shop cache with current browse data
       shop_cache[town][shop_id] = {
         'last_scan' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        'item_ids' => current_item_ids.to_a
+        'browse_data' => current_browse_data
       }
 
       # Build rooms with mixed cached/new data
       current_rooms.map do |room|
-        room.items = (room.items || []).map do |item_id|
+        room.items = (room.items || []).map do |item_data|
+          item_id = item_data.is_a?(Hash) ? item_data['id'] : item_data
+
           if newly_inspected[item_id]
             newly_inspected[item_id]
           elsif item_cache[item_id] && items_from_cache.include?(item_id)
             item_cache[item_id]['data']
           else
-            # Fallback: inspect item if not in cache (shouldn't happen)
+            # Fallback: inspect item if not in cache
             Log.out("Cache miss for item #{item_id}, inspecting", label: :cache)
-            item_data = Parser.scan_item(item_id)
+            inspected_data = Parser.scan_item(item_id)
             item_cache[item_id] = {
               'last_updated' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-              'data' => item_data
+              'data' => inspected_data
             }
-            item_data
+            inspected_data
           end
         end
         room
