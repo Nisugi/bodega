@@ -95,6 +95,13 @@ jobs:
           console.log(`Validation passed: ${totalShops} shops, ${totalItems} items`);
           console.log(`item_count=${totalItems}`);
 
+          // Extract timestamp for age validation
+          if (data.created_at) {
+            console.log(`data_timestamp=${data.created_at}`);
+          } else {
+            console.log('Warning: No created_at timestamp found');
+          }
+
         } catch (error) {
           console.log('Validation failed:', error.message);
           process.exit(1);
@@ -104,35 +111,62 @@ jobs:
         # Run validation
         if node validate.js > validation_output.txt; then
           item_count=$(grep "item_count=" validation_output.txt | cut -d'=' -f2)
+          data_timestamp=$(grep "data_timestamp=" validation_output.txt | cut -d'=' -f2)
           echo "validation_status=passed" >> $GITHUB_OUTPUT
           echo "item_count=$item_count" >> $GITHUB_OUTPUT
+          echo "data_timestamp=$data_timestamp" >> $GITHUB_OUTPUT
           echo "validation_message=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
         else
           echo "validation_status=failed" >> $GITHUB_OUTPUT
           echo "validation_message=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
         fi
 
-    - name: Check for conflicts
+    - name: Check for conflicts and data age
       id: conflict
       if: steps.validate.outputs.validation_status == 'passed'
       run: |
-        echo "Checking for conflicts with ${{ steps.extract.outputs.town_file }}"
+        echo "Checking for conflicts and data age with ${{ steps.extract.outputs.town_file }}"
 
-        # Check if file exists and get last modified time
+        # Check if file exists
         if [ -f "${{ steps.extract.outputs.town_file }}" ]; then
-          # Get file modification time
-          existing_modified=$(stat -c %Y "${{ steps.extract.outputs.town_file }}")
+          # Get existing file timestamp
+          existing_timestamp=$(node -e "
+            const fs = require('fs');
+            try {
+              const data = JSON.parse(fs.readFileSync('${{ steps.extract.outputs.town_file }}', 'utf8'));
+              console.log(data.created_at || 'unknown');
+            } catch(e) {
+              console.log('unknown');
+            }
+          ")
 
-          # Get issue creation time (approximate)
+          incoming_timestamp="${{ steps.validate.outputs.data_timestamp }}"
+
+          echo "Existing data timestamp: $existing_timestamp"
+          echo "Incoming data timestamp: $incoming_timestamp"
+
+          # Compare timestamps if both are available
+          if [ "$existing_timestamp" != "unknown" ] && [ "$incoming_timestamp" != "" ]; then
+            existing_epoch=$(date -d "$existing_timestamp" +%s 2>/dev/null || echo "0")
+            incoming_epoch=$(date -d "$incoming_timestamp" +%s 2>/dev/null || echo "0")
+
+            if [ $incoming_epoch -lt $existing_epoch ]; then
+              echo "conflict_status=older_data" >> $GITHUB_OUTPUT
+              echo "conflict_message=Incoming data ($incoming_timestamp) is older than existing data ($existing_timestamp)" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+          fi
+
+          # Get file modification time for concurrent update check
+          existing_modified=$(stat -c %Y "${{ steps.extract.outputs.town_file }}")
           issue_created="${{ github.event.issue.created_at }}"
           issue_timestamp=$(date -d "$issue_created" +%s)
-
-          # Check if file was modified recently (within 10 minutes of issue creation)
           time_diff=$((issue_timestamp - existing_modified))
 
+          # Check for concurrent updates (within 10 minutes)
           if [ $time_diff -lt 600 ] && [ $time_diff -gt -600 ]; then
-            echo "conflict_status=potential" >> $GITHUB_OUTPUT
-            echo "conflict_message=File was modified recently, potential conflict" >> $GITHUB_OUTPUT
+            echo "conflict_status=concurrent" >> $GITHUB_OUTPUT
+            echo "conflict_message=File was modified recently, potential concurrent update" >> $GITHUB_OUTPUT
           else
             echo "conflict_status=none" >> $GITHUB_OUTPUT
           fi
@@ -227,8 +261,8 @@ jobs:
             labels: ['validation-failed', 'needs-review']
           });
 
-    - name: Comment on issue - Conflict Detected
-      if: steps.conflict.outputs.conflict_status == 'potential'
+    - name: Comment on issue - Concurrent Update
+      if: steps.conflict.outputs.conflict_status == 'concurrent'
       uses: actions/github-script@v7
       with:
         script: |
@@ -236,7 +270,7 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: `⚠️ **Potential conflict detected**
+            body: `⚠️ **Concurrent update detected**
 
             **Issue:** ${{ steps.conflict.outputs.conflict_message }}
 
@@ -248,7 +282,34 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            labels: ['conflict-detected', 'needs-manual-review']
+            labels: ['concurrent-update', 'needs-manual-review']
+          });
+
+    - name: Comment on issue - Older Data Rejected
+      if: steps.conflict.outputs.conflict_status == 'older_data'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `❌ **Older data rejected**
+
+            **Issue:** ${{ steps.conflict.outputs.conflict_message }}
+
+            Your data was not merged because we already have newer data for this town.
+            Please run the bodega script again to get fresh data.
+
+            **Tip:** Use \`;bodega --parser --town=${{ steps.extract.outputs.town_name }} --save --upload\` to get the latest data.`
+          });
+
+          await github.rest.issues.update({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'closed',
+            labels: ['data-update', 'auto-generated', 'older-data', 'rejected']
           });
 
     - name: Comment on issue - Invalid JSON
