@@ -711,9 +711,19 @@ module Bodega
       current_ids = Set.new(current_browse_data.keys)
       cached_ids = Set.new(cached_browse_data.keys)
 
+      Log.out("Current items: #{current_ids.to_a.sort.first(3)}... (#{current_ids.size} total)", label: :cache)
+      Log.out("Cached items: #{cached_ids.to_a.sort.first(3)}... (#{cached_ids.size} total)", label: :cache)
+
       new_items = current_ids - cached_ids
       removed_items = cached_ids - current_ids
       existing_items = current_ids & cached_ids
+
+      if new_items.any?
+        Log.out("New items: #{new_items.to_a.first(3)}...", label: :cache)
+      end
+      if removed_items.any?
+        Log.out("Removed items: #{removed_items.to_a.first(3)}...", label: :cache)
+      end
 
       # Check for price/name changes in existing items
       # Items with "unknown" price (from bootstrap) don't need re-inspection, just price update
