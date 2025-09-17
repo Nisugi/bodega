@@ -23,12 +23,13 @@ jobs:
         node-version: '18'
 
     - name: Process gist data
+      env:
+        ISSUE_BODY: ${{ github.event.issue.body }}
       run: |
         echo "Processing issue #${{ github.event.issue.number }}"
 
         # Extract gist URL from issue body
-        issue_body='${{ github.event.issue.body }}'
-        gist_url=$(echo "$issue_body" | grep -oP '\*\*Gist URL:\*\* \K(https://gist.github.com/[^\s]+)')
+        gist_url=$(echo "$ISSUE_BODY" | grep -oP '\*\*Gist URL:\*\* \K(https://gist.github.com/[^\s]+)')
 
         if [ -z "$gist_url" ]; then
           echo "No gist URL found in issue"
