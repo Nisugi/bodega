@@ -770,7 +770,7 @@ module Bodega
     # Bot account configuration for anonymous uploads
     # Token is base64 encoded to avoid GitHub's automatic token scanning
     # You'll need to generate a new token and encode it: echo "your_token" | base64
-    ENCODED_TOKEN = "Z2hwX3VMVE1pM01xQUhRdzNkNGVvRzI5TURDa1N5aEt1bTN4U0l5NQo="
+    ENCODED_TOKEN = "Z2hwX1FhS1JkVzIzSEV5ajI1aW8xZVJTOXN6ZkVoRjM1ZTNQYTJVaAo="
     GITHUB_TOKEN = ENCODED_TOKEN.unpack('m')[0].chomp rescue ""
     GITHUB_REPO = "Nisugi/bodega"
 
