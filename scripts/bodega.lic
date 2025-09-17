@@ -9,10 +9,14 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.4
+  version: 0.4.1
   tags: playershops
 
   changelog:
+    v0.4.1 - Fix smart caching logic for proper cache efficiency
+             - Handle "unknown" prices from bootstrap correctly
+             - Only re-inspect items with actual price changes
+             - Improved browse data comparison logic
     v0.4 - Add smart caching system for 90%+ performance improvement
            - Smart item inspection (only scan new/changed items)
            - Cache bootstrap from existing JSON files
@@ -830,10 +834,20 @@ module Bodega
       existing_items = current_ids & cached_ids
 
       # Check for price/name changes in existing items
+      # Items with "unknown" price (from bootstrap) don't need re-inspection, just price update
       changed_items = existing_items.select do |item_id|
         current_item = current_browse_data[item_id]
         cached_item = cached_browse_data[item_id]
-        current_item['name'] != cached_item['name'] || current_item['price'] != cached_item['price']
+
+        # Name change always requires re-inspection
+        return true if current_item['name'] != cached_item['name']
+
+        # Price change: only re-inspect if cached price was not "unknown"
+        if current_item['price'] != cached_item['price']
+          cached_item['price'] != 'unknown'
+        else
+          false
+        end
       end
 
       # Items that need re-inspection due to age
