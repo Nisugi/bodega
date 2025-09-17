@@ -23,12 +23,20 @@
         <div id="main-container">
             <!-- Left Sidebar - Filters -->
             <aside id="sidebar">
-                <div class="filter-section">
-                    <h3>Search</h3>
-                    <input type="text" id="search-input" placeholder="Search items..." />
-                    <button id="search-btn">Search</button>
-                    <button id="clear-btn">Clear</button>
+                <!-- Mode Tabs -->
+                <div class="mode-tabs">
+                    <button id="search-tab" class="mode-tab active">Search</button>
+                    <button id="browse-tab" class="mode-tab">Browse</button>
                 </div>
+
+                <!-- Search Mode -->
+                <div id="search-mode" class="mode-content">
+                    <div class="filter-section">
+                        <h3>Search</h3>
+                        <input type="text" id="search-input" placeholder="Search items..." />
+                        <button id="search-btn">Search</button>
+                        <button id="clear-btn">Clear</button>
+                    </div>
 
                 <div class="filter-section">
                     <h3>Town</h3>
@@ -200,6 +208,32 @@
                     <button id="apply-filters">Apply Filters</button>
                     <button id="reset-filters">Reset All</button>
                 </div>
+                </div>
+
+                <!-- Browse Mode -->
+                <div id="browse-mode" class="mode-content" style="display: none;">
+                    <div class="filter-section">
+                        <h3>Select Town</h3>
+                        <select id="browse-town-select" size="10">
+                            <option value="">Loading towns...</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section" id="shop-list-section" style="display: none;">
+                        <h3>Shops in <span id="selected-town-name"></span></h3>
+                        <div id="shop-list">
+                            <!-- Shops will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="filter-section" id="room-list-section" style="display: none;">
+                        <h3>Rooms in <span id="selected-shop-name"></span></h3>
+                        <div id="room-list">
+                            <!-- Rooms will be populated here -->
+                        </div>
+                        <button id="back-to-shops" class="nav-button">← Back to Shops</button>
+                    </div>
+                </div>
             </aside>
 
             <!-- Main Content Area -->
@@ -256,5 +290,6 @@
 
     <script src="data-loader.js"></script>
     <script src="search.js"></script>
+    <script src="browse.js"></script>
 </body>
 </html>

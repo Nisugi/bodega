@@ -464,3 +464,126 @@ header h1 {
     border-radius: 3px;
     margin: 10px 0;
 }
+
+/* Browse Mode Styles */
+.mode-tabs {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.mode-tab {
+    flex: 1;
+    padding: 10px;
+    background: #f8f9fa;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.mode-tab:hover {
+    background: #e9ecef;
+}
+
+.mode-tab.active {
+    background: white;
+    border-bottom-color: #4a90e2;
+    color: #4a90e2;
+}
+
+.mode-content {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Browse Navigation */
+#browse-town-select {
+    width: 100%;
+    font-size: 12px;
+}
+
+.shop-item, .room-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.shop-item:hover, .room-item:hover {
+    background: #f0f8ff;
+    border-color: #4a90e2;
+    transform: translateX(2px);
+}
+
+.shop-name, .room-name {
+    font-weight: 600;
+    color: #2e5d8a;
+    margin-bottom: 4px;
+}
+
+.shop-stats, .room-stats {
+    font-size: 11px;
+    color: #666;
+}
+
+.nav-button {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.nav-button:hover {
+    background: #5a6268;
+}
+
+/* Browse Results */
+.room-header {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+.room-header td {
+    padding: 8px 12px !important;
+    border-bottom: 2px solid #dee2e6 !important;
+    color: #495057;
+}
+
+.item-row {
+    border-left: 3px solid transparent;
+}
+
+.item-row:hover {
+    border-left-color: #4a90e2;
+    background: #f8f9fb;
+}
+
+/* Responsive adjustments for browse mode */
+@media (max-width: 768px) {
+    .mode-tabs {
+        margin-bottom: 10px;
+    }
+
+    .mode-tab {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .shop-item, .room-item {
+        padding: 8px;
+    }
+}
