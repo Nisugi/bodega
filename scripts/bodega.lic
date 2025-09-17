@@ -9,10 +9,11 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.3
+  version: 0.4.0
   tags: playershops
 
   changelog:
+    v0.4.0 - Major update: Smart caching system, Jinx repository integration, API upload system
     v0.3 - Update for Lich 5.11 compatibility
     v0.2 - Update for Ruby v3 compatibility
 
@@ -23,6 +24,7 @@ require "net/http"
 require "fileutils"
 require "pp"
 require "pathname"
+require "set"
 
 unless Gem::Version.new(RUBY_VERSION) >= Gem::Version.new("2.3")
   fail "your ruby@#{RUBY_VERSION} is too old"
@@ -457,7 +459,7 @@ module Bodega
       @towns ||= fetch_towns
     end
 
-    def self.shops(town)
+    def self.shops(town, cache = nil, all_current_items = nil)
       coll = Collector.new(
         command: %[shop direc #{town}],
         start: %r[~*~ (?<title>.*?) Shops ~*~],
@@ -476,10 +478,10 @@ module Bodega
         by_shop_number = Hash[by_shop_number.select do |_id, title| title.downcase.include?(Opts.shop.downcase) end]
       end
 
-      Parser.scan_shops(town, Hash[by_shop_number], next_command)
+      Parser.scan_shops(town, Hash[by_shop_number], next_command, cache, all_current_items)
     end
 
-    def self.scan_shops(town, shops, cmd_template)
+    def self.scan_shops(town, shops, cmd_template, cache = nil, all_current_items = nil)
       max_shop_depth = (Opts["max-shop-depth"] || 10_000).to_i
       shops = shops.take(max_shop_depth)
       shops.map.with_index do |k_v, idx|
@@ -489,7 +491,7 @@ module Bodega
                 label: Utils.safe_string(town))
         begin
           Parser.scan_inv(town, id, name,
-                          cmd_template.gsub("{SHOP#}", id))
+                          cmd_template.gsub("{SHOP#}", id), cache, all_current_items)
         rescue => exception
           Log.out(exception)
           nil
@@ -497,7 +499,7 @@ module Bodega
       end.compact # prune errored shops
     end
 
-    def self.scan_inv(town, id, _name, cmd)
+    def self.scan_inv(town, id, _name, cmd, cache = nil, all_current_items = nil)
       coll = Collector.new(
         start: %[is located in],
         close: %[You can use the SHOP INSPECT {STOCK#}],
@@ -509,7 +511,7 @@ module Bodega
       { preamble: preamble,
         town: town,
         id: id,
-        inv: parse_inv(inv.map(&:strip)) }
+        inv: parse_inv(inv.map(&:strip), cache, all_current_items, { town: town, id: id }) }
     end
 
     def self.add_room(acc, row)
@@ -531,8 +533,8 @@ module Bodega
       )
     end
 
-    def self.parse_inv(inv)
-      inv.reduce([]) do |acc, row|
+    def self.parse_inv(inv, cache = nil, all_current_items = nil, shop_info = nil)
+      rooms = inv.reduce([]) do |acc, row|
         # we are at the terminal line for this shop
         break acc if row.include?("SHOP INSPECT")
         Parser.add_room(acc, row) if row.match(Messages::NEW_ROOM)
@@ -542,7 +544,21 @@ module Bodega
       end
       .map do |room|
         max_item_depth = (Opts["max-item-depth"] || 100).to_i
-        room.items = room.items.take(max_item_depth).map do |id| Parser.scan_item(id) end
+        room_item_ids = room.items.take(max_item_depth)
+
+        # Track all current items if we're using cache
+        if all_current_items
+          room_item_ids.each { |id| all_current_items.add(id.to_s) }
+        end
+
+        # Use smart scanning if cache is provided and smart mode is enabled
+        if cache && (Opts.smart || Opts.to_h["force-full"])
+          room.items = smart_scan_items(room_item_ids, cache, shop_info)
+        else
+          # Traditional scanning - inspect every item
+          room.items = room_item_ids.map do |id| Parser.scan_item(id) end
+        end
+
         room
       end
       .map(&:to_h)
@@ -562,6 +578,131 @@ module Bodega
         details: Extractor.of(details.slice(1..-2)) }
     end
 
+    def self.load_item_cache()
+      cache_file = Assets.local_path("item_cache.json")
+
+      if File.exist?(cache_file)
+        begin
+          cache_data = JSON.parse(File.read(cache_file))
+          Log.out("Loaded item cache with #{cache_data.fetch('items', {}).size} items", label: :cache)
+          cache_data
+        rescue JSON::ParserError => e
+          Log.out("Invalid cache file, starting fresh: #{e.message}", label: :cache)
+          create_empty_cache()
+        end
+      else
+        Log.out("No existing cache found, starting fresh", label: :cache)
+        create_empty_cache()
+      end
+    end
+
+    def self.create_empty_cache()
+      {
+        "cache_version" => "1.0",
+        "last_full_scan" => nil,
+        "items" => {}
+      }
+    end
+
+    def self.save_item_cache(cache_data)
+      cache_file = Assets.local_path("item_cache.json")
+      File.write(cache_file, JSON.pretty_generate(cache_data))
+      Log.out("Saved item cache with #{cache_data.fetch('items', {}).size} items", label: :cache)
+    end
+
+    def self.is_cache_entry_expired?(cache_entry, max_age_days = nil)
+      max_age_days ||= (Opts.to_h.fetch("cache-max-age", "7")).to_i
+      return true unless cache_entry["last_seen"]
+
+      begin
+        last_seen = Time.parse(cache_entry["last_seen"])
+        (Time.now - last_seen) > (max_age_days * 24 * 60 * 60)
+      rescue
+        true # If we can't parse the date, consider it expired
+      end
+    end
+
+    def self.smart_scan_items(item_ids, cache, shop_info)
+      current_time = Time.now.utc.iso8601
+      cache_items = cache.fetch("items", {})
+      scanned_items = []
+
+      # Track items we've seen in this shop
+      items_in_current_shop = Set.new(item_ids)
+
+      item_ids.each do |item_id|
+        cache_key = item_id.to_s
+        cache_entry = cache_items[cache_key]
+
+        if cache_entry.nil?
+          # New item - inspect it
+          Log.out("New item found: #{item_id}", label: :cache)
+          item_data = scan_item(item_id)
+
+          # Add to cache
+          cache_items[cache_key] = {
+            "name" => item_data[:name],
+            "details" => item_data[:details],
+            "last_seen" => current_time,
+            "shop_id" => shop_info[:id],
+            "town" => shop_info[:town]
+          }
+
+          scanned_items << item_data
+        elsif is_cache_entry_expired?(cache_entry) || Opts.to_h["force-full"]
+          # Expired or force refresh - re-inspect
+          Log.out("Re-inspecting expired/forced item: #{item_id}", label: :cache)
+          item_data = scan_item(item_id)
+
+          # Update cache
+          cache_items[cache_key].merge!({
+            "name" => item_data[:name],
+            "details" => item_data[:details],
+            "last_seen" => current_time,
+            "shop_id" => shop_info[:id],
+            "town" => shop_info[:town]
+          })
+
+          scanned_items << item_data
+        else
+          # Use cached data
+          Log.out("Using cached data for item: #{item_id}", label: :cache) if Opts.to_h["dry-run"]
+          scanned_items << {
+            id: item_id,
+            name: cache_entry["name"],
+            details: cache_entry["details"]
+          }
+
+          # Update last_seen timestamp
+          cache_items[cache_key]["last_seen"] = current_time
+        end
+      end
+
+      # Remove items from cache that are no longer in any shop
+      # (We'll do this at the end of the full scan to avoid removing items that might be in other shops)
+
+      scanned_items
+    end
+
+    def self.cleanup_cache(cache, all_current_items)
+      # Remove items that are no longer found in any shop
+      cache_items = cache.fetch("items", {})
+      items_to_remove = []
+
+      cache_items.each do |item_id, cache_entry|
+        unless all_current_items.include?(item_id)
+          items_to_remove << item_id
+        end
+      end
+
+      items_to_remove.each do |item_id|
+        cache_items.delete(item_id)
+        Log.out("Removed item #{item_id} from cache (no longer found in shops)", label: :cache)
+      end
+
+      Log.out("Cache cleanup complete: removed #{items_to_remove.size} stale items", label: :cache)
+    end
+
     def self.towns_to_search()
       if Opts.town.nil? then
         towns
@@ -578,10 +719,35 @@ module Bodega
     end
 
     def self.to_json()
+      # Initialize cache if smart mode is enabled
+      cache = nil
+      all_current_items = Set.new
+
+      if Opts.smart || Opts.to_h["force-full"]
+        Log.out("Smart caching enabled", label: :cache)
+        cache = load_item_cache()
+
+        if Opts.to_h["force-full"]
+          Log.out("Force full scan requested - will re-inspect all items", label: :cache)
+          cache["last_full_scan"] = Time.now.utc.iso8601
+        end
+      end
+
+      # Sync with Jinx if requested
+      updated_towns = []
+      if Opts.sync
+        updated_towns = sync_with_jinx()
+
+        # Invalidate cache for updated towns
+        if cache && updated_towns.any?
+          invalidate_cache_for_towns(cache, updated_towns)
+        end
+      end
+
       Utils.benchmark(template: "scanned shops in {{run_time}}") do
         towns_to_search.each do |town|
           start = Time.now
-          shops = Parser.shops(town)
+          shops = Parser.shops(town, cache, all_current_items)
 
           next if shops.empty?
 
@@ -595,7 +761,66 @@ module Bodega
           save_json(name: town,
                     data: data)
         end
+
+        # Save cache and cleanup at the end of scanning all towns
+        if cache
+          cleanup_cache(cache, all_current_items)
+          save_item_cache(cache)
+        end
       end
+    end
+
+    def self.sync_with_jinx()
+      Log.out("Checking for data updates via Jinx", label: :sync)
+      updated_towns = []
+
+      towns_to_search.each do |town|
+        filename = "#{Utils.safe_string(town)}.json"
+        local_file = Assets.local_path(filename)
+
+        if jinx_has_newer_version?(filename, local_file)
+          Log.out("Syncing #{filename} via Jinx", label: :sync)
+          result = system("jinx data install #{filename}")
+          if result
+            updated_towns << town
+            Log.out("Successfully updated #{filename}", label: :sync)
+          else
+            Log.out("Failed to update #{filename} via Jinx", label: :sync)
+          end
+        end
+      end
+
+      if updated_towns.any?
+        Log.out("Updated #{updated_towns.size} town files: #{updated_towns.join(', ')}", label: :sync)
+      else
+        Log.out("All town files are up to date", label: :sync)
+      end
+
+      updated_towns
+    end
+
+    def self.jinx_has_newer_version?(filename, local_file)
+      # For now, just check if local file exists and is older than 1 day
+      # TODO: Implement proper timestamp/checksum comparison with Jinx metadata
+      return false unless File.exist?(local_file)
+
+      file_age = Time.now - File.mtime(local_file)
+      file_age > (24 * 60 * 60) # Older than 24 hours
+    end
+
+    def self.invalidate_cache_for_towns(cache, towns)
+      cache_items = cache.fetch("items", {})
+      invalidated_count = 0
+
+      cache_items.keys.each do |item_id|
+        item_data = cache_items[item_id]
+        if towns.include?(item_data["town"])
+          cache_items.delete(item_id)
+          invalidated_count += 1
+        end
+      end
+
+      Log.out("Invalidated #{invalidated_count} cache entries for updated towns", label: :cache)
     end
 
     def self.save_json(name:, data:)
@@ -605,22 +830,54 @@ module Bodega
                                   .fetch(:shop, name)))
     end
 
-    def self.manifest(url_root: Opts.to_h.fetch(:url, Assets::URL), _file: nil)
-      assets = Assets.cached_files()
-      fail "no assets found" if assets.empty?
-      assets = assets.map do |asset|
+    def self.process_assets(asset_files, url_root)
+      asset_files.map do |asset|
         abs_file_name = Assets.local_path(asset)
         base_name     = File.basename(asset)
         data          = Utils.read_json(abs_file_name)
-        { url: url_root + "/" + base_name,
-          base_name: base_name,
-          size: '%.2fmb' % (File.size(abs_file_name).to_f / (2**20)), # mbs
-          run_time: data.fetch(:run_time, nil),
-          checksum: Assets.checksum(asset),
-          updated_at: data.fetch(:created_at, nil) }
-      end
+        checksum      = Assets.checksum(asset)
+        updated_at    = data.fetch(:created_at, nil)
 
-      manifest = { created_at: Time.now.utc, assets: assets }
+        {
+          # Original CDN fields (backward compatible)
+          url: url_root + "/" + base_name,
+          base_name: base_name,
+          size: '%.2fmb' % (File.size(abs_file_name).to_f / (2**20)),
+          run_time: data.fetch(:run_time, nil),
+          checksum: checksum,
+          updated_at: updated_at,
+
+          # Jinx-compatible fields
+          file: base_name,
+          type: "data",
+          md5: checksum,
+          last_commit: updated_at ? Time.parse(updated_at).to_i : Time.now.to_i
+        }
+      end
+    end
+
+    def self.manifest(url_root: Opts.to_h.fetch(:url, Assets::URL), _file: nil)
+      all_assets = Assets.cached_files()
+      fail "no assets found" if all_assets.empty?
+
+      # Filter for different purposes
+      town_files = all_assets.reject { |f|
+        f.include?("item_cache.json") ||
+        f.include?("upload_tracking.json")
+      }
+
+      # Process all assets for CDN manifest (backward compatible)
+      cdn_assets = process_assets(all_assets, url_root)
+
+      # Process only town files for Jinx repository
+      jinx_assets = process_assets(town_files, url_root)
+
+      manifest = {
+        created_at: Time.now.utc,
+        assets: cdn_assets,        # Original: all files
+        available: jinx_assets     # Jinx: only town files
+      }
+
       Utils.pp(manifest)
       return if Opts["dry-run"]
       Assets.write_local_json(manifest, "manifest")
@@ -1183,6 +1440,10 @@ module Bodega
           --out                 the location on the filesystem to write to    [defaults to $lich_dir/bodega/]
           --manifest            create a manifest file of the assets
           --upload              upload generated JSON files to GitHub (creates issues for auto-processing)
+          --smart               enable smart caching (only inspect new/changed items)
+          --force-full          force full re-inspection of all items (updates cache)
+          --cache-max-age       items older than X days get re-inspected      [default: 7 days]
+          --sync                sync data files with Jinx repository before scanning
 
         upload mode:
           --upload              upload existing JSON files from local filesystem

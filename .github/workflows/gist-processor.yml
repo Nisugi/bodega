@@ -188,10 +188,44 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-        if git diff --quiet data/; then
-          echo "No changes to commit"
+        # Debug: Show current state
+        echo "=== Current repository state ==="
+        git status
+        echo ""
+        echo "=== Files in data directory ==="
+        ls -la data/ || echo "data/ directory doesn't exist"
+        echo ""
+        echo "=== Files in temp-data directory ==="
+        ls -la temp-data/ || echo "temp-data/ directory doesn't exist"
+        echo ""
+        echo "=== Git diff for data directory ==="
+        git diff --name-only data/ || echo "No diff output"
+        echo ""
+        echo "=== Git diff summary ==="
+        git diff --stat data/ || echo "No diff stat"
+        echo ""
+
+        # Check if there are any changes
+        if git diff --quiet data/ && git diff --quiet --cached data/; then
+          echo "No changes detected in data/ directory"
+
+          # Force update with timestamp to ensure commit happens
+          echo "Creating timestamp file to force commit..."
+          echo "Last updated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" > data/last_updated.txt
+          echo "Data processed from issue #${{ github.event.issue.number }}" >> data/last_updated.txt
+
+          git add data/
+          git commit -m "Update shop data from gist upload (forced with timestamp)
+
+        - Processed from issue #${{ github.event.issue.number }}
+        - Gist data validated and merged using artifact pipeline
+        - Files downloaded directly from raw URLs to handle large files
+        - Forced commit with timestamp update
+
+        Co-Authored-By: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.id }}+${{ github.event.issue.user.login }}@users.noreply.github.com>"
         else
-          git add data/*.json
+          echo "Changes detected - committing updates"
+          git add data/
           git commit -m "Update shop data from gist upload
 
         - Processed from issue #${{ github.event.issue.number }}
@@ -199,9 +233,9 @@ jobs:
         - Files downloaded directly from raw URLs to handle large files
 
         Co-Authored-By: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.id }}+${{ github.event.issue.user.login }}@users.noreply.github.com>"
-
-          git push origin main
         fi
+
+        git push origin main
 
     - name: Close issue with success message
       uses: actions/github-script@v7

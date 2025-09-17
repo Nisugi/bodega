@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-17 09:51:09 UTC",
-  "run_time": "08m 38s",
+  "created_at": "2025-09-17 18:43:29 UTC",
+  "run_time": "09m 20s",
   "town": "Solhaven",
   "shops": [
     {
@@ -865,13 +865,13 @@
               "name": "a gnome travel brochure",
               "details": {
                 "raw": [
-                  "   Current Time: 05:42   Current Flight Schedule",
+                  "   Current Time: 14:34   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
                   "    ---------------------------------------------------------------",
                   "Times be estimates only!  Subject ta change by headwinds an' tailwinds an' sidewinds an' stuff!  Deal wit' it!",
-                  "   Current Time: 05:42   Current Flight Schedule",
+                  "   Current Time: 14:34   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
@@ -6211,7 +6211,7 @@
                   "It is estimated to be worth about 82,000 silvers.",
                   "It is predominantly crafted of eahnor.",
                   "It is a simple project (13 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 16 hours and 29 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 7 hours and 37 minutes."
                 ],
                 "tags": [
                   "max_light"
@@ -8054,7 +8054,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (34 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 11 hours and 9 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 hours and 17 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -8784,7 +8784,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 17 hours and 47 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 8 hours and 55 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -8824,7 +8824,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 6 days, 2 hours and 6 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 17 hours and 14 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9372,7 +9372,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 80,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 6 days, 3 hours and 22 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 30 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9405,7 +9405,7 @@
                   "    It seems to have several enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 6 days, 3 hours and 37 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 45 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -11757,6 +11757,29 @@
           "branch": "north",
           "items": [
             {
+              "id": "282370492",
+              "name": "a scorched veil iron rapier",
+              "details": {
+                "raw": [
+                  "Analysis of a scorched veil iron rapier indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  This material cannot be dyed.",
+                  "The veil iron rapier will cost 2,000,000 coins.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It is somewhat weighted to inflict more critical wounds than a normal weapon of its type.",
+                  "It is magic resistant.",
+                  "It is predominantly crafted of veil iron.",
+                  "It is a basic project (134 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Forgenal."
+                ],
+                "tags": [
+                  "max_light"
+                ],
+                "skill": "edged weapons",
+                "material": "veil iron, an extraordinarily rare metal",
+                "enchant": 25,
+                "weight": 2
+              }
+            },
+            {
               "id": "161526",
               "name": "an elegant ora naginata",
               "details": {
@@ -13023,40 +13046,6 @@
                   {
                     "boost": 3,
                     "ability": "Two Weapon Combat Bonus"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "169502",
-              "name": "a pink sapphire studded copper ring",
-              "details": {
-                "raw": [
-                  "Analysis of a pink sapphire studded copper ring indicates the item is free from merchant alteration restrictions.",
-                  "The studded copper ring will cost 499,999 coins.",
-                  "It has 0 charges.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have quite a few enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 62,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "small"
-                ],
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Thrown Weapons Bonus"
-                  },
-                  {
-                    "boost": 2,
-                    "ability": "Dodging Bonus"
                   }
                 ]
               }
@@ -30916,24 +30905,6 @@
               }
             },
             {
-              "id": "172741947",
-              "name": "a Lumnis schedule",
-              "details": {
-                "raw": [
-                  "This delightfully colorful schedule is very eye-catching.",
-                  "[This is a Gift of Lumnis Scheduling Pass.  By redeeming this, you will be able to schedule your weekly Gift of Lumnis start time for 1 use.  To redeem this, please enter REDEEM schedule.]",
-                  "The schedule can not be worn.",
-                  "Analysis of a Lumnis schedule indicates the creator has provided the following information:",
-                  "This schedule is a Gift of Lumnis Scheduling Pass redeemable by Free To Play characters to be able to schedule their weekly Gift of Lumnis start time  It has 1 use.",
-                  "REDEEM it to activate the benefit.",
-                  "It cannot be altered.",
-                  "The Lumnis schedule will cost 200,000 coins."
-                ],
-                "tags": [],
-                "material": "organic material, an extremely common material"
-              }
-            },
-            {
               "id": "170214",
               "name": "a twisted branch of wyrwood",
               "details": {
@@ -48265,7 +48236,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 68,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 4 hours and 19 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 27 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -48297,7 +48268,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 13 hours and 48 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 4 hours and 56 minutes."
                 ],
                 "tags": [
                   "purpose"

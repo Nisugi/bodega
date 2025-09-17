@@ -31,16 +31,66 @@ exports.handler = async (event, context) => {
     // Parse the incoming JSON data
     const uploadData = JSON.parse(event.body);
 
-    // Validate required fields
+    // Check if this is individual file upload format
+    if (uploadData.filename && uploadData.session_id) {
+      return await handleIndividualFileUpload(uploadData);
+    }
+
+    // Check if this is the new format with gist_url (bodega already created the gist)
+    if (uploadData.gist_url) {
+      console.log(`Processing pre-created gist: ${uploadData.gist_url}`);
+
+      // Extract gist ID from URL
+      const gistMatch = uploadData.gist_url.match(/\/([a-f0-9]+)$/);
+      const gistId = gistMatch ? gistMatch[1] : null;
+
+      // Trigger repository_dispatch with the provided gist URL
+      const dispatchPayload = {
+        event_type: 'shop_data_upload',
+        client_payload: {
+          gist_url: uploadData.gist_url,
+          gist_id: gistId,
+          file_count: uploadData.file_count || 0,
+          timestamp: uploadData.timestamp || new Date().toISOString(),
+          source: uploadData.source || 'bodega-script-gist'
+        }
+      };
+
+      const dispatchResult = await makeGitHubRequest('/repos/Nisugi/bodega/dispatches', 'POST', dispatchPayload);
+
+      if (dispatchResult.success) {
+        return {
+          statusCode: 200,
+          headers: { 'Access-Control-Allow-Origin': '*' },
+          body: JSON.stringify({
+            message: 'Workflow triggered successfully',
+            gist_url: uploadData.gist_url,
+            timestamp: dispatchPayload.client_payload.timestamp
+          })
+        };
+      } else {
+        console.error('Failed to trigger workflow:', dispatchResult.error);
+        return {
+          statusCode: 500,
+          headers: { 'Access-Control-Allow-Origin': '*' },
+          body: JSON.stringify({
+            error: 'Failed to trigger workflow',
+            details: dispatchResult.error
+          })
+        };
+      }
+    }
+
+    // Legacy format - create gist from files (fallback for old bodega versions)
     if (!uploadData.files || typeof uploadData.files !== 'object') {
       return {
         statusCode: 400,
         headers: { 'Access-Control-Allow-Origin': '*' },
-        body: JSON.stringify({ error: 'Missing or invalid files data' })
+        body: JSON.stringify({ error: 'Missing required data (neither gist_url nor files provided)' })
       };
     }
 
-    console.log(`Processing upload with ${Object.keys(uploadData.files).length} files`);
+    console.log(`Legacy mode: Processing upload with ${Object.keys(uploadData.files).length} files`);
 
     // Create a gist with all the files
     const gistResult = await createGist(uploadData.files);
@@ -103,6 +153,119 @@ exports.handler = async (event, context) => {
     };
   }
 };
+
+// Global storage for multi-file upload sessions (in production, use Redis or similar)
+const uploadSessions = new Map();
+
+async function handleIndividualFileUpload(uploadData) {
+  const { filename, content, session_id, file_index, total_files, is_final, timestamp, source } = uploadData;
+
+  console.log(`Receiving file ${file_index}/${total_files}: ${filename} (${content.length} chars) for session ${session_id}`);
+
+  // Get or create session
+  if (!uploadSessions.has(session_id)) {
+    uploadSessions.set(session_id, {
+      files: {},
+      totalExpected: total_files,
+      timestamp: timestamp,
+      source: source
+    });
+  }
+
+  const session = uploadSessions.get(session_id);
+
+  // Add this file to the session
+  session.files[filename] = content;
+
+  console.log(`Session ${session_id} now has ${Object.keys(session.files).length}/${session.totalExpected} files`);
+
+  // If this is not the final file, just acknowledge receipt
+  if (!is_final) {
+    return {
+      statusCode: 200,
+      headers: { 'Access-Control-Allow-Origin': '*' },
+      body: JSON.stringify({
+        message: `File ${filename} received (${file_index}/${total_files})`,
+        session_id: session_id,
+        files_received: Object.keys(session.files).length
+      })
+    };
+  }
+
+  // This is the final file - create gist and trigger workflow
+  console.log(`Final file received for session ${session_id}. Creating gist...`);
+
+  try {
+    // Create gist with all collected files
+    const gistResult = await createGist(session.files);
+
+    if (!gistResult.success) {
+      console.error('Failed to create gist:', gistResult.error);
+      uploadSessions.delete(session_id); // Clean up
+      return {
+        statusCode: 500,
+        headers: { 'Access-Control-Allow-Origin': '*' },
+        body: JSON.stringify({ error: 'Failed to create gist', details: gistResult.error })
+      };
+    }
+
+    console.log(`Gist created: ${gistResult.url}`);
+
+    // Trigger repository_dispatch
+    const dispatchPayload = {
+      event_type: 'shop_data_upload',
+      client_payload: {
+        gist_url: gistResult.url,
+        gist_id: gistResult.id,
+        file_count: Object.keys(session.files).length,
+        timestamp: session.timestamp,
+        source: session.source
+      }
+    };
+
+    const dispatchResult = await makeGitHubRequest('/repos/Nisugi/bodega/dispatches', 'POST', dispatchPayload);
+
+    // Clean up session
+    uploadSessions.delete(session_id);
+
+    if (dispatchResult.success) {
+      return {
+        statusCode: 200,
+        headers: { 'Access-Control-Allow-Origin': '*' },
+        body: JSON.stringify({
+          message: 'Multi-file upload complete and workflow triggered',
+          gist_url: gistResult.url,
+          session_id: session_id,
+          file_count: Object.keys(session.files).length,
+          timestamp: session.timestamp
+        })
+      };
+    } else {
+      console.error('Failed to trigger workflow:', dispatchResult.error);
+      return {
+        statusCode: 200, // Still return success since gist was created
+        headers: { 'Access-Control-Allow-Origin': '*' },
+        body: JSON.stringify({
+          message: 'Multi-file upload complete, gist created but workflow trigger failed',
+          gist_url: gistResult.url,
+          error: dispatchResult.error
+        })
+      };
+    }
+
+  } catch (error) {
+    console.error('Error processing final file:', error);
+    uploadSessions.delete(session_id); // Clean up
+    return {
+      statusCode: 500,
+      headers: { 'Access-Control-Allow-Origin': '*' },
+      body: JSON.stringify({
+        error: 'Failed to process multi-file upload',
+        details: error.message
+      })
+    };
+  }
+}
 
 async function createGist(files) {
   const gistPayload = {

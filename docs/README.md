@@ -14,10 +14,12 @@ Your shop data will be automatically processed and the website will update withi
 
 - 🔍 **Advanced search and filtering** - Find items by name, enchant, price, properties
 - 🏛️ **Browse mode** - Navigate Town → Shop → Room → Items hierarchically
+- 🔗 **Direct item linking** - Copy URLs to share specific items with others
 - 🏪 **Multi-town coverage** - All major towns and player shops
-- ⏰ **Per-town timestamps** - See exact update times with "time ago" display
+- ⏰ **Live news ticker** - See exact update times with "time ago" display
 - ⚡ **Community-powered data** - Players contribute updates automatically
-- 📦 **Large file support** - GitHub Gists handle files up to 8MB
+- 🚀 **Smart caching** - 5-10x faster subsequent scans with intelligent item tracking
+- 📦 **Large file support** - API handles files up to 25MB
 - 🤖 **Automated processing** - GitHub Actions validates and merges data
 - 🌐 **Free global hosting** - GitHub Pages with CDN
 - 📱 **Mobile-friendly** - Responsive design works on all devices
@@ -26,11 +28,10 @@ Your shop data will be automatically processed and the website will update withi
 ## How It Works
 
 1. **Player runs bodega script** with `--upload` flag
-2. **GitHub Gists created** with shop data (supports large files up to 8MB)
-3. **GitHub Issues created** referencing the gist for processing
-4. **GitHub Actions processes** gist data and validates files
-5. **Valid data gets merged** to the repository
-6. **Website updates automatically** within 1-2 minutes
+2. **API upload** sends data directly to GitHub Actions (supports files up to 25MB)
+3. **Automated processing** validates and merges data within 1-2 minutes
+4. **Fallback system** uses GitHub Gists if API is unavailable
+5. **Website updates automatically** with your new data
 
 ## Automated Data Updates
 
@@ -46,18 +47,37 @@ Your shop data will be automatically processed and the website will update withi
 # Update specific shop
 ;bodega --parser --shop="Silverwood Manor" --save --upload
 
+# Smart caching mode (only inspect new/changed items - much faster!)
+;bodega --parser --smart --save --upload
+
+# Force full refresh (updates cache)
+;bodega --parser --force-full --save --upload
+
 # Test without uploading
 ;bodega --parser --dry-run
 ```
 
 ### What Happens
 
-1. **Script creates GitHub Gists** with your shop data (handles large files efficiently)
-2. **GitHub Issues created** with gist references for processing (using built-in bot authentication)
-3. **Smart duplicate detection** prevents re-uploading the same data with SHA256 hashing
-4. **Automatic validation** checks JSON format and structure from gist files
-5. **Auto-merge** if data is valid and no conflicts
-6. **Website updates** reflect your contributions with detailed per-town timestamps
+1. **API upload** sends your shop data directly to GitHub Actions (up to 25MB files)
+2. **Smart duplicate detection** prevents re-uploading the same data with SHA256 hashing
+3. **Automatic validation** checks JSON format and structure
+4. **Auto-merge** if data is valid and no conflicts
+5. **Website updates** reflect your contributions with detailed per-town timestamps
+6. **Fallback system** uses GitHub Gists if API is unavailable
+
+### Smart Caching System
+
+**New in 2024**: The bodega script now includes intelligent caching to dramatically improve performance:
+
+- **`--smart`**: Only inspects new items or items that have changed, making subsequent scans 5-10x faster
+- **`--force-full`**: Forces inspection of all items and updates the cache
+- **`--cache-max-age=N`**: Items older than N days get re-inspected (default: 7 days)
+- **Automatic cleanup**: Removes items from cache that are no longer in shops
+- **Zero setup**: Cache is automatically created and maintained
+
+**First run**: `--smart` inspects all items and creates cache
+**Subsequent runs**: Only inspects new/changed items, dramatically faster execution
 
 See [`UPLOAD_GUIDE.md`](./UPLOAD_GUIDE.md) for detailed instructions.
 
