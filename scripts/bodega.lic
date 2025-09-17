@@ -308,7 +308,7 @@ module Bodega
   module Assets
     $lich_dir = "/tmp" unless defined? $lich_dir
 
-    LOCAL_FS_ROOT = Pathname.new($lich_dir) + (Opts.local_dir || "bodega") + "data"
+    LOCAL_FS_ROOT = Pathname.new($lich_dir) + (Opts.local_dir || "bodega")
     URL           = Opts.remote || "https://bodega.surge.sh"
 
     begin
