@@ -49,11 +49,12 @@ Your shop data will be automatically processed and the website will update withi
 
 ### What Happens
 
-1. **Script creates GitHub issues** with your shop data
-2. **Automatic validation** checks JSON format and structure
-3. **Auto-merge** if data is valid and no conflicts
-4. **Manual review queue** for edge cases
-5. **Website updates** reflect your contributions immediately
+1. **Script creates GitHub issues** with your shop data (using built-in bot authentication)
+2. **Smart duplicate detection** prevents re-uploading the same data
+3. **Automatic validation** checks JSON format and structure
+4. **Auto-merge** if data is valid and no conflicts
+5. **Manual review queue** for edge cases
+6. **Website updates** reflect your contributions immediately
 
 See [`UPLOAD_GUIDE.md`](./UPLOAD_GUIDE.md) for detailed instructions.
 

@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-16 22:42:46 UTC",
-  "run_time": "08m 38s",
+  "created_at": "2025-09-17 06:28:45 UTC",
+  "run_time": "14m 24s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -816,7 +816,8 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The fleshsore bulb will cost 2,800 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -2122,7 +2123,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -2138,7 +2140,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -2154,7 +2157,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -2830,6 +2834,7 @@
                 "raw": [
                   "Analysis of a braided seagrass anklet on a driftwood frame indicates the creator has provided the following information:",
                   "The description of the seagrass anklet may be altered, but its noun must remain anklet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The seagrass anklet will cost 1,000,000 coins."
                 ],
                 "tags": [
@@ -2845,9 +2850,24 @@
           ]
         },
         {
-          "room_title": "Lucullan's General Store",
+          "room_title": "Lucullan's Weaponry",
           "branch": "east",
           "items": [
+            {
+              "id": "280486847",
+              "name": "a luminescent indigo mushroom",
+              "details": {
+                "raw": [
+                  "The mushroom can not be worn.",
+                  "Analysis of a luminescent indigo mushroom indicates the creator has provided the following information:",
+                  "This is a foraged item.  It is a type of fungus.",
+                  "There is a chance you can sell this at a local Herbal Shop.",
+                  "The indigo mushroom will cost 35,000 coins."
+                ],
+                "tags": [],
+                "material": "organic material, an extremely common material"
+              }
+            },
             {
               "id": "159692",
               "name": "a round-cut star ruby band",
@@ -4150,7 +4170,7 @@
                   "It is estimated to be worth about 24,000 silvers.",
                   "It is predominantly crafted of mithglin.",
                   "It is a simple project (3 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 16 days, 2 hours and 20 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 15 days, 18 hours and 39 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -4199,7 +4219,7 @@
                   "The token can not be worn.",
                   "Analysis of a purple whip token indicates the creator has provided the following information:",
                   "When REDEEMed, this token will grant a custom Major Shock bolt message to your character:",
-                  "Zoleta whips a crackling bolt of purple lightning at a giant rat!",
+                  "Nisugi whips a crackling bolt of purple lightning at a giant rat!",
                   "The purple whip token will cost 15,000 coins."
                 ],
                 "tags": [],
@@ -4242,7 +4262,7 @@
                   "It is estimated to be worth about 8,250 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (30 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 14 days, 4 hours and 7 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 20 hours and 26 minutes."
                 ],
                 "tags": [],
                 "material": "imflass, an uncommon metal",
@@ -5289,7 +5309,7 @@
                   "The anchor can not be worn.",
                   "Analysis of a pale porcelain anchor indicates the creator has provided the following information:",
                   "When REDEEMed, this anchor will grant a custom death message to your character:",
-                  "  * Zoleta staggers off of life's stage; exit stage death.",
+                  "  * Nisugi staggers off of life's stage; exit stage death.",
                   "The porcelain anchor will cost 150,000 coins."
                 ],
                 "tags": [],
@@ -5573,7 +5593,7 @@
                   "Muddy Duds",
                   "This item can be worn and removed only.  Wearing it will modify the hair style to a messy style.",
                   "This particular item will change the wearer's hairstyle like so:",
-                  "Zoleta has hair that is rumpled into a shaggy mess with bits of polished copper wire sticking out of it at odd angles.",
+                  "Nisugi has hair that is rumpled into a shaggy mess with bits of polished copper wire sticking out of it at odd angles.",
                   "It can be altered into any of the following nouns: fletchettes, lockpicks, nails, pebbles, shards, splinters, sticks, or wire.",
                   "The polished copper wire will cost 50,000 coins."
                 ],
@@ -5591,7 +5611,7 @@
                   "Muddy Duds",
                   "This item can be worn and removed only.  Wearing it will modify the hair style to a messy style.",
                   "This particular item will change the wearer's hairstyle like so:",
-                  "Zoleta has hair that is rumpled into a shaggy mess with bits of fractured black flechettes sticking out of it at odd angles.",
+                  "Nisugi has hair that is rumpled into a shaggy mess with bits of fractured black flechettes sticking out of it at odd angles.",
                   "It can be altered into any of the following nouns: fletchettes, lockpicks, nails, pebbles, shards, splinters, sticks, or wire.",
                   "The fractured black flechettes will cost 50,000 coins."
                 ],
@@ -5607,7 +5627,7 @@
                   "The scimitar can not be worn.",
                   "Analysis of a rusty bloodstained scimitar indicates the creator has provided the following information:",
                   "When REDEEMed, this scimitar will grant a custom death message to your character:",
-                  "  * Zoleta died in a blaze of glory; this pleases V'tull.",
+                  "  * Nisugi died in a blaze of glory; this pleases V'tull.",
                   "The bloodstained scimitar will cost 100,000 coins."
                 ],
                 "tags": [],
@@ -5684,7 +5704,7 @@
                   "Muddy Duds",
                   "This item can be worn and removed only.  Wearing it will modify the hair style to a messy style.",
                   "This particular item will change the wearer's hairstyle like so:",
-                  "Zoleta has hair that is riddled with bits of moldy muffin crumbs and piled upon her head in a haphazardous heap.",
+                  "Nisugi has hair that is riddled with bits of moldy muffin crumbs and piled upon his head in a haphazardous heap.",
                   "It can be altered into any of the following nouns: crumbs, rope, twine, shavings, straw, or yarn.",
                   "The moldy muffin crumbs will cost 100,000 coins."
                 ],
@@ -5722,6 +5742,7 @@
                 "raw": [
                   "Analysis of a wiregrass anklet indicates the creator has provided the following information:",
                   "The description of the wiregrass anklet may be altered, but its noun must remain anklet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The wiregrass anklet will cost 8,000 coins."
                 ],
                 "tags": [
@@ -5737,6 +5758,7 @@
                   "The rod can not be worn.",
                   "Analysis of a long rod indicates the creator has provided the following information:",
                   "The description of the long rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The long rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5750,6 +5772,7 @@
                   "The rod can not be worn.",
                   "Analysis of a bent rod indicates the creator has provided the following information:",
                   "The description of the bent rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The bent rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5763,6 +5786,7 @@
                   "The rod can not be worn.",
                   "Analysis of a charred rod indicates the creator has provided the following information:",
                   "The description of the charred rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The charred rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5776,6 +5800,7 @@
                   "The rod can not be worn.",
                   "Analysis of a slender rod indicates the creator has provided the following information:",
                   "The description of the slender rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The slender rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5789,6 +5814,7 @@
                   "The rod can not be worn.",
                   "Analysis of a cracked rod indicates the creator has provided the following information:",
                   "The description of the cracked rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The cracked rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5802,6 +5828,7 @@
                   "The rod can not be worn.",
                   "Analysis of a thin rod indicates the creator has provided the following information:",
                   "The description of the thin rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The thin rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5815,6 +5842,7 @@
                   "The rod can not be worn.",
                   "Analysis of a sturdy rod indicates the creator has provided the following information:",
                   "The description of the sturdy rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The sturdy rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5828,6 +5856,7 @@
                   "The rod can not be worn.",
                   "Analysis of a stained rod indicates the creator has provided the following information:",
                   "The description of the stained rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The stained rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5841,6 +5870,7 @@
                   "The rod can not be worn.",
                   "Analysis of a thick rod indicates the creator has provided the following information:",
                   "The description of the thick rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The thick rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5854,6 +5884,7 @@
                   "The rod can not be worn.",
                   "Analysis of a heavy rod indicates the creator has provided the following information:",
                   "The description of the heavy rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The heavy rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5867,6 +5898,7 @@
                   "The rod can not be worn.",
                   "Analysis of a small rod indicates the creator has provided the following information:",
                   "The description of the small rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The small rod will cost 7,000 coins."
                 ],
                 "tags": []
@@ -5879,6 +5911,7 @@
                 "raw": [
                   "Analysis of a wyrmwood amulet indicates the creator has provided the following information:",
                   "The description of the wyrmwood amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The wyrmwood amulet will cost 7,000 coins."
                 ],
                 "tags": [
@@ -5893,6 +5926,7 @@
                 "raw": [
                   "Analysis of a tree bark amulet indicates the creator has provided the following information:",
                   "The description of the tree bark amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The tree bark amulet will cost 7,000 coins."
                 ],
                 "tags": [
@@ -5908,6 +5942,7 @@
                   "The rod can not be worn.",
                   "Analysis of a severed spikethorn rod with a vicious tip indicates the creator has provided the following information:",
                   "The description of the spikethorn rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The spikethorn rod will cost 8,000 coins."
                 ],
                 "tags": []
@@ -5920,6 +5955,7 @@
                 "raw": [
                   "Analysis of a mezereon amulet indicates the creator has provided the following information:",
                   "The description of the mezereon amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The mezereon amulet will cost 7,000 coins."
                 ],
                 "tags": [
@@ -6002,7 +6038,7 @@
                   "The tombstone can not be worn.",
                   "Analysis of a laughing dog-shaped tombstone indicates the creator has provided the following information:",
                   "When REDEEMed, this tombstone will grant a custom death message to your character:",
-                  "  * Yeah, yeah.  When you're done snickering, Zoleta could use a rescue.",
+                  "  * Yeah, yeah.  When you're done snickering, Nisugi could use a rescue.",
                   "The dog-shaped tombstone will cost 150,000 coins."
                 ],
                 "tags": [],
@@ -6298,9 +6334,9 @@
                   "The bandana does not have any custom feature settings.  It can have up to four.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
                   "  tucked under a sun-faded linen bandana, which is tightly knotted in the back.",
-                  "  She has a sun-faded linen bandana covering her bald head.",
-                  "  with a sun-faded linen bandana placed at the crown of her head.",
-                  "  She has a sun-faded linen bandana placed at the crown of her bald head.",
+                  "  He has a sun-faded linen bandana covering his bald head.",
+                  "  with a sun-faded linen bandana placed at the crown of his head.",
+                  "  He has a sun-faded linen bandana placed at the crown of his bald head.",
                   "Please note, that if you have the custom settings made for someone bald, it won't look right for someone with hair, and vice versa.  You also can't wear this with another hair quirk/unique field altering item to change your features.  This item isn't limited to just bandana-type items, it can also be a crown, tiara, visored helm, or something similar.",
                   "  Custom feature 1: None.",
                   "  Custom feature 2: None.",
@@ -7371,7 +7407,7 @@
                   "The music can not be worn.",
                   "Analysis of a moldering piece of sheet music indicates the creator has provided the following information:",
                   "When REDEEMed, this music will grant a custom death message to your character:",
-                  "  * Time to sing a dirge for Zoleta!",
+                  "  * Time to sing a dirge for Nisugi!",
                   "The piece of sheet music will cost 100,000 coins."
                 ],
                 "tags": [],
@@ -7633,8 +7669,8 @@
                   "Analysis of a fuzzy ivory knit hat indicates the creator has provided the following information:",
                   "This Veola item is designed to display a gem, feather, flower, insects and sea creatures, pointed items, or other miscellaneous items.  Miscellany includes other foraged items, skins, shells, and other larger non-gem treasure items.  The hat has several distinct descriptions, depending on what item is inserted.  To insert an item, hold the hat in one hand, the item you'd like to insert in the opposite hand, and PUSH hat.  PULLing the hat will remove the item and restore the hat to its empty description.  It has never been unlocked, but it could be by a qualified merchant.",
                   "When worn, it will temporarily alter your hairstyle and supports up to three custom hairstyles in addition to the default setting.  To change between the available hairstyles, hold the item in your hands and TURN it.  Currently it has the following custom hairstyles:",
-                  "<hair> carelessly piled into a fuzzy ivory knit hat with loosened strands wisping around her face",
-                  "<hair> that haphazardly falls about her and is barely contained by a fuzzy ivory knit hat<",
+                  "<hair> carelessly piled into a fuzzy ivory knit hat with loosened strands wisping around his face",
+                  "<hair> that haphazardly falls about his and is barely contained by a fuzzy ivory knit hat<",
                   "<hair> tumbled over one shoulder underneath a fuzzy ivory knit hat",
                   "<hair> and a fuzzy ivory knit hat worn at a rakish angle (default)",
                   "When altering these items there is some important information to keep in mind.  First, this item belongs to the HAT group and may only be altered in one of the following nouns without changing the group: Hat, Cap, Tricorn, Tricorne, and Capotain.  And while each side is highly customizable, both the noun and material do need to remain the same for all sides.",
@@ -7707,9 +7743,9 @@
                   "The bandana does not have any custom feature settings.  It can have up to four.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
                   "  tucked under a sun-faded linen bandana, which is tightly knotted in the back.",
-                  "  She has a sun-faded linen bandana covering her bald head.",
-                  "  with a sun-faded linen bandana placed at the crown of her head.",
-                  "  She has a sun-faded linen bandana placed at the crown of her bald head.",
+                  "  He has a sun-faded linen bandana covering his bald head.",
+                  "  with a sun-faded linen bandana placed at the crown of his head.",
+                  "  He has a sun-faded linen bandana placed at the crown of his bald head.",
                   "Please note, that if you have the custom settings made for someone bald, it won't look right for someone with hair, and vice versa.  You also can't wear this with another hair quirk/unique field altering item to change your features.  This item isn't limited to just bandana-type items, it can also be a crown, tiara, visored helm, or something similar.",
                   "  Custom feature 1: None.",
                   "  Custom feature 2: None.",
@@ -8079,7 +8115,7 @@
                   "The frigate can not be worn.",
                   "Analysis of a miniature brown frigate indicates the creator has provided the following information:",
                   "When REDEEMed, this frigate will grant a custom death message to your character:",
-                  "  * Nope, that wasn't the right move.  Zoleta needs aid!",
+                  "  * Nope, that wasn't the right move.  Nisugi needs aid!",
                   "The brown frigate will cost 150,000 coins."
                 ],
                 "tags": [],
@@ -8096,7 +8132,7 @@
                   "Muddy Duds",
                   "This item can be worn and removed only.  Wearing it will modify the hair style to a messy style.",
                   "This particular item will change the wearer's hairstyle like so:",
-                  "Zoleta has hair that is riddled with bits of moldy muffin crumbs and piled upon her head in a haphazardous heap.",
+                  "Nisugi has hair that is riddled with bits of moldy muffin crumbs and piled upon his head in a haphazardous heap.",
                   "It can be altered into any of the following nouns: crumbs, rope, twine, shavings, straw, or yarn.",
                   "The moldy muffin crumbs will cost 200,000 coins."
                 ],
@@ -8112,7 +8148,7 @@
                   "The inkwell can not be worn.",
                   "Analysis of a burnished brass inkwell indicates the creator has provided the following information:",
                   "When REDEEMed, this inkwell will grant a custom death message to your character:",
-                  "  * Into every life, a little rain must fall.  Today, it's falling on Zoleta's corpse.",
+                  "  * Into every life, a little rain must fall.  Today, it's falling on Nisugi's corpse.",
                   "The brass inkwell will cost 150,000 coins."
                 ],
                 "tags": [],
@@ -8501,7 +8537,7 @@
                   "In this state, you feel like you can WEAR and REMOVE the ornament.",
                   "The ornament currently has only one style available when worn.",
                   "Currently available style:",
-                  "She has waist length, none deep red hair pushed back on one side and clipped with a hematite and glass beaded ornament.",
+                  "She has short, untamed white blonde hair pushed back on one side and clipped with a hematite and glass beaded ornament.",
                   "The glass beaded ornament will cost 25,000 coins."
                 ],
                 "tags": [],
@@ -8561,7 +8597,7 @@
                   "In this state, you feel like you can WEAR and REMOVE the tine.",
                   "The tine currently has only one style available when worn.",
                   "Currently available style:",
-                  "She has waist length, none deep red hair drawn back into a ponytail dripping with spiral curls and bedecked with a slender black-frosted gold tine.",
+                  "She has short, untamed white blonde hair drawn back into a ponytail dripping with spiral curls and bedecked with a slender black-frosted gold tine.",
                   "The gold tine will cost 100,000 coins."
                 ],
                 "tags": [],
@@ -8579,7 +8615,7 @@
                   "This bottle is for perfume or cologne.  Current verbs are: DRINK, MEASURE, POUR, and SMELL.",
                   "When applied, this bottle will produce the following scent.",
                   " First-person: You have oiled arrows of sage-rubbed cedar piercing through a target of smoky vetiver, the dry and earthy base scattered in leaves of green thuja.  Citrus-bright fletchings of bergamot and lavender waft for only a breath before lingering wisps of resaeun-heavy incense envelop your skin.",
-                  " Third-person: Zoleta has oiled arrows of sage-rubbed cedar piercing through a target of smoky vetiver, the dry and earthy base scattered in leaves of green thuja.  Citrus-bright fletchings of bergamot and lavender waft for only a breath before lingering wisps of resaeun-heavy incense envelop her skin.",
+                  " Third-person: Nisugi has oiled arrows of sage-rubbed cedar piercing through a target of smoky vetiver, the dry and earthy base scattered in leaves of green thuja.  Citrus-bright fletchings of bergamot and lavender waft for only a breath before lingering wisps of resaeun-heavy incense envelop his skin.",
                   "This scent is eligible for permanence.",
                   "The hunter green bottle will cost 25,000 coins."
                 ],
@@ -8598,7 +8634,7 @@
                   "This bottle is for perfume or cologne.  Current verbs are: DRINK, MEASURE, POUR, and SMELL.",
                   "When applied, this bottle will produce the following scent.",
                   " First-person: You have a cinnamon-warmed seal of creamy fig and ivoried musk melting across your skin, the heady notes stamped across letters of tart grapefruit.  Stamps of warm, spiced sandalwood affix themselves to strokes of citrus-heavy bergamot, the earthy scent fading into leathery vellum.",
-                  " Third-person: Zoleta has a cinnamon-warmed seal of creamy fig and ivoried musk melting across her skin, the heady notes stamped across letters of tart grapefruit.  Stamps of warm, spiced sandalwood affix themselves to strokes of citrus-heavy bergamot, the earthy scent fading into leathery vellum.",
+                  " Third-person: Nisugi has a cinnamon-warmed seal of creamy fig and ivoried musk melting across his skin, the heady notes stamped across letters of tart grapefruit.  Stamps of warm, spiced sandalwood affix themselves to strokes of citrus-heavy bergamot, the earthy scent fading into leathery vellum.",
                   "This scent is eligible for permanence.",
                   "The jade glass bottle will cost 25,000 coins."
                 ],
@@ -8617,7 +8653,7 @@
                   "This bottle is for perfume or cologne.  Current verbs are: DRINK, MEASURE, POUR, and SMELL.",
                   "When applied, this bottle will produce the following scent.",
                   " First-person: You have sugared lavender and citrus-heavy bergamot gliding across your skin, the ephemeral layers silhouetting a debaucherous blend of pale musks and well-oiled resaeun.  Verdant oakmoss and tonka bean entwine beneath the sweetened melange, melting into one another before fading into whispers of smoky, black vanilla tea.",
-                  " Third-person: Zoleta has sugared lavender and citrus-heavy bergamot gliding across her skin, the ephemeral layers silhouetting a debaucherous blend of pale musks and well-oiled resaeun.  Verdant oakmoss and tonka bean entwine beneath the sweetened melange, melting into one another before fading into whispers of smoky, black vanilla tea.",
+                  " Third-person: Nisugi has sugared lavender and citrus-heavy bergamot gliding across his skin, the ephemeral layers silhouetting a debaucherous blend of pale musks and well-oiled resaeun.  Verdant oakmoss and tonka bean entwine beneath the sweetened melange, melting into one another before fading into whispers of smoky, black vanilla tea.",
                   "This scent is eligible for permanence.",
                   "The lavender bottle will cost 25,000 coins."
                 ],
@@ -8928,7 +8964,7 @@
                   "Analysis of a silver-netted circlet interspersed with enamel starfish indicates the creator has provided the following information:",
                   "This Veola item is designed to display a gem, feather, flower, insects and sea creatures, pointed items, or other miscellaneous items.  Miscellany includes other foraged items, skins, shells, and other larger non-gem treasure items.  The circlet has several distinct descriptions, depending on what item is inserted.  To insert an item, hold the circlet in one hand, the item you'd like to insert in the opposite hand, and PUSH circlet.  PULLing the circlet will remove the item and restore the circlet to its empty description.  It has never been unlocked, but it could be by a qualified merchant.",
                   "When worn, it will temporarily alter your hairstyle and supports up to three custom hairstyles in addition to the default setting.  To change between the available hairstyles, hold the item in your hands and TURN it.  Currently it has no custom hairstyles set.",
-                  "<hair> pulled back with a silver-netted circlet interspersed with enamel starfish, leaving her side-swept bangs to brush across her temples (default)<",
+                  "<hair> pulled back with a silver-netted circlet interspersed with enamel starfish, leaving his side-swept bangs to brush across his temples (default)<",
                   "When altering these items there is some important information to keep in mind.  First, this item belongs to the HEADBAND group and may only be altered in one of the following nouns without changing the group: Headband, Diadem, Circlet, Tiara, Crown, Garland, Caul, Ferroniere, Seer-Stone, Ferrigem, Geldaralad, Aemikvai, Khazurka, Basrenne, Trinette, and Elothrai.  And while each side is highly customizable, both the noun and material do need to remain the same for all sides.",
                   "The sides currently are:",
                   "           Short: silver circlet",
@@ -9193,7 +9229,7 @@
                   "This bottle is for perfume or cologne.  Current verbs are: DRINK, MEASURE, POUR, and SMELL.",
                   "When applied, this bottle will produce the following scent.",
                   " First-person: You have warm rays of honeyed amber languidly drifting across your skin, illuminating notes of toasted coconut and creamy white gardenia.  Subtle whispers of orange blossoms entwine themselves in ropes of pink pepper, parting to reveal a peek of salt water-suffused vanilla musk.",
-                  " Third-person: Zoleta has warm rays of honeyed amber languidly drifting across her skin, illuminating notes of toasted coconut and creamy white gardenia.  Subtle whispers of orange blossoms entwine themselves in ropes of pink pepper, parting to reveal a peek of salt water-suffused vanilla musk.",
+                  " Third-person: Nisugi has warm rays of honeyed amber languidly drifting across his skin, illuminating notes of toasted coconut and creamy white gardenia.  Subtle whispers of orange blossoms entwine themselves in ropes of pink pepper, parting to reveal a peek of salt water-suffused vanilla musk.",
                   "This scent is eligible for permanence.",
                   "The gilded orange bottle will cost 20,000 coins."
                 ],
@@ -9430,7 +9466,7 @@
                   "Analysis of a crimson garnet teardrop-shaped brooch indicates the creator has provided the following information:",
                   "The teardrop brooch is a piece of perfume-holding jewelry that currently holds 20 doses of the scent of dry olibanum, vetiver, and black moss over opoponax and hints of blood:",
                   "  First-person: You have an acerbic shroud drawn close about you, smoked with the incense of dry olibanum and vetiver, undercut by an earthy wisp of black moss.  Deeper still are strains of opoponax, which lend a subtle and indefinable sweetness, laced with the metallic warmth of spilled blood.",
-                  "  Third-person: Zoleta has an acerbic shroud drawn close about her, smoked with the incense of dry olibanum and vetiver, undercut by an earthy wisp of black moss.  Deeper still are strains of opoponax, which lend a subtle and indefinable sweetness, laced with the metallic warmth of spilled blood.",
+                  "  Third-person: Nisugi has an acerbic shroud drawn close about him, smoked with the incense of dry olibanum and vetiver, undercut by an earthy wisp of black moss.  Deeper still are strains of opoponax, which lend a subtle and indefinable sweetness, laced with the metallic warmth of spilled blood.",
                   "When applied via PULL, this brooch will apply the scent with gendered messaging.  RUB will always be gender neutral.",
                   "It may be altered with a long or a show, but must remain a piece of jewelry.  The stoppered crystal vial will always remain on the piece.  Please note that acceptable jewelry items are only items worn as pins, around the neck, on the arm (like a vambrace), or on the wrist.  No back pendants, no anklets, no earrings.",
                   "The teardrop brooch will cost 50,000 coins."
@@ -9497,7 +9533,7 @@
                   "Analysis of a twisted bronze wire charm set with bits of dark amber indicates the creator has provided the following information:",
                   "The bronze wire charm is a piece of perfume-holding jewelry that currently holds 18 doses of the scent of orange, amber, and vanilla:",
                   "  First-person: You have a warm, multi-layered scent in the air about you, redolent with citrus notes of sweet navel oranges set in contrast to poignant, earthy currents of amber.  Dark vanilla binds the fragrance together for a smooth finish.",
-                  "  Third-person: Zoleta has a warm, multi-layered scent in the air about her, redolent with citrus notes of sweet navel oranges set in contrast to poignant, earthy currents of amber.  Dark vanilla binds the fragrance together for a smooth finish.",
+                  "  Third-person: Nisugi has a warm, multi-layered scent in the air about him, redolent with citrus notes of sweet navel oranges set in contrast to poignant, earthy currents of amber.  Dark vanilla binds the fragrance together for a smooth finish.",
                   "When applied via PULL, this charm will apply the scent with gendered messaging.  RUB will always be gender neutral.",
                   "It may be altered with a long or a show, but must remain a piece of jewelry.  The stoppered crystal vial will always remain on the piece.  Please note that acceptable jewelry items are only items worn as pins, around the neck, on the arm (like a vambrace), or on the wrist.  No back pendants, no anklets, no earrings.",
                   "The bronze wire charm will cost 50,000 coins."
@@ -9541,7 +9577,7 @@
                   "Analysis of a narrow-bladed onyx dagger pendant indicates the creator has provided the following information:",
                   "The onyx dagger pendant is a piece of perfume-holding jewelry that currently holds 7 doses of the scent of roses:",
                   "  First-person: You have a heady, softly feminine fragrance of wild roses that clings gently to your skin.",
-                  "  Third-person: Zoleta has a heady, softly feminine fragrance of wild roses that clings gently to her skin.",
+                  "  Third-person: Nisugi has a heady, softly feminine fragrance of wild roses that clings gently to his skin.",
                   "When applied via PULL, this pendant will apply the scent with gendered messaging.  RUB will always be gender neutral.",
                   "It may be altered with a long or a show, but must remain a piece of jewelry.  The stoppered crystal vial will always remain on the piece.  Please note that acceptable jewelry items are only items worn as pins, around the neck, on the arm (like a vambrace), or on the wrist.  No back pendants, no anklets, no earrings.",
                   "The onyx dagger pendant will cost 50,000 coins."
@@ -9613,7 +9649,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: Empty",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair with wavy bangs drawn back into a sequined knitted ember-bright starsilk snood bound by iridescent blown glass shards",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair with wavy bangs drawn back into a sequined knitted ember-bright starsilk snood bound by iridescent blown glass shards",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The silk snood will cost 10,000 coins."
@@ -9770,6 +9806,184 @@
           "room_title": "Lisza's Weaponry",
           "branch": "entry",
           "items": [
+            {
+              "id": "272586993",
+              "name": "some gleaming imflass arm greaves",
+              "details": {
+                "raw": [
+                  "The greaves is miscellaneous armor that covers the arms.",
+                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
+                  "Analysis of some gleaming imflass arm greaves indicates the item is free from merchant alteration restrictions.",
+                  "You can tell that the greaves are as light as they can get.",
+                  "The imflass arm greaves will cost 30,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It is estimated to be worth about 800,000 silvers.",
+                  "It is padded to lessen the damage the wearer takes, but exactly how much requires assessment.",
+                  "It is predominantly crafted of imflass.",
+                  "It is a simple project (73 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "persists"
+                ],
+                "material": "imflass, an uncommon metal",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Wisdom Bonus"
+                  },
+                  {
+                    "boost": 8,
+                    "ability": "Ambush Bonus"
+                  },
+                  {
+                    "boost": 8,
+                    "ability": "Two-Handed Weapons Bonus"
+                  }
+                ],
+                "weight": 3
+              }
+            },
+            {
+              "id": "272586929",
+              "name": "an old vultite greathelm",
+              "details": {
+                "raw": [
+                  "The greathelm is miscellaneous armor that covers the head and neck.",
+                  "Analysis of an old vultite greathelm indicates the item is free from merchant alteration restrictions.",
+                  "The vultite greathelm will cost 25,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It is moderately resistant (18%) to fiery attacks.",
+                  "It is estimated to be worth about 750,000 silvers.",
+                  "It is predominantly crafted of vultite.",
+                  "It is a simple project (36 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable",
+                  "persists"
+                ],
+                "material": "vultite, an uncommon metal",
+                "enhancives": [
+                  {
+                    "boost": 13,
+                    "ability": "Thrown Weapons Bonus"
+                  },
+                  {
+                    "boost": 12,
+                    "ability": "Picking Locks Bonus"
+                  },
+                  {
+                    "boost": 6,
+                    "ability": "Climbing Bonus"
+                  }
+                ],
+                "weight": 3
+              }
+            },
+            {
+              "id": "272586930",
+              "name": "a thick vultite greathelm",
+              "details": {
+                "raw": [
+                  "The greathelm is miscellaneous armor that covers the head and neck.",
+                  "Analysis of a thick vultite greathelm indicates the item is free from merchant alteration restrictions.",
+                  "The vultite greathelm will cost 20,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a huge number of enhancive charges remaining.",
+                  "It is moderately resistant (11%) to fiery attacks.",
+                  "It is estimated to be worth about 550,000 silvers.",
+                  "It is predominantly crafted of vultite.",
+                  "It is a simple project (12 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable",
+                  "persists"
+                ],
+                "material": "vultite, an uncommon metal",
+                "enhancives": [
+                  {
+                    "boost": 6,
+                    "ability": "Aura Base"
+                  }
+                ],
+                "weight": 3
+              }
+            },
+            {
+              "id": "272587008",
+              "name": "a well-balanced faewood runestaff",
+              "details": {
+                "raw": [
+                  "It has a small enchanter's glyph.",
+                  "Analysis of a well-balanced faewood runestaff indicates the item is free from merchant alteration restrictions.",
+                  "The faewood runestaff will cost 25,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It is estimated to be worth about 950,000 silvers.",
+                  "It is predominantly crafted of faewood.",
+                  "It is a simple project (67 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "lightenable",
+                  "holy",
+                  "persists"
+                ],
+                "skill": "twohanded weapons",
+                "material": "faewood, an unusual wood",
+                "enchant": 21,
+                "enhancives": [
+                  {
+                    "boost": 7,
+                    "ability": "Mental Lore - Telepathy Bonus"
+                  },
+                  {
+                    "boost": 14,
+                    "ability": "Agility Base"
+                  }
+                ],
+                "weight": 4
+              }
+            },
+            {
+              "id": "276617807",
+              "name": "a copper and amber bracelet",
+              "details": {
+                "raw": [
+                  "Analysis of a copper and amber bracelet indicates the item is free from merchant alteration restrictions.",
+                  "The amber bracelet will cost 150,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "persists",
+                  "small"
+                ],
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 4,
+                    "ability": "Blunt Weapons Bonus"
+                  },
+                  {
+                    "boost": 1,
+                    "ability": "Influence Bonus"
+                  }
+                ]
+              }
+            },
             {
               "id": "172112",
               "name": "a polished spiked vultite greatshield",
@@ -11222,6 +11436,70 @@
           "room_title": "Lisza's Weaponry",
           "branch": "east",
           "items": [
+            {
+              "id": "272586992",
+              "name": "a copper and smoky topaz pendant",
+              "details": {
+                "raw": [
+                  "Analysis of a copper and smoky topaz pendant indicates the item is free from merchant alteration restrictions.",
+                  "The smoky topaz pendant will cost 15,000,000 coins.",
+                  "It has 0 charges.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 300,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 9,
+                    "ability": "Stamina Recovery"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "272587009",
+              "name": "an elegant platinum ring",
+              "details": {
+                "raw": [
+                  "Analysis of an elegant platinum ring indicates the item is free from merchant alteration restrictions.",
+                  "The platinum ring will cost 10,000,000 coins.",
+                  "It has 0 charges.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 200,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Briln."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 6,
+                    "ability": "Brawling Bonus"
+                  },
+                  {
+                    "boost": 4,
+                    "ability": "Magic Item Use Bonus"
+                  }
+                ]
+              }
+            },
             {
               "id": "172134",
               "name": "a polished leather breastplate",
@@ -14911,16 +15189,16 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small maroon dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small maroon dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small maroon dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small maroon dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small maroon dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small maroon dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small maroon dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
@@ -14938,31 +15216,45 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small light blue dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small light blue dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small light blue dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small light blue dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small light blue dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small light blue dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small light blue dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small light blue dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small light blue dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small light blue dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The item has Flourishes that do the following:",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small light blue dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small light blue dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small light blue dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small light blue dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small light blue dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small light blue dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small light blue dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small light blue dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small light blue dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small light blue dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small light blue dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Nisugi lifts a small light blue dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small light blue dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Nisugi draws a small light blue dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small light blue dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small light blue dollhouse toy with his fingers.  He then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Nisugi turns a small light blue dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The blue dollhouse toy will cost 10,000 coins."
                 ],
@@ -14981,16 +15273,16 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small yellow dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small yellow dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small yellow dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small yellow dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small yellow dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small yellow dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small yellow dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small yellow dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small yellow dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small yellow dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small yellow dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small yellow dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
@@ -15027,31 +15319,45 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small decrepit dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small decrepit dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small decrepit dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small decrepit dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small decrepit dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small decrepit dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small decrepit dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small decrepit dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The item has Flourishes that do the following:",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small decrepit dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small decrepit dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small decrepit dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small decrepit dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small decrepit dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small decrepit dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small decrepit dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small decrepit dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small decrepit dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Nisugi lifts a small decrepit dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small decrepit dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Nisugi draws a small decrepit dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small decrepit dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with his fingers.  He then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Nisugi turns a small decrepit dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
@@ -15069,31 +15375,45 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small maroon dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small maroon dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small maroon dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small maroon dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small maroon dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small maroon dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small maroon dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The item has Flourishes that do the following:",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
-                  "  3rd Person: Zoleta lifts a small maroon dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  3rd Person: Nisugi lifts a small maroon dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
                   "  hug",
                   "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
-                  "  3rd Person: Zoleta draws a small maroon dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  3rd Person: Nisugi draws a small maroon dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
                   "  poke",
                   "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
-                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small maroon dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small maroon dollhouse toy with his fingers.  He then appears to be listening intently to it.",
                   "  tilt",
                   "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
-                  "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "  3rd Person: Gently, Nisugi turns a small maroon dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Nisugi lifts a small maroon dollhouse toy up to his eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Nisugi draws a small maroon dollhouse toy to his heart, gripping it tightly, and his eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Nisugi roughly and repeatedly pokes on the side of a small maroon dollhouse toy with his fingers.  He then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Nisugi turns a small maroon dollhouse toy back and forth in his hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
@@ -16783,6 +17103,7 @@
                   "The rod can not be worn.",
                   "Analysis of a petrified dreamvine-wound rod indicates the creator has provided the following information:",
                   "The description of the dreamvine-wound rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The dreamvine-wound rod will cost 1,000 coins."
                 ],
                 "tags": []
@@ -16796,6 +17117,7 @@
                   "The rod can not be worn.",
                   "Analysis of a crooked dark driftwood rod indicates the creator has provided the following information:",
                   "The description of the dark driftwood rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The dark driftwood rod will cost 1,000 coins."
                 ],
                 "tags": []
@@ -18074,7 +18396,7 @@
                   "Analysis of a series of siren lizard needles indicates this is a scripted piercing jewelry item, where the creator has provided the following information:",
                   "     Name: Flippable Piercing Jewelry",
                   "     Specific location: right ear",
-                  "     Displays as: a series of siren lizard needles in the upper ridge of her right ear",
+                  "     Displays as: a series of siren lizard needles in the upper ridge of his right ear",
                   "Verbs trapped: WEAR/REMOVE, POUR (on), CAST, LOOK/SHOW, PULL, TOUCH, RUB, LICK (for lip only), PUSH.  Also see PIERCE HELP.  You can also FLIP to use the needles in all facial piercing slots (but if the noun/item is singular, it cannot be worn in dual slots).",
                   "Merchant Services:  Alterations should ensure that non-flippable items retain a matched noun and pierced slot; all others must have a generalized enough noun to logically sit in ANY eligible piercing slot.  Avoid naming the body part in the base/long (when worn, a description gets added denoting placement).  The specific location and/or singular/plural status CAN be changed by general merchants.  Changing an item from static to flippable or flippable to static is currently only offered by select merchants as a special service.",
                   "The siren lizard needles will cost 499,999 coins.",
@@ -18095,7 +18417,7 @@
                   "Analysis of a thin siren lizard claw indicates this is a scripted piercing jewelry item, where the creator has provided the following information:",
                   "     Name: Flippable Piercing Jewelry",
                   "     Specific location: right ear",
-                  "     Displays as: a thin siren lizard claw in the upper ridge of her right ear",
+                  "     Displays as: a thin siren lizard claw in the upper ridge of his right ear",
                   "Verbs trapped: WEAR/REMOVE, POUR (on), CAST, LOOK/SHOW, PULL, TOUCH, RUB, LICK (for lip only), PUSH.  Also see PIERCE HELP.  You can also FLIP to use the claw in all facial piercing slots (but if the noun/item is singular, it cannot be worn in dual slots).",
                   "Merchant Services:  Alterations should ensure that non-flippable items retain a matched noun and pierced slot; all others must have a generalized enough noun to logically sit in ANY eligible piercing slot.  Avoid naming the body part in the base/long (when worn, a description gets added denoting placement).  The specific location and/or singular/plural status CAN be changed by general merchants.  Changing an item from static to flippable or flippable to static is currently only offered by select merchants as a special service.",
                   "The siren lizard claw will cost 499,999 coins.",
@@ -18605,7 +18927,7 @@
                   "Welcome to the Naidem Mask brought to you by the owners of Filigree and Whorls in Evermore Hollow.",
                   "It has access to the following fluffy actions: attend, eat, express, remove, tilt, touch, and wear",
                   "When worn, it fits into your features and provides the following messaging:",
-                  "She is taller than average.  It is difficult to determine her age as a smoke-like dark vaelfyren mask covers most of her features, though her piercing pale blue eyes can be seen in the eye slits.   She has waist length, deep red hair tied loosely into two pigtails with some lilac hair ribbons.",
+                  "He is taller than average.  It is difficult to determine his age as a smoke-like dark vaelfyren mask covers most of his features, though his mismatched vivid electric blue and moonlight silver eyes can be seen in the eye slits.   He has short, untamed white blonde hair up-swept into a riotous mass of spikes atop his head.",
                   "When not worn, you can customize it using the following actions:",
                   "EXHALE:  While holding a gemstone, you can either change the body of the mask or dust it with the gemstone.",
                   "PUSH:  While holding a ribbon, you can change the ties that bind the mask in place.",
@@ -19756,7 +20078,7 @@
                   "Analysis of a pair of kraken tentacle hairsticks whittled from bear bone indicates the creator has provided the following information:",
                   "This is a pair of hairsticks created by a Scrimshaw Knife.",
                   "They will adjust your hair to have the style of:",
-                  "  * twisted into an intricate knot at the nape of her neck and secured by a pair of kraken tentacle hairsticks whittled from bear bone ",
+                  "  * twisted into an intricate knot at the nape of his neck and secured by a pair of kraken tentacle hairsticks whittled from bear bone ",
                   "    ==Alteration Guidelines==",
                   "  * alterations to these bone hairsticks are fine, though they should remain hairsticks or something similar.",
                   "The bone hairsticks will cost 30,000 coins."
@@ -23467,7 +23789,7 @@
                   "**Cycles through the mask's eye characteristic choices.",
                   "***Denotes demeanor-based verbs.",
                   "Alteration Rules:  You may alter this freely provided you adhere to the rules under the ALTER verb for Feature Alterations.",
-                  "Current Settings:  She has yellow-striated cornflower blue eyes.",
+                  "Current Settings:  He has yellow-striated cornflower blue eyes.",
                   "Custom Color 1: cornflower blue",
                   "Custom Color 2: cornflower blue",
                   "Custom Color 3: Unaltered",
@@ -23521,7 +23843,7 @@
               "name": "a faceted iridescent glob",
               "details": {
                 "raw": [
-                  "Oddly enough, it looks like a faceted iridescent glob.",
+                  "Are those eyes peering back at you?!  Oh, no.  It's just a faceted iridescent glob.",
                   "The glob can not be worn.",
                   "Analysis of a faceted iridescent glob indicates the creator has provided the following information:",
                   "This item's description/base/look may not be altered in any way.",
@@ -24262,7 +24584,7 @@
                   "Analysis of an agate-inlaid laje fang indicates this is a scripted piercing jewelry item, where the creator has provided the following information:",
                   "     Name: Flippable Piercing Jewelry",
                   "     Specific location: right nostril",
-                  "     Displays as: an agate-inlaid laje fang in her right nostril",
+                  "     Displays as: an agate-inlaid laje fang in his right nostril",
                   "Verbs trapped: WEAR/REMOVE, POUR (on), CAST, LOOK/SHOW, PULL, TOUCH, RUB, LICK (for lip only), PUSH.  Also see PIERCE HELP.  You can also FLIP to use the fang in all facial piercing slots (but if the noun/item is singular, it cannot be worn in dual slots).",
                   "Merchant Services:  Alterations should ensure that non-flippable items retain a matched noun and pierced slot; all others must have a generalized enough noun to logically sit in ANY eligible piercing slot.  Avoid naming the body part in the base/long (when worn, a description gets added denoting placement).  The specific location and/or singular/plural status CAN be changed by general merchants.  Changing an item from static to flippable or flippable to static is currently only offered by select merchants as a special service.",
                   "The laje fang will cost 200,000 coins."
@@ -24330,7 +24652,7 @@
                   "You notice a small initial stamped on the ferrule, but you can't quite read it.",
                   "Analysis of some red imflass darts indicates the creator has provided the following information:",
                   "These are darts for playing the pub game, not weapon darts.  They can be altered, but MUST have \"some darts\" as part of the base description.  They cannot have a long description, but a show is fine.",
-                  "Your current skill in darts is 0 out of 250 maximum possible ranks.",
+                  "Your current skill in darts is 48 out of 250 maximum possible ranks.",
                   "You can tell that the darts are as light as they can get.",
                   "The red imflass darts will cost 2,000,000 coins."
                 ],
@@ -24359,7 +24681,7 @@
               "name": "a bifurcated dog tail",
               "details": {
                 "raw": [
-                  "You do a double take, because for a moment, the bifurcated dog tail looked exactly like a rotting corpse!",
+                  "It's hard to tell exactly what it looks like.",
                   "The tail can not be worn.",
                   "Analysis of a bifurcated dog tail indicates the creator has provided the following information:",
                   "This item's description/base/look may not be altered in any way.",
@@ -24666,7 +24988,8 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The green fleshbulb will cost 3,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -25111,7 +25434,7 @@
                   "Exterior:",
                   "a peaked rich plum-hued canvas tent emblazoned in stylized silver dragons",
                   "Interior:",
-                  "[Zoleta's Tent]",
+                  "[Nisugi's Tent]",
                   "The interior of the tent is pretty sparse.  Bits of sand and dirt are scattered across the ground.  The scent of mildew permeates the air.",
                   "The room interior can be altered to reference a placed lantern, bedroll, storage container, trash can, or scent.  If not referenced, additional sentences will be appended to display them.  There is a 511 character limit total on the room descriptions.  Any items not referenced will show in the room as \"You also see...\".  The items will not be linked in the room description; you can ANALYZE inside the tent to see the items that are placed there to interact with.",
                   "You can STAND the tent to pitch it, and FOLD it to take it down.  You can also CLEAN, LEAN, or KNOCK on the tent.",
@@ -25527,6 +25850,7 @@
                 "raw": [
                   "Analysis of a wiregrass bracelet indicates the creator has provided the following information:",
                   "The description of the wiregrass bracelet may be altered, but its noun must remain bracelet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Airini.",
                   "The wiregrass bracelet will cost 6,000,000 coins."
                 ],
                 "tags": [
@@ -25541,6 +25865,7 @@
                 "raw": [
                   "Analysis of a wiregrass anklet indicates the creator has provided the following information:",
                   "The description of the wiregrass anklet may be altered, but its noun must remain anklet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Airini.",
                   "The wiregrass anklet will cost 6,000,000 coins."
                 ],
                 "tags": [
@@ -25555,6 +25880,7 @@
                 "raw": [
                   "Analysis of a wiregrass anklet indicates the creator has provided the following information:",
                   "The description of the wiregrass anklet may be altered, but its noun must remain anklet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Airini.",
                   "The wiregrass anklet will cost 6,000,000 coins."
                 ],
                 "tags": [
@@ -25569,6 +25895,7 @@
                 "raw": [
                   "Analysis of a tree bark amulet indicates the creator has provided the following information:",
                   "The description of the tree bark amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Airini.",
                   "The tree bark amulet will cost 6,000,000 coins."
                 ],
                 "tags": [
@@ -30026,6 +30353,7 @@
                   "The wand can not be worn.",
                   "Analysis of a slim wand indicates the creator has provided the following information:",
                   "The description of the slim wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The slim wand will cost 1,000 coins."
                 ],
                 "tags": []
@@ -30039,6 +30367,7 @@
                   "The wand can not be worn.",
                   "Analysis of a slender wand indicates the creator has provided the following information:",
                   "The description of the slender wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Invalid.",
                   "The slender wand will cost 1,000 coins."
                 ],
                 "tags": []
@@ -30597,8 +30926,8 @@
                   "In the Common language, it reads:",
                   "Bliss is found in sleep and dreams.",
                   "Analysis of a silver-edged mithril longknife indicates the creator has provided the following information:",
-                  "The softest of whispers tickles your ears, and you feel as though the mithril longknife is trying to communicate with you.  \"I'm sorry, \" it says, \"but I can not allow you to use this blade.  However, if you seek out the path of light and right, then perhaps one day I can aid you.\"",
-                  "You realize that due to your CONVERT status that you will never be able to fully utilize this mithril longknife.",
+                  "Despite your alignment with the Paths of Neutrality, you will get messaging from this mithril longknife that is aligned to Ronan.",
+                  "A silver-edged mithril longknife uses the verbs Gaze, Kiss, Pray, and Raise.  Due to the nature of this item, the READ and SHOW may never change, but other work may be done on it.",
                   "The mithril longknife will cost 999,999,900 coins.",
                   "It is estimated to be worth about 12,600,000 silvers.",
                   "It is predominantly crafted of mithril.",
@@ -30630,6 +30959,7 @@
                   "A jar-shaped certificate will add the Alchemy Jar Container flourish to an eligible wearable, functional container.",
                   " You need only RAISE your certificate while holding a compatible item in your other hand or on your person.",
                   " Your certificate may not be altered or changed in any way.",
+                  " A ghezyte long bow with a thorn-carved scarlet despanal set in its limbs is not a container.   Your ghezyte long bow is incompatible with the certificate.",
                   "The jar-shaped certificate will cost 5,000,000 coins."
                 ],
                 "tags": [],
@@ -31120,7 +31450,7 @@
                   "Analysis of a thin white gold crown entwined in ribbon-like inlays of royal blue moonstone indicates the creator has provided the following information:",
                   "Part of the \"I Dream of Geology\" series out of the Isle of Ornath, the crown has access to the following verbs:  pull, remove, shake, touch, twist, and wear.",
                   "It can change hair styles and offers the following:",
-                  "<hair> slicked back beneath a thin white gold crown entwined in ribbon-like inlays of royal blue moonstone, leaving the ends to frame her temples",
+                  "<hair> slicked back beneath a thin white gold crown entwined in ribbon-like inlays of royal blue moonstone, leaving the ends to frame his temples",
                   "<hair> neatly brushed under a thin white gold crown entwined in ribbon-like inlays of royal blue moonstone, the shaven sides framed by the forged metal",
                   "Alteration Instructions:  You may alter freely, but it must remain metal of some kind and be a crown-like item.",
                   "The white gold crown will cost 50,000 coins."
@@ -31684,7 +32014,7 @@
                   "The tombstone can not be worn.",
                   "Analysis of a bright orange circular tombstone indicates the creator has provided the following information:",
                   "When REDEEMed, this tombstone will grant a custom death message to your character:",
-                  "  * Zoleta will never see another sunset!",
+                  "  * Nisugi will never see another sunset!",
                   "The orange circular tombstone will cost 250,000 coins."
                 ],
                 "tags": [],
@@ -31910,8 +32240,8 @@
                   "The disk can not be worn.",
                   "Analysis of a tiny brass disk indicates the creator has provided the following information:",
                   "When REDEEMed, this disk will grant a custom floating disk to your character:",
-                  "the woven brass Zoleta disk",
-                  "Description: Brass wire has been woven together to form this disk.  The woven brass Zoleta disk is hovering in mid-air around you.",
+                  "the woven brass Nisugi disk",
+                  "Description: Brass wire has been woven together to form this disk.  The woven brass Nisugi disk is hovering in mid-air around you.",
                   "The brass disk will cost 250,000 coins."
                 ],
                 "tags": [],
@@ -31926,7 +32256,7 @@
                   "The turnip can not be worn.",
                   "Analysis of a ghost white turnip indicates the creator has provided the following information:",
                   "When REDEEMed, this turnip will grant a custom death message to your character:",
-                  "  * Zoleta went to the turnip farm in the sky.",
+                  "  * Nisugi went to the turnip farm in the sky.",
                   "The white turnip will cost 200,000 coins."
                 ],
                 "tags": [],
@@ -32406,7 +32736,7 @@
                   "The hatpin can not be worn.",
                   "Analysis of a silver-chased ceremonial hatpin indicates the creator has provided the following information:",
                   "When REDEEMed, this hatpin will grant a custom death message to your character:",
-                  "  * It's a great day to be an undertaker when Zoleta comes to town.",
+                  "  * It's a great day to be an undertaker when Nisugi comes to town.",
                   "The ceremonial hatpin will cost 200,000 coins."
                 ],
                 "tags": [],
@@ -34845,7 +35175,7 @@
                   "Exterior:",
                   "a beige canvas tent draped with netting",
                   "Interior:",
-                  "[Zoleta's Tent]",
+                  "[Nisugi's Tent]",
                   "The interior of the tent is pretty sparse.  Bits of sand and dirt are scattered across the ground.  The scent of mildew permeates the air.",
                   "The room interior can be altered to reference a placed lantern, bedroll, storage container, trash can, or scent.  If not referenced, additional sentences will be appended to display them.  There is a 511 character limit total on the room descriptions.  Any items not referenced will show in the room as \"You also see...\".  The items will not be linked in the room description; you can ANALYZE inside the tent to see the items that are placed there to interact with.",
                   "You can STAND the tent to pitch it, and FOLD it to take it down.  You can also CLEAN, LEAN, or KNOCK on the tent.",
@@ -35794,7 +36124,7 @@
                   "The fist can not be worn.",
                   "Analysis of a cast brass fist indicates the creator has provided the following information:",
                   "When REDEEMed, this fist will grant a custom death message to your character:",
-                  "  * Zoleta has a great future as fertilizer.",
+                  "  * Nisugi has a great future as fertilizer.",
                   "The brass fist will cost 75,000 coins."
                 ],
                 "tags": [],
@@ -36411,7 +36741,7 @@
               "details": {
                 "raw": [
                   "Faintly visible on the face of the ring is the image of a luminous spherical tombstone.",
-                  "There appears to be something engraved on the tombstone.  It reads, \"Here lies Zoleta.  May she rest in peace.\"",
+                  "There appears to be something engraved on the tombstone.  It reads, \"Here lies Nisugi.  May he rest in peace.\"",
                   "The image of the tombstone is currently cast in shadow.",
                   "The ring can be worn around the finger.",
                   "Analysis of a thin black diamond-inset ring indicates the creator has provided the following information:",
@@ -36496,7 +36826,7 @@
                   "A scarred dark leather cape woven with vaalin thread has a thick amber bangle fitted into the left corner where the fabric has been stitched to form a sleeve, while the right corner has a spherical platinum brooch encircled by sapphire chips pinned to it.",
                   "It is estimated that a scarred dark leather cape woven with vaalin thread can store a huge amount with enough space for any number of items.",
                   "Analysis of a scarred dark leather cape woven with vaalin thread indicates the creator has provided the following information:",
-                  "A scarred dark leather cape woven with vaalin thread is part of the Shield Cape Collection, which was purchased at Duskruin in the shop \"Shield Thyself\".  It is a passive defense item that has a chance to block an incoming blow.  The chance increases with each tier that is unlocked.  If the wearer has no weapons in her hands, no shield/runestaff, or is using a bow/crossbow, then she gets the full benefit of the cape.  Otherwise the chance is halved.",
+                  "A scarred dark leather cape woven with vaalin thread is part of the Shield Cape Collection, which was purchased at Duskruin in the shop \"Shield Thyself\".  It is a passive defense item that has a chance to block an incoming blow.  The chance increases with each tier that is unlocked.  If the wearer has no weapons in his hands, no shield/runestaff, or is using a bow/crossbow, then he gets the full benefit of the cape.  Otherwise the chance is halved.",
                   "  Its current status is OTS and that gives it access to the following verbs: pull (removes brooch), push (adds brooch), remove, turn (removes bangle), twist (adds bangle), wear",
                   "To upgrade its abilities, you will need to obtain an unlock certificate.",
                   "Brooch Data: (Default Brooch) A spherical platinum brooch encircled by sapphire chips can be changed by using PULL to remove the brooch and PUSH to add a new one.  Please note, only specialized brooches will work.  Once your brooch is upgraded from the default piece, it unlocks a 50% chance to retain a charge within it for each successful block.  When the brooch reaches 10 charges, it automatically flares and absorbs all of the charges.",
@@ -37603,6 +37933,7 @@
                   "The rod can not be worn.",
                   "Analysis of a fractal-cut silver mistwood rod indicates the creator has provided the following information:",
                   "The description of the silver mistwood rod may be altered, but its noun must remain rod, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The silver mistwood rod will cost 5,000 coins."
                 ],
                 "tags": []
@@ -37615,6 +37946,7 @@
                 "raw": [
                   "Analysis of a wiregrass anklet indicates the creator has provided the following information:",
                   "The description of the wiregrass anklet may be altered, but its noun must remain anklet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The wiregrass anklet will cost 3,000 coins."
                 ],
                 "tags": [
@@ -37629,6 +37961,7 @@
                 "raw": [
                   "Analysis of a wiregrass bracelet indicates the creator has provided the following information:",
                   "The description of the wiregrass bracelet may be altered, but its noun must remain bracelet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The wiregrass bracelet will cost 3,000 coins."
                 ],
                 "tags": [
@@ -37643,6 +37976,7 @@
                 "raw": [
                   "Analysis of a mezereon amulet indicates the creator has provided the following information:",
                   "The description of the mezereon amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The mezereon amulet will cost 3,000 coins."
                 ],
                 "tags": [
@@ -37657,6 +37991,7 @@
                 "raw": [
                   "Analysis of a tree bark amulet indicates the creator has provided the following information:",
                   "The description of the tree bark amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The tree bark amulet will cost 3,000 coins."
                 ],
                 "tags": [
@@ -37671,6 +38006,7 @@
                 "raw": [
                   "Analysis of a wyrmwood amulet indicates the creator has provided the following information:",
                   "The description of the wyrmwood amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
+                  "This is a magical item that was created by Ralkean.",
                   "The wyrmwood amulet will cost 3,000 coins."
                 ],
                 "tags": [
@@ -38337,7 +38673,7 @@
                   "An intricately woven circlet of wild strawberries and Imaera's Lace has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear an intricately woven circlet of wild strawberries and Imaera's Lace, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by an intricately woven circlet of wild strawberries and Imaera's Lace.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by an intricately woven circlet of wild strawberries and Imaera's Lace.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 25,000 coins."
@@ -38356,7 +38692,7 @@
                   "An intricately woven circlet of bluebells and ebony twigs has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear an intricately woven circlet of bluebells and ebony twigs, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by an intricately woven circlet of bluebells and ebony twigs.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by an intricately woven circlet of bluebells and ebony twigs.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 25,000 coins."
@@ -38375,7 +38711,7 @@
                   "An intricately woven circlet of golden buttercups and willow twigs has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear an intricately woven circlet of golden buttercups and willow twigs, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by an intricately woven circlet of golden buttercups and willow twigs.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by an intricately woven circlet of golden buttercups and willow twigs.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 25,000 coins."
@@ -38394,7 +38730,7 @@
                   "An intricately woven circlet of raspberries and bluebells has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear an intricately woven circlet of raspberries and bluebells, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by an intricately woven circlet of raspberries and bluebells.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by an intricately woven circlet of raspberries and bluebells.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 25,000 coins."
@@ -38413,7 +38749,7 @@
                   "An intricately woven headband of golden buttercups and raspberries has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear an intricately woven headband of golden buttercups and raspberries, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair swept back beneath an intricately woven headband of golden buttercups and raspberries and tucked behind the ears.",
+                  "He has short, untamed white blonde hair swept back beneath an intricately woven headband of golden buttercups and raspberries and tucked behind the ears.",
                   "You may have a merchant customize a hairstyle on the headband.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven headband will cost 25,000 coins."
@@ -40533,7 +40869,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (-7 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 3 days, 4 hours and 16 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 days, 20 hours and 31 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -40953,6 +41289,7 @@
                   "     (6) neck [necklace]",
                   " You need only RAISE your nugget while holding a compatible item in your other hand or on your person.",
                   " Your nugget may not be altered or changed in any way.",
+                  " Your ghezyte long bow is incompatible with the nugget.",
                   "The faenor nugget will cost 30,000,000 coins."
                 ],
                 "tags": [],
@@ -40974,6 +41311,7 @@
                   "   > Enhancives with daily recharging, such as x/day, or explicitly marked to crumble are ineligible.",
                   " You need only RAISE your pell while holding a compatible item in your other hand or on your person.",
                   " Your pell may not be altered or changed in any way.",
+                  " Your ghezyte long bow is incompatible with the pell.",
                   "The enhancive pell will cost 12,500,000 coins."
                 ],
                 "tags": [],
@@ -41682,7 +42020,7 @@
                   "It is estimated to be worth about 850,000 silvers.",
                   "It is predominantly crafted of illthorn.",
                   "It is a simple project (87 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 days, 13 hours and 25 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 days, 5 hours and 40 minutes."
                 ],
                 "tags": [
                   "lightenable"
@@ -41705,7 +42043,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (33 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 15 hours and 14 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 10 days, 7 hours and 29 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -41739,7 +42077,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of faenor.",
                   "It is a simple project (1 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 16 hours and 48 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 10 days, 9 hours and 3 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42367,7 +42705,7 @@
                   "It is weighted to inflict more critical wounds, but exactly how much requires assessment.",
                   "It is predominantly crafted of steel.",
                   "It is a basic project (127 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 days, 14 hours and 58 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 days, 7 hours and 13 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42406,7 +42744,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (42 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 1 day, 14 hours and 46 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 7 hours and 1 minute."
                 ],
                 "tags": [
                   "purpose",
@@ -42446,7 +42784,7 @@
                   "It is estimated to be worth about 350,000 silvers.",
                   "It is predominantly crafted of gornar.",
                   "It is a simple project (73 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 2 hours and 9 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 18 hours and 24 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42492,7 +42830,7 @@
                   "It is estimated to be worth about 400,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a basic project (150 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 18 hours and 11 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 10 days, 10 hours and 26 minutes."
                 ],
                 "tags": [
                   "persists"
@@ -42529,7 +42867,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 6 days, 13 hours and 11 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 6 days, 5 hours and 26 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -43438,7 +43776,7 @@
                   "It is estimated to be worth about 250,000 silvers.",
                   "It is predominantly crafted of mesille.",
                   "It is a simple project (29 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 10 hours and 15 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -43777,7 +44115,7 @@
                   "A densely woven circlet of delicate green fern fronds and pink-veined ivory trillium petals has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a densely woven circlet of delicate green fern fronds and pink-veined ivory trillium petals, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a densely woven circlet of delicate green fern fronds and pink-veined ivory trillium petals.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a densely woven circlet of delicate green fern fronds and pink-veined ivory trillium petals.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -43797,7 +44135,7 @@
                   "A simply woven circlet of pink-veined ivory trillium petals and delicate green fern fronds has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a simply woven circlet of pink-veined ivory trillium petals and delicate green fern fronds, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a simply woven circlet of pink-veined ivory trillium petals and delicate green fern fronds.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a simply woven circlet of pink-veined ivory trillium petals and delicate green fern fronds.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -43817,7 +44155,7 @@
                   "A simply woven circlet of delicate green fern fronds and gold-veiled pale taerethils has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a simply woven circlet of delicate green fern fronds and gold-veiled pale taerethils, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a simply woven circlet of delicate green fern fronds and gold-veiled pale taerethils.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a simply woven circlet of delicate green fern fronds and gold-veiled pale taerethils.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -43837,7 +44175,7 @@
                   "A densely woven circlet of pink-veined ivory trillium petals and gold-veiled pale taerethils has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a densely woven circlet of pink-veined ivory trillium petals and gold-veiled pale taerethils, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a densely woven circlet of pink-veined ivory trillium petals and gold-veiled pale taerethils.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a densely woven circlet of pink-veined ivory trillium petals and gold-veiled pale taerethils.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -43857,7 +44195,7 @@
                   "A densely woven circlet of delicate green fern fronds and gold-traced white naefiras has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a densely woven circlet of delicate green fern fronds and gold-traced white naefiras, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a densely woven circlet of delicate green fern fronds and gold-traced white naefiras.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a densely woven circlet of delicate green fern fronds and gold-traced white naefiras.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -44393,7 +44731,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a glimmering gilt-foiled ruby",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair loosely bound within a beaded knitted shimmery pink starsilk snood dappled in tiny glimmering gilt-foiled rubies",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair loosely bound within a beaded knitted shimmery pink starsilk snood dappled in tiny glimmering gilt-foiled rubies",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The silk snood will cost 75,000 coins."
@@ -44414,7 +44752,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a heart-shaped snowblind diamond",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair pulled into a crowning bun caged in a fancy knitted corvid black lotus silk snood, trailing heart-shaped snowblind diamonds, while a halo of face-framing ringlets tumbles free",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair pulled into a crowning bun caged in a fancy knitted corvid black lotus silk snood, trailing heart-shaped snowblind diamonds, while a halo of face-framing ringlets tumbles free",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The silk snood will cost 75,000 coins."
@@ -44469,7 +44807,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a skull of blood red ruby",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair loosely bound within a charm-edged knitted shadowy ebon wild silk snood dappled in tiny skulls of blood red ruby",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair loosely bound within a charm-edged knitted shadowy ebon wild silk snood dappled in tiny skulls of blood red ruby",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The wild silk snood will cost 75,000 coins."
@@ -44490,7 +44828,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a brilliant snowblind diamond",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair loosely bound within a knitted pearlescent white starsilk snood dappled in tiny brilliant snowblind diamonds",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair loosely bound within a knitted pearlescent white starsilk snood dappled in tiny brilliant snowblind diamonds",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The silk snood will cost 75,000 coins."
@@ -44511,7 +44849,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a hexagonal cobalt blue beryl",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair elegantly woven into an elaborate chignon that is overlaid in a bejeweled crocheted silvery azure starsilk snood with cobalt blue beryl beading",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair elegantly woven into an elaborate chignon that is overlaid in a bejeweled crocheted silvery azure starsilk snood with cobalt blue beryl beading",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The starsilk snood will cost 75,000 coins."
@@ -44532,7 +44870,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a pink-hearted glimmering diamond",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair pulled into a crowning bun caged in a bejeweled crocheted metallic berry starsilk snood, trailing pink-hearted glimmering diamonds, while a halo of face-framing ringlets tumbles free",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair pulled into a crowning bun caged in a bejeweled crocheted metallic berry starsilk snood, trailing pink-hearted glimmering diamonds, while a halo of face-framing ringlets tumbles free",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The starsilk snood will cost 75,000 coins."
@@ -44553,7 +44891,7 @@
                   "Wrap allows you to add a gemstone to the snood.",
                   "Unwrap allows you to remove a gemstone from the snood.",
                   "Current Gemstone in Snood: a gilt-foiled glittering diamond",
-                  "Current Hairstyle Provided (changed with flip):  She has deep red hair loosely bound within a beaded knitted deep narwhal blue starsilk snood dappled in tiny gilt-foiled glittering diamonds",
+                  "Current Hairstyle Provided (changed with flip):  He has white blonde hair loosely bound within a beaded knitted deep narwhal blue starsilk snood dappled in tiny gilt-foiled glittering diamonds",
                   "* Verb only triggers when worn",
                   "It can be altered freely provided it maintains a knitted appearance of some kind.",
                   "The starsilk snood will cost 75,000 coins."
@@ -45287,9 +45625,9 @@
                   "The headdress has four custom feature settings.  It can't have anymore.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
                   "  tucked under a ram horn headdress, which is tightly knotted in the back.",
-                  "  She has a ram horn headdress covering her bald head.",
-                  "  with a ram horn headdress placed at the crown of her head.",
-                  "  She has a ram horn headdress placed at the crown of her bald head.",
+                  "  He has a ram horn headdress covering his bald head.",
+                  "  with a ram horn headdress placed at the crown of his head.",
+                  "  He has a ram horn headdress placed at the crown of his bald head.",
                   "Please note, that if you have the custom settings made for someone bald, it won't look right for someone with hair, and vice versa.  You also can't wear this with another hair quirk/unique field altering item to change your features.  This item isn't limited to just bandana-type items, it can also be a crown, tiara, visored helm, or something similar.",
                   "  Custom feature 1: woven with dried flowers and wound about a headdress of spiraling gilded ram horns",
                   "  Custom feature 2: thinly braided into a fine web suspended from a headdress of pastel-painted ram horns",
@@ -47818,21 +48156,21 @@
                   "This off-white vellum looks interesting...  Perhaps you should read it.",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your vivid electric blue and moonlight silver eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your flawless evenly tanned skin before sending it outward into the surrounding area.",
+                  "Third Person:  Nisugi's vivid electric blue and moonlight silver eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his flawless evenly tanned skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your vivid electric blue and moonlight silver eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your flawless evenly tanned skin before sending it outward into the surrounding area.",
+                  "Third Person:  Nisugi's vivid electric blue and moonlight silver eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his flawless evenly tanned skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "Analysis of a cloudy off-white vellum indicates the creator has provided the following information:",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your vivid electric blue and moonlight silver eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your flawless evenly tanned skin before sending it outward into the surrounding area.",
+                  "Third Person:  Nisugi's vivid electric blue and moonlight silver eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his flawless evenly tanned skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "The off-white vellum will cost 100,000 coins."
@@ -48114,7 +48452,7 @@
                   "A densely woven circlet of bright pink dog roses and pallid ivory calligraphy-set ribbons has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
                   "Additionally, when you wear a densely woven circlet of bright pink dog roses and pallid ivory calligraphy-set ribbons, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by a densely woven circlet of bright pink dog roses and pallid ivory calligraphy-set ribbons.",
+                  "He has short, untamed white blonde hair tousled into a textured bun that is barely restrained by a densely woven circlet of bright pink dog roses and pallid ivory calligraphy-set ribbons.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 50,000 coins."
@@ -48922,7 +49260,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of vultite.",
                   "It is a basic project (136 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 22 hours and 29 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 14 hours and 43 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -48988,7 +49326,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of fireleaf.",
                   "It is a basic project (129 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 15 hours and 43 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 10 days, 7 hours and 57 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -49923,7 +50261,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -49939,7 +50278,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "material": "organic material, an extremely common material"
               }
             }
           ],

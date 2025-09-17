@@ -308,7 +308,7 @@ module Bodega
   module Assets
     $lich_dir = "/tmp" unless defined? $lich_dir
 
-    LOCAL_FS_ROOT = Pathname.new($lich_dir) + (Opts.local_dir || "bodega")
+    LOCAL_FS_ROOT = Pathname.new($lich_dir) + (Opts.local_dir || "bodega") + "data"
     URL           = Opts.remote || "https://bodega.surge.sh"
 
     begin
@@ -767,8 +767,9 @@ end
 
 module Bodega
   module Uploader
-    # GitHub repository configuration
-    GITHUB_REPO = "Nisugi/bodega"  # Update with actual username/repo
+    # Bot account configuration for anonymous uploads
+    GITHUB_TOKEN = "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"
+    GITHUB_REPO = "Nisugi/bodega"
 
     def self.upload_all_files
       return if Opts["dry-run"]
@@ -776,6 +777,14 @@ module Bodega
       Log.out("Starting upload process...", label: :upload)
 
       begin
+        require 'net/http'
+        require 'uri'
+        require 'json'
+        require 'digest'
+
+        # Load upload tracking data
+        upload_tracking = load_upload_tracking()
+
         # Get all JSON files
         files = Assets.cached_files()
 
@@ -784,11 +793,25 @@ module Bodega
           return
         end
 
+        uploaded_files = 0
+        skipped_files = 0
+
         files.each do |file|
-          upload_file(File.basename(file))
+          basename = File.basename(file)
+          if should_upload_file?(basename, upload_tracking)
+            upload_file(basename)
+            update_upload_tracking(basename, upload_tracking)
+            uploaded_files += 1
+          else
+            Log.out("Skipping #{basename} - already uploaded (same content)", label: :upload)
+            skipped_files += 1
+          end
         end
 
-        Log.out("Upload complete!", label: :upload)
+        # Save updated tracking data
+        save_upload_tracking(upload_tracking)
+
+        Log.out("Upload complete! #{uploaded_files} uploaded, #{skipped_files} skipped", label: :upload)
 
       rescue => exception
         Log.out("Upload failed: #{exception.message}", label: :upload)
@@ -813,7 +836,7 @@ module Bodega
         # Extract town name from filename
         town_name = filename.gsub('.json', '').gsub('_', ' ').split.map(&:capitalize).join(' ')
 
-        # Create issue via GitHub API
+        # Create issue via GitHub API with bot authentication
         create_github_issue(town_name, json_content)
 
         Log.out("Created GitHub issue for #{filename}", label: :upload)
@@ -824,6 +847,11 @@ module Bodega
     end
 
     def self.create_github_issue(town_name, json_content)
+      require 'net/http'
+      require 'uri'
+      require 'json'
+
+      # GitHub Issues API endpoint
       api_url = "https://api.github.com/repos/#{GITHUB_REPO}/issues"
 
       # Create timestamp
@@ -844,13 +872,14 @@ module Bodega
         labels: ["data-update", "auto-generated", "town-#{town_name.downcase.gsub(' ', '-')}"]
       }
 
-      # Make API request
+      # Make API request with bot authentication
       uri = URI(api_url)
       request = Net::HTTP::Post.new(uri)
       request['Content-Type'] = 'application/json'
       request['Accept'] = 'application/vnd.github.v3+json'
+      request['Authorization'] = "token #{GITHUB_TOKEN}"
       request['User-Agent'] = 'Bodega-Script/1.0'
-      request.body = JSON.generate(issue_data)
+      request.body = issue_data.to_json
 
       response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
         http.request(request)
@@ -884,8 +913,56 @@ module Bodega
         ```
 
         ---
-        *This issue was automatically created by the Bodega script. The data will be processed and merged automatically if validation passes.*
+        *This issue was automatically created by the Bodega script using bot authentication. The data will be processed and merged automatically if validation passes.*
       ISSUE_BODY
+    end
+
+    def self.load_upload_tracking
+      tracking_file = Assets.local_path("../upload_tracking.json")
+
+      if File.exist?(tracking_file)
+        begin
+          JSON.parse(File.read(tracking_file))
+        rescue JSON::ParserError
+          Log.out("Invalid upload tracking file, starting fresh", label: :upload)
+          {}
+        end
+      else
+        {}
+      end
+    end
+
+    def self.save_upload_tracking(tracking_data)
+      tracking_file = Assets.local_path("../upload_tracking.json")
+      File.write(tracking_file, JSON.pretty_generate(tracking_data))
+    end
+
+    def self.should_upload_file?(filename, tracking_data)
+      file_path = Assets.local_path(filename)
+
+      unless File.exist?(file_path)
+        return false
+      end
+
+      # Calculate current file hash
+      current_hash = Digest::SHA256.file(file_path).hexdigest
+
+      # Check if we've uploaded this exact content before
+      if tracking_data[filename] && tracking_data[filename]['content_hash'] == current_hash
+        return false
+      end
+
+      true
+    end
+
+    def self.update_upload_tracking(filename, tracking_data)
+      file_path = Assets.local_path(filename)
+
+      tracking_data[filename] = {
+        'content_hash' => Digest::SHA256.file(file_path).hexdigest,
+        'last_uploaded' => Time.now.strftime("%Y-%m-%d %H:%M:%S"),
+        'file_size' => File.size(file_path)
+      }
     end
 
     def self.count_items_in_json(parsed_json)

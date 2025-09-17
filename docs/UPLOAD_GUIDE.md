@@ -1,13 +1,18 @@
 # Automated Shop Data Updates
 
-The bodega script now supports automatic upload of shop data to the GitHub repository without requiring any authentication. Any player can contribute data updates that will be automatically processed and merged.
+The bodega script supports automatic upload of shop data to the GitHub repository. Players can contribute data updates that will be automatically processed and merged.
+
+## Zero Setup Required! 🎉
+
+**No authentication needed**: The bodega script includes built-in bot authentication, so any player can upload data immediately without creating accounts or tokens.
 
 ## How It Works
 
 1. **Run the bodega script** with the `--upload` option
-2. **Script creates GitHub issues** with your JSON data
+2. **Script creates GitHub issues** with your JSON data (using built-in bot authentication)
 3. **GitHub Actions automatically processes** the issues
 4. **Valid data gets merged** and the website updates within 1-2 minutes
+5. **Smart duplicate detection** prevents uploading the same data multiple times
 
 ## Usage Examples
 
@@ -97,11 +102,11 @@ After running the script, you'll see messages like:
 
 ## Rate Limits
 
-- **GitHub API**: 60 requests per hour per IP address
+- **GitHub API**: 5,000 requests per hour (shared bot account)
 - **Full updates** (9 towns): Uses 9 requests
 - **Single town**: Uses 1 request
 
-If you hit rate limits, wait an hour or focus on specific towns/shops.
+The bot account has generous rate limits that should accommodate the entire community. If uploads fail, the script will provide error details.
 
 ## Contributing
 

@@ -9,15 +9,15 @@ class DataLoader {
 
         // List of JSON files to load
         this.dataFiles = [
-            'icemule_trace.json',
-            'mist_harbor.json',
-            'rivers_rest.json',
-            'solhaven.json',
-            'ta_illistim.json',
-            'ta_vaalor.json',
-            'teras_isle.json',
-            'wehnimers_landing.json',
-            'zul_logoth.json'
+            '../data/icemule_trace.json',
+            '../data/mist_harbor.json',
+            '../data/rivers_rest.json',
+            '../data/solhaven.json',
+            '../data/ta_illistim.json',
+            '../data/ta_vaalor.json',
+            '../data/teras_isle.json',
+            '../data/wehnimers_landing.json',
+            '../data/zul_logoth.json'
         ];
     }
 
