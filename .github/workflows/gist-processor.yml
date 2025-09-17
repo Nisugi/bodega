@@ -68,8 +68,18 @@ jobs:
           if [[ "$file" == *.json ]]; then
             echo "Processing file: $file"
 
-            # Extract file content
-            content=$(echo "$gist_data" | jq -r ".files[\"$file\"].content")
+            # Check if file is truncated (large files are truncated in API response)
+            is_truncated=$(echo "$gist_data" | jq -r ".files[\"$file\"].truncated // false")
+
+            if [ "$is_truncated" = "true" ]; then
+              # File is truncated, fetch from raw URL
+              raw_url=$(echo "$gist_data" | jq -r ".files[\"$file\"].raw_url")
+              echo "File is truncated, fetching from raw URL: $raw_url"
+              content=$(curl -s "$raw_url")
+            else
+              # File is not truncated, use content from API response
+              content=$(echo "$gist_data" | jq -r ".files[\"$file\"].content")
+            fi
 
             # Save to temporary file
             echo "$content" > "temp_$file"
