@@ -782,13 +782,20 @@ module Bodega
       # For cached items, we'll need to load from existing JSON on demand
       current_rooms.map do |room|
         room.items = (room.items || []).map do |item_data|
-          item_id = item_data.is_a?(Hash) ? item_data['id'] : item_data
+          item_id = item_data.is_a?(Hash) ? item_data['id'].to_s : item_data.to_s
 
           if newly_inspected[item_id]
             newly_inspected[item_id]
           elsif items_from_cache.include?(item_id)
             # For cached items, find existing data from town JSON
-            find_existing_item_data(town, item_id)
+            cached_data = find_existing_item_data(town, item_id)
+            if cached_data
+              Log.out("Using cached data for item #{item_id}", label: :cache)
+              cached_data
+            else
+              Log.out("Cached item #{item_id} not found in JSON, inspecting", label: :cache)
+              Parser.scan_item(item_id)
+            end
           else
             # Fallback: inspect item if not handled above
             Log.out("Cache miss for item #{item_id}, inspecting", label: :cache)
