@@ -9,10 +9,15 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.4.3
+  version: 0.5.0
   tags: playershops
 
   changelog:
+    v0.5.0 - Restructure smart caching to be per-town with flow-based building
+             - Each town gets separate cache file (e.g. icemule_trace_cache.json)
+             - Cache builds naturally during browse flow, no bootstrap needed
+             - Simplified cache structure: shop_name -> {last_scan, browse_data}
+             - More intuitive and reliable caching system
     v0.4.3 - Fix shop cache to use unique shop names as keys
              - Prevent multiple shops with same ID from overwriting cache data
              - Extract shop name from browse output for unique identification
@@ -342,29 +347,30 @@ module Bodega
     end
 
 
-    def self.shop_cache_file
-      cache_dir + "shop_cache.json"
+    def self.shop_cache_file(town)
+      cache_dir + "#{town}_cache.json"
     end
 
 
-    def self.load_shop_cache
-      return {} unless File.exist?(shop_cache_file)
+    def self.load_shop_cache(town)
+      cache_file = shop_cache_file(town)
+      return {} unless File.exist?(cache_file)
       begin
-        cache = JSON.parse(File.read(shop_cache_file))
+        cache = JSON.parse(File.read(cache_file))
         validate_shop_cache(cache)
         cache
       rescue JSON::ParserError => e
-        Log.out("Shop cache corrupted, starting fresh: #{e.message}", label: :cache)
+        Log.out("Shop cache corrupted for #{town}, starting fresh: #{e.message}", label: :cache)
         {}
       rescue => e
-        Log.out("Shop cache invalid, starting fresh: #{e.message}", label: :cache)
+        Log.out("Shop cache invalid for #{town}, starting fresh: #{e.message}", label: :cache)
         {}
       end
     end
 
-    def self.save_shop_cache(cache)
+    def self.save_shop_cache(town, cache)
       FileUtils.mkdir_p(cache_dir)
-      File.write(shop_cache_file, JSON.pretty_generate(cache))
+      File.write(shop_cache_file(town), JSON.pretty_generate(cache))
     end
 
 
@@ -373,91 +379,18 @@ module Bodega
       (Opts.send(:"cache-max-age") || 7).to_i
     end
 
-    def self.cache_empty?
-      !File.exist?(shop_cache_file)
+    def self.cache_empty?(town)
+      !File.exist?(shop_cache_file(town))
     end
 
-    def self.find_existing_json_files
-      Dir.glob(cache_dir + "*.json").reject do |f|
-        f.include?("shop_cache.json") ||
-        f.include?("upload_tracking.json") ||
-        f.include?("manifest.json")
-      end
-    end
-
-    def self.bootstrap_cache_from_json
-      existing_files = find_existing_json_files
-      return if existing_files.empty?
-
-      Log.out("Bootstrapping cache from #{existing_files.size} existing JSON files...", label: :cache)
-
-      shop_cache = {}
-      bootstrapped_items = 0
-
-      existing_files.each do |json_file|
-        begin
-          town_data = JSON.parse(File.read(json_file))
-          town_name = File.basename(json_file, '.json')
-
-          next unless town_data['shops']
-
-          shop_cache[town_name] ||= {}
-
-          town_data['shops'].each do |shop|
-            shop_id = shop['id'].to_s
-            shop_name = shop['name']
-            cache_key = shop_name || shop_id
-            browse_data = {}
-
-            next unless shop['inv']
-
-            shop['inv'].each do |room|
-              next unless room['items']
-
-              room['items'].each do |item|
-                item_id = item['id'].to_s
-
-                # Extract browse data from existing JSON for comparison
-                browse_data[item_id] = {
-                  'name' => item['name'],
-                  'price' => item.dig('details', 'cost') || 'unknown'
-                }
-
-                bootstrapped_items += 1
-              end
-            end
-
-            # Populate shop cache with browse data for comparison
-            shop_cache[town_name][cache_key] = {
-              'last_scan' => town_data['created_at'] || Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
-              'browse_data' => browse_data
-            }
-          end
-
-        rescue => e
-          Log.out("Failed to bootstrap from #{json_file}: #{e.message}", label: :cache)
-        end
-      end
-
-      if bootstrapped_items > 0
-        save_shop_cache(shop_cache)
-        Log.out("Cache bootstrapped: #{bootstrapped_items} items from #{existing_files.size} files", label: :cache)
-      else
-        Log.out("No valid data found for cache bootstrap", label: :cache)
-      end
-    end
 
 
     def self.validate_shop_cache(cache)
       return unless cache.is_a?(Hash)
 
-      cache.each do |town, shops|
-        next unless shops.is_a?(Hash)
-        shops.each do |shop_id, shop_data|
-          unless shop_data.is_a?(Hash) && shop_data['last_scan'] &&
-                 (shop_data['browse_data'].is_a?(Hash) || shop_data['item_ids'].is_a?(Array))
-            raise "Invalid shop cache structure for #{town}/#{shop_id}"
-          end
+      cache.each do |shop_key, shop_data|
+        unless shop_data.is_a?(Hash) && shop_data['last_scan'] && shop_data['browse_data'].is_a?(Hash)
+          raise "Invalid shop cache structure for shop #{shop_key}"
         end
       end
     end
@@ -519,7 +452,7 @@ module Bodega
     end
 
     def self.cached_files()
-      glob("*.json").reject do |f| f.include?("manifest.json") end
+      glob("*.json").reject do |f| f.include?("manifest.json") || f.include?("_cache.json") end
     end
 
     def self.stream_download(remote)
@@ -743,13 +676,8 @@ module Bodega
       shop_name = extract_shop_name_from_inv(inv)
       cache_key = shop_name || shop_id
 
-      # Check if cache needs bootstrapping from existing JSON files
-      if Cache.cache_empty?
-        Cache.bootstrap_cache_from_json
-      end
-
-      # Load shop cache
-      shop_cache = Cache.load_shop_cache
+      # Load shop cache for this town
+      shop_cache = Cache.load_shop_cache(town)
 
       # Parse current shop inventory (collect browse data)
       current_rooms = inv.reduce([]) do |acc, row|
@@ -773,8 +701,7 @@ module Bodega
       end
 
       # Get cached browse data for this shop
-      shop_cache[town] ||= {}
-      cached_shop_data = shop_cache[town][cache_key] || {}
+      cached_shop_data = shop_cache[cache_key] || {}
       cached_browse_data = cached_shop_data['browse_data'] || {}
 
       # Compare browse data to determine what changed
@@ -827,7 +754,7 @@ module Bodega
       end
 
       # Update shop cache with current browse data
-      shop_cache[town][cache_key] = {
+      shop_cache[cache_key] = {
         'last_scan' => Time.now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         'browse_data' => current_browse_data
       }
@@ -851,8 +778,8 @@ module Bodega
         end
         room
       end.map(&:to_h).tap do
-        # Save updated shop cache
-        Cache.save_shop_cache(shop_cache)
+        # Save updated shop cache for this town
+        Cache.save_shop_cache(town, shop_cache)
       end
     end
 
@@ -927,7 +854,7 @@ module Bodega
         end
       end
 
-      # Smart caching cleanup is handled per-shop during parsing
+      # Smart caching is handled per-shop during parsing
 
       @created_files
     end
