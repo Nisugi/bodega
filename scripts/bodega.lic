@@ -9,10 +9,14 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.5.0
+  version: 0.5.1
   tags: playershops
 
   changelog:
+    v0.5.1 - Fix cache key conflicts by using shop_id prefix
+             - Use "shop_1", "shop_2" etc as cache keys for uniqueness
+             - Simplified approach to ensure each shop gets separate cache entry
+             - Removed complex shop name extraction that wasn't working reliably
     v0.5.0 - Restructure smart caching to be per-town with flow-based building
              - Each town gets separate cache file (e.g. icemule_trace_cache.json)
              - Cache builds naturally during browse flow, no bootstrap needed
@@ -598,10 +602,8 @@ module Bodega
       (preamble, *inv) = coll.run()
 
       inventory_data = if Opts.smart && !Opts.send(:"force-full")
-        Log.out("Using smart_parse_inv for shop #{id}", label: :cache)
         smart_parse_inv(town, id, inv.map(&:strip))
       else
-        Log.out("Using regular parse_inv for shop #{id}", label: :cache)
         parse_inv(inv.map(&:strip))
       end
 
@@ -663,25 +665,9 @@ module Bodega
       .map(&:to_h)
     end
 
-    def self.extract_shop_name_from_inv(inv)
-      # Look for shop name in inventory header
-      inv.each do |line|
-        if match = line.match(/(.+) is located in \[.+\]/)
-          shop_name = match[1].strip
-          Log.out("Extracted shop name: '#{shop_name}'", label: :cache)
-          return shop_name
-        end
-      end
-      Log.out("No shop name found in inv", label: :cache)
-      nil
-    end
-
     def self.smart_parse_inv(town, shop_id, inv)
-      Log.out("=== SMART_PARSE_INV CALLED: town=#{town}, shop_id=#{shop_id} ===", label: :cache)
-      # Use shop name from inv data to create unique cache key
-      shop_name = extract_shop_name_from_inv(inv)
-      cache_key = shop_name || shop_id
-      Log.out("Using cache key: '#{cache_key}' (shop_name: #{shop_name.inspect}, shop_id: #{shop_id})", label: :cache)
+      # Use shop_id with prefix to ensure uniqueness
+      cache_key = "shop_#{shop_id}"
 
       # Load shop cache for this town
       shop_cache = Cache.load_shop_cache(town)
