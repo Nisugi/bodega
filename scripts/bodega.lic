@@ -9,10 +9,15 @@
 
   Author: Ondreian
   Requirements: Ruby >= 2.3
-  version: 0.6.0
+  version: 0.6.1
   tags: playershops
 
   changelog:
+    v0.6.1 - Skip upload when no changes detected (smart optimization)
+             - Track changes across all shops during smart caching
+             - Skip upload entirely if zero changes detected
+             - Avoid unnecessary API calls and GitHub Actions runs
+             - Show "No changes detected" message for clarity
     v0.6.0 - Major smart caching redesign with proper batch processing
              - Batch inspect all new/changed items per shop instead of item-by-item
              - Proper JSON merging: update only changed shops, preserve other data
@@ -747,6 +752,10 @@ module Bodega
 
       Log.out("Shop #{cache_key}: #{new_items.size} new, #{changed_items.size} changed, #{items_from_cache.size} cached (#{cache_efficiency}% efficiency), #{removed_items.size} removed", label: :cache)
 
+      # Track changes for upload decision
+      shop_changes = new_items.size + changed_items.size + removed_items.size
+      Parser.add_changes(shop_changes) if shop_changes > 0
+
       # Batch inspect all items that need it
       inspect_list = new_items + changed_items
       newly_inspected = {}
@@ -896,6 +905,7 @@ module Bodega
 
     def self.to_json()
       @created_files = []
+      @total_changes = 0
       Utils.benchmark(template: "scanned shops in {{run_time}}") do
         towns_to_search.each do |town|
           start = Time.now
@@ -903,15 +913,24 @@ module Bodega
 
           next if shops.empty?
 
-          data = {
-            created_at: Time.now.utc,
-            run_time: Utils.fmt_time(Time.now - start),
-            town: town,
-            shops: shops,
-          }
+          # In smart caching mode, JSON files are created during parsing
+          # Only create JSON files here if not using smart caching
+          unless Opts.smart
+            data = {
+              created_at: Time.now.utc,
+              run_time: Utils.fmt_time(Time.now - start),
+              town: town,
+              shops: shops,
+            }
 
-          filename = save_json(name: town, data: data)
-          @created_files << filename if filename
+            filename = save_json(name: town, data: data)
+            @created_files << filename if filename
+          else
+            # In smart caching mode, files are created by update_town_json
+            # Just track that we processed this town
+            filename = "#{Utils.safe_string(town)}.json"
+            @created_files << filename if @total_changes > 0
+          end
         end
       end
 
@@ -922,6 +941,14 @@ module Bodega
 
     def self.created_files
       @created_files || []
+    end
+
+    def self.add_changes(count)
+      @total_changes = (@total_changes || 0) + count
+    end
+
+    def self.total_changes
+      @total_changes || 0
     end
 
     def self.save_json(name:, data:)
@@ -1622,8 +1649,12 @@ module Bodega
 
         # Auto-upload after parsing if requested
         if Opts.upload and (Opts.save or Opts["dry-run"])
-          # Only upload files that were just created during parsing
-          Bodega::Uploader.upload_all_files(created_files)
+          if Opts.smart and Parser.total_changes == 0
+            Log.out("No changes detected across all shops, skipping upload", label: :upload)
+          else
+            # Only upload files that were just created during parsing
+            Bodega::Uploader.upload_all_files(created_files)
+          end
         end
       end
 
