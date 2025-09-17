@@ -1,0 +1,163 @@
+name: Process Gist Data Uploads
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-gist-upload:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'data-update')
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Extract and process gist
+      id: process
+      run: |
+        echo "Processing issue #${{ github.event.issue.number }}"
+
+        # Extract gist URL from issue body
+        issue_body='${{ github.event.issue.body }}'
+        gist_url=$(echo "$issue_body" | grep -oP '\*\*Gist URL:\*\* \K(https://gist.github.com/[^\s]+)')
+
+        if [ -z "$gist_url" ]; then
+          echo "No gist URL found in issue"
+          exit 1
+        fi
+
+        echo "Found gist URL: $gist_url"
+
+        # Convert gist URL to raw API URL
+        # Format: https://gist.github.com/USER/GIST_ID -> https://api.github.com/gists/GIST_ID
+        gist_id=$(echo "$gist_url" | sed -n 's/.*github.com\/[^\/]*\/\([a-f0-9]*\).*/\1/p')
+
+        if [ -z "$gist_id" ]; then
+          echo "Could not extract gist ID from URL"
+          exit 1
+        fi
+
+        echo "Gist ID: $gist_id"
+
+        # Fetch gist data
+        gist_api_url="https://api.github.com/gists/$gist_id"
+        echo "Fetching gist from: $gist_api_url"
+
+        gist_data=$(curl -s "$gist_api_url")
+
+        # Process each file in the gist
+        files=$(echo "$gist_data" | jq -r '.files | keys[]')
+
+        for file in $files; do
+          if [[ "$file" == *.json ]]; then
+            echo "Processing file: $file"
+
+            # Extract file content
+            content=$(echo "$gist_data" | jq -r ".files[\"$file\"].content")
+
+            # Save to temporary file
+            echo "$content" > "temp_$file"
+
+            # Validate JSON
+            if ! jq . "temp_$file" > /dev/null 2>&1; then
+              echo "Invalid JSON in $file"
+              continue
+            fi
+
+            # Validate structure
+            town=$(jq -r '.town' "temp_$file")
+            shops=$(jq -r '.shops | length' "temp_$file")
+
+            if [ "$town" == "null" ] || [ "$shops" == "null" ]; then
+              echo "Invalid data structure in $file"
+              continue
+            fi
+
+            echo "Valid data: $town with $shops shops"
+
+            # Copy to data directory
+            cp "temp_$file" "data/$file"
+            echo "Updated data/$file"
+          fi
+        done
+
+        echo "processed=true" >> $GITHUB_OUTPUT
+
+    - name: Commit changes
+      if: steps.process.outputs.processed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        if git diff --quiet data/; then
+          echo "No changes to commit"
+        else
+          git add data/*.json
+          git commit -m "Update shop data from gist upload
+
+        - Processed from issue #${{ github.event.issue.number }}
+        - Gist data validated and merged
+
+        Co-Authored-By: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.id }}+${{ github.event.issue.user.login }}@users.noreply.github.com>"
+
+          git push origin main
+        fi
+
+    - name: Comment and close issue
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `✅ **Shop data processed successfully!**
+
+            The data from your gist has been validated and merged into the repository.
+            The website will update automatically within 1-2 minutes.
+
+            Thank you for contributing to the shop database! 🎉`
+          });
+
+          await github.rest.issues.update({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'closed'
+          });
+
+    - name: Handle errors
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `❌ **Processing failed**
+
+            There was an error processing your gist upload. Please check:
+            - The gist URL is correct and accessible
+            - The JSON files are valid
+            - The data structure matches the expected format
+
+            Please review the error and try again, or contact support for help.`
+          });
+
+          await github.rest.issues.addLabels({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            labels: ['processing-failed']
+          });

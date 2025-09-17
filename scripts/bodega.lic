@@ -768,7 +768,7 @@ end
 module Bodega
   module Uploader
     # Bot account configuration for anonymous uploads
-    GITHUB_TOKEN = "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"
+    GITHUB_TOKEN = "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"
     GITHUB_REPO = "Nisugi/bodega"
 
     def self.upload_all_files
