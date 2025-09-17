@@ -22,15 +22,18 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Process gist data
+    - name: Extract gist URL from issue
+      id: extract-gist
       run: |
         echo "Processing issue #${{ github.event.issue.number }}"
 
-        # Extract gist URL using a more robust approach
-        gist_url=$(cat << 'EOF' | grep -oP '\*\*Gist URL:\*\* \K(https://gist.github.com/[^\s]+)'
-${{ github.event.issue.body }}
-EOF
-)
+        # Use GitHub API to get issue body to avoid shell injection
+        issue_body=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}" | \
+          jq -r '.body')
+
+        # Extract gist URL
+        gist_url=$(echo "$issue_body" | grep -oP '\*\*Gist URL:\*\* \K(https://gist.github.com/[^\s]+)' || true)
 
         if [ -z "$gist_url" ]; then
           echo "No gist URL found in issue"
@@ -48,9 +51,12 @@ EOF
         fi
 
         echo "Gist ID: $gist_id"
+        echo "gist_id=$gist_id" >> $GITHUB_OUTPUT
 
+    - name: Process gist files
+      run: |
         # Fetch gist data
-        gist_api_url="https://api.github.com/gists/$gist_id"
+        gist_api_url="https://api.github.com/gists/${{ steps.extract-gist.outputs.gist_id }}"
         echo "Fetching gist from: $gist_api_url"
 
         gist_data=$(curl -s "$gist_api_url")
