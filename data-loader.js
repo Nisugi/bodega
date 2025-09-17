@@ -392,13 +392,15 @@ class DataLoader {
         }).join('');
 
         // Create ticker with duplicated content for seamless loop
+        // Add spacer between duplicates for better visual separation
         timestampContainer.innerHTML = `
             <div class="ticker-wrapper">
                 <div class="ticker-label">Town Updates:</div>
                 <div class="ticker-scroll-wrapper">
                     <div class="ticker-content">
                         ${tickerItems}
-                        ${tickerItems}  <!-- Duplicate for seamless scrolling -->
+                        <span class="ticker-item ticker-spacer"></span>
+                        ${tickerItems}
                     </div>
                 </div>
             </div>
