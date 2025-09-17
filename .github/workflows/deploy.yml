@@ -101,14 +101,30 @@ jobs:
                     const module = await import(`./data/${townName}.js`);
                     const rawData = module.data;
 
-                    if (!Array.isArray(rawData)) {
-                        console.warn(`No data array found for ${townName}`);
+                    // Handle the data format: {shops: [{items: [...]}]}
+                    if (!rawData || !rawData.shops || !Array.isArray(rawData.shops)) {
+                        console.warn(`No shops data found for ${townName}`);
                         return [];
                     }
 
-                    console.log(`Processing ${rawData.length} items from ${townName}`);
+                    // Extract all items from all shops
+                    const allItems = [];
+                    rawData.shops.forEach(shop => {
+                        if (shop.items && Array.isArray(shop.items)) {
+                            shop.items.forEach(item => {
+                                // Add shop and town info to each item
+                                allItems.push({
+                                    ...item,
+                                    shop: shop.shop || 'Unknown Shop',
+                                    room: shop.room || shop.preamble || 'Unknown Location'
+                                });
+                            });
+                        }
+                    });
 
-                    return rawData.map(item => {
+                    console.log(`Processing ${allItems.length} items from ${townName}`);
+
+                    return allItems.map(item => {
                         try {
                             return this.processItem(item, townName);
                         } catch (error) {
@@ -489,6 +505,16 @@ jobs:
             // Backward compatibility method
             getAllItems() {
                 return this.allData;
+            }
+
+            // Static method for price range parsing
+            static getPriceRange(priceStr) {
+                if (!priceStr || priceStr === '') {
+                    return { min: 0, max: Infinity };
+                }
+
+                const [min, max] = priceStr.split('-').map(Number);
+                return { min: min || 0, max: max || Infinity };
             }
         }
 
