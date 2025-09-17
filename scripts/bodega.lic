@@ -598,8 +598,10 @@ module Bodega
       (preamble, *inv) = coll.run()
 
       inventory_data = if Opts.smart && !Opts.send(:"force-full")
+        Log.out("Using smart_parse_inv for shop #{id}", label: :cache)
         smart_parse_inv(town, id, inv.map(&:strip))
       else
+        Log.out("Using regular parse_inv for shop #{id}", label: :cache)
         parse_inv(inv.map(&:strip))
       end
 
@@ -675,6 +677,7 @@ module Bodega
     end
 
     def self.smart_parse_inv(town, shop_id, inv)
+      Log.out("=== SMART_PARSE_INV CALLED: town=#{town}, shop_id=#{shop_id} ===", label: :cache)
       # Use shop name from inv data to create unique cache key
       shop_name = extract_shop_name_from_inv(inv)
       cache_key = shop_name || shop_id
