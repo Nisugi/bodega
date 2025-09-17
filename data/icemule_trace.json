@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-17 18:54:39 UTC",
-  "run_time": "08m 43s",
+  "created_at": "2025-09-17 21:40:21 UTC",
+  "run_time": "08m 40s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -4169,7 +4169,7 @@
                   "It is estimated to be worth about 24,000 silvers.",
                   "It is predominantly crafted of mithglin.",
                   "It is a simple project (3 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 15 days, 6 hours and 8 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 15 days, 3 hours and 22 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -4261,7 +4261,7 @@
                   "It is estimated to be worth about 8,250 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (30 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 13 days, 7 hours and 55 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 5 hours and 9 minutes."
                 ],
                 "tags": [],
                 "material": "imflass, an uncommon metal",
@@ -15295,6 +15295,20 @@
                   "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
                   "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small light blue dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small light blue dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small light blue dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small light blue dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small light blue dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small light blue dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The blue dollhouse toy will cost 10,000 coins."
                 ],
                 "tags": [],
@@ -15454,6 +15468,20 @@
                   "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
                   "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small decrepit dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small decrepit dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small decrepit dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small decrepit dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small decrepit dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
                 "tags": [],
@@ -15482,6 +15510,20 @@
                   "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The item has Flourishes that do the following:",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small maroon dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small maroon dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small maroon dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
@@ -23514,6 +23556,32 @@
               }
             },
             {
+              "id": "291714179",
+              "name": "a petrified mammoth tusk",
+              "details": {
+                "raw": [
+                  "The tusk can not be worn.",
+                  "Analysis of a petrified mammoth tusk indicates the item is free from merchant alteration restrictions.",
+                  "The mammoth tusk will cost 10,000 coins."
+                ],
+                "tags": [],
+                "material": "organic material, a rare piece of treasure"
+              }
+            },
+            {
+              "id": "291507624",
+              "name": "a petrified mammoth tusk",
+              "details": {
+                "raw": [
+                  "The tusk can not be worn.",
+                  "Analysis of a petrified mammoth tusk indicates the item is free from merchant alteration restrictions.",
+                  "The mammoth tusk will cost 10,000 coins."
+                ],
+                "tags": [],
+                "material": "organic material, a rare piece of treasure"
+              }
+            },
+            {
               "id": "255264414",
               "name": "a petrified mammoth tusk",
               "details": {
@@ -23992,7 +24060,7 @@
               "name": "a faceted iridescent glob",
               "details": {
                 "raw": [
-                  "Oddly enough, it looks like a faceted iridescent glob.",
+                  "It's hard to tell exactly what it looks like.",
                   "The glob can not be worn.",
                   "Analysis of a faceted iridescent glob indicates the creator has provided the following information:",
                   "This item's description/base/look may not be altered in any way.",
@@ -40975,7 +41043,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (-7 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 days, 8 hours and 4 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 days, 5 hours and 18 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -42124,7 +42192,7 @@
                   "It is estimated to be worth about 850,000 silvers.",
                   "It is predominantly crafted of illthorn.",
                   "It is a simple project (87 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 1 day, 17 hours and 13 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 14 hours and 28 minutes."
                 ],
                 "tags": [
                   "lightenable"
@@ -42147,7 +42215,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (33 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 2 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 16 hours and 16 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42181,7 +42249,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of faenor.",
                   "It is a simple project (1 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 20 hours and 37 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 17 hours and 51 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42809,7 +42877,7 @@
                   "It is weighted to inflict more critical wounds, but exactly how much requires assessment.",
                   "It is predominantly crafted of steel.",
                   "It is a basic project (127 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 1 day, 18 hours and 46 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 16 hours."
                 ],
                 "tags": [
                   "lightenable",
@@ -42848,7 +42916,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (42 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 18 hours and 34 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 15 hours and 48 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -42888,7 +42956,7 @@
                   "It is estimated to be worth about 350,000 silvers.",
                   "It is predominantly crafted of gornar.",
                   "It is a simple project (73 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 5 hours and 57 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 3 hours and 11 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42934,7 +43002,7 @@
                   "It is estimated to be worth about 400,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a basic project (150 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 21 hours and 59 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 13 minutes."
                 ],
                 "tags": [
                   "persists"
@@ -42971,7 +43039,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 16 hours and 59 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 14 hours and 13 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -43880,7 +43948,7 @@
                   "It is estimated to be worth about 250,000 silvers.",
                   "It is predominantly crafted of mesille.",
                   "It is a simple project (29 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 21 hours and 49 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 19 hours and 3 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -49364,7 +49432,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of vultite.",
                   "It is a basic project (136 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 2 hours and 17 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 23 hours and 32 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -49430,7 +49498,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of fireleaf.",
                   "It is a basic project (129 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 31 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 16 hours and 45 minutes."
                 ],
                 "tags": [
                   "purpose",

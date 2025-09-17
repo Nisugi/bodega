@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-17 18:55:39 UTC",
-  "run_time": "59s",
+  "created_at": "2025-09-17 21:45:24 UTC",
+  "run_time": "54s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -564,31 +564,6 @@
               }
             },
             {
-              "id": "263161063",
-              "name": "a polished mithril-plated pack with a tiny metal lever",
-              "details": {
-                "raw": [
-                  "It is estimated that a polished mithril-plated pack with a tiny metal lever can store a huge amount with enough space for any number of items.",
-                  "Analysis of a polished mithril-plated pack with a tiny metal lever indicates the creator has provided the following information:",
-                  "This is an auto-closing mechanical container that has metal plates that click into place.",
-                  "The item can be altered with a long or a show, but the metal plates must remain.",
-                  "You could OPEN, CLOSE, PUSH, or PROD the pack.  There are no tiers to unlock.",
-                  "The mithril-plated pack will cost 250,000 coins.",
-                  "It is estimated to be worth about 100,000 silvers.",
-                  "It is a container with a maximum interior capacity of 140 pounds with room for any number of items.",
-                  "It is predominantly crafted of leather.",
-                  "It has a permanently unlocked loresong by Krayze."
-                ],
-                "tags": [
-                  "purpose",
-                  "max_deep",
-                  "max_light"
-                ],
-                "material": "leather, an extremely common material",
-                "weight": 6
-              }
-            },
-            {
               "id": "262000585",
               "name": "a crimson spidersilk bag suffused with faint sable undertones",
               "details": {
@@ -699,28 +674,6 @@
                 ],
                 "material": "cloth, an extremely common material",
                 "weight": 9
-              }
-            },
-            {
-              "id": "262164565",
-              "name": "a miniature gargoyle bracelet",
-              "details": {
-                "raw": [
-                  "The gargoyle on this bracelet is hunched, its wings flag against its back.  Its eyes blaze with an unnatural light, and it's rhythmically clenching and unclenching its front talons as it gazes about, a snarl on its face.",
-                  "The bracelet can be worn around the wrist.",
-                  "Analysis of a miniature gargoyle bracelet indicates the creator has provided the following information:",
-                  "This gargoyle bracelet is a wearable, living(ish) gargoyle.  When worn, it acts much like a bracelet.",
-                  "Due to the special nature of these gargoyles, they cannot be altered in the typical sense.  However certain merchants may be willing to change which \"type\" you have, changing what it pretends to be when you wear it.  The options are: Earring, Necklace, Ring, and Bracelet.  Not all merchants will be willing to do this!",
-                  " This bracelet is currently UNLOCKED, which means that you can use WEAR, REMOVE, TOUCH, PULL, PROD, and also POINT it at people!",
-                  "The gargoyle bracelet will cost 50,000 coins.",
-                  "It is estimated to be worth about 45,000 silvers.",
-                  "It is predominantly crafted of stone.",
-                  "It has a permanently unlocked loresong by Krayze."
-                ],
-                "tags": [
-                  "small"
-                ],
-                "material": "stone, an extremely common material"
               }
             },
             {
