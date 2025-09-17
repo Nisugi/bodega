@@ -78,12 +78,12 @@ class SearchEngine {
     }
 
     performSearch() {
-        if (!window.dataLoader || !window.dataLoader.allData) {
+        if (!window.dataLoader || !window.dataLoader.allItems) {
             console.log('Data not loaded yet');
             return;
         }
 
-        const allItems = window.dataLoader.allData;
+        const allItems = window.dataLoader.allItems;
         const filters = this.getFilters();
 
         console.log('Performing search with filters:', filters);
@@ -633,7 +633,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Wait for data to load, then perform initial search
     const checkDataLoaded = () => {
-        if (window.dataLoader && window.dataLoader.allData && window.dataLoader.allData.length > 0) {
+        if (window.dataLoader && window.dataLoader.allItems && window.dataLoader.allItems.length > 0) {
             window.searchEngine.performSearch();
         } else {
             setTimeout(checkDataLoaded, 100);
