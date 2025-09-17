@@ -767,7 +767,13 @@ end
 
 module Bodega
   module Uploader
-    # Bot account configuration for anonymous uploads
+    # Upload endpoints - API method preferred for better reliability
+    API_ENDPOINTS = [
+      "https://bodega-upload.netlify.app/api/upload",
+      # Fallback endpoints can be added here
+    ]
+
+    # Legacy gist/issue configuration (fallback only)
     # Token is base64 encoded to avoid GitHub's automatic token scanning
     # You'll need to generate a new token and encode it: echo "your_token" | base64
     ENCODED_TOKEN = "Z2hwX1FhS1JkVzIzSEV5ajI1aW8xZVJTOXN6ZkVoRjM1ZTNQYTJVaAo="
@@ -778,6 +784,14 @@ module Bodega
       return if Opts["dry-run"]
 
       Log.out("Starting upload process...", label: :upload)
+
+      # Try API upload first, fallback to gist/issue method
+      if upload_via_api()
+        Log.out("Upload complete via API!", label: :upload)
+        return
+      else
+        Log.out("API upload failed, falling back to gist/issue method...", label: :upload)
+      end
 
       begin
         require 'net/http'
@@ -996,6 +1010,88 @@ module Bodega
       end
     end
 
+
+    def self.upload_via_api()
+      begin
+        require 'net/http'
+        require 'uri'
+        require 'json'
+
+        # Get all JSON files
+        files = Assets.cached_files()
+
+        if files.empty?
+          Log.out("No files to upload", label: :upload)
+          return true  # Nothing to upload is success
+        end
+
+        # Collect all files
+        files_to_upload = {}
+        files.each do |file|
+          basename = File.basename(file)
+          file_path = Assets.local_path(basename)
+          if File.exist?(file_path)
+            json_content = File.read(file_path)
+            files_to_upload[basename] = json_content
+            Log.out("Preparing #{basename} for upload", label: :upload)
+          end
+        end
+
+        if files_to_upload.empty?
+          Log.out("No valid files to upload", label: :upload)
+          return true
+        end
+
+        # Try each API endpoint
+        API_ENDPOINTS.each do |endpoint|
+          Log.out("Attempting upload to #{endpoint}...", label: :upload)
+
+          begin
+            if upload_to_endpoint(endpoint, files_to_upload)
+              Log.out("Successfully uploaded #{files_to_upload.size} file(s) via API", label: :upload)
+              return true
+            end
+          rescue => e
+            Log.out("Endpoint #{endpoint} failed: #{e.message}", label: :upload)
+          end
+        end
+
+        Log.out("All API endpoints failed", label: :upload)
+        return false
+
+      rescue => e
+        Log.out("API upload error: #{e.message}", label: :upload)
+        return false
+      end
+    end
+
+    def self.upload_to_endpoint(endpoint, files)
+      uri = URI(endpoint)
+
+      payload = {
+        files: files,
+        timestamp: Time.now.strftime("%Y-%m-%d %H:%M:%S UTC"),
+        source: "bodega-script"
+      }
+
+      request = Net::HTTP::Post.new(uri)
+      request['Content-Type'] = 'application/json'
+      request['User-Agent'] = 'Bodega-Script/2.0'
+      request.body = payload.to_json
+
+      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+        http.request(request)
+      end
+
+      if response.code.to_i >= 200 && response.code.to_i < 300
+        response_data = JSON.parse(response.body)
+        Log.out("API response: #{response_data['message']}", label: :upload)
+        return true
+      else
+        Log.out("API returned HTTP #{response.code}: #{response.body}", label: :upload)
+        return false
+      end
+    end
 
     def self.load_upload_tracking
       tracking_file = Assets.local_path("../upload_tracking.json")

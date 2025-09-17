@@ -1,0 +1,224 @@
+name: Process API Upload
+
+on:
+  repository_dispatch:
+    types: [shop_data_upload]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  extract-and-process:
+    runs-on: ubuntu-latest
+    outputs:
+      files_count: ${{ steps.extract.outputs.files_count }}
+
+    steps:
+    - name: Extract upload data
+      id: extract
+      run: |
+        echo "Processing API upload from ${{ github.event.client_payload.source }}"
+        echo "Upload timestamp: ${{ github.event.client_payload.timestamp }}"
+
+        # Create directory for shop data
+        mkdir -p shop-data
+
+        # Extract files from the payload
+        files_data='${{ toJson(github.event.client_payload.files) }}'
+        echo "Files data: $files_data"
+
+        # Count files and process them
+        files_count=0
+
+        # Process each file in the JSON object
+        echo "$files_data" | jq -r 'to_entries[] | @base64' | while read -r item; do
+          decoded=$(echo "$item" | base64 --decode)
+          filename=$(echo "$decoded" | jq -r '.key')
+          content=$(echo "$decoded" | jq -r '.value')
+
+          echo "Processing file: $filename"
+          echo "$content" > "shop-data/$filename"
+
+          # Validate JSON
+          if jq . "shop-data/$filename" > /dev/null 2>&1; then
+            echo "✓ Valid JSON: $filename"
+            files_count=$((files_count + 1))
+          else
+            echo "✗ Invalid JSON: $filename"
+            rm "shop-data/$filename"
+          fi
+        done
+
+        echo "files_count=$files_count" >> $GITHUB_OUTPUT
+
+        # List processed files
+        echo "Successfully processed files:"
+        ls -la shop-data/
+
+    - name: Upload shop data as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: api-shop-data
+        path: shop-data/*.json
+        retention-days: 1
+
+  validate-data:
+    runs-on: ubuntu-latest
+    needs: extract-and-process
+    outputs:
+      validation_status: ${{ steps.validate.outputs.validation_status }}
+
+    steps:
+    - name: Download shop data artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: api-shop-data
+        path: shop-data
+
+    - name: Validate JSON files
+      id: validate
+      run: |
+        echo "Validating downloaded JSON files..."
+
+        validation_failed=false
+        valid_files=""
+        total_shops=0
+        total_items=0
+
+        for file in shop-data/*.json; do
+          if [ ! -f "$file" ]; then
+            echo "No files found to validate"
+            echo "validation_status=failed" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+          filename=$(basename "$file")
+          echo "Validating $filename..."
+
+          # Validate JSON syntax
+          if ! jq . "$file" > /dev/null 2>&1; then
+            echo "ERROR: Invalid JSON in $filename"
+            validation_failed=true
+            continue
+          fi
+
+          # Validate structure
+          town=$(jq -r '.town' "$file")
+          shops=$(jq -r '.shops | length' "$file")
+
+          if [ "$town" == "null" ] || [ "$shops" == "null" ] || [ "$shops" == "0" ]; then
+            echo "ERROR: Invalid data structure in $filename"
+            validation_failed=true
+            continue
+          fi
+
+          echo "✓ Valid: $filename - $town with $shops shops"
+          valid_files="$valid_files $filename"
+          total_shops=$((total_shops + shops))
+
+          # Count items
+          items=$(jq '[.shops[].inv[].items[]] | length' "$file")
+          total_items=$((total_items + items))
+        done
+
+        echo "Summary: $total_shops shops, $total_items items across $(echo $valid_files | wc -w) files"
+
+        if [ "$validation_failed" = true ]; then
+          echo "validation_status=failed" >> $GITHUB_OUTPUT
+        else
+          echo "validation_status=passed" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Upload validation results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: api-validation-results
+        path: shop-data/*.json
+        retention-days: 7
+
+  commit-changes:
+    runs-on: ubuntu-latest
+    needs: validate-data
+    if: needs.validate-data.outputs.validation_status == 'passed'
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download validated data
+      uses: actions/download-artifact@v4
+      with:
+        name: api-shop-data
+        path: temp-data
+
+    - name: Update data files
+      run: |
+        echo "Updating data files..."
+
+        # Ensure data directory exists
+        mkdir -p data
+
+        # Copy validated files to data directory
+        for file in temp-data/*.json; do
+          if [ -f "$file" ]; then
+            filename=$(basename "$file")
+            echo "Updating data/$filename"
+            cp "$file" "data/$filename"
+          fi
+        done
+
+        # Show what's being committed
+        echo "Files to be committed:"
+        ls -la data/*.json
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        if git diff --quiet data/; then
+          echo "No changes to commit"
+        else
+          git add data/*.json
+          git commit -m "Update shop data from API upload
+
+        - Uploaded via Netlify API at ${{ github.event.client_payload.timestamp }}
+        - Data validated and processed using artifact pipeline
+        - Direct API upload bypassing gist/issue workflow
+
+        🤖 Generated with [Claude Code](https://claude.ai/code)
+
+        Co-Authored-By: GitHub API Upload <noreply@github.com>"
+
+          git push origin main
+          echo "✅ Successfully committed and pushed changes"
+        fi
+
+  handle-failure:
+    runs-on: ubuntu-latest
+    needs: [extract-and-process, validate-data]
+    if: failure()
+
+    steps:
+    - name: Download artifacts for debugging
+      uses: actions/download-artifact@v4
+      with:
+        name: api-validation-results
+        path: failed-data
+      continue-on-error: true
+
+    - name: Log failure details
+      run: |
+        echo "❌ API upload processing failed"
+        echo "Upload timestamp: ${{ github.event.client_payload.timestamp }}"
+        echo "Source: ${{ github.event.client_payload.source }}"
+
+        if [ -d "failed-data" ]; then
+          echo "Files that were processed:"
+          ls -la failed-data/ || echo "No failed data artifacts found"
+        fi
+
+        echo "Check the workflow logs for detailed error information"
+        echo "Artifacts are preserved for 7 days for debugging"
