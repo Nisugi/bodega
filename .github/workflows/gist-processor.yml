@@ -1,4 +1,4 @@
-name: Process Gist Data Uploads
+name: Process Gist Upload
 
 on:
   issues:
@@ -9,7 +9,7 @@ permissions:
   issues: write
 
 jobs:
-  process-gist-upload:
+  process-gist:
     runs-on: ubuntu-latest
     if: contains(github.event.issue.labels.*.name, 'data-update')
 
@@ -22,8 +22,7 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Extract and process gist
-      id: process
+    - name: Process gist data
       run: |
         echo "Processing issue #${{ github.event.issue.number }}"
 
@@ -38,8 +37,7 @@ jobs:
 
         echo "Found gist URL: $gist_url"
 
-        # Convert gist URL to raw API URL
-        # Format: https://gist.github.com/USER/GIST_ID -> https://api.github.com/gists/GIST_ID
+        # Extract gist ID
         gist_id=$(echo "$gist_url" | sed -n 's/.*github.com\/[^\/]*\/\([a-f0-9]*\).*/\1/p')
 
         if [ -z "$gist_id" ]; then
@@ -91,10 +89,7 @@ jobs:
           fi
         done
 
-        echo "processed=true" >> $GITHUB_OUTPUT
-
     - name: Commit changes
-      if: steps.process.outputs.processed == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
