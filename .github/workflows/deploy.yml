@@ -3,7 +3,6 @@ name: Convert JSON to JS and Deploy to Pages
 on:
   push:
     branches: [ main ]
-    paths: [ '*.json' ]
   workflow_dispatch:
 
 permissions:

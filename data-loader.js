@@ -432,6 +432,11 @@ class DataLoader {
 // Global data loader instance
 window.dataLoader = new DataLoader();
 
+// Add backward compatibility method
+window.dataLoader.getAllItems = function() {
+    return this.allData;
+};
+
 // Auto-load data when page loads
 document.addEventListener('DOMContentLoaded', () => {
     window.dataLoader.loadAllData();

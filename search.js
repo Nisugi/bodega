@@ -640,5 +640,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // Also listen for the custom dataLoaded event
+    window.addEventListener('dataLoaded', () => {
+        window.searchEngine.performSearch();
+    });
+
     setTimeout(checkDataLoaded, 100);
 });
