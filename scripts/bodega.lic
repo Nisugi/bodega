@@ -1094,7 +1094,7 @@ module Bodega
     end
 
     def self.load_upload_tracking
-      tracking_file = Assets.local_path("../upload_tracking.json")
+      tracking_file = Assets.local_path("upload_tracking.json")
 
       if File.exist?(tracking_file)
         begin
@@ -1109,7 +1109,7 @@ module Bodega
     end
 
     def self.save_upload_tracking(tracking_data)
-      tracking_file = Assets.local_path("../upload_tracking.json")
+      tracking_file = Assets.local_path("upload_tracking.json")
       File.write(tracking_file, JSON.pretty_generate(tracking_data))
     end
 
