@@ -1,0 +1,279 @@
+name: Process Data Update Issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  process-update:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'data-update')
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Extract issue data
+      id: extract
+      run: |
+        # Extract JSON data from issue body
+        echo "Extracting JSON from issue #${{ github.event.issue.number }}"
+
+        # Get issue body and extract JSON block
+        issue_body='${{ github.event.issue.body }}'
+
+        # Extract town name from title
+        title='${{ github.event.issue.title }}'
+        town_name=$(echo "$title" | sed -n 's/.*Shop data update - \(.*\) - .*/\1/p')
+        town_file=$(echo "$town_name" | tr '[:upper:]' '[:lower:]' | tr ' ' '_').json
+
+        echo "town_name=$town_name" >> $GITHUB_OUTPUT
+        echo "town_file=$town_file" >> $GITHUB_OUTPUT
+
+        # Extract JSON content between ```json and ```
+        json_content=$(echo "$issue_body" | sed -n '/```json/,/```/p' | sed '1d;$d')
+
+        # Save JSON to temporary file
+        echo "$json_content" > temp_data.json
+
+        # Validate JSON format
+        if ! node -e "JSON.parse(require('fs').readFileSync('temp_data.json', 'utf8'))"; then
+          echo "validation_status=invalid_json" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+
+        echo "validation_status=valid" >> $GITHUB_OUTPUT
+
+    - name: Validate JSON structure
+      id: validate
+      if: steps.extract.outputs.validation_status == 'valid'
+      run: |
+        echo "Validating JSON structure for ${{ steps.extract.outputs.town_name }}"
+
+        # Create validation script
+        cat > validate.js << 'EOF'
+        const fs = require('fs');
+
+        try {
+          const data = JSON.parse(fs.readFileSync('temp_data.json', 'utf8'));
+
+          // Check required structure
+          if (!data.town) {
+            console.log('Missing town field');
+            process.exit(1);
+          }
+
+          if (!data.shops || !Array.isArray(data.shops)) {
+            console.log('Missing or invalid shops array');
+            process.exit(1);
+          }
+
+          // Count items and shops
+          let totalItems = 0;
+          let totalShops = data.shops.length;
+
+          data.shops.forEach(shop => {
+            if (shop.inv && Array.isArray(shop.inv)) {
+              shop.inv.forEach(room => {
+                if (room.items && Array.isArray(room.items)) {
+                  totalItems += room.items.length;
+                }
+              });
+            }
+          });
+
+          console.log(`Validation passed: ${totalShops} shops, ${totalItems} items`);
+          console.log(`item_count=${totalItems}`);
+
+        } catch (error) {
+          console.log('Validation failed:', error.message);
+          process.exit(1);
+        }
+        EOF
+
+        # Run validation
+        if node validate.js > validation_output.txt; then
+          item_count=$(grep "item_count=" validation_output.txt | cut -d'=' -f2)
+          echo "validation_status=passed" >> $GITHUB_OUTPUT
+          echo "item_count=$item_count" >> $GITHUB_OUTPUT
+          echo "validation_message=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
+        else
+          echo "validation_status=failed" >> $GITHUB_OUTPUT
+          echo "validation_message=$(cat validation_output.txt)" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Check for conflicts
+      id: conflict
+      if: steps.validate.outputs.validation_status == 'passed'
+      run: |
+        echo "Checking for conflicts with ${{ steps.extract.outputs.town_file }}"
+
+        # Check if file exists and get last modified time
+        if [ -f "${{ steps.extract.outputs.town_file }}" ]; then
+          # Get file modification time
+          existing_modified=$(stat -c %Y "${{ steps.extract.outputs.town_file }}")
+
+          # Get issue creation time (approximate)
+          issue_created="${{ github.event.issue.created_at }}"
+          issue_timestamp=$(date -d "$issue_created" +%s)
+
+          # Check if file was modified recently (within 10 minutes of issue creation)
+          time_diff=$((issue_timestamp - existing_modified))
+
+          if [ $time_diff -lt 600 ] && [ $time_diff -gt -600 ]; then
+            echo "conflict_status=potential" >> $GITHUB_OUTPUT
+            echo "conflict_message=File was modified recently, potential conflict" >> $GITHUB_OUTPUT
+          else
+            echo "conflict_status=none" >> $GITHUB_OUTPUT
+          fi
+        else
+          echo "conflict_status=none" >> $GITHUB_OUTPUT
+          echo "File does not exist, no conflict possible"
+        fi
+
+    - name: Auto-merge valid updates
+      id: merge
+      if: steps.validate.outputs.validation_status == 'passed' && steps.conflict.outputs.conflict_status == 'none'
+      run: |
+        echo "Auto-merging update for ${{ steps.extract.outputs.town_name }}"
+
+        # Copy validated JSON to target file
+        cp temp_data.json "${{ steps.extract.outputs.town_file }}"
+
+        # Configure git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+        # Commit changes
+        git add "${{ steps.extract.outputs.town_file }}"
+        git commit -m "Auto-update shop data for ${{ steps.extract.outputs.town_name }}
+
+        - ${{ steps.validate.outputs.item_count }} items updated
+        - Processed from issue #${{ github.event.issue.number }}
+        - Validation: ${{ steps.validate.outputs.validation_message }}
+
+        🤖 Generated with [Claude Code](https://claude.ai/code)
+
+        Co-Authored-By: Claude <noreply@anthropic.com>"
+
+        # Push changes
+        git push origin main
+
+        echo "merge_status=completed" >> $GITHUB_OUTPUT
+
+    - name: Comment on issue - Success
+      if: steps.merge.outputs.merge_status == 'completed'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `✅ **Data update processed successfully!**
+
+            **Town:** ${{ steps.extract.outputs.town_name }}
+            **Items:** ${{ steps.validate.outputs.item_count }} total items
+            **Status:** Auto-merged to main branch
+
+            The website will update automatically within 1-2 minutes.
+
+            Thank you for contributing to the shop database! 🎉`
+          });
+
+    - name: Close successful issue
+      if: steps.merge.outputs.merge_status == 'completed'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.update({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'closed',
+            labels: ['data-update', 'auto-generated', 'processed', 'merged']
+          });
+
+    - name: Comment on issue - Validation Failed
+      if: steps.validate.outputs.validation_status == 'failed'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `❌ **Data validation failed**
+
+            **Issue:** ${{ steps.validate.outputs.validation_message }}
+
+            Please check your JSON data format and try again. If you need help, feel free to ask in the comments.`
+          });
+
+          await github.rest.issues.addLabels({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            labels: ['validation-failed', 'needs-review']
+          });
+
+    - name: Comment on issue - Conflict Detected
+      if: steps.conflict.outputs.conflict_status == 'potential'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `⚠️ **Potential conflict detected**
+
+            **Issue:** ${{ steps.conflict.outputs.conflict_message }}
+
+            This update will be queued for manual review to prevent data conflicts.
+            A maintainer will review and merge this update soon.`
+          });
+
+          await github.rest.issues.addLabels({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            labels: ['conflict-detected', 'needs-manual-review']
+          });
+
+    - name: Comment on issue - Invalid JSON
+      if: steps.extract.outputs.validation_status == 'invalid_json'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          await github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `❌ **Invalid JSON format**
+
+            The JSON data in this issue could not be parsed. Please check for:
+            - Missing commas
+            - Unclosed brackets or braces
+            - Invalid escape characters
+            - Trailing commas
+
+            Please fix the JSON format and create a new issue.`
+          });
+
+          await github.rest.issues.addLabels({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            labels: ['invalid-json', 'needs-fix']
+          });
