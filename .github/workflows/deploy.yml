@@ -486,16 +486,16 @@ jobs:
                     lastUpdated: new Date().toLocaleDateString()
                 };
             }
+
+            // Backward compatibility method
+            getAllItems() {
+                return this.allData;
+            }
         }
 
         // Initialize when DOM is loaded
         document.addEventListener('DOMContentLoaded', async function() {
             window.dataLoader = new DataLoader();
-
-            // Add backward compatibility method
-            window.dataLoader.getAllItems = function() {
-                return this.allData;
-            };
 
             // Automatically load data
             await window.dataLoader.loadAllData();
