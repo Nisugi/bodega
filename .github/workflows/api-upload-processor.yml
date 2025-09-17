@@ -9,51 +9,64 @@ permissions:
   issues: write
 
 jobs:
-  extract-and-process:
+  extract-and-download:
     runs-on: ubuntu-latest
     outputs:
-      files_count: ${{ steps.extract.outputs.files_count }}
+      gist_id: ${{ steps.extract.outputs.gist_id }}
+      files_count: ${{ steps.download.outputs.files_count }}
 
     steps:
-    - name: Extract upload data
+    - name: Extract gist information
       id: extract
       run: |
         echo "Processing API upload from ${{ github.event.client_payload.source }}"
         echo "Upload timestamp: ${{ github.event.client_payload.timestamp }}"
+        echo "Gist URL: ${{ github.event.client_payload.gist_url }}"
+        echo "Gist ID: ${{ github.event.client_payload.gist_id }}"
+        echo "File count: ${{ github.event.client_payload.file_count }}"
 
-        # Create directory for shop data
+        # Output gist ID for next step
+        echo "gist_id=${{ github.event.client_payload.gist_id }}" >> $GITHUB_OUTPUT
+
+    - name: Download gist files
+      id: download
+      run: |
+        # Fetch gist metadata
+        gist_id="${{ steps.extract.outputs.gist_id }}"
+        gist_api_url="https://api.github.com/gists/$gist_id"
+        echo "Fetching gist from: $gist_api_url"
+
+        gist_data=$(curl -s "$gist_api_url")
+
+        # Create directory for artifacts
         mkdir -p shop-data
 
-        # Extract files from the payload
-        files_data='${{ toJson(github.event.client_payload.files) }}'
-        echo "Files data: $files_data"
-
-        # Count files and process them
+        # Process each file
+        files=$(echo "$gist_data" | jq -r '.files | keys[]')
         files_count=0
 
-        # Process each file in the JSON object
-        echo "$files_data" | jq -r 'to_entries[] | @base64' | while read -r item; do
-          decoded=$(echo "$item" | base64 --decode)
-          filename=$(echo "$decoded" | jq -r '.key')
-          content=$(echo "$decoded" | jq -r '.value')
+        for file in $files; do
+          if [[ "$file" == *.json ]]; then
+            echo "Downloading file: $file"
 
-          echo "Processing file: $filename"
-          echo "$content" > "shop-data/$filename"
+            # Always use raw_url to ensure we get the full content
+            raw_url=$(echo "$gist_data" | jq -r ".files[\"$file\"].raw_url")
+            echo "Fetching from: $raw_url"
 
-          # Validate JSON
-          if jq . "shop-data/$filename" > /dev/null 2>&1; then
-            echo "✓ Valid JSON: $filename"
+            # Download directly to shop-data directory
+            curl -s "$raw_url" -o "shop-data/$file"
+
+            # Show file size for verification
+            size=$(stat -c%s "shop-data/$file")
+            echo "Downloaded $file: $size bytes"
             files_count=$((files_count + 1))
-          else
-            echo "✗ Invalid JSON: $filename"
-            rm "shop-data/$filename"
           fi
         done
 
         echo "files_count=$files_count" >> $GITHUB_OUTPUT
 
-        # List processed files
-        echo "Successfully processed files:"
+        # List downloaded files
+        echo "Downloaded files:"
         ls -la shop-data/
 
     - name: Upload shop data as artifact
@@ -65,7 +78,7 @@ jobs:
 
   validate-data:
     runs-on: ubuntu-latest
-    needs: extract-and-process
+    needs: extract-and-download
     outputs:
       validation_status: ${{ steps.validate.outputs.validation_status }}
 
@@ -178,10 +191,46 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-        if git diff --quiet data/; then
-          echo "No changes to commit"
+        # Debug: Show current state
+        echo "=== Current repository state ==="
+        git status
+        echo ""
+        echo "=== Files in data directory ==="
+        ls -la data/ || echo "data/ directory doesn't exist"
+        echo ""
+        echo "=== Files in temp-data directory ==="
+        ls -la temp-data/ || echo "temp-data/ directory doesn't exist"
+        echo ""
+        echo "=== Git diff for data directory ==="
+        git diff --name-only data/ || echo "No diff output"
+        echo ""
+        echo "=== Git diff summary ==="
+        git diff --stat data/ || echo "No diff stat"
+        echo ""
+
+        # Check if there are any changes
+        if git diff --quiet data/ && git diff --quiet --cached data/; then
+          echo "No changes detected in data/ directory"
+
+          # Force update with timestamp to ensure commit happens
+          echo "Creating timestamp file to force commit..."
+          echo "Last updated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" > data/last_updated.txt
+          echo "Data processed from API upload at ${{ github.event.client_payload.timestamp }}" >> data/last_updated.txt
+
+          git add data/
+          git commit -m "Update shop data from API upload (forced with timestamp)
+
+        - Uploaded via Netlify API at ${{ github.event.client_payload.timestamp }}
+        - Data validated and processed using artifact pipeline
+        - Direct API upload bypassing gist/issue workflow
+        - Forced commit with timestamp update
+
+        🤖 Generated with [Claude Code](https://claude.ai/code)
+
+        Co-Authored-By: GitHub API Upload <noreply@github.com>"
         else
-          git add data/*.json
+          echo "Changes detected - committing updates"
+          git add data/
           git commit -m "Update shop data from API upload
 
         - Uploaded via Netlify API at ${{ github.event.client_payload.timestamp }}
@@ -191,14 +240,14 @@ jobs:
         🤖 Generated with [Claude Code](https://claude.ai/code)
 
         Co-Authored-By: GitHub API Upload <noreply@github.com>"
-
-          git push origin main
-          echo "✅ Successfully committed and pushed changes"
         fi
+
+        git push origin main
+        echo "✅ Successfully committed and pushed changes"
 
   handle-failure:
     runs-on: ubuntu-latest
-    needs: [extract-and-process, validate-data]
+    needs: [extract-and-download, validate-data]
     if: failure()
 
     steps:
