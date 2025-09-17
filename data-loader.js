@@ -375,32 +375,40 @@ class DataLoader {
     updateTownTimestamps() {
         const timestampContainer = document.getElementById('town-timestamps') || this.createTimestampContainer();
 
-        // Clear existing content
-        timestampContainer.innerHTML = '<h4>Town Updates:</h4>';
-
         // Sort towns by most recent update
         const sortedTowns = Object.keys(this.townTimestamps)
             .sort((a, b) => this.townTimestamps[b] - this.townTimestamps[a]);
 
-        sortedTowns.forEach(town => {
+        if (sortedTowns.length === 0) {
+            timestampContainer.innerHTML = '<div class="ticker-content">No town data available</div>';
+            return;
+        }
+
+        // Build ticker content - duplicate for seamless scrolling
+        const tickerItems = sortedTowns.map(town => {
             const timestamp = this.townTimestamps[town];
             const timeAgo = this.getTimeAgo(timestamp);
-            const fullTime = timestamp.toLocaleDateString() + ' at ' + timestamp.toLocaleTimeString();
+            return `<span class="ticker-item"><strong>${town}:</strong> ${timeAgo}</span>`;
+        }).join('');
 
-            const townDiv = document.createElement('div');
-            townDiv.className = 'town-timestamp';
-            townDiv.innerHTML = `
-                <span class="town-name">${town}</span>:
-                <span class="time-ago" title="${fullTime}">${timeAgo}</span>
-            `;
-            timestampContainer.appendChild(townDiv);
-        });
+        // Create ticker with duplicated content for seamless loop
+        timestampContainer.innerHTML = `
+            <div class="ticker-wrapper">
+                <div class="ticker-label">Town Updates:</div>
+                <div class="ticker-scroll-wrapper">
+                    <div class="ticker-content">
+                        ${tickerItems}
+                        ${tickerItems}  <!-- Duplicate for seamless scrolling -->
+                    </div>
+                </div>
+            </div>
+        `;
     }
 
     createTimestampContainer() {
         const container = document.createElement('div');
         container.id = 'town-timestamps';
-        container.className = 'town-timestamps-container';
+        container.className = 'town-timestamps-ticker';
 
         // Insert after the main stats
         const stats = document.getElementById('stats');
