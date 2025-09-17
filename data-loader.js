@@ -438,6 +438,8 @@ window.dataLoader.getAllItems = function() {
 };
 
 // Auto-load data when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    window.dataLoader.loadAllData();
+document.addEventListener('DOMContentLoaded', async () => {
+    await window.dataLoader.loadAllData();
+    // Notify search.js that data is loaded
+    window.dispatchEvent(new CustomEvent('dataLoaded'));
 });
