@@ -931,6 +931,9 @@ module Bodega
           --manifest            create a manifest file of the assets
           --upload              upload generated JSON files to GitHub (creates issues for auto-processing)
 
+        upload mode:
+          --upload              upload existing JSON files from local filesystem
+
         search mode:
           --flush               forces a resync of the search index from the CDN
           --force-index         forces the search index to be built as fast as possible
@@ -957,6 +960,12 @@ module Bodega
         if Opts.upload and (Opts.save or Opts["dry-run"])
           Bodega::Uploader.upload_all_files
         end
+      end
+
+      # Handle standalone upload mode
+      if Opts.upload and not Opts.parser
+        Log.out("Upload mode: uploading existing JSON files", label: :upload)
+        Bodega::Uploader.upload_all_files
       end
 
       if Opts.search
