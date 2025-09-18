@@ -165,6 +165,9 @@ class DataLoader {
                 // Advanced parsed properties
                 ...advancedProps,
 
+                // Use worn field from bodega.lic if available
+                wearLocation: item.details?.worn || advancedProps.wearLocation,
+
                 // Search text (for fast filtering)
                 searchText: this.buildSearchText(item, shop, room, townData)
             };
