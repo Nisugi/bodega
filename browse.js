@@ -73,8 +73,7 @@ class BrowseEngine {
 
                 // Store shop metadata (from first item encountered for this shop)
                 this.shopMetadata[town][shop] = {
-                    sign: item.shopSign || '',
-                    location: item.shopLocation || '',
+                    preamble: item.shopLocation || '',
                     id: item.shopId || ''
                 };
             }
@@ -164,6 +163,10 @@ class BrowseEngine {
             const shopRow = document.createElement('tr');
             shopRow.className = 'shop-directory-row';
 
+            // Extract owner name from shop name or preamble
+            const ownerName = this.extractOwnerName(shopName, metadata);
+            const locationInfo = this.extractLocationInfo(metadata);
+
             const shopCard = `
                 <td colspan="5" class="shop-directory-card">
                     <div class="shop-card">
@@ -172,13 +175,13 @@ class BrowseEngine {
                             <div class="shop-card-stats">
                                 <span class="stat-badge">${itemCount} items</span>
                                 <span class="stat-badge">${roomCount} room${roomCount !== 1 ? 's' : ''}</span>
-                                ${metadata.location ? `<span class="stat-badge location">${metadata.location}</span>` : ''}
+                                ${locationInfo ? `<span class="stat-badge location">${locationInfo}</span>` : ''}
                             </div>
                         </div>
-                        ${metadata.sign ? `
-                            <div class="shop-card-sign">
-                                <div class="sign-icon">📋</div>
-                                <div class="sign-text">${metadata.sign}</div>
+                        ${ownerName ? `
+                            <div class="shop-card-owner">
+                                <div class="owner-icon">👤</div>
+                                <div class="owner-text">Owner: ${ownerName}</div>
                             </div>
                         ` : ''}
                         <div class="shop-card-footer">
@@ -192,6 +195,36 @@ class BrowseEngine {
             shopRow.addEventListener('click', () => this.selectShop(townName, shopName));
             tbody.appendChild(shopRow);
         });
+    }
+
+    extractOwnerName(shopName, metadata) {
+        // Try to extract owner name from shop name (e.g., "Grimburn's Shop" -> "Grimburn")
+        const possessiveMatch = shopName.match(/^(.+)'s\s+/);
+        if (possessiveMatch) {
+            return possessiveMatch[1];
+        }
+
+        // Try to extract from preamble if available
+        if (metadata.preamble) {
+            const preambleMatch = metadata.preamble.match(/^(.+)'s\s+/);
+            if (preambleMatch) {
+                return preambleMatch[1];
+            }
+        }
+
+        return null;
+    }
+
+    extractLocationInfo(metadata) {
+        if (!metadata.preamble) return null;
+
+        // Extract location from preamble like "is located in [East Row, Ebonwood Way]"
+        const locationMatch = metadata.preamble.match(/is located in \[([^\]]+)\]/);
+        if (locationMatch) {
+            return locationMatch[1];
+        }
+
+        return null;
     }
 
     hideShopList() {
@@ -293,12 +326,25 @@ class BrowseEngine {
         tbody.innerHTML = '';
 
         Object.keys(itemsByRoom).sort().forEach(roomName => {
+            // Get room sign from first item in room (all items in same room have same sign)
+            const roomSign = itemsByRoom[roomName].length > 0 ? itemsByRoom[roomName][0].roomSign : '';
+
             // Add room header
             const roomHeader = document.createElement('tr');
             roomHeader.className = 'room-header';
             roomHeader.innerHTML = `
                 <td colspan="5">
-                    <strong>${roomName}</strong> (${itemsByRoom[roomName].length} items)
+                    <div class="room-header-content">
+                        <div class="room-title">
+                            <strong>${roomName}</strong> (${itemsByRoom[roomName].length} items)
+                        </div>
+                        ${roomSign ? `
+                            <div class="room-sign">
+                                <div class="room-sign-icon">📋</div>
+                                <div class="room-sign-text">${roomSign}</div>
+                            </div>
+                        ` : ''}
+                    </div>
                 </td>
             `;
             tbody.appendChild(roomHeader);

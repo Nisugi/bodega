@@ -136,6 +136,7 @@ class DataLoader {
                 shopLocation: shop.preamble,
                 shopSign: this.extractShopSign(shop),
                 room: room.room_title,
+                roomSign: this.extractRoomSign(room),
                 branch: room.branch,
 
                 // Price and enchant
@@ -373,6 +374,19 @@ class DataLoader {
         if (entryRoom.sign && entryRoom.sign.length > 0) {
             // Filter out the "Written on..." line and join the rest
             return entryRoom.sign
+                .filter(line => !line.match(/^Written on/))
+                .join(' ')
+                .trim();
+        }
+
+        return '';
+    }
+
+    extractRoomSign(room) {
+        // Extract sign from this specific room
+        if (room.sign && room.sign.length > 0) {
+            // Filter out the "Written on..." line and join the rest
+            return room.sign
                 .filter(line => !line.match(/^Written on/))
                 .join(' ')
                 .trim();

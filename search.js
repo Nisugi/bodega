@@ -704,11 +704,16 @@ class SearchEngine {
 
     resetFilters() {
         document.getElementById('search-input').value = '';
-        document.getElementById('town-filter').selectedIndex = 0;
+
+        // Reset multi-select town filter
+        const townFilter = document.getElementById('town-filter');
+        for (let i = 0; i < townFilter.options.length; i++) {
+            townFilter.options[i].selected = false;
+        }
+
+        // Reset single-select filters
         document.getElementById('price-filter').selectedIndex = 0;
         document.getElementById('enchant-filter').selectedIndex = 0;
-
-        // New filters
         document.getElementById('item-type-filter').selectedIndex = 0;
         document.getElementById('capacity-filter').selectedIndex = 0;
         document.getElementById('armor-type-filter').selectedIndex = 0;
@@ -716,16 +721,17 @@ class SearchEngine {
         document.getElementById('wear-location-filter').selectedIndex = 0;
         document.getElementById('skill-filter').selectedIndex = 0;
 
-        // Checkboxes
+        // Reset gemstone filters
+        document.getElementById('gemstone-rarity-filter').selectedIndex = 0;
+        document.getElementById('gemstone-properties-filter').selectedIndex = 0;
+
+        // Reset special properties checkboxes
         document.getElementById('enhancive-filter').checked = false;
-        document.getElementById('max-light-filter').checked = false;
-        document.getElementById('max-deep-filter').checked = false;
         document.getElementById('persists-filter').checked = false;
         document.getElementById('crumbly-filter').checked = false;
         document.getElementById('flares-filter').checked = false;
-        document.getElementById('spell-filter').checked = false;
-        document.getElementById('blessed-filter').checked = false;
 
+        // Reset sort
         document.getElementById('sort-filter').selectedIndex = 0;
 
         this.currentSort = { field: 'name', direction: 'asc' };
