@@ -2,6 +2,7 @@
 class DataLoader {
     constructor() {
         this.allItems = [];
+        this.removedItems = [];
         this.towns = [];
         this.totalShops = 0;
         this.lastUpdated = null;
@@ -37,7 +38,7 @@ class DataLoader {
             this.updateStats();
             this.populateTownFilter();
 
-            console.log(`Loaded ${this.allItems.length} items from ${this.towns.length} towns`);
+            console.log(`Loaded ${this.allItems.length} items and ${this.removedItems.length} removed items from ${this.towns.length} towns`);
 
         } catch (error) {
             console.error('Error loading data:', error);
@@ -68,6 +69,7 @@ class DataLoader {
 
     processAllData(townDataArray) {
         this.allItems = [];
+        this.removedItems = [];
         this.towns = [];
         this.townTimestamps = {};
         this.totalShops = 0;
@@ -102,6 +104,30 @@ class DataLoader {
                     });
                 });
             });
+
+            // Process removed items if they exist
+            if (townData.removed_items && Array.isArray(townData.removed_items)) {
+                townData.removed_items.forEach(removedItem => {
+                    const processedItem = this.processItem(removedItem, {}, {}, townData);
+                    if (processedItem) {
+                        // Add removal metadata
+                        processedItem.removedDate = removedItem.removed_date || new Date().toISOString();
+                        processedItem.lastSeenShop = removedItem.last_seen_shop || null;
+                        processedItem.lastSeenTown = cleanTownName;
+
+                        this.removedItems.push(processedItem);
+                    }
+                });
+            }
+        });
+
+        // Filter removed items to last 14 days
+        const fourteenDaysAgo = new Date();
+        fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
+
+        this.removedItems = this.removedItems.filter(item => {
+            const removedDate = new Date(item.removedDate);
+            return removedDate >= fourteenDaysAgo;
         });
 
         this.lastUpdated = oldestUpdate;

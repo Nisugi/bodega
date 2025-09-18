@@ -368,6 +368,12 @@ module Bodega
         elsif _prop == :worn && line =~ /on the feet, beneath shoes or boots/i
           @props[:worn] = "socks"
           true  # Return true to indicate a match was found
+        elsif _prop == :worn && line =~ /slinging it across the shoulders and back/i
+          @props[:worn] = "shoulders"
+          true  # Return true to indicate a match was found
+        elsif _prop == :worn && line =~ /hanging it from the shoulders/i
+          @props[:worn] = "cloak"
+          true  # Return true to indicate a match was found
         elsif (result = line.match(pattern))
           @props.merge!(result.to_h)
           true

@@ -27,6 +27,7 @@
                 <div class="mode-tabs">
                     <button id="search-tab" class="mode-tab active">Search</button>
                     <button id="browse-tab" class="mode-tab">Browse</button>
+                    <button id="removed-tab" class="mode-tab">Recently Removed</button>
                 </div>
 
                 <!-- Search Mode -->
@@ -158,28 +159,30 @@
                     <h3>Wear Location</h3>
                     <select id="wear-location-filter">
                         <option value="">Any Location</option>
-                        <option value="pin">Pin-worn</option>
-                        <option value="back">Back</option>
-                        <option value="waist">Waist (Belt)</option>
+                        <option value="pin">Pin</option>
                         <option value="head">Head</option>
-                        <option value="shoulder">Shoulder (Shield)</option>
-                        <option value="shoulders">Shoulders (Cloak)</option>
-                        <option value="legs">Legs</option>
-                        <option value="torso">Torso (Armor)</option>
-                        <option value="wrist">Wrist</option>
-                        <option value="finger">Finger</option>
-                        <option value="feet">Feet</option>
-                        <option value="neck">Neck</option>
-                        <option value="belt">Belt (Pouch)</option>
-                        <option value="arms">Arms</option>
-                        <option value="earlobe">Earlobe</option>
-                        <option value="earlobes">Earlobes</option>
-                        <option value="ankle">Ankle</option>
-                        <option value="front">Front (Apron)</option>
-                        <option value="hands">Hands</option>
                         <option value="hair">Hair</option>
+                        <option value="ear">Ear</option>
+                        <option value="ears">Ears</option>
+                        <option value="neck">Neck</option>
+                        <option value="cloak">Cloak</option>
+                        <option value="shoulders">Shoulders</option>
+                        <option value="chest">Chest</option>
+                        <option value="front">Front</option>
                         <option value="undershirt">Undershirt</option>
+                        <option value="back">Back</option>
+                        <option value="arms">Arms</option>
+                        <option value="wrist">Wrist</option>
+                        <option value="hands">Hands</option>
+                        <option value="finger">Finger</option>
+                        <option value="waist">Waist</option>
+                        <option value="belt">Belt</option>
+                        <option value="pants">Pants</option>
+                        <option value="legs">Legs</option>
                         <option value="leggings">Leggings</option>
+                        <option value="ankle">Ankle</option>
+                        <option value="socks">Socks</option>
+                        <option value="feet">Feet</option>
                     </select>
                 </div>
 
@@ -272,6 +275,61 @@
                         <button id="back-to-shops" class="nav-button">← Back to Shops</button>
                     </div>
                 </div>
+
+                <!-- Recently Removed Mode -->
+                <div id="removed-mode" class="mode-content" style="display: none;">
+                    <div class="filter-section">
+                        <h3>Recently Removed Items</h3>
+                        <p class="mode-description">Items removed from shops in the last 14 days</p>
+
+                        <input type="text" id="removed-search-input" placeholder="Search removed items..." />
+                        <button id="removed-search-btn">Search</button>
+                        <button id="removed-clear-btn">Clear</button>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Removal Date</h3>
+                        <select id="removed-date-filter">
+                            <option value="">Any Time</option>
+                            <option value="1">Last 24 hours</option>
+                            <option value="3">Last 3 days</option>
+                            <option value="7">Last 7 days</option>
+                            <option value="14">Last 14 days</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Price Range</h3>
+                        <select id="removed-price-filter">
+                            <option value="">Any Price</option>
+                            <option value="0-1000">Under 1k</option>
+                            <option value="1000-10000">1k - 10k</option>
+                            <option value="10000-100000">10k - 100k</option>
+                            <option value="100000-500000">100k - 500k</option>
+                            <option value="500000-1000000">500k - 1M</option>
+                            <option value="1000000-5000000">1M - 5M</option>
+                            <option value="5000000-10000000">5M - 10M</option>
+                            <option value="10000000-50000000">10M - 50M</option>
+                            <option value="50000000-999999999">Over 50M</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Sort By</h3>
+                        <select id="removed-sort-filter">
+                            <option value="removed-desc">Recently Removed</option>
+                            <option value="price-desc">Price (High to Low)</option>
+                            <option value="price-asc">Price (Low to High)</option>
+                            <option value="name">Name</option>
+                            <option value="enchant-desc">Enchant (High to Low)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-section">
+                        <button id="removed-apply-filters">Apply Filters</button>
+                        <button id="removed-reset-filters">Reset All</button>
+                    </div>
+                </div>
             </aside>
 
             <!-- Main Content Area -->
@@ -329,5 +387,6 @@
     <script src="data-loader.js"></script>
     <script src="search.js"></script>
     <script src="browse.js"></script>
+    <script src="removed.js"></script>
 </body>
 </html>

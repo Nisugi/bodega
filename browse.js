@@ -19,8 +19,10 @@ class BrowseEngine {
     switchToSearch() {
         document.getElementById('search-tab').classList.add('active');
         document.getElementById('browse-tab').classList.remove('active');
+        document.getElementById('removed-tab').classList.remove('active');
         document.getElementById('search-mode').style.display = 'block';
         document.getElementById('browse-mode').style.display = 'none';
+        document.getElementById('removed-mode').style.display = 'none';
 
         // Show pagination controls for search mode
         document.getElementById('pagination').style.display = 'flex';
@@ -34,8 +36,10 @@ class BrowseEngine {
     switchToBrowse() {
         document.getElementById('search-tab').classList.remove('active');
         document.getElementById('browse-tab').classList.add('active');
+        document.getElementById('removed-tab').classList.remove('active');
         document.getElementById('search-mode').style.display = 'none';
         document.getElementById('browse-mode').style.display = 'block';
+        document.getElementById('removed-mode').style.display = 'none';
 
         // Hide pagination controls for browse mode
         document.getElementById('pagination').style.display = 'none';
