@@ -361,8 +361,16 @@ module Bodega
       PROPS.select do |_prop, pattern|
         if _prop == :worn && line =~ /can be worn anywhere on the body/i
           @props[:worn] = "pin"
+          true  # Return true to indicate a match was found
+        elsif _prop == :worn && line =~ /around the chest, beneath another garment/i
+          @props[:worn] = "undershirt"
+          true  # Return true to indicate a match was found
+        elsif _prop == :worn && line =~ /on the feet, beneath shoes or boots/i
+          @props[:worn] = "socks"
+          true  # Return true to indicate a match was found
         elsif (result = line.match(pattern))
           @props.merge!(result.to_h)
+          true
         else
           false
         end
