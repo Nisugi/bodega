@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-18 01:59:21 UTC",
+  "created_at": "2025-09-18 16:54:31 UTC",
   "run_time": "18s",
   "town": "Solhaven",
   "shops": [
@@ -865,13 +865,13 @@
               "name": "a gnome travel brochure",
               "details": {
                 "raw": [
-                  "   Current Time: 14:34   Current Flight Schedule",
+                  "   Current Time: 04:51   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
                   "    ---------------------------------------------------------------",
                   "Times be estimates only!  Subject ta change by headwinds an' tailwinds an' sidewinds an' stuff!  Deal wit' it!",
-                  "   Current Time: 14:34   Current Flight Schedule",
+                  "   Current Time: 04:51   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
@@ -6211,7 +6211,7 @@
                   "It is estimated to be worth about 82,000 silvers.",
                   "It is predominantly crafted of eahnor.",
                   "It is a simple project (13 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 7 hours and 37 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 17 hours and 20 minutes."
                 ],
                 "tags": [
                   "max_light"
@@ -8031,7 +8031,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (34 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 hours and 17 minutes."
+                  "It has a temporarily unlocked loresong by a bard."
                 ],
                 "tags": [
                   "lightenable",
@@ -8761,7 +8761,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 8 hours and 55 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 8 days, 18 hours and 38 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -8801,7 +8801,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 17 hours and 14 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 2 hours and 57 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9349,7 +9349,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 80,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 30 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 4 hours and 14 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9382,7 +9382,7 @@
                   "    It seems to have several enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 45 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 4 hours and 28 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -29082,22 +29082,6 @@
           "branch": "north",
           "items": [
             {
-              "id": "171458",
-              "name": "a voluminous grey samite robe",
-              "details": {
-                "raw": [
-                  "It is estimated that a voluminous grey samite robe can store a medium amount with enough space for any number of items.",
-                  "Analysis of a voluminous grey samite robe indicates the item is free from merchant alteration restrictions.",
-                  "The grey samite robe will cost 1,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "max_deep",
-                  "max_light"
-                ]
-              }
-            },
-            {
               "id": "171457",
               "name": "an icy blue silver edged ballgown",
               "details": {
@@ -29360,180 +29344,6 @@
                 "tags": [],
                 "material": "leather, an extremely common material"
               }
-            },
-            {
-              "id": "171429",
-              "name": "a monir-hilted gornar dagger",
-              "details": {
-                "raw": [
-                  "Analysis of a monir-hilted gornar dagger indicates the item has certain alteration restrictions.  This material cannot be dyed.",
-                  "The gornar dagger will cost 75,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 1,650,000 silvers.",
-                  "It is predominantly crafted of gornar.",
-                  "It is a basic project (101 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Aehen."
-                ],
-                "tags": [
-                  "max_light",
-                  "persists",
-                  "small"
-                ],
-                "skill": "edged weapons",
-                "material": "gornar, a rare metal",
-                "enchant": 5,
-                "flare": "the power of an earth elemental",
-                "enhancives": [
-                  {
-                    "boost": 7,
-                    "ability": "Edged Weapons Ranks"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "171428",
-              "name": "a blackened vultite helm",
-              "details": {
-                "raw": [
-                  "The helm is miscellaneous armor that covers the head.",
-                  "Analysis of a blackened vultite helm indicates the item is free from merchant alteration restrictions.",
-                  "The vultite helm will cost 75,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 1,350,000 silvers.",
-                  "It is predominantly crafted of vultite.",
-                  "It is a simple project (48 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Jisandra."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable",
-                  "persists"
-                ],
-                "material": "vultite, an uncommon metal",
-                "enhancives": [
-                  {
-                    "boost": 4,
-                    "ability": "Stalking and Hiding Ranks"
-                  },
-                  {
-                    "boost": 3,
-                    "ability": "Disarming Traps Ranks"
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Combat Maneuvers Ranks"
-                  },
-                  {
-                    "boost": 3,
-                    "ability": "Two Weapon Combat Ranks"
-                  }
-                ],
-                "weight": 3
-              }
-            },
-            {
-              "id": "171427",
-              "name": "a banded kakore runestaff",
-              "details": {
-                "raw": [
-                  "Analysis of a banded kakore runestaff indicates the item is free from merchant alteration restrictions.",
-                  "The kakore runestaff will cost 40,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 200,000 silvers.",
-                  "It is predominantly crafted of kakore.",
-                  "It is a basic project (113 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "max_light",
-                  "persists"
-                ],
-                "skill": "twohanded weapons",
-                "material": "kakore, an uncommon wood",
-                "enchant": 10,
-                "flare": "the power of an earth elemental",
-                "enhancives": [
-                  {
-                    "boost": 6,
-                    "ability": "Constitution Base"
-                  },
-                  {
-                    "boost": 6,
-                    "ability": "Influence Base"
-                  }
-                ],
-                "weight": 2
-              }
-            },
-            {
-              "id": "171426",
-              "name": "a polished faenor kris",
-              "details": {
-                "raw": [
-                  "It has a small enchanter's glyph.",
-                  "Analysis of a polished faenor kris indicates the item is free from merchant alteration restrictions.",
-                  "The faenor kris will cost 50,000 coins.",
-                  "It is estimated to be worth about 85,000 silvers.",
-                  "It is predominantly crafted of faenor.",
-                  "It is a basic project (121 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Jisandra."
-                ],
-                "tags": [
-                  "lightenable"
-                ],
-                "skill": "edged weapons",
-                "material": "faenor, a rare metal",
-                "enchant": 20,
-                "flare": "the power of a lightning bolt",
-                "weight": 4
-              }
-            },
-            {
-              "id": "171425",
-              "name": "a glaes-hilted rhimar longsword",
-              "details": {
-                "raw": [
-                  "Analysis of a glaes-hilted rhimar longsword indicates the item has certain alteration restrictions.  This material cannot be dyed.",
-                  "The rhimar longsword will cost 75,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 1,600,000 silvers.",
-                  "It is predominantly crafted of rhimar.",
-                  "It is a basic project (116 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Aehen."
-                ],
-                "tags": [
-                  "lightenable",
-                  "persists"
-                ],
-                "skill": "edged weapons",
-                "material": "rhimar, a rare metal",
-                "enchant": 5,
-                "flare": "the power of an ice elemental",
-                "enhancives": [
-                  {
-                    "boost": 4,
-                    "ability": "Harness Power Ranks"
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Spirit Mana Control Ranks"
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Spell Aiming Ranks"
-                  },
-                  {
-                    "boost": 1,
-                    "ability": "Magic Item Use Ranks"
-                  }
-                ],
-                "weight": 5
-              }
             }
           ],
           "sign": [
@@ -29689,40 +29499,6 @@
               }
             },
             {
-              "id": "253337832",
-              "name": "a faceted glass jar containing star rubies",
-              "details": {
-                "raw": [
-                  "It is estimated that a faceted glass jar containing star rubies can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of a faceted glass jar containing star rubies indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 23,999 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "253337833",
-              "name": "a faceted glass jar containing star sapphires",
-              "details": {
-                "raw": [
-                  "It is estimated that a faceted glass jar containing star sapphires can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of a faceted glass jar containing star sapphires indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 24,999 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
               "id": "116369828",
               "name": "an opalescent glass jar containing grey pearls",
               "details": {
@@ -29802,23 +29578,6 @@
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 14,997 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "171050",
-              "name": "a faceted glass jar containing pieces of yellow jade",
-              "details": {
-                "raw": [
-                  "It is estimated that a faceted glass jar containing pieces of yellow jade can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of a faceted glass jar containing pieces of yellow jade indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 49,999 coins."
                 ],
                 "tags": [],
                 "material": "glass, an extremely common material"
@@ -48066,44 +47825,6 @@
               }
             },
             {
-              "id": "161063",
-              "name": "a glittering sterling silver pin",
-              "details": {
-                "raw": [
-                  "Analysis of a glittering sterling silver pin indicates the item is free from merchant alteration restrictions.",
-                  "The sterling silver pin will cost 2,000,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have one enhancive charge remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 250,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a permanently unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "purpose",
-                  "small"
-                ],
-                "enhancives": [
-                  {
-                    "boost": 4,
-                    "ability": "Mental Mana Control Bonus"
-                  },
-                  {
-                    "boost": 2,
-                    "ability": "Spiritual Lore - Blessings Bonus"
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Mental Lore - Transformation Bonus"
-                  },
-                  {
-                    "boost": 9,
-                    "ability": "Perception Bonus"
-                  }
-                ]
-              }
-            },
-            {
               "id": "161062",
               "name": "a topaz-inset mithril crown",
               "details": {
@@ -48146,7 +47867,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 68,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 27 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 5 hours and 11 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -48178,7 +47899,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 4 hours and 56 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 14 hours and 39 minutes."
                 ],
                 "tags": [
                   "purpose"
@@ -48863,40 +48584,6 @@
                   {
                     "boost": 7,
                     "ability": "Intuition Base"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "161115",
-              "name": "a cut firestone studded bronze torc",
-              "details": {
-                "raw": [
-                  "Analysis of a cut firestone studded bronze torc indicates the item is free from merchant alteration restrictions.",
-                  "The studded bronze torc will cost 300,000 coins.",
-                  "It has 0 charges.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 350,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a permanently unlocked loresong by Dilraba."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "small"
-                ],
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 8,
-                    "ability": "Elemental Lore - Water Bonus"
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Magic Item Use Bonus"
                   }
                 ]
               }

@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 01:59:49 UTC",
-  "run_time": "21s",
+  "created_at": "2025-09-18 16:55:00 UTC",
+  "run_time": "22s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -4147,7 +4147,7 @@
                   "It is estimated to be worth about 24,000 silvers.",
                   "It is predominantly crafted of mithglin.",
                   "It is a simple project (3 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 15 days, 3 hours and 22 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 14 days, 15 hours and 52 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -4239,7 +4239,7 @@
                   "It is estimated to be worth about 8,250 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (30 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 13 days, 5 hours and 9 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 17 hours and 39 minutes."
                 ],
                 "tags": [],
                 "material": "imflass, an uncommon metal",
@@ -15253,6 +15253,20 @@
                   "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
                   "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small light blue dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small light blue dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small light blue dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small light blue dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small light blue dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small light blue dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small light blue dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small light blue dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The blue dollhouse toy will cost 10,000 coins."
                 ],
                 "tags": [],
@@ -15426,6 +15440,20 @@
                   "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
                   "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small decrepit dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small decrepit dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small decrepit dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small decrepit dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small decrepit dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small decrepit dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small decrepit dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small decrepit dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The dollhouse toy will cost 10,000 coins."
                 ],
                 "tags": [],
@@ -15454,6 +15482,20 @@
                   "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "The item has Flourishes that do the following:",
+                  "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
+                  "  raise",
+                  "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
+                  "  3rd Person: Zoleta lifts a small maroon dollhouse toy up to her eye level and looks perplexed for a moment before lowering it.",
+                  "  hug",
+                  "  1st Person: You draw a small maroon dollhouse toy close to your heart, gripping it tightly, and you are filled with pleasant, albeit slightly manic, memories of childhood delight!",
+                  "  3rd Person: Zoleta draws a small maroon dollhouse toy to her heart, gripping it tightly, and her eyes widen and are filled with childlike merriment, if not a tinge of delirium!",
+                  "  poke",
+                  "  1st Person: You roughly and repeatedly poke on the side of a small maroon dollhouse toy with your fingers.  You swear for a brief moment that you hear tiny screams echoing from inside.",
+                  "  3rd Person: Zoleta roughly and repeatedly pokes on the side of a small maroon dollhouse toy with her fingers.  She then appears to be listening intently to it.",
+                  "  tilt",
+                  "  1st Person: Gently, you turn a small maroon dollhouse toy back and forth in your hands, and you notice clacking and thudding from inside it as some tiny, delicate furniture tumbles around within.",
+                  "  3rd Person: Gently, Zoleta turns a small maroon dollhouse toy back and forth in her hands, and you hear some faint clacking and thudding from within it.",
+                  "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the toy!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  raise",
                   "  1st Person: You lift a small maroon dollhouse toy up to your eye level, and you're certain you see the tiniest shadows skittering about within it.  In the span of a blink, they are out of sight, and you lower the toy.",
@@ -23968,7 +24010,7 @@
               "name": "a faceted iridescent glob",
               "details": {
                 "raw": [
-                  "It's hard to tell exactly what it looks like.",
+                  "You glance at the iridescent glob, wondering if it's possibly sideways.  Or upside down.  Or backwards.  It's really confusing you!",
                   "The glob can not be worn.",
                   "Analysis of a faceted iridescent glob indicates the creator has provided the following information:",
                   "This item's description/base/look may not be altered in any way.",
@@ -24806,7 +24848,7 @@
               "name": "a bifurcated dog tail",
               "details": {
                 "raw": [
-                  "You glance at the bifurcated dog tail, wondering if it's possibly sideways.  Or upside down.  Or backwards.  It's really confusing you!",
+                  "The bifurcated dog tail looks exactly like you'd expect it to look.",
                   "The tail can not be worn.",
                   "Analysis of a bifurcated dog tail indicates the creator has provided the following information:",
                   "This item's description/base/look may not be altered in any way.",
@@ -40951,7 +40993,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (-7 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 days, 5 hours and 18 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 17 hours and 49 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -42100,7 +42142,7 @@
                   "It is estimated to be worth about 850,000 silvers.",
                   "It is predominantly crafted of illthorn.",
                   "It is a simple project (87 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 1 day, 14 hours and 28 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 2 hours and 58 minutes."
                 ],
                 "tags": [
                   "lightenable"
@@ -42123,7 +42165,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (33 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 16 hours and 16 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 4 hours and 46 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42157,7 +42199,7 @@
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is predominantly crafted of faenor.",
                   "It is a simple project (1 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 17 hours and 51 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 6 hours and 21 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42785,7 +42827,7 @@
                   "It is weighted to inflict more critical wounds, but exactly how much requires assessment.",
                   "It is predominantly crafted of steel.",
                   "It is a basic project (127 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 1 day, 16 hours."
+                  "It has a temporarily unlocked loresong by a bard for 1 day, 4 hours and 30 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42824,7 +42866,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (42 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 15 hours and 48 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 hours and 18 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -42864,7 +42906,7 @@
                   "It is estimated to be worth about 350,000 silvers.",
                   "It is predominantly crafted of gornar.",
                   "It is a simple project (73 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 3 hours and 11 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 8 days, 15 hours and 41 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -42910,7 +42952,7 @@
                   "It is estimated to be worth about 400,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a basic project (150 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 13 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 7 hours and 44 minutes."
                 ],
                 "tags": [
                   "persists"
@@ -42947,7 +42989,7 @@
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of yew.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 14 hours and 13 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 2 hours and 44 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -43856,7 +43898,7 @@
                   "It is estimated to be worth about 250,000 silvers.",
                   "It is predominantly crafted of mesille.",
                   "It is a simple project (29 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 19 hours and 3 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 7 hours and 33 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -43888,6 +43930,35 @@
           "room_title": "Percy's Magic Shoppe",
           "branch": "east",
           "items": [
+            {
+              "id": "298049813",
+              "name": "a marquise-cut amethyst brooch",
+              "details": {
+                "raw": [
+                  "Analysis of a marquise-cut amethyst brooch indicates the item is free from merchant alteration restrictions.",
+                  "The amethyst brooch will cost 75,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will disintegrate after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have several enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 24,000 silvers.",
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 5 hours and 42 minutes."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 3,
+                    "ability": "Shield Use Bonus"
+                  }
+                ]
+              }
+            },
             {
               "id": "172424",
               "name": "a fire opal inset silver medallion",
@@ -47876,6 +47947,108 @@
                 ],
                 "weight": 21
               }
+            },
+            {
+              "id": "301963449",
+              "name": "an opalescent glass jar containing pink spinels",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing pink spinels can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing pink spinels indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 25,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "301963450",
+              "name": "an opalescent glass jar containing pieces of white jade",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing pieces of white jade can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing pieces of white jade indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 25,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "301963451",
+              "name": "an opalescent glass jar containing polished pink coral",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing polished pink coral can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing polished pink coral indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 25,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "301963452",
+              "name": "an opalescent glass jar containing pieces of green jade",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing pieces of green jade can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing pieces of green jade indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 25,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "301963453",
+              "name": "an opalescent glass jar containing large yellow diamonds",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing large yellow diamonds can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing large yellow diamonds indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 100,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "301963454",
+              "name": "an opalescent glass jar containing uncut diamonds",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 100,000 coins."
+                ],
+                "tags": [],
+                "material": "glass, an extremely common material"
+              }
             }
           ],
           "sign": [
@@ -49340,7 +49513,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of vultite.",
                   "It is a basic project (136 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 23 hours and 32 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 12 hours and 2 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -49406,7 +49579,7 @@
                   "It is spiked.",
                   "It is predominantly crafted of fireleaf.",
                   "It is a basic project (129 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 16 hours and 45 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 5 hours and 16 minutes."
                 ],
                 "tags": [
                   "purpose",
