@@ -121,7 +121,11 @@ class SearchEngine {
             crumbly: document.getElementById('crumbly-filter').checked,
             hasFlares: document.getElementById('flares-filter').checked,
             hasSpell: document.getElementById('spell-filter').checked,
-            blessed: document.getElementById('blessed-filter').checked
+            blessed: document.getElementById('blessed-filter').checked,
+
+            // Gemstone filters
+            gemstoneRarity: document.getElementById('gemstone-rarity-filter').value,
+            gemstoneProperties: document.getElementById('gemstone-properties-filter').value
         };
     }
 
@@ -151,8 +155,18 @@ class SearchEngine {
         }
 
         // Item type filter
-        if (filters.itemType && item.itemType !== filters.itemType) {
-            return false;
+        if (filters.itemType) {
+            if (filters.itemType === 'gemstone') {
+                // For gemstone filter, check if item has gemstone properties
+                if (!item.gemstoneProperties || item.gemstoneProperties.length === 0) {
+                    return false;
+                }
+            } else {
+                // For other item types, use normal filtering
+                if (item.itemType !== filters.itemType) {
+                    return false;
+                }
+            }
         }
 
         // Capacity filter
@@ -211,6 +225,24 @@ class SearchEngine {
 
         if (filters.blessed && !item.blessing) {
             return false;
+        }
+
+        // Gemstone rarity filter
+        if (filters.gemstoneRarity && item.gemstoneProperties && item.gemstoneProperties.length > 0) {
+            const hasMatchingRarity = item.gemstoneProperties.some(prop =>
+                prop.rarity && prop.rarity.toLowerCase() === filters.gemstoneRarity.toLowerCase()
+            );
+            if (!hasMatchingRarity) {
+                return false;
+            }
+        }
+
+        // Gemstone number of properties filter
+        if (filters.gemstoneProperties && item.gemstoneProperties) {
+            const expectedCount = parseInt(filters.gemstoneProperties);
+            if (item.gemstoneProperties.length !== expectedCount) {
+                return false;
+            }
         }
 
         return true;
