@@ -523,6 +523,27 @@ class SearchEngine {
             });
         }
 
+        // Gemstone tags
+        if (item.gemstoneProperties && item.gemstoneProperties.length > 0) {
+            // Add main gemstone tag
+            const gemstoneTag = document.createElement('span');
+            gemstoneTag.className = 'property-tag gemstone';
+            gemstoneTag.textContent = 'Gemstone';
+            container.appendChild(gemstoneTag);
+
+            // Add rarity tags for each unique rarity
+            const rarities = new Set();
+            item.gemstoneProperties.forEach(prop => {
+                if (prop.rarity && !rarities.has(prop.rarity.toLowerCase())) {
+                    rarities.add(prop.rarity.toLowerCase());
+                    const rarityTag = document.createElement('span');
+                    rarityTag.className = `property-tag rarity rarity-${prop.rarity.toLowerCase()}`;
+                    rarityTag.textContent = prop.rarity.charAt(0).toUpperCase() + prop.rarity.slice(1);
+                    container.appendChild(rarityTag);
+                }
+            });
+        }
+
         return container;
     }
 
