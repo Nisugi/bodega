@@ -166,24 +166,66 @@ jobs:
         name: api-shop-data
         path: temp-data
 
-    - name: Update data files
+    - name: Update data files with timestamp comparison
       run: |
-        echo "Updating data files..."
+        echo "Updating data files with smart timestamp comparison..."
 
         # Ensure data directory exists
         mkdir -p data
 
-        # Copy validated files to data directory
+        files_updated=0
+        timestamp_only_updates=0
+
+        # Process each uploaded file
         for file in temp-data/*.json; do
           if [ -f "$file" ]; then
             filename=$(basename "$file")
-            echo "Updating data/$filename"
-            cp "$file" "data/$filename"
+            new_file="$file"
+            existing_file="data/$filename"
+
+            echo "Processing $filename..."
+
+            # Get timestamp from new file
+            new_timestamp=$(jq -r '.created_at' "$new_file")
+
+            if [ -f "$existing_file" ]; then
+              # File exists - compare timestamps
+              existing_timestamp=$(jq -r '.created_at' "$existing_file")
+
+              echo "  New timestamp: $new_timestamp"
+              echo "  Existing timestamp: $existing_timestamp"
+
+              # Convert timestamps to epoch for comparison
+              new_epoch=$(date -d "$new_timestamp" +%s 2>/dev/null || echo "0")
+              existing_epoch=$(date -d "$existing_timestamp" +%s 2>/dev/null || echo "0")
+
+              if [ "$new_epoch" -gt "$existing_epoch" ]; then
+                # New data is newer - replace file
+                echo "  ✅ New data is newer - updating file"
+                cp "$new_file" "$existing_file"
+                files_updated=$((files_updated + 1))
+              else
+                # New data is same/older - keep existing, just note the upload
+                echo "  📝 New data is same/older - keeping existing data"
+                timestamp_only_updates=$((timestamp_only_updates + 1))
+              fi
+            else
+              # File doesn't exist - create it
+              echo "  🆕 New file - creating"
+              cp "$new_file" "$existing_file"
+              files_updated=$((files_updated + 1))
+            fi
           fi
         done
 
+        echo ""
+        echo "=== UPDATE SUMMARY ==="
+        echo "Files with newer data: $files_updated"
+        echo "Files with older/same data (timestamp-only updates): $timestamp_only_updates"
+        echo ""
+
         # Show what's being committed
-        echo "Files to be committed:"
+        echo "Files in data directory:"
         ls -la data/*.json
 
     - name: Commit and push changes
@@ -208,34 +250,32 @@ jobs:
         git diff --stat data/ || echo "No diff stat"
         echo ""
 
+        # Always create timestamp file to track when data was last checked
+        echo "Creating timestamp file to track upload processing..."
+        echo "Last upload processed: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" > data/last_updated.txt
+        echo "Upload source: ${{ github.event.client_payload.source }}" >> data/last_updated.txt
+        echo "Data timestamp: ${{ github.event.client_payload.timestamp }}" >> data/last_updated.txt
+
         # Check if there are any changes
-        if git diff --quiet data/ && git diff --quiet --cached data/; then
-          echo "No changes detected in data/ directory"
-
-          # Force update with timestamp to ensure commit happens
-          echo "Creating timestamp file to force commit..."
-          echo "Last updated: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" > data/last_updated.txt
-          echo "Data processed from API upload at ${{ github.event.client_payload.timestamp }}" >> data/last_updated.txt
-
-          git add data/
-          git commit -m "Update shop data from API upload (forced with timestamp)
+        git add data/
+        if git diff --quiet --cached data/; then
+          echo "No file changes detected"
+          git commit -m "Process shop data upload (no data changes)
 
         - Uploaded via Netlify API at ${{ github.event.client_payload.timestamp }}
-        - Data validated and processed using artifact pipeline
-        - Direct API upload bypassing gist/issue workflow
-        - Forced commit with timestamp update
+        - Smart timestamp comparison: no files needed updating
+        - Website timestamp updated to show last check
 
         🤖 Generated with [Claude Code](https://claude.ai/code)
 
         Co-Authored-By: GitHub API Upload <noreply@github.com>"
         else
-          echo "Changes detected - committing updates"
-          git add data/
+          echo "File changes detected - committing updates"
           git commit -m "Update shop data from API upload
 
         - Uploaded via Netlify API at ${{ github.event.client_payload.timestamp }}
-        - Data validated and processed using artifact pipeline
-        - Direct API upload bypassing gist/issue workflow
+        - Smart timestamp comparison applied
+        - Only newer data files were updated
 
         🤖 Generated with [Claude Code](https://claude.ai/code)
 

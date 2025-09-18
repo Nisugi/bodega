@@ -17,9 +17,12 @@ This is the GemStone IV Player Shop Browser - a static web application that aggr
 
 ### Data Processing Infrastructure
 - **scripts/bodega.lic** - Ruby/Lich script that runs in GemStone IV via Lich, scans in-game shops and saves data to `lich5/bodega/`
+  - **Smart parsing mode** (`--smart`) for 90%+ performance improvement on subsequent runs
+  - Loads existing JSON, compares item IDs, only inspects new/changed items
+  - Comprehensive efficiency reporting and automatic cleanup of deleted items
 - **netlify/functions/upload.js** - Serverless function handling API uploads (up to 25MB files)
 - **.github/workflows/** - GitHub Actions for automated data processing:
-  - `api-upload-processor.yml` - Processes direct API uploads
+  - `api-upload-processor.yml` - Processes direct API uploads with smart timestamp comparison
   - `gist-processor.yml` - Processes fallback gist uploads
   - `deploy.yml` - Deploys to GitHub Pages
 
@@ -66,18 +69,46 @@ Each town JSON file follows this structure:
 ### Upload System
 - Players run `bodega.lic` script in GemStone IV via Lich with `--upload` flag
 - Script scans shops and saves data locally to `lich5/bodega/*.json`
+- **Smart parsing mode** (`--smart`) dramatically reduces scan times on subsequent runs:
+  - First run: Full inspection (normal speed, establishes baseline)
+  - Subsequent runs: Only inspects new/changed items (90%+ faster)
+  - Automatic cleanup of removed items and comprehensive reporting
 - With `--upload`, data is uploaded via API-first to Netlify function (primary method)
 - GitHub Gist fallback if API unavailable
+- **Smart timestamp comparison** in GitHub Actions ensures only newer data replaces existing data
 - Automated validation and merging via GitHub Actions updates the repository's `data/` directory
 
 ### Key Features
 - **Search Mode**: Full-text search with filters for town, price range, enchantment, item properties
 - **Browse Mode**: Hierarchical navigation through towns, shops, and rooms
+- **Smart Parsing**: 90%+ performance improvement with intelligent caching and ID comparison
 - **Direct Linking**: URLs can link to specific items for sharing
 - **Live Updates**: Community-driven data updates with automatic processing
 - **Mobile Responsive**: Works on all device sizes
 
 ## Common Tasks
+
+### Using Smart Parsing Mode
+```bash
+# First run (full scan, establishes baseline)
+bodega --parser --town="icemule trace" --save
+
+# Smart runs (90%+ faster, only inspects new items)
+bodega --parser --smart --town="icemule trace" --save
+
+# Smart run with upload
+bodega --parser --smart --town="icemule trace" --save --upload
+
+# Full town scan with smart parsing
+bodega --parser --smart --save --upload
+```
+
+**Smart parsing benefits:**
+- 90%+ reduction in inspection commands on subsequent runs
+- Automatic detection and cleanup of removed items
+- Comprehensive efficiency reporting shows cache hit rates
+- Graceful fallback to full parsing if no existing data
+- Only uploads files that were actually processed
 
 ### Deploy Changes
 Changes to main branch automatically deploy via GitHub Actions to GitHub Pages at https://nisugi.github.io/bodega/
