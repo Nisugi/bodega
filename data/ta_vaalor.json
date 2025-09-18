@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 19:02:41 UTC",
-  "run_time": "02m 48s",
+  "created_at": "2025-09-18 23:04:55 UTC",
+  "run_time": "02m 35s",
   "town": "Ta'Vaalor,",
   "shops": [
     {
@@ -10609,9 +10609,9 @@
                   "The ebon jewel will cost 3,000,000 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Metamorphic Shield (Rank 1 of 5)",
                     "rarity": "Common",
@@ -10619,7 +10619,7 @@
                     "description": "When attacked by a creature, you have a 15% chance to increase your AsG by 1/2/3/4/5 (up to max of 20) for that attack."
                   }
                 ],
-                "jewel_bound_to": "Loxik",
+                "gemstone_bound_to": "Loxik",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -11554,7 +11554,7 @@
                   "The sunburst-hued stockings will cost 9,999 coins."
                 ],
                 "tags": [],
-                "worn": "feet, beneath shoes or boots",
+                "worn": "socks",
                 "material": "cloth, an extremely common material"
               }
             },

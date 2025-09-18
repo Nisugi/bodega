@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 18:42:30 UTC",
-  "run_time": "09m 51s",
+  "created_at": "2025-09-18 22:45:33 UTC",
+  "run_time": "09m 05s",
   "town": "Solhaven",
   "shops": [
     {
@@ -876,13 +876,13 @@
               "name": "a gnome travel brochure",
               "details": {
                 "raw": [
-                  "   Current Time: 14:32   Current Flight Schedule",
+                  "   Current Time: 18:36   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
                   "    ---------------------------------------------------------------",
                   "Times be estimates only!  Subject ta change by headwinds an' tailwinds an' sidewinds an' stuff!  Deal wit' it!",
-                  "   Current Time: 14:32   Current Flight Schedule",
+                  "   Current Time: 18:36   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
@@ -6315,7 +6315,7 @@
                   "It is estimated to be worth about 82,000 silvers.",
                   "It is predominantly crafted of eahnor.",
                   "It is a simple project (13 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 7 hours and 38 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 3 hours and 35 minutes."
                 ],
                 "tags": [
                   "max_light"
@@ -8903,7 +8903,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 8 days, 8 hours and 56 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 8 days, 4 hours and 53 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -8944,7 +8944,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 17 hours and 16 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 13 hours and 12 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9497,7 +9497,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 80,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 18 hours and 32 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 14 hours and 28 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9531,7 +9531,7 @@
                   "    It seems to have several enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 18 hours and 47 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 14 hours and 43 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -17143,29 +17143,6 @@
               }
             },
             {
-              "id": "179216",
-              "name": "a tree bark amulet",
-              "details": {
-                "raw": [
-                  "Analysis of a tree bark amulet indicates the creator has provided the following information:",
-                  "The description of the tree bark amulet may be altered, but its noun must remain amulet, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
-                  "The tree bark amulet will cost 4,500 coins.",
-                  "It has 3 charges.",
-                  "It will shatter after its last magical charge has been expended.",
-                  "It is estimated to be worth about 2,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by Phever."
-                ],
-                "tags": [
-                  "purpose",
-                  "small"
-                ],
-                "worn": "neck",
-                "spell": "Elemental Defense III",
-                "activator": "rubbing"
-              }
-            },
-            {
               "id": "179215",
               "name": "a blackened ora aventail",
               "details": {
@@ -18004,30 +17981,6 @@
                   "The coral can not be worn.",
                   "Analysis of some polished pink coral indicates the item is free from merchant alteration restrictions.",
                   "The pink coral will cost 1,600 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "158440498",
-              "name": "a star ruby",
-              "details": {
-                "raw": [
-                  "The ruby can not be worn.",
-                  "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
-                  "The star ruby will cost 3,880 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "158440383",
-              "name": "a star ruby",
-              "details": {
-                "raw": [
-                  "The ruby can not be worn.",
-                  "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
-                  "The star ruby will cost 3,880 coins."
                 ],
                 "tags": []
               }
@@ -24855,7 +24808,7 @@
                 "tags": [
                   "small"
                 ],
-                "worn": "feet, beneath shoes or boots",
+                "worn": "socks",
                 "material": "cloth, an extremely common material",
                 "spell": "Phoen's Strength",
                 "activator": "rubbing"
@@ -30176,23 +30129,6 @@
                 ],
                 "tags": [],
                 "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "253337827",
-              "name": "an opalescent glass jar containing white pearls",
-              "details": {
-                "raw": [
-                  "It is estimated that an opalescent glass jar containing white pearls can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing white pearls indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 47,999 coins."
-                ],
-                "tags": [],
-                "material": "gemstone, an extremely common material"
               }
             },
             {
@@ -36623,42 +36559,6 @@
               }
             },
             {
-              "id": "214484320",
-              "name": "an ovate azure jewel striped in prismatic colors",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    boldbrawler",
-                  "Description: Your unarmed combat attacks have an additional 1/2/3/4/5% chance to tier up.",
-                  "Rarity:      Regional",
-                  "Mnemonic:    tridentsunderer",
-                  "Description: While in Temple Nelemar, your successful attacks have a 5/10/15% chance to summon a bolt of arcing lightning.  Up to 5 enemies in the room must make an SMR test.  On a failure, they take electrical damage and are stunned.  This damage does not conduct back against you or your allies.",
-                  "The jewel can not be worn.",
-                  "The azure jewel will cost 4,500,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Bold Brawler (Rank 1 of 5)",
-                    "rarity": "Common",
-                    "mnemonic": "boldbrawler",
-                    "description": "Your unarmed combat attacks have an additional 1/2/3/4/5% chance to tier up."
-                  },
-                  {
-                    "name": "Temple Nelemar: Trident of the Sunderer (Rank 1 of 3)",
-                    "rarity": "Regional",
-                    "mnemonic": "tridentsunderer",
-                    "description": "While in Temple Nelemar, your successful attacks have a 5/10/15% chance to summon a bolt of arcing lightning.  Up to 5 enemies in the room must make an SMR test.  On a failure, they take electrical damage and are stunned.  This damage does not conduct back against you or your allies."
-                  }
-                ],
-                "jewel_bound_to": "Demid",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
               "id": "214484261",
               "name": "a vivid pink note",
               "details": {
@@ -36940,87 +36840,6 @@
                 ],
                 "tags": [],
                 "material": "organic material, an extremely common material"
-              }
-            },
-            {
-              "id": "214484349",
-              "name": "a knapped magenta jewel flecked with veniom inclusions",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    journeytactic",
-                  "Description: You gain 1/2/3/4/5 AS and 1/1/1/2/3 SMR Offense with Combat Maneuvers.",
-                  "The jewel can not be worn.",
-                  "The magenta jewel will cost 3,500,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Journeyman Tactician (Rank 1 of 5)",
-                    "rarity": "Common",
-                    "mnemonic": "journeytactic",
-                    "description": "You gain 1/2/3/4/5 AS and 1/1/1/2/3 SMR Offense with Combat Maneuvers."
-                  }
-                ],
-                "jewel_bound_to": "Corilander",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214484363",
-              "name": "a pyramidal dark jewel daubed with vaalorn",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    elemresonance",
-                  "Description: Upon casting a bolt spell, your bolt spells gain 10% damage factor.  This effect falls off 30 seconds after it is first applied, or when you cast the same bolt spell twice in a row.",
-                  "The jewel can not be worn.",
-                  "The dark jewel will cost 2,250,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Elemental Resonance",
-                    "rarity": "Common",
-                    "mnemonic": "elemresonance",
-                    "description": "Upon casting a bolt spell, your bolt spells gain 10% damage factor.  This effect falls off 30 seconds after it is first applied, or when you cast the same bolt spell twice in a row."
-                  }
-                ],
-                "jewel_bound_to": "Bilz",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214487780",
-              "name": "an asymmetrical magenta jewel aswirl with imflass flakes",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Regional",
-                  "Mnemonic:    shroudsoothe",
-                  "Description: Your AOE spells have a 10/20/30/40/50% reduced chance to trigger the Shroud in Grimswarm camps.  At maximum tier, you can trigger the Shroud with no negative effect once every 15 minutes.",
-                  "The jewel can not be worn.",
-                  "The magenta jewel will cost 2,250,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Grimswarm: Shroud Soother (Rank 1 of 5)",
-                    "rarity": "Regional",
-                    "mnemonic": "shroudsoothe",
-                    "description": "Your AOE spells have a 10/20/30/40/50% reduced chance to trigger the Shroud in Grimswarm camps.  At maximum tier, you can trigger the Shroud with no negative effect once every 15 minutes."
-                  }
-                ],
-                "jewel_bound_to": "Glugor",
-                "material": "gemstone, an extremely common material"
               }
             },
             {
@@ -37325,141 +37144,6 @@
                   }
                 ]
               }
-            },
-            {
-              "id": "214484347",
-              "name": "a pyramidal coral jewel daubed with gold rutile",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    tacticalcanny",
-                  "Description: When you are successfully attacked by an enemy using Attack Strength, your chance to Evade is increased by 10% for the next minute.  This effect cannot occur more often than every 5 minutes.",
-                  "The jewel can not be worn.",
-                  "The coral jewel will cost 2,250,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Tactical Canny",
-                    "rarity": "Common",
-                    "mnemonic": "tacticalcanny",
-                    "description": "When you are successfully attacked by an enemy using Attack Strength, your chance to Evade is increased by 10% for the next minute.  This effect cannot occur more often than every 5 minutes."
-                  }
-                ],
-                "jewel_bound_to": "Painz",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214484348",
-              "name": "a glossy claret jewel streaked with vaalorn flakes",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    mysticmagnify",
-                  "Description: Your self-cast buff spells cast a second time at no mana cost.  This effect only applies to buff spells that can be multi-cast.",
-                  "The jewel can not be worn.",
-                  "The claret jewel will cost 2,250,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Mystic Magnification",
-                    "rarity": "Common",
-                    "mnemonic": "mysticmagnify",
-                    "description": "Your self-cast buff spells cast a second time at no mana cost.  This effect only applies to buff spells that can be multi-cast."
-                  }
-                ],
-                "jewel_bound_to": "Glugor",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214484359",
-              "name": "an annular atrous jewel spiraled with veniom flakes",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    dispulsionward",
-                  "Description: When an enemy targets you with a dispel, there is a 33% chance that the enemy will be subject to an SMR test.  On a failure, the dispel has no effect on you.",
-                  "The jewel can not be worn.",
-                  "The atrous jewel will cost 2,250,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Dispulsion Ward",
-                    "rarity": "Common",
-                    "mnemonic": "dispulsionward",
-                    "description": "When an enemy targets you with a dispel, there is a 33% chance that the enemy will be subject to an SMR test.  On a failure, the dispel has no effect on you."
-                  }
-                ],
-                "jewel_bound_to": "Bilz",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214484360",
-              "name": "a prism-cut burgundy jewel dappled with vaalin",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    boldbrawler",
-                  "Description: Your unarmed combat attacks have an additional 1/2/3/4/5% chance to tier up.",
-                  "The jewel can not be worn.",
-                  "The burgundy jewel will cost 3,000,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Bold Brawler (Rank 1 of 5)",
-                    "rarity": "Common",
-                    "mnemonic": "boldbrawler",
-                    "description": "Your unarmed combat attacks have an additional 1/2/3/4/5% chance to tier up."
-                  }
-                ],
-                "jewel_bound_to": "Corilander",
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "214484361",
-              "name": "a roughly cut pellucid jewel banded in vaalorn flakes",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    bloodprism",
-                  "Description: Your passive health regeneration is increased by 5/10/15/20/25%.",
-                  "The jewel can not be worn.",
-                  "The pellucid jewel will cost 3,500,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Blood Prism (Rank 1 of 5)",
-                    "rarity": "Common",
-                    "mnemonic": "bloodprism",
-                    "description": "Your passive health regeneration is increased by 5/10/15/20/25%."
-                  }
-                ],
-                "jewel_bound_to": "Grhim",
-                "material": "gemstone, an extremely common material"
-              }
             }
           ]
         },
@@ -37467,42 +37151,6 @@
           "room_title": "Sheruvian Supply Depot",
           "branch": "northwest",
           "items": [
-            {
-              "id": "214484325",
-              "name": "a tear-shaped leaf green jewel banded in zorchar flakes",
-              "details": {
-                "raw": [
-                  "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "Rarity:      Common",
-                  "Mnemonic:    boatswain",
-                  "Description: You have a 5/10/15/20/25% chance to critically succeed when repairing an OSA ship.",
-                  "Rarity:      Regional",
-                  "Mnemonic:    moonsorgan",
-                  "Description: You gain 3/6/9/12/15 additional AS and 2/4/6/8/10 additional CS while the Sword Hymn is active in Moonsedge.",
-                  "The jewel can not be worn.",
-                  "The leaf green jewel will cost 4,500,000 coins."
-                ],
-                "tags": [
-                  "is_jewel"
-                ],
-                "jewel_properties": [
-                  {
-                    "name": "Boatswain's Savvy (Rank 1 of 5)",
-                    "rarity": "Common",
-                    "mnemonic": "boatswain",
-                    "description": "You have a 5/10/15/20/25% chance to critically succeed when repairing an OSA ship."
-                  },
-                  {
-                    "name": "Moonsedge: Organ Enthusiast (Rank 1 of 5)",
-                    "rarity": "Regional",
-                    "mnemonic": "moonsorgan",
-                    "description": "You gain 3/6/9/12/15 additional AS and 2/4/6/8/10 additional CS while the Sword Hymn is active in Moonsedge."
-                  }
-                ],
-                "jewel_bound_to": "Corilander",
-                "material": "gemstone, an extremely common material"
-              }
-            },
             {
               "id": "214484346",
               "name": "an elegant platinum necklace",
@@ -48779,7 +48427,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 68,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 8 days, 19 hours and 28 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 8 days, 15 hours and 25 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -48812,7 +48460,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 11 days, 4 hours and 57 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 54 minutes."
                 ],
                 "tags": [
                   "purpose"

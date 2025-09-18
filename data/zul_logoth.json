@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 18:55:24 UTC",
-  "run_time": "01m 05s",
+  "created_at": "2025-09-18 22:57:57 UTC",
+  "run_time": "59s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -2486,7 +2486,7 @@
       ]
     },
     {
-      "preamble": "Jheu's Shop is located in [Zul Logoth, Opal Tunnel] at a simple shop with a sloped mosaic tiled roof, and is currently open for business.",
+      "preamble": "Jheu's Shop is located in [Zul Logoth, Opal Tunnel] at a blackened iron door with a square mithril-framed window, and is currently open for business.",
       "town": "Zul Logoth",
       "id": "4",
       "inv": [
@@ -2649,6 +2649,94 @@
               }
             },
             {
+              "id": "197599634",
+              "name": "some vultite brigandine armor",
+              "details": {
+                "raw": [
+                  "The armor is scale armor that covers the torso, arms, legs, neck, and head.",
+                  "Analysis of some vultite brigandine armor indicates the item is free from merchant alteration restrictions.",
+                  "The brigandine armor will cost 2,000,000 coins.",
+                  "It is estimated to be worth about 200,000 silvers.",
+                  "It is predominantly crafted of vultite.",
+                  "It is a simple project (36 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by a bard."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "chest",
+                "material": "vultite, an uncommon metal",
+                "enchant": 20,
+                "weight": 20
+              }
+            }
+          ],
+          "sign": [
+            "Written on a hand-carved mahogany sign:",
+            "Jheu's Antique Wares"
+          ]
+        },
+        {
+          "room_title": "Jheu's Outfitting",
+          "branch": "north",
+          "items": [
+            {
+              "id": "307845448",
+              "name": "a vaalin-laced keyring",
+              "details": {
+                "raw": [
+                  "A vaalin-laced keyring cannot store anything inside of it at all.",
+                  "Analysis of a vaalin-laced keyring indicates the creator has provided the following information:",
+                  "This vaalin-laced keyring is a Lock Mastery-created key ring.  It may be altered as long as it makes sense to be a wearable key ring that can house many keys.",
+                  "VERBS:  TURN, SPIN, LOOK, TAP",
+                  "The vaalin-laced keyring will cost 9,800 coins."
+                ],
+                "tags": [
+                  "purpose"
+                ],
+                "worn": "belt",
+                "material": "vaalin, a rare metal"
+              }
+            }
+          ]
+        },
+        {
+          "room_title": "Jheu's Weaponry",
+          "branch": "east",
+          "items": [
+            {
+              "id": "200374055",
+              "name": "a laje-inlaid vultite lantern shield",
+              "details": {
+                "raw": [
+                  "The shield is a medium shield that protects the bearer if carried in the left hand.",
+                  "Analysis of a laje-inlaid vultite lantern shield indicates the creator has provided the following information:",
+                  "This item can be altered, but should not be altered into something broken, dull, or weak-looking, as the messaging indicates superior craftsmanship that is kept maintained.",
+                  "The shield isn't unlocked.  The verbs Wear, Remove, and Dust can be used on your vultite lantern shield.",
+                  "The vultite lantern shield will cost 40,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "shoulders and back",
+                "material": "vultite, an uncommon metal"
+              }
+            },
+            {
+              "id": "200991417",
+              "name": "a Mandis Crystal shard",
+              "details": {
+                "raw": [
+                  "Pale veins are still faintly visible within this piece of dull grey crystal.",
+                  "The shard can not be worn.",
+                  "The Mandis Crystal shard will cost 5,000,000 coins."
+                ],
+                "tags": []
+              }
+            },
+            {
               "id": "200374057",
               "name": "a burnished faewood runestaff",
               "details": {
@@ -2685,72 +2773,25 @@
               }
             },
             {
-              "id": "197599634",
-              "name": "some vultite brigandine armor",
+              "id": "307903892",
+              "name": "an exquisite faewood runestaff",
               "details": {
                 "raw": [
-                  "The armor is scale armor that covers the torso, arms, legs, neck, and head.",
-                  "Analysis of some vultite brigandine armor indicates the item is free from merchant alteration restrictions.",
-                  "The brigandine armor will cost 2,000,000 coins.",
-                  "It is estimated to be worth about 200,000 silvers.",
-                  "It is predominantly crafted of vultite.",
+                  "Analysis of an exquisite faewood runestaff indicates the item is free from merchant alteration restrictions.",
+                  "The faewood runestaff will cost 1,000,000 coins.",
+                  "It is estimated to be worth about 300,000 silvers.",
+                  "It is predominantly crafted of faewood.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by a bard."
+                  "It has a temporarily unlocked loresong by a bard for 14 days, 5 hours and 55 minutes."
                 ],
                 "tags": [
-                  "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "holy"
                 ],
-                "worn": "chest",
-                "material": "vultite, an uncommon metal",
+                "skill": "twohanded weapons",
+                "material": "faewood, an unusual wood",
                 "enchant": 20,
-                "weight": 20
-              }
-            }
-          ],
-          "sign": [
-            "Written on a hand-carved mahogany sign:",
-            "Jheu's Antique Wares"
-          ]
-        },
-        {
-          "room_title": "Jheu's General Store",
-          "branch": "north",
-          "items": []
-        },
-        {
-          "room_title": "Jheu's Armory",
-          "branch": "east",
-          "items": [
-            {
-              "id": "200991417",
-              "name": "a Mandis Crystal shard",
-              "details": {
-                "raw": [
-                  "Pale veins are still faintly visible within this piece of dull grey crystal.",
-                  "The shard can not be worn.",
-                  "The Mandis Crystal shard will cost 5,000,000 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "200374055",
-              "name": "a laje-inlaid vultite lantern shield",
-              "details": {
-                "raw": [
-                  "The shield is a medium shield that protects the bearer if carried in the left hand.",
-                  "Analysis of a laje-inlaid vultite lantern shield indicates the creator has provided the following information:",
-                  "This item can be altered, but should not be altered into something broken, dull, or weak-looking, as the messaging indicates superior craftsmanship that is kept maintained.",
-                  "The shield isn't unlocked.  The verbs Wear, Remove, and Dust can be used on your vultite lantern shield.",
-                  "The vultite lantern shield will cost 40,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable"
-                ],
-                "worn": "shoulders and back",
-                "material": "vultite, an uncommon metal"
+                "weight": 4
               }
             }
           ]
@@ -2957,7 +2998,7 @@
                   "    It seems to have quite a few enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 3 days, 20 hours and 14 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 16 hours and 11 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -3011,23 +3052,6 @@
           "room_title": "Bolos' General Store",
           "branch": "entry",
           "items": [
-            {
-              "id": "196377322",
-              "name": "a rune-trimmed wizard's cloak",
-              "details": {
-                "raw": [
-                  "Strange sigils follow the edge of the scarlet cloak, carefully framing a hand-sewn brightly glowing crystal ball.  Within the ball is the image of a majestic corsair at full sail, its sheets as dark as night.",
-                  "It is estimated that a rune-trimmed wizard's cloak can store an exceptional amount with enough space for any number of items.",
-                  "Analysis of a rune-trimmed wizard's cloak indicates the item is free from merchant alteration restrictions.",
-                  "The wizard's cloak will cost 10,000,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable"
-                ],
-                "worn": "back"
-              }
-            },
             {
               "id": "196377318",
               "name": "some deathstone earrings",

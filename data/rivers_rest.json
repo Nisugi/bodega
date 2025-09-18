@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 18:45:15 UTC",
-  "run_time": "02m 45s",
+  "created_at": "2025-09-18 22:48:05 UTC",
+  "run_time": "02m 31s",
   "town": "River's Rest",
   "shops": [
     {
@@ -4822,7 +4822,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a basic project (123 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 5 hours and 48 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 1 hour and 45 minutes."
                 ],
                 "tags": [
                   "max_light",
@@ -5037,7 +5037,7 @@
                 "tags": [
                   "small"
                 ],
-                "worn": "feet, beneath shoes or boots"
+                "worn": "socks"
               }
             },
             {
@@ -11421,9 +11421,9 @@
                   "The indigo jewel will cost 2,500,000 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Grimswarm: Shroud Soother (Rank 1 of 5)",
                     "rarity": "Regional",
@@ -11431,7 +11431,7 @@
                     "description": "Your AOE spells have a 10/20/30/40/50% reduced chance to trigger the Shroud in Grimswarm camps.  At maximum tier, you can trigger the Shroud with no negative effect once every 15 minutes."
                   }
                 ],
-                "jewel_bound_to": "Ntinly",
+                "gemstone_bound_to": "Ntinly",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -14953,7 +14953,7 @@
                   "    It seems to have a lot of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 14 days, 4 hours and 1 minute."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 23 hours and 58 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -15255,7 +15255,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 7 days, 21 hours and 27 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 7 days, 17 hours and 24 minutes."
                 ],
                 "tags": [
                   "purpose",
