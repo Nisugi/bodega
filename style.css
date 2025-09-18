@@ -965,3 +965,149 @@ header h1 {
     }
 
 }
+
+/* Shop Directory Styles */
+.shop-directory-row {
+    border: none !important;
+}
+
+.shop-directory-card {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.shop-card {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shop-card:hover {
+    border-color: #4a90e2;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.15);
+    transform: translateY(-2px);
+}
+
+.shop-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.shop-card-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e5d8a;
+    line-height: 1.2;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.shop-card-stats {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.stat-badge {
+    background: #f8f9fa;
+    color: #495057;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #e9ecef;
+}
+
+.stat-badge.location {
+    background: #e3f2fd;
+    color: #1976d2;
+    border-color: #bbdefb;
+}
+
+.shop-card-sign {
+    background: #f0f8ff;
+    border: 1px solid #d1e7fd;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 12px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.sign-icon {
+    font-size: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.sign-text {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #2e5d8a;
+    font-style: italic;
+    flex: 1;
+}
+
+.shop-card-footer {
+    margin-top: 12px;
+    text-align: right;
+}
+
+.shop-card-action {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 500;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+
+.shop-card:hover .shop-card-action {
+    opacity: 1;
+    color: #4a90e2;
+}
+
+/* Mobile responsive for shop cards */
+@media (max-width: 768px) {
+    .shop-card {
+        padding: 16px;
+        margin: 6px 0;
+    }
+
+    .shop-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .shop-card-name {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .shop-card-stats {
+        gap: 6px;
+    }
+
+    .stat-badge {
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+
+    .shop-card-sign {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .sign-text {
+        font-size: 13px;
+    }
+}

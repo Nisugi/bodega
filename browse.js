@@ -127,14 +127,28 @@ class BrowseEngine {
     }
 
     showShopList(townName) {
-        const shopListSection = document.getElementById('shop-list-section');
-        const selectedTownName = document.getElementById('selected-town-name');
-        const shopList = document.getElementById('shop-list');
+        // Show shop directory in main content area instead of sidebar
+        this.displayShopDirectory(townName);
 
-        selectedTownName.textContent = townName;
-        shopList.innerHTML = '';
+        // Hide sidebar shop list section
+        const shopListSection = document.getElementById('shop-list-section');
+        shopListSection.style.display = 'none';
+    }
+
+    displayShopDirectory(townName) {
+        const tbody = document.getElementById('results-body');
+        const resultsCount = document.getElementById('results-count');
+        const pageInfo = document.getElementById('page-info');
 
         const shops = Object.keys(this.townData[townName]).sort();
+
+        // Update header
+        resultsCount.textContent = `${shops.length} shops in ${townName}`;
+        pageInfo.textContent = '';
+
+        // Clear table and create shop directory
+        tbody.innerHTML = '';
+
         shops.forEach(shopName => {
             const shop = this.townData[townName][shopName];
             const metadata = this.shopMetadata[townName][shopName] || {};
@@ -146,22 +160,38 @@ class BrowseEngine {
                 itemCount += room.length;
             });
 
-            const shopDiv = document.createElement('div');
-            shopDiv.className = 'shop-item';
+            // Create shop card row
+            const shopRow = document.createElement('tr');
+            shopRow.className = 'shop-directory-row';
 
-            const signHtml = metadata.sign ? `<div class="shop-sign">${metadata.sign}</div>` : '';
-
-            shopDiv.innerHTML = `
-                <div class="shop-name">${shopName}</div>
-                <div class="shop-stats">${itemCount} items in ${roomCount} room${roomCount !== 1 ? 's' : ''}</div>
-                ${signHtml}
+            const shopCard = `
+                <td colspan="5" class="shop-directory-card">
+                    <div class="shop-card">
+                        <div class="shop-card-header">
+                            <div class="shop-card-name">${shopName}</div>
+                            <div class="shop-card-stats">
+                                <span class="stat-badge">${itemCount} items</span>
+                                <span class="stat-badge">${roomCount} room${roomCount !== 1 ? 's' : ''}</span>
+                                ${metadata.location ? `<span class="stat-badge location">${metadata.location}</span>` : ''}
+                            </div>
+                        </div>
+                        ${metadata.sign ? `
+                            <div class="shop-card-sign">
+                                <div class="sign-icon">📋</div>
+                                <div class="sign-text">${metadata.sign}</div>
+                            </div>
+                        ` : ''}
+                        <div class="shop-card-footer">
+                            <div class="shop-card-action">Click to browse inventory →</div>
+                        </div>
+                    </div>
+                </td>
             `;
 
-            shopDiv.addEventListener('click', () => this.selectShop(townName, shopName));
-            shopList.appendChild(shopDiv);
+            shopRow.innerHTML = shopCard;
+            shopRow.addEventListener('click', () => this.selectShop(townName, shopName));
+            tbody.appendChild(shopRow);
         });
-
-        shopListSection.style.display = 'block';
     }
 
     hideShopList() {
