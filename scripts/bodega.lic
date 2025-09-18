@@ -234,6 +234,7 @@ module Bodega
       imbeddable: %r[^It is a magical item which could be imbedded with a spell],
       not_wearable: %r[^You determine that you could not wear],
       holy: %r[^It is a holy item\.],
+      is_gemstone: %r[^The jewel appears to be a powerful relic that can convey wondrous abilities on its wielder],
     }
 
     PROPS = {
@@ -243,13 +244,14 @@ module Bodega
       # flare: %r[^It has been infused with the power of an? (?<flare>.*?)\.],
       material: %r[^It looks like this item has been mainly crafted out of (?<material>.*?)\.],
       cost: %r[will cost (?<cost>\d+) coins\.$],
-      worn: %r[You determine that you could wear the (?:.*?)(?:, slinging it| around| on| over) (?<worn>.*?)\.],
+      worn: %r[The .*? can be worn(?:, slinging it across the |, hanging it from the |, attaching it to the | around the | in the | on the | over(?: the)? )(?<worn>[^.]+)(?=.)],
       activator: %r[^It could be activated by (?<activator>\w+) it\.$],
       spell: %r[^It is currently imbedded with the (?<spell>.*?) spell.],
       charges: %r[The (?:\w+) looks to have (?<charges>.*?) charges remaining\.$|It has (?<charges>.*?) charges remaining.],
       shield_size: %r[Your careful inspection of an ornate villswood shield allows you to conclude that it is a (?<size>\w+) shield that],
       armor_type: %r[ allows you to conclude that it is (?<armor_type>.*?)\.],
       flare: %r[It has been infused with (?<flare>.*?)\.$],
+      gemstone_bound_to: %r[jewel is bound to (?<gemstone_bound_to>\w+),],
     }
 
     def self.of(details)
@@ -271,7 +273,14 @@ module Bodega
     end
 
     def _extract(details)
-      details.each do |line|
+      # Convert to array for indexed access (needed for jewel property parsing)
+      details_array = details.to_a
+
+      details_array.each_with_index do |line, index|
+        # Try to parse gemstone properties first (multi-line blocks)
+        next if _gemstone_property(details_array, index)
+
+        # Then handle single-line patterns
         maybe_raw(line,
                   _props(line),
                   _bools(line),
@@ -300,9 +309,59 @@ module Bodega
       return false
     end
 
+    def _gemstone_property(lines, index)
+      # Parse gemstone property blocks that span multiple lines
+      return false unless lines[index].match(/^Property:\s+(.+)$/)
+
+      property = { name: $1.strip }
+
+      # Look for Rarity on next line
+      if index + 1 < lines.size && lines[index + 1].match(/^Rarity:\s+(.+)$/)
+        property[:rarity] = $1.strip
+      end
+
+      # Look for Mnemonic
+      if index + 2 < lines.size && lines[index + 2].match(/^Mnemonic:\s+(.+)$/)
+        property[:mnemonic] = $1.strip
+      end
+
+      # Look for Description (may span multiple lines)
+      if index + 3 < lines.size && lines[index + 3].match(/^Description:\s+(.+)$/)
+        description = $1.strip
+
+        # Check for continuation on next lines (not starting with known patterns)
+        current_index = index + 4
+        while current_index < lines.size
+          # Stop if we hit another property block or known pattern
+          break if lines[current_index].match(/^Property:|^\*|^You note|^The jewel/)
+          # Add continuation lines
+          unless lines[current_index].strip.empty?
+            description += " " + lines[current_index].strip
+          end
+          current_index += 1
+        end
+
+        property[:description] = description
+      end
+
+      # Check for activation marker
+      if lines.size > index + 4 && lines[index + 4].match(/^\s*\*\s+Activated/)
+        property[:activated] = true
+      elsif lines.size > index + 5 && lines[index + 5].match(/^\s*\*\s+Activated/)
+        property[:activated] = true
+      end
+
+      @props[:gemstone_properties] ||= []
+      @props[:gemstone_properties] << property
+
+      return true
+    end
+
     def _props(line)
       PROPS.select do |_prop, pattern|
-        if (result = line.match(pattern))
+        if _prop == :worn && line =~ /can be worn anywhere on the body/i
+          @props[:worn] = "pin"
+        elsif (result = line.match(pattern))
           @props.merge!(result.to_h)
         else
           false
@@ -326,8 +385,11 @@ module Bodega
     begin
       FileUtils.mkdir_p(LOCAL_FS_ROOT)
     rescue => exception
-      Log.out(exception.message)
-      exit
+      Log.out("Failed to create bodega directory: #{LOCAL_FS_ROOT}")
+      Log.out("Error: #{exception.message}")
+      Log.out("lich_dir: #{$lich_dir}")
+      Log.out("local_dir option: #{Opts.local_dir}")
+      fail "Cannot create bodega directory - check permissions and paths"
     end
 
     def self.local_path(file)
@@ -833,8 +895,8 @@ module Bodega
           start = Time.now
           shops = Parser.shops(town)
 
-          # Always create data with timestamp, even if no shops found
-          # This ensures timestamp updates in smart mode when no changes detected
+          # ALWAYS update timestamp when parser runs - shows last scan time on website
+          # This ensures users see when we last checked for updates, not when data last changed
           data = {
             created_at: Time.now.utc,
             run_time: Utils.fmt_time(Time.now - start),

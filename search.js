@@ -500,6 +500,26 @@ class SearchEngine {
             </div>
             ` : ''}
 
+            ${item.gemstoneProperties && item.gemstoneProperties.length > 0 ? `
+            <div class="modal-section">
+                <h4>Gemstone Properties</h4>
+                <div class="gemstone-properties">
+                    ${item.gemstoneProperties.map(prop => `
+                        <div class="gemstone-property">
+                            <div class="property-header">
+                                <strong>${prop.name}</strong>
+                                <span class="rarity-badge rarity-${prop.rarity?.toLowerCase() || 'common'}">${prop.rarity || 'Common'}</span>
+                                ${prop.activated ? '<span class="activated-badge">ACTIVATED</span>' : ''}
+                            </div>
+                            <div class="property-mnemonic">Mnemonic: ${prop.mnemonic || 'Unknown'}</div>
+                            <div class="property-description">${prop.description || 'No description available'}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                ${item.gemstoneBoundTo ? `<p><strong>Bound to:</strong> ${item.gemstoneBoundTo}</p>` : ''}
+            </div>
+            ` : ''}
+
             ${item.tags && item.tags.length > 0 ? `
             <div class="modal-section">
                 <h4>Special Properties</h4>

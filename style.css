@@ -372,6 +372,70 @@ header h1 {
     margin: 5px 0;
 }
 
+/* Gemstone Property Styles */
+.gemstone-properties {
+    background: #f8f0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.gemstone-property {
+    background: white;
+    border: 1px solid #e0d0f0;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.gemstone-property:last-child {
+    margin-bottom: 0;
+}
+
+.property-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+
+.rarity-badge {
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.rarity-common { background: #888; }
+.rarity-rare { background: #3498db; }
+.rarity-regional { background: #f39c12; }
+.rarity-legendary { background: #e74c3c; }
+
+.activated-badge {
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background: #27ae60;
+    color: white;
+    font-weight: bold;
+}
+
+.property-mnemonic {
+    font-size: 10px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+.property-description {
+    font-size: 11px;
+    line-height: 1.3;
+    color: #333;
+}
+
 .raw-data {
     background: #f8f8f8;
     border: 1px solid #ddd;

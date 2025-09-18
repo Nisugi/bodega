@@ -151,6 +151,10 @@ class DataLoader {
                 // Tags and properties
                 tags: item.details?.tags || [],
 
+                // Gemstone properties
+                gemstoneProperties: item.details?.gemstone_properties || [],
+                gemstoneBoundTo: item.details?.gemstone_bound_to || null,
+
                 // Raw text for searching
                 raw: item.details?.raw || [],
 
@@ -369,7 +373,8 @@ class DataLoader {
             ...(item.details?.raw || []),
             ...(item.details?.tags || []),
             item.details?.material || '',
-            ...(item.details?.enhancives || []).map(e => `${e.ability} ${e.boost}`)
+            ...(item.details?.enhancives || []).map(e => `${e.ability} ${e.boost}`),
+            ...(item.details?.gemstone_properties || []).map(p => `${p.name} ${p.rarity} ${p.mnemonic} ${p.description}`)
         ];
 
         return parts.join(' ').toLowerCase();
