@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 16:54:38 UTC",
-  "run_time": "07s",
+  "created_at": "2025-09-18 18:45:15 UTC",
+  "run_time": "02m 45s",
   "town": "River's Rest",
   "shops": [
     {
@@ -17,7 +17,6 @@
               "name": "a black iron scimitar talisman",
               "details": {
                 "raw": [
-                  "The talisman can be worn around the neck.",
                   "Analysis of a black iron scimitar talisman indicates the item is free from merchant alteration restrictions.",
                   "The iron scimitar talisman will cost 5,000,000 coins.",
                   "It appears to be a holy symbol.",
@@ -26,7 +25,8 @@
                 ],
                 "tags": [
                   "small"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -34,11 +34,11 @@
               "name": "a pair of black-tinted glasses",
               "details": {
                 "raw": [
-                  "The glasses can be worn anywhere on the body.  The glasses appear to serve some purpose.",
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "pin"
               }
             },
             {
@@ -46,11 +46,11 @@
               "name": "a pair of black-tinted glasses",
               "details": {
                 "raw": [
-                  "The glasses can be worn anywhere on the body.  The glasses appear to serve some purpose.",
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "pin"
               }
             },
             {
@@ -58,11 +58,11 @@
               "name": "a pair of black-tinted glasses",
               "details": {
                 "raw": [
-                  "The glasses can be worn anywhere on the body.  The glasses appear to serve some purpose.",
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "pin"
               }
             },
             {
@@ -70,11 +70,11 @@
               "name": "a pair of black-tinted glasses",
               "details": {
                 "raw": [
-                  "The glasses can be worn anywhere on the body.  The glasses appear to serve some purpose.",
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "pin"
               }
             },
             {
@@ -93,6 +93,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "weight": 7
               }
             },
@@ -101,12 +102,12 @@
               "name": "an iron-studded shoulder guard made of articulated leather scales",
               "details": {
                 "raw": [
-                  "The guard can be worn, slinging it across the shoulders and back.",
                   "Analysis of an iron-studded shoulder guard made of articulated leather scales indicates the creator has provided the following information:",
                   "The guard is intended to be a pauldron or shoulder guard of some sort.  It must remain in the essence of the base item when altering it.",
                   "The shoulder guard will cost 500,000 coins."
                 ],
                 "tags": [],
+                "worn": "shoulders and back",
                 "material": "leather, an extremely common material"
               }
             },
@@ -161,11 +162,11 @@
               "name": "a bug-eyed shrunken goblin head strung from a fraying length of knotted hemp",
               "details": {
                 "raw": [
-                  "The head can be worn, attaching it to the belt.",
                   "Analysis of a bug-eyed shrunken goblin head strung from a fraying length of knotted hemp indicates the item is free from merchant alteration restrictions.",
                   "The shrunken goblin head will cost 1,000,000 coins."
                 ],
                 "tags": [],
+                "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -192,13 +193,13 @@
               "name": "an amber skirt pin",
               "details": {
                 "raw": [
-                  "The pin can be worn anywhere on the body.",
                   "Analysis of an amber skirt pin indicates the creator has provided the following information:",
                   "You carefully look over the skirt pin and realize that wearing it will enable you to appear to manipulate a currently worn skirt or dress.  Alteration-wise, it will always need to be \"article / (whatever) skirt / pin\", but can probably be constructed of any hard material.  Fabric doesn't seem like a logical material for this at all.  If you were to play with the pin, then you'd find that you can analyze, clench, pull, push, remove, rub, tickle, turn, and wear it.",
                   "SCRIPT NAME: Skirt Pin",
                   "The skirt pin will cost 25,000,000 coins."
                 ],
                 "tags": [],
+                "worn": "pin",
                 "material": "metal, an extremely common material"
               }
             },
@@ -231,6 +232,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "head",
                 "material": "steel, an extremely common metal",
                 "weight": 4
               }
@@ -240,7 +242,6 @@
               "name": "a sun-faded linen bandana",
               "details": {
                 "raw": [
-                  "The bandana can be worn on the head.",
                   "Analysis of a sun-faded linen bandana indicates the creator has provided the following information:",
                   "The bandana does not have any custom feature settings.  It can have up to four.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
@@ -256,6 +257,7 @@
                   "The linen bandana will cost 50,000 coins."
                 ],
                 "tags": [],
+                "worn": "head",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -264,13 +266,13 @@
               "name": "a slender ebon hook dangling a cluster of crimson rubies",
               "details": {
                 "raw": [
-                  "The hook can be worn, hanging it from the ear.",
                   "Analysis of a slender ebon hook dangling a cluster of crimson rubies indicates the creator has provided the following information:",
                   "This item may be altered by a talented merchant, so long as they still dangle a bit.",
                   "You can try to SHAKE, RUB, and PULL the hook.",
                   "The veniom hook will cost 500,000 coins."
                 ],
                 "tags": [],
+                "worn": "ear",
                 "material": "veniom, a very rare metal"
               }
             },
@@ -285,6 +287,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "finger",
                 "material": "leather, an extremely common material"
               }
             }
@@ -408,13 +411,13 @@
               "name": "a delicate silver necklace decorated in pink pearls",
               "details": {
                 "raw": [
-                  "The necklace can be worn around the neck.",
                   "Analysis of a delicate silver necklace decorated in pink pearls indicates the creator has provided the following information:",
                   "Part of the \"I Dream of Geology\" series out of the Isle of Ornath, the necklace has access to the following verbs: eat, fidget, pinch, remove, twist, and wear.",
                   "Alteration Instructions:  You may alter freely, but it must remain metal of some kind of necklace and have a chain.",
                   "The silver necklace will cost 100,000 coins."
                 ],
                 "tags": [],
+                "worn": "neck",
                 "material": "silver, an extremely common metal"
               }
             },
@@ -423,13 +426,13 @@
               "name": "a polished white gold torc capped in cerulean seahorses",
               "details": {
                 "raw": [
-                  "The torc can be worn around the neck.",
                   "Analysis of a polished white gold torc capped in cerulean seahorses indicates the creator has provided the following information:",
                   "Part of the \"I Dream of Geology\" series out of the Isle of Ornath, the torc has access to the following verbs: nod, ponder, remove, touch, twist, and wear.",
                   "Alteration Instructions:  You may alter freely, but the adjective must remain a metal type and the noun must be a torc of some kind.",
                   "The white gold torc will cost 100,000 coins."
                 ],
                 "tags": [],
+                "worn": "neck",
                 "material": "white gold, an infrequent alloy"
               }
             },
@@ -439,7 +442,6 @@
               "details": {
                 "raw": [
                   "The woven circlet has 23 things woven into it, among which you see many brilliant yellow beach sunflowers.",
-                  "The circlet can be worn on the head.",
                   "Analysis of an intricately woven circlet of brilliant yellow beach sunflowers indicates the creator has provided the following information:",
                   "An intricately woven circlet of brilliant yellow beach sunflowers has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
@@ -450,6 +452,7 @@
                   "The woven circlet will cost 250,000 coins."
                 ],
                 "tags": [],
+                "worn": "head",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -458,10 +461,10 @@
               "name": "a peach-tinged tangerine zinnia",
               "details": {
                 "raw": [
-                  "The zinnia can be worn in the hair.",
                   "The tangerine zinnia will cost 100,000 coins."
                 ],
                 "tags": [],
+                "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
             },
@@ -471,12 +474,12 @@
               "details": {
                 "raw": [
                   "The woven garland has 33 things woven into it, among which you see many glossy nutmeg brown dragonflies and several vivid red camellia blossoms.",
-                  "The garland can be worn around the neck.",
                   "Analysis of a densely woven garland of glossy nutmeg brown dragonflies and vivid red camellia blossoms indicates the creator has provided the following information:",
                   "This is a Woven Chain (i.e. it was created via weaving!)  A talented merchant can alter it but only with heavy caveats: the noun cannot change unless it is to alter it back to its default wording (this item's default noun is a \"garland\"), and the long description is currently unable to be altered.  You can add a show that does not contradict the hard-coded LOOK.",
                   "The woven garland will cost 100,000 coins."
                 ],
                 "tags": [],
+                "worn": "neck",
                 "material": "gemstone, an extremely common material"
               }
             }
@@ -522,6 +525,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "finger",
                 "material": "gold, an uncommon metal"
               }
             },
@@ -536,6 +540,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "finger",
                 "material": "gold, an uncommon metal"
               }
             },
@@ -563,13 +568,13 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the legs.",
-                  "The greaves can be worn around the legs.  The greaves appear to serve some purpose.",
                   "Analysis of some thick mithglin leg greaves indicates the item is free from merchant alteration restrictions.",
                   "The mithglin leg greaves will cost 500,000 coins."
                 ],
                 "tags": [
                   "lightenable"
                 ],
+                "worn": "legs",
                 "material": "mithglin, a rare metal"
               }
             },
@@ -612,6 +617,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "vaalorn, a rare metal",
                 "enchant": 18,
                 "weight": 22
@@ -650,7 +656,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -833,6 +840,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Heroism",
                 "activator": "tapping"
               }
@@ -857,6 +865,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "pin",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -909,6 +918,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "ear",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -932,7 +942,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "wrist"
               }
             },
             {
@@ -945,7 +956,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "wrist"
               }
             },
             {
@@ -967,6 +979,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -996,6 +1009,7 @@
                   "imbeddable",
                   "persists"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -1016,7 +1030,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "head"
               }
             },
             {
@@ -1126,7 +1141,6 @@
               "name": "a tufted bum roll",
               "details": {
                 "raw": [
-                  "The roll can be worn around the waist.",
                   "Analysis of a tufted bum roll indicates the creator has provided the following information:",
                   "This roll is part of the Terinan Collection of 5122.",
                   "The collection comprises multi-tier, high fashion clothing and wares, drawn from the historical archives of the Terinan family.",
@@ -1142,6 +1156,7 @@
                   "The bum roll will cost 150,000 coins."
                 ],
                 "tags": [],
+                "worn": "waist",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -1150,7 +1165,6 @@
               "name": "a cracked and gnarled hand",
               "details": {
                 "raw": [
-                  "The hand can be worn anywhere on the body.",
                   "Analysis of a cracked and gnarled hand indicates the creator has provided the following information:",
                   "The gnarled hand is The Blood Red Hand, a thin waxy membrane that lays over its bearer's hands.  Its description may be freely altered as long as it remains a hand.  Additionally, a merchant may be able to change the hand's nail (cracked) or finger (gnarled) descriptions.",
                   "The hand is currently tier 1 of 4.",
@@ -1159,6 +1173,7 @@
                   "The gnarled hand will cost 3,000,000 coins."
                 ],
                 "tags": [],
+                "worn": "pin",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -1185,7 +1200,6 @@
               "name": "a teal ramie linen scarf with platinum dragonfly embroidery",
               "details": {
                 "raw": [
-                  "The scarf can be worn around the waist.",
                   "Analysis of a teal ramie linen scarf with platinum dragonfly embroidery indicates the creator has provided the following information:",
                   "~-~ Hips Don't Lie Dancing Scarves ~-~",
                   "These dancing scarves will have different messaging depending on if you are holding one or two of them.",
@@ -1206,6 +1220,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "waist",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -1272,6 +1287,7 @@
                   "purpose",
                   "max_light"
                 ],
+                "worn": "neck",
                 "material": "imflass, an uncommon metal",
                 "weight": 2
               }
@@ -1506,6 +1522,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 5,
                 "weight": 13
@@ -1532,6 +1549,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 10,
                 "enhancives": [
@@ -1573,7 +1591,8 @@
                   "max_deep",
                   "max_light",
                   "small"
-                ]
+                ],
+                "worn": "belt"
               }
             }
           ],
@@ -1696,6 +1715,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "arms",
                 "material": "gold, an uncommon metal"
               }
             },
@@ -1704,7 +1724,6 @@
               "name": "an orange silk leaf-patterned cravat",
               "details": {
                 "raw": [
-                  "The cravat can be worn around the neck.",
                   "Analysis of an orange silk leaf-patterned cravat indicates the creator has provided the following information:",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
@@ -2004,6 +2023,7 @@
                   "The leaf-patterned cravat will cost 150,000 coins."
                 ],
                 "tags": [],
+                "worn": "neck",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -2012,7 +2032,6 @@
               "name": "a feathered silver and gold boa adorned with tiny blue beads",
               "details": {
                 "raw": [
-                  "The boa can be worn around the neck.",
                   "Analysis of a feathered silver and gold boa adorned with tiny blue beads indicates the creator has provided the following information:",
                   "This is a scripted boa.  The noun must remain \"boa.\"  It is currently locked.",
                   "The silver and gold boa will cost 50,000 coins.",
@@ -2023,6 +2042,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "neck",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -2031,7 +2051,6 @@
               "name": "a silver-edged crimson silk scarf",
               "details": {
                 "raw": [
-                  "The scarf can be worn anywhere on the body.",
                   "Analysis of a silver-edged crimson silk scarf indicates the creator has provided the following information:",
                   "This is a Colorful Dancing Scarf.  You could WAVE, RAISE, TURN, or PINCH the scarf.  WAVE, RAISE, and PINCH may be targeted at another character.",
                   "It may be altered with a long description or a show, but must remain a colorful length of fabric such as a scarf suitable for dancing.",
@@ -2039,6 +2058,7 @@
                   "The crimson silk scarf will cost 200,000 coins."
                 ],
                 "tags": [],
+                "worn": "pin",
                 "material": "cloth, an extremely common material"
               }
             }
@@ -2059,7 +2079,6 @@
               "name": "a miniature dollhouse pendant",
               "details": {
                 "raw": [
-                  "The pendant can be worn around the neck.",
                   "Analysis of a miniature dollhouse pendant indicates the creator has provided the following information:",
                   "The pendant may not be altered by the majority of merchants (a select few might have special permission in certain circumstances).",
                   "Currently, the pendant has 100 charges left.  A recharging merchant may be able to recharge or add charges to the pendant.",
@@ -2075,6 +2094,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "neck",
                 "material": "metal, an extremely common material",
                 "activator": "waving"
               }
@@ -2095,6 +2115,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "hair",
                 "material": "mesille, an unusual wood"
               }
             },
@@ -2103,7 +2124,6 @@
               "name": "a scorched mesille barrette",
               "details": {
                 "raw": [
-                  "The barrette can be worn in the hair.",
                   "Analysis of a scorched mesille barrette indicates the creator has provided the following information:",
                   "The mesille barrette is currently LOCKED.",
                   "In this state, you feel like you can WEAR and REMOVE the barrette.",
@@ -2113,6 +2133,7 @@
                   "The mesille barrette will cost 15,000 coins."
                 ],
                 "tags": [],
+                "worn": "hair",
                 "material": "mesille, an unusual wood"
               }
             },
@@ -2200,6 +2221,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -2208,7 +2230,6 @@
               "name": "a trailing thin crimson silk dress",
               "details": {
                 "raw": [
-                  "The dress can be worn around the chest.",
                   "Analysis of a trailing thin crimson silk dress indicates the creator has provided the following information:",
                   "The crimson silk dress is meant to be attached to a neck accessory.  The dress cannot have a long or show description, otherwise, it can be altered freely.  Anyone can alter this item.",
                   "The dress is not currently attached to an accessory.",
@@ -2222,6 +2243,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "chest",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -2230,10 +2252,10 @@
               "name": "an auburn-striated milky lavender pansy",
               "details": {
                 "raw": [
-                  "The pansy can be worn in the hair.",
                   "The lavender pansy will cost 50,000 coins."
                 ],
                 "tags": [],
+                "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
             },
@@ -2242,10 +2264,10 @@
               "name": "a spherical intense carnelian blood lily",
               "details": {
                 "raw": [
-                  "The lily can be worn in the hair.",
                   "The carnelian blood lily will cost 50,000 coins."
                 ],
                 "tags": [],
+                "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
             },
@@ -2254,10 +2276,10 @@
               "name": "a slim stalk of claret and ivory snapdragon",
               "details": {
                 "raw": [
-                  "The snapdragon can be worn in the hair.",
                   "The ivory snapdragon will cost 50,000 coins."
                 ],
                 "tags": [],
+                "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
             },
@@ -2317,6 +2339,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 10,
@@ -2347,6 +2370,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "ear",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -2379,6 +2403,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -2412,6 +2437,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Call Wind",
                 "activator": "rubbing",
                 "enhancives": [
@@ -2452,6 +2478,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "pin",
                 "enhancives": [
                   {
                     "boost": 1,
@@ -2557,6 +2584,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "ora, an uncommon metal",
                 "enchant": 10,
                 "enhancives": [
@@ -2598,6 +2626,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 5,
@@ -2668,6 +2697,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -2706,6 +2736,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -2745,6 +2776,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 10,
@@ -2817,6 +2849,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 15,
                 "enhancives": [
@@ -2859,6 +2892,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "spell": "Grasp of the Grave",
                 "activator": "tapping",
                 "enhancives": [
@@ -2893,6 +2927,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 3,
@@ -2972,6 +3007,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -3037,6 +3073,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 3,
@@ -3073,6 +3110,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "finger",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -3129,7 +3167,6 @@
               "name": "a green garnet inset pewter band",
               "details": {
                 "raw": [
-                  "The band can be worn around the finger.",
                   "Analysis of a green garnet inset pewter band indicates the item is free from merchant alteration restrictions.",
                   "The inset pewter band will cost 350,000 coins.",
                   "It is an enhancive item:",
@@ -3142,6 +3179,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "finger",
                 "enhancives": [
                   {
                     "boost": 5,
@@ -3224,12 +3262,12 @@
               "details": {
                 "raw": [
                   "It is estimated that some tanned thrak hide gloves can store a very small amount with enough space for any number of items of very small size.",
-                  "The gloves can be worn on the hands.  The gloves appear to serve some purpose.",
                   "Analysis of some tanned thrak hide gloves indicates the item is free from merchant alteration restrictions.",
                   "You can tell that the gloves are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The thrak hide gloves will cost 25,000 coins."
                 ],
                 "tags": [],
+                "worn": "hands",
                 "material": "leather, an extremely common material"
               }
             },
@@ -3431,7 +3469,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -3508,7 +3547,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -3531,6 +3571,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -3602,7 +3643,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -3616,7 +3658,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "ankle"
               }
             },
             {
@@ -3630,7 +3673,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "ankle"
               }
             },
             {
@@ -3657,7 +3701,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "wrist"
               }
             },
             {
@@ -3674,6 +3719,7 @@
                   "max_light",
                   "deepenable"
                 ],
+                "worn": "belt",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -3727,7 +3773,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "ankle"
               }
             }
           ],
@@ -3756,13 +3803,13 @@
               "name": "a bundle of moonflowers",
               "details": {
                 "raw": [
-                  "The moonflowers can be worn anywhere on the body.",
                   "Analysis of a bundle of moonflowers indicates the creator has provided the following information:",
                   "This is a foraged item.  It is a type of flower.",
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The moonflowers will cost 25,000 coins."
                 ],
                 "tags": [],
+                "worn": "pin",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -3777,6 +3824,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "finger",
                 "material": "gold, an uncommon metal"
               }
             },
@@ -3794,6 +3842,7 @@
                   "max_light",
                   "deepenable"
                 ],
+                "worn": "front",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -3811,6 +3860,7 @@
                   "max_light",
                   "deepenable"
                 ],
+                "worn": "front",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -3827,6 +3877,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -3851,12 +3902,12 @@
               "details": {
                 "raw": [
                   "It is estimated that some tanned thrak hide boots can store a very small amount with enough space for a couple of items of very small size.",
-                  "The boots can be worn on the feet.  The boots appear to serve some purpose.",
                   "Analysis of some tanned thrak hide boots indicates the item is free from merchant alteration restrictions.",
                   "You can tell that the boots are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The thrak hide boots will cost 25,000 coins."
                 ],
                 "tags": [],
+                "worn": "feet",
                 "material": "leather, an extremely common material"
               }
             },
@@ -3874,6 +3925,7 @@
                   "max_light",
                   "deepenable"
                 ],
+                "worn": "front",
                 "material": "leather, an extremely common material"
               }
             },
@@ -3896,6 +3948,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "ear",
                 "spell": "Foresight",
                 "activator": "rubbing",
                 "enhancives": [
@@ -3942,6 +3995,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "pin",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -4040,6 +4094,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "spell": "Light",
                 "activator": "tapping",
                 "enhancives": [
@@ -4218,6 +4273,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 3,
@@ -4251,6 +4307,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "finger",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -4330,6 +4387,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "villswood, an infrequent wood",
                 "enchant": 18,
                 "enhancives": [
@@ -4577,6 +4635,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "yew, an uncommon wood",
                 "enchant": 2,
                 "enhancives": [
@@ -4694,6 +4753,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 15,
                 "weight": 14
@@ -4762,7 +4822,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a basic project (123 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 15 hours and 30 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 5 hours and 48 minutes."
                 ],
                 "tags": [
                   "max_light",
@@ -4803,6 +4863,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "spell": "Call Wind",
                 "activator": "rubbing",
                 "enhancives": [
@@ -4953,7 +5014,6 @@
               "name": "a pair of suede socks",
               "details": {
                 "raw": [
-                  "The socks can be worn on the feet, beneath shoes or boots.  The socks appear to serve some purpose.",
                   "Analysis of a pair of suede socks indicates the creator has provided the following information:",
                   "  ----------------------------------------------------------------------------------",
                   "                          This is a Lucky Item",
@@ -4976,7 +5036,8 @@
                 ],
                 "tags": [
                   "small"
-                ]
+                ],
+                "worn": "feet, beneath shoes or boots"
               }
             },
             {
@@ -5023,11 +5084,11 @@
               "name": "a violet orc hide bodice",
               "details": {
                 "raw": [
-                  "The bodice can be worn anywhere on the body.",
                   "Analysis of a violet orc hide bodice indicates the item is free from merchant alteration restrictions.",
                   "The orc hide bodice will cost 2,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "pin"
               }
             },
             {
@@ -5182,6 +5243,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -5406,6 +5468,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "vultite, an uncommon metal"
               }
             },
@@ -5430,6 +5493,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -5458,6 +5522,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -5597,6 +5662,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "ear",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -5639,6 +5705,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "pin",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -5674,7 +5741,6 @@
               "name": "a loose blue silk blouse with wrist-bound sleeves",
               "details": {
                 "raw": [
-                  "The blouse can be worn around the chest.",
                   "Analysis of a loose blue silk blouse with wrist-bound sleeves indicates the creator has provided the following information:",
                   "You carefully analyze your blue silk blouse and sense that there are some alteration restrictions.  Your blouse must remain some kind of shirt or blouse - no bodices or chemises.  You can change the article (the first 15), but it will carry forward to all variants of the blouse, even after unlocking. IE: if you make it \"an old white shirt\", then it will always be \"old\".  No shows; long descriptions are okay as long as the additional description falls after the noun.",
                   "You may alter the color to one of the following:  red, blue, green, grey, yellow, brown, black, white, orange, purple, or pink.  You may alter the material to one of the following:  silk, twill, wool, satin, linen, velvet, cotton, muslin, spidersilk, damask, captiql, or leather.  You can alter the \"extra\" (the description after the noun.)",
@@ -5690,6 +5756,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "chest",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -5710,6 +5777,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -5745,7 +5813,6 @@
               "details": {
                 "raw": [
                   "A mithril-bound short narwhal tusk cannot store anything inside of it at all.",
-                  "The tusk can be worn, attaching it to the belt.",
                   "Analysis of a mithril-bound short narwhal tusk indicates the creator has provided the following information:",
                   "The Ale Festival Drinking Horn",
                   "Designed to store liquid and will hold a maximum of 20 sips, though some special containers are offered that are unlimited.",
@@ -5777,6 +5844,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
             },
@@ -5787,7 +5855,6 @@
                 "raw": [
                   "The fine fabric of these gloves has an unusual sheen coating the surface.  Imbedded somehow within the weave of the fabric on the back of each hand is a large vaalin sigil.  The sigil has a slight opalescent cast reminiscent of vaalin, but the actual material remains a mystery.",
                   "It is estimated that a pair of vaalin-sigiled silk gloves can store a very small amount with enough space for one item.",
-                  "The gloves can be worn on the hands.  The gloves appear to serve some purpose.",
                   "Analysis of a pair of vaalin-sigiled silk gloves indicates the creator has provided the following information:",
                   "These gloves are made to be worn by pure magical professions.  They can be altered, but require the sigils to remain intact and the gloves should be made of fabric.  They also have a set show description that can't be removed, but more can be added to it.  The sigils are currently described as vaalin.  The sigils can be changed, but are limited to a 15 character descriptor.",
                   "You can tell that the gloves are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
@@ -5800,6 +5867,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "hands",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -5821,6 +5889,7 @@
                   "deepenable",
                   "small"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -5857,6 +5926,7 @@
                   "holy",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Consecrate",
                 "activator": "rubbing",
                 "enhancives": [
@@ -5913,6 +5983,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "spell": "Brace",
                 "activator": "tapping",
                 "enhancives": [
@@ -5940,6 +6011,7 @@
                   "max_deep",
                   "max_light"
                 ],
+                "worn": "shoulders",
                 "weight": 3
               }
             },
@@ -6020,6 +6092,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -6068,6 +6141,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "leather, an extremely common material",
                 "weight": 8
               }
@@ -6091,6 +6165,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "leather, an extremely common material",
                 "weight": 7
               }
@@ -6153,6 +6228,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 8,
@@ -6172,12 +6248,12 @@
               "details": {
                 "raw": [
                   "This is an arm for a golem chassis.",
-                  "The gauntlet can be worn on the head.",
                   "Analysis of an enormous pincer-shaped gauntlet indicates the creator has provided the following information:",
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The pincer-shaped gauntlet will cost 5,000 coins."
                 ],
                 "tags": [],
+                "worn": "head",
                 "material": "metal, an extremely common material"
               }
             },
@@ -6293,7 +6369,6 @@
               "name": "a sapphire blue kilt",
               "details": {
                 "raw": [
-                  "The kilt can be worn on the legs.",
                   "Analysis of a sapphire blue kilt indicates the item is free from merchant alteration restrictions.",
                   "The blue kilt will cost 2,000 coins.",
                   "It is estimated to be worth about 6 silvers.",
@@ -6301,7 +6376,8 @@
                 ],
                 "tags": [
                   "small"
-                ]
+                ],
+                "worn": "legs"
               }
             }
           ],
@@ -6334,6 +6410,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "flare": "the power of an earth elemental",
@@ -6358,6 +6435,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 25,
                 "weight": 10
@@ -6401,6 +6479,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "weight": 25
               }
@@ -6425,6 +6504,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -6496,6 +6576,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "golvern, a very rare metal",
                 "enchant": 25,
                 "weight": 8
@@ -6573,6 +6654,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "mesille, an unusual wood",
                 "enchant": 20,
                 "weight": 11
@@ -6804,6 +6886,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -7126,6 +7209,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "pin",
                 "material": "glass, an extremely common material"
               }
             },
@@ -7210,7 +7294,6 @@
               "name": "a smooth pale kidskin face wrap",
               "details": {
                 "raw": [
-                  "The wrap can be worn on the head.",
                   "Analysis of a smooth pale kidskin face wrap indicates the creator has provided the following information:",
                   "Mourning Veil",
                   "Pull, Push, Remove, and Wear",
@@ -7218,6 +7301,7 @@
                   "The kidskin face wrap will cost 45,000 coins."
                 ],
                 "tags": [],
+                "worn": "head",
                 "material": "leather, an extremely common material"
               }
             },
@@ -7287,6 +7371,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7328,7 +7413,6 @@
               "name": "a thick and shaggy rackhal blanket",
               "details": {
                 "raw": [
-                  "The blanket can be worn, hanging it from the shoulders.",
                   "Analysis of a thick and shaggy rackhal blanket indicates the creator has provided the following information:",
                   "Originally released at Foehn's Promise, the blanket is known as an Elven Blanket.",
                   "It has access to the following verbs: FOLD, HUG, PULL, REMOVE, SHAKE, WAVE, and WEAR.",
@@ -7336,6 +7420,7 @@
                   "The shaggy rackhal blanket will cost 150,000 coins."
                 ],
                 "tags": [],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7380,6 +7465,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "belt",
                 "material": "metal, an extremely common material"
               }
             },
@@ -7540,13 +7626,13 @@
               "name": "a wide metal band",
               "details": {
                 "raw": [
-                  "The band can be worn around the finger.",
                   "Analysis of a wide metal band indicates the creator has provided the following information:",
                   "This is a Hand Buzzer.  It may be altered, but must remain a buzzer or device of some kind.",
                   "You can WAVE, TURN, WEAR, or REMOVE the band.",
                   "The metal band will cost 10,000 coins."
                 ],
                 "tags": [],
+                "worn": "finger",
                 "material": "metal, an extremely common material"
               }
             },
@@ -7635,12 +7721,12 @@
                   "Faintly visible on the face of the pendant is the image of an ethereal grey tombstone.",
                   "There appears to be something engraved on the tombstone.  It reads, \"Here lies Zoleta.  May she rest in peace.\"",
                   "The image of the tombstone is currently cast in shadow.",
-                  "The pendant can be worn around the neck.",
                   "Analysis of a veniom-edged gold gravestone pendant indicates the creator has provided the following information:",
                   "This item will summon a tombstone upon your death, to remain there until you breathe once again.  TURN will toggle this ability.  LOOK to see if the ability is active, if not, RUB it.",
                   "The gold gravestone pendant will cost 50,000 coins."
                 ],
                 "tags": [],
+                "worn": "neck",
                 "material": "gold, an uncommon metal"
               }
             },
@@ -7670,7 +7756,6 @@
               "details": {
                 "raw": [
                   "It is estimated that some slashed flyrsilk gloves with exposed vines beneath can store a very small amount with enough space for one item.",
-                  "The gloves can be worn on the hands.  The gloves appear to serve some purpose.",
                   "Analysis of some slashed flyrsilk gloves with exposed vines beneath indicates the creator has provided the following information:",
                   "The Waggling Gloves",
                   "Designed to hold a gemstone or a lockpick, these gloves are for the slight of hand expert or practioner.",
@@ -7681,6 +7766,7 @@
                   "The flyrsilk gloves will cost 200,000 coins."
                 ],
                 "tags": [],
+                "worn": "hands",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7690,7 +7776,6 @@
               "details": {
                 "raw": [
                   "It is estimated that some jade green lotus silk gloves stitched with dragonflies can store a very small amount with enough space for one item.",
-                  "The gloves can be worn on the hands.  The gloves appear to serve some purpose.",
                   "Analysis of some jade green lotus silk gloves stitched with dragonflies indicates the creator has provided the following information:",
                   "The Waggling Gloves",
                   "Designed to hold a gemstone or a lockpick, these gloves are for the slight of hand expert or practioner.",
@@ -7701,6 +7786,7 @@
                   "The lotus silk gloves will cost 200,000 coins."
                 ],
                 "tags": [],
+                "worn": "hands",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7895,6 +7981,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 9,
@@ -7923,6 +8010,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -7961,6 +8049,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "ora, an uncommon metal",
                 "enhancives": [
                   {
@@ -7999,6 +8088,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8031,6 +8121,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "vultite, an uncommon metal",
                 "enhancives": [
                   {
@@ -8074,6 +8165,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ruic, an uncommon wood",
                 "enchant": 25,
                 "flare": "the power of a dark substance",
@@ -8107,6 +8199,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "glowbark, an extraordinarily rare wood",
                 "enchant": 22,
                 "enhancives": [
@@ -8138,6 +8231,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8167,6 +8261,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8197,6 +8292,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8233,6 +8329,7 @@
                   "holy",
                   "persists"
                 ],
+                "worn": "neck",
                 "material": "vultite, an uncommon metal",
                 "enhancives": [
                   {
@@ -8352,6 +8449,7 @@
                   "holy",
                   "small"
                 ],
+                "worn": "pin",
                 "spell": "Consecrate",
                 "activator": "tapping",
                 "enhancives": [
@@ -8420,6 +8518,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 7,
@@ -8477,6 +8576,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -8509,6 +8609,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8546,6 +8647,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8579,6 +8681,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Elemental Defense III",
                 "activator": "rubbing",
                 "enhancives": [
@@ -8611,6 +8714,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "pin",
                 "enhancives": [
                   {
                     "boost": 10,
@@ -8637,6 +8741,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 9,
@@ -8665,6 +8770,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8696,6 +8802,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "spell": "Elemental Blade",
                 "activator": "tapping",
                 "enhancives": [
@@ -8734,6 +8841,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8764,6 +8872,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -8791,6 +8900,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 1,
@@ -8823,6 +8933,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -8888,6 +8999,7 @@
                   "max_light",
                   "deepenable"
                 ],
+                "worn": "belt",
                 "material": "leather, an extremely common material",
                 "weight": 2
               }
@@ -8913,6 +9025,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "enhancives": [
@@ -8931,7 +9044,6 @@
                 "raw": [
                   "It has a small enchanter's glyph.",
                   "The robes is cloth armor that covers the torso, arms, legs, neck, and head.",
-                  "The robes can be worn around the chest.  The robes appear to serve some purpose.",
                   "Analysis of some cinched cotton robes indicates the item is free from merchant alteration restrictions.",
                   "The cotton robes will cost 212,000 coins.",
                   "It is estimated to be worth about 300,000 silvers.",
@@ -8943,6 +9055,7 @@
                 "tags": [
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "cloth, an extremely common material",
                 "enchant": 10,
                 "flare": "the power of an ice elemental",
@@ -8965,6 +9078,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 24,
                 "weight": 2
@@ -8976,7 +9090,6 @@
               "details": {
                 "raw": [
                   "The vambraces is miscellaneous armor that covers the arms.",
-                  "The vambraces can be worn around the arms.  The vambraces appear to serve some purpose.",
                   "Analysis of some veniom-inlaid gleaming golden mithril vambraces indicates the item is free from merchant alteration restrictions.",
                   "The golden mithril vambraces will cost 640,000 coins.",
                   "It is estimated to be worth about 1,800 silvers.",
@@ -8987,6 +9100,7 @@
                 "tags": [
                   "lightenable"
                 ],
+                "worn": "arms",
                 "material": "mithril, an uncommon metal",
                 "weight": 4
               }
@@ -9004,6 +9118,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ipantor, an extraordinarily rare wood"
               }
             },
@@ -9060,6 +9175,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ruic, an uncommon wood",
                 "enchant": 25,
                 "weight": 2
@@ -9083,6 +9199,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enhancives": [
                   {
@@ -9141,6 +9258,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "imflass, an uncommon metal"
               }
             },
@@ -9162,6 +9280,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "material": "leather, an extremely common material",
                 "spell": "Invisibility",
                 "activator": "wearing"
@@ -9214,7 +9333,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the legs.",
-                  "The greaves can be worn around the legs.  The greaves appear to serve some purpose.",
                   "Analysis of some blackened imflass leg greaves indicates the item is free from merchant alteration restrictions.",
                   "You can tell that the greaves are as light as they can get.",
                   "The imflass leg greaves will cost 100,000 coins.",
@@ -9225,6 +9343,7 @@
                   "It has a temporarily unlocked loresong by Wretors."
                 ],
                 "tags": [],
+                "worn": "legs",
                 "material": "imflass, an uncommon metal",
                 "weight": 3
               }
@@ -9245,6 +9364,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "neck",
                 "material": "iron, an extremely common metal"
               }
             },
@@ -9261,6 +9381,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ruic, an uncommon wood"
               }
             }
@@ -9304,6 +9425,7 @@
                   "max_light",
                   "persists"
                 ],
+                "worn": "neck",
                 "material": "vultite, an uncommon metal",
                 "enhancives": [
                   {
@@ -9346,6 +9468,7 @@
                   "max_light",
                   "persists"
                 ],
+                "worn": "neck",
                 "material": "vultite, an uncommon metal",
                 "enhancives": [
                   {
@@ -9384,6 +9507,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "vaalorn, a rare metal",
                 "enhancives": [
                   {
@@ -9424,6 +9548,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 5,
                 "enhancives": [
@@ -9463,6 +9588,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "carmiln, an uncommon wood",
                 "enchant": 6,
                 "flare": "the power of an ice elemental",
@@ -9489,7 +9615,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the arms.",
-                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
                   "Analysis of some old imflass arm greaves indicates the item is free from merchant alteration restrictions.",
                   "You can tell that the greaves are as light as they can get.",
                   "The imflass arm greaves will cost 1,000,000 coins.",
@@ -9505,6 +9630,7 @@
                 "tags": [
                   "persists"
                 ],
+                "worn": "arms",
                 "material": "imflass, an uncommon metal",
                 "enhancives": [
                   {
@@ -9533,6 +9659,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -9545,13 +9672,13 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the legs.",
-                  "The greaves can be worn around the legs.  The greaves appear to serve some purpose.",
                   "Analysis of some thick glaes leg greaves indicates the item is free from merchant alteration restrictions.",
                   "The glaes leg greaves will cost 250,000 coins."
                 ],
                 "tags": [
                   "lightenable"
                 ],
+                "worn": "legs",
                 "material": "glaes, a rare metal"
               }
             },
@@ -9568,6 +9695,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood"
               }
             },
@@ -9592,6 +9720,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "kakore, an uncommon wood",
                 "enchant": 10,
                 "enhancives": [
@@ -9632,6 +9761,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "enhancives": [
@@ -9657,7 +9787,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the arms.",
-                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
                   "Analysis of some old ora arm greaves indicates the item is free from merchant alteration restrictions.",
                   "The ora arm greaves will cost 50,000 coins.",
                   "It is estimated to be worth about 100,000 silvers.",
@@ -9668,6 +9797,7 @@
                 "tags": [
                   "lightenable"
                 ],
+                "worn": "arms",
                 "material": "ora, an uncommon metal",
                 "flare": "the power of an ice elemental",
                 "weight": 5
@@ -9692,6 +9822,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "leather, an extremely common material",
                 "enchant": 20,
                 "weight": 10
@@ -9724,6 +9855,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -10021,6 +10153,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "ear",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -10233,6 +10366,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "hoarbeam, an unusual wood",
                 "enchant": 12,
                 "flare": "the power of a dark substance",
@@ -10275,6 +10409,7 @@
                   "max_light",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -10346,6 +10481,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -10382,6 +10518,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -10720,13 +10857,13 @@
           "branch": "southwest",
           "items": [
             {
-              "id": "163280",
-              "name": "an opalescent glass jar containing green aventurine stones",
+              "id": "163275",
+              "name": "an opalescent glass jar containing pieces of cat's eye quartz",
               "details": {
                 "raw": [
-                  "It is estimated that an opalescent glass jar containing green aventurine stones can store a very small amount with enough space for one item.",
+                  "It is estimated that an opalescent glass jar containing pieces of cat's eye quartz can store a very small amount with enough space for one item.",
                   "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing green aventurine stones indicates the creator has provided the following information:",
+                  "Analysis of an opalescent glass jar containing pieces of cat's eye quartz indicates the creator has provided the following information:",
                   "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
@@ -10737,30 +10874,13 @@
               }
             },
             {
-              "id": "163279",
-              "name": "an opalescent glass jar containing green aventurine stones",
+              "id": "163276",
+              "name": "an opalescent glass jar containing star rubies",
               "details": {
                 "raw": [
-                  "It is estimated that an opalescent glass jar containing green aventurine stones can store a very small amount with enough space for one item.",
+                  "It is estimated that an opalescent glass jar containing star rubies can store a very small amount with enough space for one item.",
                   "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing green aventurine stones indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 5,000 coins."
-                ],
-                "tags": [],
-                "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "163278",
-              "name": "an opalescent glass jar containing violet sapphires",
-              "details": {
-                "raw": [
-                  "It is estimated that an opalescent glass jar containing violet sapphires can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing violet sapphires indicates the creator has provided the following information:",
+                  "Analysis of an opalescent glass jar containing star rubies indicates the creator has provided the following information:",
                   "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
@@ -10781,41 +10901,58 @@
                   "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 30,000 coins."
+                  "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [],
                 "material": "glass, an extremely common material"
               }
             },
             {
-              "id": "163276",
-              "name": "an opalescent glass jar containing star rubies",
+              "id": "163278",
+              "name": "an opalescent glass jar containing violet sapphires",
               "details": {
                 "raw": [
-                  "It is estimated that an opalescent glass jar containing star rubies can store a very small amount with enough space for one item.",
+                  "It is estimated that an opalescent glass jar containing violet sapphires can store a very small amount with enough space for one item.",
                   "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing star rubies indicates the creator has provided the following information:",
+                  "Analysis of an opalescent glass jar containing violet sapphires indicates the creator has provided the following information:",
                   "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 40,000 coins."
+                  "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [],
                 "material": "gemstone, an extremely common material"
               }
             },
             {
-              "id": "163275",
-              "name": "an opalescent glass jar containing pieces of cat's eye quartz",
+              "id": "163279",
+              "name": "an opalescent glass jar containing green aventurine stones",
               "details": {
                 "raw": [
-                  "It is estimated that an opalescent glass jar containing pieces of cat's eye quartz can store a very small amount with enough space for one item.",
+                  "It is estimated that an opalescent glass jar containing green aventurine stones can store a very small amount with enough space for one item.",
                   "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing pieces of cat's eye quartz indicates the creator has provided the following information:",
+                  "Analysis of an opalescent glass jar containing green aventurine stones indicates the creator has provided the following information:",
                   "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 7,000 coins."
+                  "The glass jar will cost 3,000 coins."
+                ],
+                "tags": [],
+                "material": "gemstone, an extremely common material"
+              }
+            },
+            {
+              "id": "163280",
+              "name": "an opalescent glass jar containing green aventurine stones",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing green aventurine stones can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing green aventurine stones indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 3,000 coins."
                 ],
                 "tags": [],
                 "material": "gemstone, an extremely common material"
@@ -10892,6 +11029,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "finger",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -10921,6 +11059,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Lock Pick Enhancement",
                 "activator": "tapping"
               }
@@ -10943,6 +11082,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -10970,6 +11110,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -11002,6 +11143,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "ear",
                 "spell": "Disarm Enhancement",
                 "activator": "rubbing",
                 "enhancives": [
@@ -11053,6 +11195,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Minor Sanctuary",
                 "activator": "rubbing",
                 "enhancives": [
@@ -11083,6 +11226,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Spirit Warding II",
                 "activator": "tapping",
                 "enhancives": [
@@ -11114,6 +11258,7 @@
                   "holy",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Remove Curse",
                 "activator": "tapping"
               }
@@ -11138,6 +11283,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -11166,6 +11312,7 @@
                   "purpose",
                   "imbeddable"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -11229,6 +11376,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Spirit Warding I",
                 "activator": "tapping",
                 "enhancives": [
@@ -11266,16 +11414,24 @@
               "details": {
                 "raw": [
                   "A mirage-like haze of arcane influence clings to the jewel, alight with half-glimpsed glyphs refracting across its facets from within.  The effect is dizzying and makes further visual inspection difficult.",
-                  "The jewel appears to be a powerful relic that can convey wondrous abilities on its wielder.  It has the following property:",
-                  "Property:    Grimswarm: Shroud Soother (Rank 1 of 5)",
                   "Rarity:      Regional",
                   "Mnemonic:    shroudsoothe",
                   "Description: Your AOE spells have a 10/20/30/40/50% reduced chance to trigger the Shroud in Grimswarm camps.  At maximum tier, you can trigger the Shroud with no negative effect once every 15 minutes.",
-                  "You note the telltale filaments of a lesser binding shimmering around the indigo jewel.  You can sense that the jewel is bound to Ntinly, but a sufficiently skilled artificer should be able to dispel the binding.",
                   "The jewel can not be worn.",
                   "The indigo jewel will cost 2,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+                  "is_jewel"
+                ],
+                "jewel_properties": [
+                  {
+                    "name": "Grimswarm: Shroud Soother (Rank 1 of 5)",
+                    "rarity": "Regional",
+                    "mnemonic": "shroudsoothe",
+                    "description": "Your AOE spells have a 10/20/30/40/50% reduced chance to trigger the Shroud in Grimswarm camps.  At maximum tier, you can trigger the Shroud with no negative effect once every 15 minutes."
+                  }
+                ],
+                "jewel_bound_to": "Ntinly",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -11297,6 +11453,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "finger",
                 "material": "mithril, an uncommon metal",
                 "spell": "Lesser Shroud",
                 "activator": "rubbing"
@@ -11381,6 +11538,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "chest",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "enhancives": [
@@ -11507,6 +11665,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "pin",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -11539,11 +11698,11 @@
               "details": {
                 "raw": [
                   "The tabard is simply tailored and all-around unremarkable.",
-                  "The tabard can be worn over the front.",
                   "Analysis of a simple tabard indicates the item is free from merchant alteration restrictions.",
                   "The simple tabard will cost 250,000 coins."
                 ],
                 "tags": [],
+                "worn": "front",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -11678,7 +11837,8 @@
                   "purpose",
                   "max_light",
                   "deepenable"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -11686,13 +11846,13 @@
               "name": "a black opal-set pendant",
               "details": {
                 "raw": [
-                  "The pendant can be worn around the neck.",
                   "The opal-set pendant will cost 250,000 coins.",
                   "It is estimated to be worth about 50,000 silvers."
                 ],
                 "tags": [
                   "small"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -12217,6 +12377,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "material": "metal, an extremely common material"
               }
             },
@@ -12276,6 +12437,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "spell": "Spirit Barrier",
                 "activator": "tapping",
                 "enhancives": [
@@ -12319,6 +12481,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "wrist",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -12348,6 +12511,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -12479,6 +12643,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "pin",
                 "spell": "Spirit Strike",
                 "activator": "tapping",
                 "enhancives": [
@@ -12513,6 +12678,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "pin",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -12588,6 +12754,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "arms",
                 "material": "cloth, an extremely common material",
                 "enhancives": [
                   {
@@ -12615,6 +12782,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "pin",
                 "enhancives": [
                   {
                     "boost": 2,
@@ -12646,6 +12814,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "material": "leather, an extremely common material",
                 "enhancives": [
                   {
@@ -12681,6 +12850,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "material": "gold, an uncommon metal",
                 "enhancives": [
                   {
@@ -12720,6 +12890,7 @@
                 "tags": [
                   "purpose"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 10,
@@ -12854,6 +13025,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "wrist",
                 "spell": "Eye Spy",
                 "activator": "tapping"
               }
@@ -12878,6 +13050,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "head",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -12910,6 +13083,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "ora, an uncommon metal",
                 "enchant": 10,
                 "weight": 25
@@ -12966,6 +13140,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -12985,7 +13160,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "neck"
               }
             },
             {
@@ -13025,7 +13201,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the legs.",
-                  "The greaves can be worn around the legs.  The greaves appear to serve some purpose.",
                   "Analysis of some ora leg greaves indicates the item is free from merchant alteration restrictions.",
                   "You can tell that the greaves are as light as they can get.",
                   "The ora leg greaves will cost 20,000 coins.",
@@ -13037,6 +13212,7 @@
                   "It has a temporarily unlocked loresong by a bard."
                 ],
                 "tags": [],
+                "worn": "legs",
                 "material": "ora, an uncommon metal",
                 "weight": 3
               }
@@ -13089,6 +13265,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "pin",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -13161,6 +13338,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "chest",
                 "material": "mithglin, a rare metal",
                 "enhancives": [
                   {
@@ -13187,6 +13365,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "vaalorn, a rare metal",
                 "enchant": 18,
                 "weight": 45
@@ -13208,6 +13387,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "mithglin, a rare metal",
                 "enchant": 15,
                 "weight": 67
@@ -13294,6 +13474,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "shoulders and back",
                 "material": "ora, an uncommon metal",
                 "enchant": 15,
                 "enhancives": [
@@ -13356,6 +13537,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -13389,6 +13571,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -13471,6 +13654,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "illthorn, an extremely rare wood",
                 "enchant": 25,
                 "weight": 9
@@ -13501,6 +13685,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "neck",
                 "material": "glaes, a rare metal",
                 "weight": 4
               }
@@ -13518,6 +13703,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "ora, an uncommon metal"
               }
             },
@@ -13568,7 +13754,8 @@
                 ],
                 "tags": [
                   "purpose"
-                ]
+                ],
+                "worn": "ankle"
               }
             },
             {
@@ -13662,6 +13849,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -13751,11 +13939,11 @@
               "name": "a pair of goat hide trousers",
               "details": {
                 "raw": [
-                  "The trousers can be worn on the legs.  The trousers appear to serve some purpose.",
                   "Analysis of a pair of goat hide trousers indicates the item is free from merchant alteration restrictions.",
                   "The goat hide trousers will cost 10,000 coins."
                 ],
-                "tags": []
+                "tags": [],
+                "worn": "legs"
               }
             },
             {
@@ -13826,7 +14014,6 @@
                 "raw": [
                   "While the crisscrossing main straps, heel risers, and heel leashes of the sandals are made of lustrous light grey elesine, the soles and footbed are a dull-finished pewter leather.  Woven along the strips of elesine of the upper straps and heel leash are thin cords of indigo suede that extend beyond the base structure of the sandal to serve as ties.  The dye work on the suede is inconsistent, ranging from light blue to dark and back again, like the moonlight-dappled waves of a nighttime sea.",
                   "It is estimated that some grey elesine sandals with twisted indigo suede ties can store a very small amount with enough space for one item of very small size.",
-                  "The sandals can be worn on the feet.  The sandals appear to serve some purpose.",
                   "You can tell that the sandals are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The grey elesine sandals will cost 2,000,000 coins.",
                   "It is estimated to be worth about 75,000 silvers.",
@@ -13837,6 +14024,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "feet",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -13869,6 +14057,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders and back",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "weight": 6
@@ -13891,6 +14080,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "weight": 24
@@ -13915,6 +14105,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Melgorehn's Aura",
                 "activator": "rubbing",
                 "enhancives": [
@@ -13949,6 +14140,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "finger",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -13999,6 +14191,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -14031,6 +14224,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -14058,6 +14252,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -14078,6 +14273,7 @@
                   "max_deep",
                   "max_light"
                 ],
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "weight": 4
               }
@@ -14087,7 +14283,6 @@
               "name": "a swath of vibrant blue and green silk",
               "details": {
                 "raw": [
-                  "The silk can be worn around the waist.",
                   "Analysis of a swath of vibrant blue and green silk indicates the creator has provided the following information:",
                   "~*~ Illegal Alteration Clothing Line (IACLs) ~*~",
                   "This item can have different descriptions when held and worn.  Wait!  What??  That's right, you can now have a tight bodice, low-rise pants, or maybe a long cloak that actually drags on the ground.  Keep in mind that normal alteration rules may still apply based on merchant personalities and general good taste.",
@@ -14109,6 +14304,7 @@
                 "tags": [
                   "small"
                 ],
+                "worn": "waist",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -14135,6 +14331,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -14162,6 +14359,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -14185,6 +14383,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
+                "worn": "shoulders and back",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "weight": 2
@@ -14223,6 +14422,41 @@
           "branch": "entry",
           "items": [
             {
+              "id": "173686",
+              "name": "an imflass aventail",
+              "details": {
+                "raw": [
+                  "The aventail is miscellaneous armor that covers the neck.",
+                  "Analysis of an imflass aventail indicates the item is free from merchant alteration restrictions.",
+                  "The imflass aventail will cost 750,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "It is estimated to be worth about 850,000 silvers.",
+                  "It is predominantly crafted of imflass.",
+                  "It is a simple project (44 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Vonaq."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_light",
+                  "persists"
+                ],
+                "worn": "neck",
+                "material": "imflass, an uncommon metal",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Intuition Bonus"
+                  },
+                  {
+                    "boost": 11,
+                    "ability": "Trading Bonus"
+                  }
+                ],
+                "weight": 2
+              }
+            },
+            {
               "id": "218547389",
               "name": "a glyph-etched mithril torc",
               "details": {
@@ -14242,6 +14476,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -14272,6 +14507,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -14303,6 +14539,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 6,
@@ -14339,6 +14576,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "ora, an uncommon metal",
                 "enhancives": [
                   {
@@ -14378,6 +14616,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
@@ -14411,6 +14650,7 @@
                   "holy",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Benediction",
                 "activator": "tapping",
                 "enhancives": [
@@ -14443,6 +14683,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 7,
@@ -14477,6 +14718,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 8,
@@ -14533,6 +14775,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "head",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -14599,40 +14842,6 @@
               }
             },
             {
-              "id": "173686",
-              "name": "an imflass aventail",
-              "details": {
-                "raw": [
-                  "The aventail is miscellaneous armor that covers the neck.",
-                  "Analysis of an imflass aventail indicates the item is free from merchant alteration restrictions.",
-                  "The imflass aventail will cost 1,000,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
-                  "It is estimated to be worth about 850,000 silvers.",
-                  "It is predominantly crafted of imflass.",
-                  "It is a simple project (44 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Vonaq."
-                ],
-                "tags": [
-                  "purpose",
-                  "max_light",
-                  "persists"
-                ],
-                "material": "imflass, an uncommon metal",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Intuition Bonus"
-                  },
-                  {
-                    "boost": 11,
-                    "ability": "Trading Bonus"
-                  }
-                ],
-                "weight": 2
-              }
-            },
-            {
               "id": "173684",
               "name": "a shimmering indigo orb",
               "details": {
@@ -14645,44 +14854,6 @@
                 ],
                 "tags": [],
                 "material": "gemstone, an extremely common material"
-              }
-            },
-            {
-              "id": "301070321",
-              "name": "some etched imflass leg greaves",
-              "details": {
-                "raw": [
-                  "The greaves is miscellaneous armor that covers the legs.",
-                  "The greaves can be worn around the legs.  The greaves appear to serve some purpose.",
-                  "Analysis of some etched imflass leg greaves indicates the item is free from merchant alteration restrictions.",
-                  "You can tell that the greaves are as light as they can get.",
-                  "The imflass leg greaves will cost 6,000,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a fair amount of enhancive charges remaining.",
-                  "It is estimated to be worth about 250,000 silvers.",
-                  "It is predominantly crafted of imflass.",
-                  "It is a simple project (45 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "persists"
-                ],
-                "material": "imflass, an uncommon metal",
-                "enhancives": [
-                  {
-                    "boost": 11,
-                    "ability": "Influence Base"
-                  },
-                  {
-                    "boost": 8,
-                    "ability": "Intuition Base"
-                  },
-                  {
-                    "boost": 1,
-                    "ability": "Elemental Lore - Air Ranks"
-                  }
-                ],
-                "weight": 3
               }
             }
           ],
@@ -14713,6 +14884,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 2,
@@ -14749,6 +14921,7 @@
                   "holy",
                   "small"
                 ],
+                "worn": "head",
                 "spell": "Relieve Burden",
                 "activator": "rubbing",
                 "enhancives": [
@@ -14780,12 +14953,13 @@
                   "    It seems to have a lot of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 14 days, 13 hours and 44 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 14 days, 4 hours and 1 minute."
                 ],
                 "tags": [
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "spell": "Mystic Focus",
                 "activator": "tapping",
                 "enhancives": [
@@ -14802,7 +14976,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the arms.",
-                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
                   "Analysis of some polished glaes arm greaves indicates the item is free from merchant alteration restrictions.",
                   "The glaes arm greaves will cost 19,499,900 coins.",
                   "It is an enhancive item:",
@@ -14816,6 +14989,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "arms",
                 "material": "glaes, a rare metal",
                 "enhancives": [
                   {
@@ -14840,7 +15014,6 @@
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the arms.",
-                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
                   "Analysis of some old mithril arm greaves indicates the item is free from merchant alteration restrictions.",
                   "The mithril arm greaves will cost 2,250,000 coins.",
                   "It is an enhancive item:",
@@ -14854,6 +15027,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "arms",
                 "material": "mithril, an uncommon metal",
                 "enhancives": [
                   {
@@ -14886,6 +15060,7 @@
                   "persists",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -14963,6 +15138,7 @@
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 7,
@@ -14994,12 +15170,49 @@
           "branch": "east",
           "items": [
             {
+              "id": "301070321",
+              "name": "some etched imflass leg greaves",
+              "details": {
+                "raw": [
+                  "The greaves is miscellaneous armor that covers the legs.",
+                  "Analysis of some etched imflass leg greaves indicates the item is free from merchant alteration restrictions.",
+                  "You can tell that the greaves are as light as they can get.",
+                  "The imflass leg greaves will cost 6,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a fair amount of enhancive charges remaining.",
+                  "It is estimated to be worth about 250,000 silvers.",
+                  "It is predominantly crafted of imflass.",
+                  "It is a simple project (45 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by a bard."
+                ],
+                "tags": [
+                  "persists"
+                ],
+                "worn": "legs",
+                "material": "imflass, an uncommon metal",
+                "enhancives": [
+                  {
+                    "boost": 11,
+                    "ability": "Influence Base"
+                  },
+                  {
+                    "boost": 8,
+                    "ability": "Intuition Base"
+                  },
+                  {
+                    "boost": 1,
+                    "ability": "Elemental Lore - Air Ranks"
+                  }
+                ],
+                "weight": 3
+              }
+            },
+            {
               "id": "173705",
               "name": "some spiked vultite arm greaves",
               "details": {
                 "raw": [
                   "The greaves is miscellaneous armor that covers the arms.  It is spiked.",
-                  "The greaves can be worn around the arms.  The greaves appear to serve some purpose.",
                   "Analysis of some spiked vultite arm greaves indicates the item is free from merchant alteration restrictions.",
                   "The vultite arm greaves will cost 19,499,900 coins.",
                   "It is an enhancive item:",
@@ -15014,6 +15227,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "arms",
                 "material": "vultite, an uncommon metal",
                 "flare": "the power of an ice elemental",
                 "enhancives": [
@@ -15041,12 +15255,13 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 8 days, 7 hours and 10 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 7 days, 21 hours and 27 minutes."
                 ],
                 "tags": [
                   "purpose",
                   "small"
                 ],
+                "worn": "neck",
                 "enhancives": [
                   {
                     "boost": 4,
@@ -15122,6 +15337,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "imflass, an uncommon metal",
                 "enhancives": [
                   {
@@ -15152,6 +15368,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "ora, an uncommon metal",
                 "enhancives": [
                   {
@@ -15269,6 +15486,7 @@
                   "purpose",
                   "lightenable"
                 ],
+                "worn": "chest",
                 "material": "vultite, an uncommon metal"
               }
             },
@@ -15308,6 +15526,7 @@
                   "lightenable",
                   "persists"
                 ],
+                "worn": "head",
                 "material": "glaes, a rare metal",
                 "enhancives": [
                   {
@@ -15339,6 +15558,7 @@
                   "imbeddable",
                   "small"
                 ],
+                "worn": "neck",
                 "activator": "waving",
                 "enhancives": [
                   {
