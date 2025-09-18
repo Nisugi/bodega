@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-17 18:43:29 UTC",
-  "run_time": "09m 20s",
+  "created_at": "2025-09-18 01:59:21 UTC",
+  "run_time": "18s",
   "town": "Solhaven",
   "shops": [
     {
@@ -7268,29 +7268,6 @@
                   }
                 ],
                 "weight": 2
-              }
-            },
-            {
-              "id": "178356",
-              "name": "an ora-edged eonake short sword",
-              "details": {
-                "raw": [
-                  "It has a small enchanter's glyph.",
-                  "Analysis of an ora-edged eonake short sword indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  This material cannot be dyed.",
-                  "The eonake short sword will cost 100,000 coins.",
-                  "It is estimated to be worth about 87,000 silvers.",
-                  "It is predominantly crafted of eonake.",
-                  "It is a simple project (58 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "lightenable",
-                  "holy"
-                ],
-                "skill": "edged weapons",
-                "material": "eonake, an extraordinarily rare metal",
-                "enchant": 25,
-                "weight": 3
               }
             },
             {
@@ -26183,39 +26160,6 @@
                 "tags": [],
                 "material": "organic material, an extremely common material"
               }
-            },
-            {
-              "id": "169870",
-              "name": "a slender ocean surita runestaff streaked with moss agate",
-              "details": {
-                "raw": [
-                  "The runestaff is constructed of ocean surita, which has a white woodgrain striated by moss agate and indigo hues.",
-                  "  It has a small enchanter's glyph.  A strange necrotic haze radiates from the runestaff.  A strong aura of holy light radiates from the runestaff.",
-                  "Analysis of a slender ocean surita runestaff streaked with moss agate indicates the creator has provided the following information:",
-                  "A slender ocean surita runestaff streaked with moss agate is a Gift from Atan Irith and created from a rare piece of surita.  The surita tree is only found on the Erithi Homeland, though it was sold at The Grand Tourney.",
-                  "This particular piece is constructed of ocean surita, which has a white woodgrain striated by moss agate and indigo hues.",
-                  "If you give your ocean surita runestaff a long description, or leave it without an examine or description, then you will always be able to look at to see the above information.",
-                  "A slender ocean surita runestaff streaked with moss agate is made of lesser (d110) surita.",
-                  "A slender ocean surita runestaff streaked with moss agate is currently 1 out of 2 fluff tiers.",
-                  "It has access to the following verbs: Bow, Gaze, Salute, and Stretch.",
-                  "You may alter a slender ocean surita runestaff streaked with moss agate freely, though it is best to have \"ocean surita\" in the adjective field.",
-                  "The ocean surita runestaff will cost 100,000,000 coins.",
-                  "It is estimated to be worth about 85,850,000 silvers.",
-                  "It is predominantly crafted of surita.  It is lesser surita (d110).",
-                  "It has been ensorcelled 1 time.",
-                  "It has been sanctified 5 times.  It has permanent Holy Fire flares.",
-                  "It may be enchanted up to a bonus of 35 by a wizard and was last enchanted by Gesaril.",
-                  "It is a tricky project (421 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Moider."
-                ],
-                "tags": [
-                  "lightenable"
-                ],
-                "skill": "twohanded weapons",
-                "material": "surita, an extremely rare wood",
-                "enchant": 35,
-                "weight": 4
-              }
             }
           ],
           "sign": [
@@ -29660,23 +29604,6 @@
               }
             },
             {
-              "id": "253337837",
-              "name": "an opalescent glass jar containing turquoise stones",
-              "details": {
-                "raw": [
-                  "It is estimated that an opalescent glass jar containing turquoise stones can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing turquoise stones indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 19,999 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
               "id": "253337839",
               "name": "an opalescent glass jar containing polished red coral",
               "details": {
@@ -29780,23 +29707,6 @@
             },
             {
               "id": "253337833",
-              "name": "a faceted glass jar containing star sapphires",
-              "details": {
-                "raw": [
-                  "It is estimated that a faceted glass jar containing star sapphires can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of a faceted glass jar containing star sapphires indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 24,999 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "116369826",
               "name": "a faceted glass jar containing star sapphires",
               "details": {
                 "raw": [
