@@ -833,13 +833,13 @@ module Bodega
           start = Time.now
           shops = Parser.shops(town)
 
-          next if shops.empty?
-
+          # Always create data with timestamp, even if no shops found
+          # This ensures timestamp updates in smart mode when no changes detected
           data = {
             created_at: Time.now.utc,
             run_time: Utils.fmt_time(Time.now - start),
             town: town,
-            shops: shops,
+            shops: shops || [],
           }
 
           filename = save_json(name: town, data: data)
