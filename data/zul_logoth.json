@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 01:59:53 UTC",
-  "run_time": "03s",
+  "created_at": "2025-09-18 09:10:43 UTC",
+  "run_time": "55s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -74,6 +74,31 @@
                   "The glowbark bolts will cost 100,000 coins."
                 ],
                 "tags": []
+              }
+            },
+            {
+              "id": "296454945",
+              "name": "a smooth yew hand crossbow reinforced with stylized rhimar side plates",
+              "details": {
+                "raw": [
+                  "It has a small enchanter's glyph.",
+                  "Analysis of a smooth yew hand crossbow reinforced with stylized rhimar side plates indicates the item is free from merchant alteration restrictions.",
+                  "The yew hand crossbow will cost 250,000 coins.",
+                  "It is estimated to be worth about 350,000 silvers.",
+                  "It is sighted to assist in aiming, but exactly how much requires assessment.",
+                  "It is predominantly crafted of yew.",
+                  "It is a basic project (178 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Krayze."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "skill": "ranged weapons",
+                "material": "yew, an uncommon wood",
+                "enchant": 25,
+                "flare": "the power of an ice elemental",
+                "weight": 4
               }
             },
             {
@@ -352,6 +377,45 @@
           "branch": "north",
           "items": [
             {
+              "id": "295974771",
+              "name": "a polished mithril greatshield",
+              "details": {
+                "raw": [
+                  "The greatshield is a tower shield that protects the bearer if carried in the left hand.",
+                  "Analysis of a polished mithril greatshield indicates the item is free from merchant alteration restrictions.",
+                  "The mithril greatshield will cost 3,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to have a fair amount of enhancive charges remaining.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It is predominantly crafted of mithril.",
+                  "It is a simple project (-8 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by a bard."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable",
+                  "persists"
+                ],
+                "material": "mithril, an uncommon metal",
+                "enchant": 5,
+                "enhancives": [
+                  {
+                    "boost": 3,
+                    "ability": "Multi Opponent Combat Bonus"
+                  },
+                  {
+                    "boost": 8,
+                    "ability": "Logic Base"
+                  },
+                  {
+                    "boost": 7,
+                    "ability": "Shield Use Bonus"
+                  }
+                ],
+                "weight": 11
+              }
+            },
+            {
               "id": "262642146",
               "name": "a suit of sylvan-crafted leather armor",
               "details": {
@@ -539,6 +603,68 @@
           "branch": "east",
           "items": [
             {
+              "id": "294064733",
+              "name": "a small elven satchel",
+              "details": {
+                "raw": [
+                  "It is estimated that a small elven satchel can store a medium amount with enough space for any number of items of very small size.",
+                  "Analysis of a small elven satchel indicates the item is free from merchant alteration restrictions.",
+                  "The elven satchel will cost 2,000,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_light",
+                  "deepenable"
+                ],
+                "material": "leather, an extremely common material"
+              }
+            },
+            {
+              "id": "295977679",
+              "name": "a shadowy black golvern-plated pack with a tiny metal lever",
+              "details": {
+                "raw": [
+                  "It is estimated that a shadowy black golvern-plated pack with a tiny metal lever can store an exceptional amount with enough space for any number of items.",
+                  "Analysis of a shadowy black golvern-plated pack with a tiny metal lever indicates the creator has provided the following information:",
+                  "This is an auto-closing mechanical container that has metal plates that click into place.",
+                  "The item can be altered with a long or a show, but the metal plates must remain.",
+                  "You could OPEN, CLOSE, PUSH, or PROD the pack.  There are no tiers to unlock.",
+                  "The golvern-plated pack will cost 2,000,000 coins.",
+                  "It is estimated to be worth about 100 silvers.",
+                  "It is a container with a maximum interior capacity of 120 pounds with room for any number of items.",
+                  "It is predominantly crafted of leather.",
+                  "It has a permanently unlocked loresong by Krayze."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "leather, an extremely common material",
+                "weight": 5
+              }
+            },
+            {
+              "id": "295977678",
+              "name": "a thick eahnor-plated pack reinforced with several pieces of steel",
+              "details": {
+                "raw": [
+                  "It is estimated that a thick eahnor-plated pack reinforced with several pieces of steel can store a huge amount with enough space for any number of items.",
+                  "Analysis of a thick eahnor-plated pack reinforced with several pieces of steel indicates the creator has provided the following information:",
+                  "This is an auto-closing mechanical container that has metal plates that click into place.",
+                  "The item can be altered with a long or a show, but the metal plates must remain.",
+                  "You could OPEN, CLOSE, PUSH, or PROD the pack.  There are no tiers to unlock.",
+                  "The eahnor-plated pack will cost 250,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "leather, an extremely common material"
+              }
+            },
+            {
               "id": "263161064",
               "name": "a burnished bronze-plated pack with reinforced stitching",
               "details": {
@@ -674,6 +800,153 @@
                 ],
                 "material": "cloth, an extremely common material",
                 "weight": 9
+              }
+            },
+            {
+              "id": "295977680",
+              "name": "some dark rugged leather boots buckled with hammered eonake",
+              "details": {
+                "raw": [
+                  "Imprinted on the sole, you see a nacre-inlaid leaping narwhal, the crafter's personal hallmark.",
+                  "It is estimated that some dark rugged leather boots buckled with hammered eonake can store a very small amount with enough space for a couple of items.",
+                  "The boots can be worn on the feet.",
+                  "Analysis of some dark rugged leather boots buckled with hammered eonake indicates the creator has provided the following information:",
+                  "This is footwear crafted by a skilled artisan.",
+                  "Additional scripts have been applied to the rugged leather boots and may have separate alteration restrictions.",
+                  "Some dark rugged leather boots buckled with hammered eonake has been modified by a fully unlocked metal punch to allow you to TAP, PULL, POKE, STARE, DANCE, RUB, TURN, or PUSH the boots.",
+                  "The rugged leather boots will cost 150,000 coins.",
+                  "It is estimated to be worth about 2,500 silvers.",
+                  "It is a container with a maximum interior capacity of 2 pounds with room for up to 2 items.",
+                  "It is predominantly crafted of leather.",
+                  "It has a permanently unlocked loresong by Krayze."
+                ],
+                "tags": [
+                  "lightenable"
+                ],
+                "weight": 2
+              }
+            },
+            {
+              "id": "295977683",
+              "name": "a coin-clasped golden locksmith's tool belt",
+              "details": {
+                "raw": [
+                  "The interior of the belt is divided up into five thin compartments, each just big enough to hold a single lockpick.  The compartments are lined with soft black velvet to protect their contents.",
+                  "It is estimated that a coin-clasped golden locksmith's tool belt can store a small amount with enough space for several items of very small size.",
+                  "Analysis of a coin-clasped golden locksmith's tool belt indicates the creator has provided the following information:",
+                  "This belt can hold only lockpicks.  You will receive special messaging on WEAR, REMOVE, OPEN, and CLOSE.  There are no unlockable tiers.  It can be altered with a long or a show description, but the reference to the velvet compartments will always be a part of the show.",
+                  "The golden tool belt will cost 100,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "leather, an extremely common material"
+              }
+            },
+            {
+              "id": "294064732",
+              "name": "a soft leather alchemy bag embossed with a large potion",
+              "details": {
+                "raw": [
+                  "The interior of the bag is divided up into numerous cylindrical compartments, each just large enough to hold a single potion.  The compartments are lined with soft black velvet to protect their contents.",
+                  "It is estimated that a soft leather alchemy bag embossed with a large potion can store a slightly large amount with enough space for any number of items.",
+                  "Analysis of a soft leather alchemy bag embossed with a large potion indicates the creator has provided the following information:",
+                  "This bag holds only potions and other magical consumables.  It is fully alterable, but will retain a small SHOW about felt-lined compartments.",
+                  "You could OPEN, CLOSE, WEAR, or REMOVE the bag.  There are no tiers to unlock.",
+                  "The leather alchemy bag will cost 100,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "leather, an extremely common material"
+              }
+            },
+            {
+              "id": "294064731",
+              "name": "a stiff leather potion bag with a large brass rolton-shaped clasp",
+              "details": {
+                "raw": [
+                  "The interior of the bag is divided up into numerous cylindrical compartments, each just large enough to hold a single potion.  The compartments are lined with soft black velvet to protect their contents.",
+                  "It is estimated that a stiff leather potion bag with a large brass rolton-shaped clasp can store a slightly large amount with enough space for any number of items.",
+                  "Analysis of a stiff leather potion bag with a large brass rolton-shaped clasp indicates the creator has provided the following information:",
+                  "This bag holds only potions and other magical consumables.  It is fully alterable, but will retain a small SHOW about felt-lined compartments.",
+                  "You could OPEN, CLOSE, WEAR, or REMOVE the bag.  There are no tiers to unlock.",
+                  "The leather potion bag will cost 100,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "leather, an extremely common material"
+              }
+            },
+            {
+              "id": "294064730",
+              "name": "a stained leather potion bag scorched with acid burns",
+              "details": {
+                "raw": [
+                  "The interior of the bag is divided up into numerous cylindrical compartments, each just large enough to hold a single potion.  The compartments are lined with soft black velvet to protect their contents.",
+                  "It is estimated that a stained leather potion bag scorched with acid burns can store a slightly large amount with enough space for any number of items.",
+                  "Analysis of a stained leather potion bag scorched with acid burns indicates the creator has provided the following information:",
+                  "This bag holds only potions and other magical consumables.  It is fully alterable, but will retain a small SHOW about felt-lined compartments.",
+                  "You could OPEN, CLOSE, WEAR, or REMOVE the bag.  There are no tiers to unlock.",
+                  "The leather potion bag will cost 100,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "cloth, an extremely common material"
+              }
+            },
+            {
+              "id": "295977686",
+              "name": "a night black elven burial shroud stitched with pure white vaalin strands",
+              "details": {
+                "raw": [
+                  "It is estimated that a night black elven burial shroud stitched with pure white vaalin strands can store an enormous amount with enough space for any number of items.",
+                  "Analysis of a night black elven burial shroud stitched with pure white vaalin strands indicates the item is free from merchant alteration restrictions.",
+                  "The elven burial shroud will cost 5,000,000 coins.",
+                  "It is estimated to be worth about 1,600 silvers.",
+                  "It is a container with a maximum interior capacity of 180 pounds with room for any number of items.",
+                  "It is predominantly crafted of cloth.",
+                  "It has a permanently unlocked loresong by Krayze."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "cloth, an extremely common material",
+                "weight": 4
+              }
+            },
+            {
+              "id": "295974776",
+              "name": "a small vultite mesh Paradis burial shroud",
+              "details": {
+                "raw": [
+                  "It is estimated that a small vultite mesh Paradis burial shroud can store an enormous amount with enough space for any number of items.",
+                  "Analysis of a small vultite mesh Paradis burial shroud indicates the item is free from merchant alteration restrictions.",
+                  "The Paradis burial shroud will cost 5,000,000 coins.",
+                  "It is estimated to be worth about 2,500 silvers.",
+                  "It is a container with a maximum interior capacity of 180 pounds with room for any number of items.",
+                  "It is predominantly crafted of metal.",
+                  "It has a permanently unlocked loresong by Krayze."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light"
+                ],
+                "material": "metal, an extremely common material",
+                "weight": 4
               }
             },
             {

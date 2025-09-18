@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 01:59:21 UTC",
-  "run_time": "18s",
+  "created_at": "2025-09-18 08:59:43 UTC",
+  "run_time": "08m 38s",
   "town": "Solhaven",
   "shops": [
     {
@@ -865,13 +865,13 @@
               "name": "a gnome travel brochure",
               "details": {
                 "raw": [
-                  "   Current Time: 14:34   Current Flight Schedule",
+                  "   Current Time: 04:51   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
                   "    ---------------------------------------------------------------",
                   "Times be estimates only!  Subject ta change by headwinds an' tailwinds an' sidewinds an' stuff!  Deal wit' it!",
-                  "   Current Time: 14:34   Current Flight Schedule",
+                  "   Current Time: 04:51   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
@@ -6211,7 +6211,7 @@
                   "It is estimated to be worth about 82,000 silvers.",
                   "It is predominantly crafted of eahnor.",
                   "It is a simple project (13 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 7 hours and 37 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 17 hours and 20 minutes."
                 ],
                 "tags": [
                   "max_light"
@@ -8031,7 +8031,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (34 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 2 hours and 17 minutes."
+                  "It has a temporarily unlocked loresong by a bard."
                 ],
                 "tags": [
                   "lightenable",
@@ -8761,7 +8761,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 8 hours and 55 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 8 days, 18 hours and 38 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -8801,7 +8801,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 17 hours and 14 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 2 hours and 57 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9349,7 +9349,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 80,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 30 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 4 hours and 14 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9382,7 +9382,7 @@
                   "    It seems to have several enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 5 days, 18 hours and 45 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 5 days, 4 hours and 28 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -29082,22 +29082,6 @@
           "branch": "north",
           "items": [
             {
-              "id": "171458",
-              "name": "a voluminous grey samite robe",
-              "details": {
-                "raw": [
-                  "It is estimated that a voluminous grey samite robe can store a medium amount with enough space for any number of items.",
-                  "Analysis of a voluminous grey samite robe indicates the item is free from merchant alteration restrictions.",
-                  "The grey samite robe will cost 1,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "max_deep",
-                  "max_light"
-                ]
-              }
-            },
-            {
               "id": "171457",
               "name": "an icy blue silver edged ballgown",
               "details": {
@@ -48146,7 +48130,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 68,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 9 days, 19 hours and 27 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 5 hours and 11 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -48178,7 +48162,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 4 hours and 56 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 14 hours and 39 minutes."
                 ],
                 "tags": [
                   "purpose"
