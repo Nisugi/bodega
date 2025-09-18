@@ -468,8 +468,8 @@ class SearchEngine {
             container.appendChild(tag);
         }
 
-        // Skill required
-        if (item.skill) {
+        // Skill required (but don't duplicate weapon type)
+        if (item.skill && (!item.weaponType || item.skill !== item.weaponType)) {
             const tag = document.createElement('span');
             tag.className = 'property-tag';
             tag.textContent = item.skill.charAt(0).toUpperCase() + item.skill.slice(1);
