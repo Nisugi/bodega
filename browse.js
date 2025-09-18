@@ -22,6 +22,9 @@ class BrowseEngine {
         document.getElementById('search-mode').style.display = 'block';
         document.getElementById('browse-mode').style.display = 'none';
 
+        // Show pagination controls for search mode
+        document.getElementById('pagination').style.display = 'flex';
+
         // Trigger search refresh
         if (window.searchEngine) {
             window.searchEngine.performSearch();
@@ -33,6 +36,9 @@ class BrowseEngine {
         document.getElementById('browse-tab').classList.add('active');
         document.getElementById('search-mode').style.display = 'none';
         document.getElementById('browse-mode').style.display = 'block';
+
+        // Hide pagination controls for browse mode
+        document.getElementById('pagination').style.display = 'none';
 
         // Initialize browse data if not done yet
         if (Object.keys(this.townData).length === 0) {
