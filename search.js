@@ -75,6 +75,20 @@ class SearchEngine {
                 this.performSearch();
             }
         });
+
+        // Search help toggle
+        document.getElementById('search-help-toggle').addEventListener('click', () => {
+            const content = document.getElementById('search-help-content');
+            const icon = document.querySelector('.toggle-icon');
+
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                icon.classList.add('expanded');
+            } else {
+                content.style.display = 'none';
+                icon.classList.remove('expanded');
+            }
+        });
     }
 
     performSearch() {
@@ -125,9 +139,46 @@ class SearchEngine {
         };
     }
 
+    matchesSearchText(itemText, searchQuery) {
+        if (!searchQuery) return true;
+
+        // Handle exact phrase search with quotes
+        const quotedPhrases = searchQuery.match(/"([^"]+)"/g);
+        if (quotedPhrases) {
+            // Check all quoted phrases
+            for (let phrase of quotedPhrases) {
+                const cleanPhrase = phrase.slice(1, -1); // Remove quotes
+                if (!itemText.includes(cleanPhrase.toLowerCase())) {
+                    return false;
+                }
+            }
+            // Remove quoted phrases from search query for remaining processing
+            searchQuery = searchQuery.replace(/"[^"]+"/g, '').trim();
+        }
+
+        // Handle wildcard search with asterisks
+        if (searchQuery.includes('*')) {
+            // Convert wildcard pattern to regex
+            const regexPattern = searchQuery.split('*').map(part =>
+                part.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // Escape regex special chars
+            ).join('.*?');
+
+            const regex = new RegExp(regexPattern, 'i');
+            return regex.test(itemText);
+        }
+
+        // Handle regular space-separated terms (all must match)
+        if (searchQuery) {
+            const terms = searchQuery.split(/\s+/).filter(term => term.length > 0);
+            return terms.every(term => itemText.includes(term.toLowerCase()));
+        }
+
+        return true;
+    }
+
     matchesAllFilters(item, filters) {
-        // Search text filter
-        if (filters.search && !item.searchText.includes(filters.search)) {
+        // Advanced search text filter
+        if (filters.search && !this.matchesSearchText(item.searchText, filters.search)) {
             return false;
         }
 

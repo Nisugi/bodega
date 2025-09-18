@@ -134,6 +134,7 @@ class DataLoader {
                 shopId: shop.id,
                 shopName: this.extractShopName(shop.preamble),
                 shopLocation: shop.preamble,
+                shopSign: this.extractShopSign(shop),
                 room: room.room_title,
                 branch: room.branch,
 
@@ -364,11 +365,28 @@ class DataLoader {
         return match ? match[1].trim() : 'Unknown Shop';
     }
 
+    extractShopSign(shop) {
+        // Look for shop sign in the first room (entry room)
+        if (!shop.inv || shop.inv.length === 0) return '';
+
+        const entryRoom = shop.inv[0]; // First room is usually the entry
+        if (entryRoom.sign && entryRoom.sign.length > 0) {
+            // Filter out the "Written on..." line and join the rest
+            return entryRoom.sign
+                .filter(line => !line.match(/^Written on/))
+                .join(' ')
+                .trim();
+        }
+
+        return '';
+    }
+
     buildSearchText(item, shop, room, townData) {
         const parts = [
             item.name,
             townData.town,
             shop.preamble || '',
+            this.extractShopSign(shop) || '',
             room.room_title || '',
             ...(item.details?.raw || []),
             ...(item.details?.tags || []),

@@ -54,6 +54,7 @@ class BrowseEngine {
     organizeTownData() {
         const items = window.dataLoader.allItems;
         this.townData = {};
+        this.shopMetadata = {}; // Store shop metadata separately
 
         items.forEach(item => {
             const town = item.town || 'Unknown Town';
@@ -63,11 +64,19 @@ class BrowseEngine {
             // Initialize town
             if (!this.townData[town]) {
                 this.townData[town] = {};
+                this.shopMetadata[town] = {};
             }
 
             // Initialize shop
             if (!this.townData[town][shop]) {
                 this.townData[town][shop] = {};
+
+                // Store shop metadata (from first item encountered for this shop)
+                this.shopMetadata[town][shop] = {
+                    sign: item.shopSign || '',
+                    location: item.shopLocation || '',
+                    id: item.shopId || ''
+                };
             }
 
             // Initialize room
@@ -128,6 +137,7 @@ class BrowseEngine {
         const shops = Object.keys(this.townData[townName]).sort();
         shops.forEach(shopName => {
             const shop = this.townData[townName][shopName];
+            const metadata = this.shopMetadata[townName][shopName] || {};
 
             // Count items in shop
             let itemCount = 0;
@@ -138,9 +148,13 @@ class BrowseEngine {
 
             const shopDiv = document.createElement('div');
             shopDiv.className = 'shop-item';
+
+            const signHtml = metadata.sign ? `<div class="shop-sign">${metadata.sign}</div>` : '';
+
             shopDiv.innerHTML = `
                 <div class="shop-name">${shopName}</div>
                 <div class="shop-stats">${itemCount} items in ${roomCount} room${roomCount !== 1 ? 's' : ''}</div>
+                ${signHtml}
             `;
 
             shopDiv.addEventListener('click', () => this.selectShop(townName, shopName));
@@ -165,12 +179,25 @@ class BrowseEngine {
         const selectedShopName = document.getElementById('selected-shop-name');
         const roomList = document.getElementById('room-list');
 
-        selectedShopName.textContent = shopName;
+        const metadata = this.shopMetadata[townName][shopName] || {};
+
+        // Enhanced shop header with metadata
+        selectedShopName.innerHTML = `
+            <div class="shop-detail-header">
+                <div class="shop-detail-name">${shopName}</div>
+                ${metadata.location ? `<div class="shop-detail-location">${metadata.location}</div>` : ''}
+                ${metadata.sign ? `<div class="shop-detail-sign">${metadata.sign}</div>` : ''}
+            </div>
+        `;
+
         roomList.innerHTML = '';
 
         const rooms = Object.keys(this.townData[townName][shopName]).sort();
+        let totalItems = 0;
+
         rooms.forEach(roomName => {
             const room = this.townData[townName][shopName][roomName];
+            totalItems += room.length;
 
             const roomDiv = document.createElement('div');
             roomDiv.className = 'room-item';
@@ -182,6 +209,18 @@ class BrowseEngine {
             roomDiv.addEventListener('click', () => this.showRoomInventory(townName, shopName, roomName));
             roomList.appendChild(roomDiv);
         });
+
+        // Add shop summary at the top
+        const summaryDiv = document.createElement('div');
+        summaryDiv.className = 'shop-summary';
+        summaryDiv.innerHTML = `
+            <div class="shop-summary-stats">
+                <span class="stat-item">${totalItems} total items</span>
+                <span class="stat-item">${rooms.length} rooms</span>
+                ${metadata.id ? `<span class="stat-item">Shop ID: ${metadata.id}</span>` : ''}
+            </div>
+        `;
+        roomList.insertBefore(summaryDiv, roomList.firstChild);
 
         roomListSection.style.display = 'block';
     }

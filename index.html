@@ -36,6 +36,26 @@
                         <input type="text" id="search-input" placeholder="Search items..." />
                         <button id="search-btn">Search</button>
                         <button id="clear-btn">Clear</button>
+
+                        <div class="search-help">
+                            <div class="search-help-toggle" id="search-help-toggle">
+                                <span>Search Tips</span> <span class="toggle-icon">▼</span>
+                            </div>
+                            <div class="search-help-content" id="search-help-content" style="display: none;">
+                                <div class="search-tip">
+                                    <strong>"exact phrase"</strong> - Search for exact phrases using quotes
+                                </div>
+                                <div class="search-tip">
+                                    <strong>partial*</strong> - Use asterisk (*) for wildcard matching
+                                </div>
+                                <div class="search-tip">
+                                    <strong>multiple terms</strong> - All terms must match (AND search)
+                                </div>
+                                <div class="search-tip">
+                                    Search includes: item names, shop signs, materials, enchants, properties
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 <div class="filter-section">
