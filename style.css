@@ -298,6 +298,10 @@ header h1 {
 #pagination {
     margin-top: 15px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
 #pagination button {
