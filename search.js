@@ -115,13 +115,9 @@ class SearchEngine {
 
             // Special properties
             enhancive: document.getElementById('enhancive-filter').checked,
-            maxLight: document.getElementById('max-light-filter').checked,
-            maxDeep: document.getElementById('max-deep-filter').checked,
             persists: document.getElementById('persists-filter').checked,
             crumbly: document.getElementById('crumbly-filter').checked,
             hasFlares: document.getElementById('flares-filter').checked,
-            hasSpell: document.getElementById('spell-filter').checked,
-            blessed: document.getElementById('blessed-filter').checked,
 
             // Gemstone filters
             gemstoneRarity: document.getElementById('gemstone-rarity-filter').value,
@@ -199,14 +195,6 @@ class SearchEngine {
             return false;
         }
 
-        if (filters.maxLight && (!item.tags || !item.tags.includes('max_light'))) {
-            return false;
-        }
-
-        if (filters.maxDeep && (!item.tags || !item.tags.includes('max_deep'))) {
-            return false;
-        }
-
         if (filters.persists && (!item.tags || !item.tags.includes('persists'))) {
             return false;
         }
@@ -216,14 +204,6 @@ class SearchEngine {
         }
 
         if (filters.hasFlares && (!item.flares || item.flares.length === 0)) {
-            return false;
-        }
-
-        if (filters.hasSpell && !item.spell) {
-            return false;
-        }
-
-        if (filters.blessed && !item.blessing) {
             return false;
         }
 
