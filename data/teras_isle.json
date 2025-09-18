@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 08:51:05 UTC",
-  "run_time": "01m 52s",
+  "created_at": "2025-09-18 16:54:13 UTC",
+  "run_time": "05s",
   "town": "Teras Isle",
   "shops": [
     {
@@ -5918,45 +5918,6 @@
                   {
                     "boost": 9,
                     "ability": "Wisdom Base"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "185732",
-              "name": "an ora pin",
-              "details": {
-                "raw": [
-                  "Analysis of an ora pin indicates the item is free from merchant alteration restrictions.",
-                  "The ora pin will cost 27,500,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have several enhancive charges remaining.",
-                  "It is estimated to be worth about 650,000 silvers.",
-                  "It is predominantly crafted of ora.",
-                  "It has a temporarily unlocked loresong by Yakushi."
-                ],
-                "tags": [
-                  "purpose",
-                  "persists",
-                  "small"
-                ],
-                "material": "ora, an uncommon metal",
-                "enhancives": [
-                  {
-                    "boost": 10,
-                    "ability": "Combat Maneuvers Bonus"
-                  },
-                  {
-                    "boost": 11,
-                    "ability": "Climbing Bonus"
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Wisdom Base"
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Polearm Weapons Bonus"
                   }
                 ]
               }
