@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 18:32:38 UTC",
-  "run_time": "02m 12s",
+  "created_at": "2025-09-18 22:36:28 UTC",
+  "run_time": "02m 02s",
   "town": "Teras Isle",
   "shops": [
     {
@@ -3828,7 +3828,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 98,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 2 hours and 5 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 22 hours and 1 minute."
                 ],
                 "tags": [
                   "purpose",
@@ -4258,9 +4258,9 @@
                   "The blackberry-hued jewel will cost 55,555,500 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Journeyman Tactician (Rank 1 of 5)",
                     "rarity": "Common",
@@ -4274,7 +4274,7 @@
                     "description": "When you deal 3 types of elemental damage to a creature in under 60 seconds, the creature must make an SMR test or take a standard disruption flare.  This cannot occur more than once every minute."
                   }
                 ],
-                "jewel_bound_to": "Yakushi",
+                "gemstone_bound_to": "Yakushi",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -4294,9 +4294,9 @@
                   "The lilac jewel will cost 77,777,700 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Flare Resonance (Rank 1 of 5)",
                     "rarity": "Common",
@@ -4310,7 +4310,7 @@
                     "description": "You gain 1/2/3/4/5 AS and 1/1/1/2/3 SMR Offense with Combat Maneuvers."
                   }
                 ],
-                "jewel_bound_to": "Yakushi",
+                "gemstone_bound_to": "Yakushi",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -4781,9 +4781,9 @@
                   "The smoke grey jewel will cost 250,000,000 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Mana Prism (Rank 1 of 5)",
                     "rarity": "Common",
@@ -4804,7 +4804,7 @@
                     "activated": true
                   }
                 ],
-                "jewel_bound_to": "Arctius",
+                "gemstone_bound_to": "Arctius",
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -4824,9 +4824,9 @@
                   "The fiery jewel will cost 99,999,900 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Journeyman Tactician (Rank 1 of 5)",
                     "rarity": "Common",
@@ -4840,7 +4840,7 @@
                     "description": "The following spells have 20/40/60/80/100% higher duration: 117, 140, 240, 506, 515, 605, 919, 1608, 1619."
                   }
                 ],
-                "jewel_bound_to": "Kakoon",
+                "gemstone_bound_to": "Kakoon",
                 "material": "gemstone, an extremely common material"
               }
             }
@@ -5582,9 +5582,9 @@
                   "The goldstone jewel will cost 75,000,000 coins."
                 ],
                 "tags": [
-                  "is_jewel"
+                  "is_gemstone"
                 ],
-                "jewel_properties": [
+                "gemstone_properties": [
                   {
                     "name": "Journeyman Defender (Rank 1 of 5)",
                     "rarity": "Common",
@@ -5605,7 +5605,7 @@
                     "activated": true
                   }
                 ],
-                "jewel_bound_to": "Zavio",
+                "gemstone_bound_to": "Zavio",
                 "material": "gemstone, an extremely common material"
               }
             }
@@ -9678,7 +9678,7 @@
                   "It is somewhat padded against critical blows.",
                   "It is predominantly crafted of leather.",
                   "It is a simple project (43 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 11 days, 14 hours and 57 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 10 hours and 53 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -10530,7 +10530,7 @@
                   "It is estimated to be worth about 9,050,000 silvers.",
                   "It is predominantly crafted of illthorn.",
                   "It is an involved project (205 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 22 hours and 26 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 18 hours and 22 minutes."
                 ],
                 "tags": [
                   "lightenable"
