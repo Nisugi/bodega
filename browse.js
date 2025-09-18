@@ -163,8 +163,6 @@ class BrowseEngine {
             const shopRow = document.createElement('tr');
             shopRow.className = 'shop-directory-row';
 
-            // Extract owner name from shop name or preamble
-            const ownerName = this.extractOwnerName(shopName, metadata);
             const locationInfo = this.extractLocationInfo(metadata);
 
             const shopCard = `
@@ -178,12 +176,6 @@ class BrowseEngine {
                                 ${locationInfo ? `<span class="stat-badge location">${locationInfo}</span>` : ''}
                             </div>
                         </div>
-                        ${ownerName ? `
-                            <div class="shop-card-owner">
-                                <div class="owner-icon">👤</div>
-                                <div class="owner-text">Owner: ${ownerName}</div>
-                            </div>
-                        ` : ''}
                         <div class="shop-card-footer">
                             <div class="shop-card-action">Click to browse inventory →</div>
                         </div>
@@ -197,23 +189,6 @@ class BrowseEngine {
         });
     }
 
-    extractOwnerName(shopName, metadata) {
-        // Try to extract owner name from shop name (e.g., "Grimburn's Shop" -> "Grimburn")
-        const possessiveMatch = shopName.match(/^(.+)'s\s+/);
-        if (possessiveMatch) {
-            return possessiveMatch[1];
-        }
-
-        // Try to extract from preamble if available
-        if (metadata.preamble) {
-            const preambleMatch = metadata.preamble.match(/^(.+)'s\s+/);
-            if (preambleMatch) {
-                return preambleMatch[1];
-            }
-        }
-
-        return null;
-    }
 
     extractLocationInfo(metadata) {
         if (!metadata.preamble) return null;

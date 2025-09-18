@@ -76,7 +76,9 @@ class DataLoader {
         townDataArray.forEach(townData => {
             if (!townData) return;
 
-            this.towns.push(townData.town);
+            // Clean up town name (remove trailing comma if present)
+            const cleanTownName = townData.town.replace(/,\s*$/, '');
+            this.towns.push(cleanTownName);
             this.totalShops += townData.shops.length;
 
             // Track per-town update time
@@ -130,9 +132,9 @@ class DataLoader {
             return {
                 id: item.id,
                 name: item.name,
-                town: townData.town,
+                town: townData.town.replace(/,\s*$/, ''),
                 shopId: shop.id,
-                shopName: this.extractShopName(shop.preamble),
+                shopName: this.extractShopName(shop),
                 shopLocation: shop.preamble,
                 shopSign: this.extractShopSign(shop),
                 room: room.room_title,
@@ -355,15 +357,12 @@ class DataLoader {
         return properties;
     }
 
-    extractShopName(preamble) {
-        if (!preamble) return 'Unknown Shop';
+    extractShopName(shop) {
+        // Use the first room's title as the shop name
+        if (!shop.inv || shop.inv.length === 0) return 'Unknown Shop';
 
-        // Extract shop name from preamble text
-        const match = preamble.match(/^(.*?)'s? Shop/i) ||
-                     preamble.match(/^(.*?) is located/i) ||
-                     preamble.match(/^(.*?),/);
-
-        return match ? match[1].trim() : 'Unknown Shop';
+        const entryRoom = shop.inv[0]; // First room is usually the entry
+        return entryRoom.room_title || 'Unknown Shop';
     }
 
     extractShopSign(shop) {
