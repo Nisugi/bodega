@@ -152,9 +152,9 @@ class DataLoader {
                 // Tags and properties
                 tags: item.details?.tags || [],
 
-                // Gemstone properties
-                gemstoneProperties: item.details?.gemstone_properties || [],
-                gemstoneBoundTo: item.details?.gemstone_bound_to || null,
+                // Gemstone properties (handle both old and new field names)
+                gemstoneProperties: item.details?.gemstone_properties || item.details?.jewel_properties || [],
+                gemstoneBoundTo: item.details?.gemstone_bound_to || item.details?.jewel_bound_to || null,
 
                 // Raw text for searching
                 raw: item.details?.raw || [],
