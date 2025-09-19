@@ -60,6 +60,24 @@
                     </div>
 
                 <div class="filter-section">
+                    <button id="apply-filters">Apply Filters</button>
+                    <button id="reset-filters">Reset All</button>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Sort By</h3>
+                    <select id="sort-filter">
+                        <option value="name">Name</option>
+                        <option value="price-asc">Price (Low to High)</option>
+                        <option value="price-desc">Price (High to Low)</option>
+                        <option value="enchant-desc">Enchant (High to Low)</option>
+                        <option value="town">Town</option>
+                        <option value="type">Item Type</option>
+                        <option value="capacity">Capacity</option>
+                    </select>
+                </div>
+
+                <div class="filter-section">
                     <h3>Town</h3>
                     <select id="town-filter" class="multi-select-dropdown">
                         <option value="" disabled selected>Select towns...</option>
@@ -86,8 +104,8 @@
 
                 <div class="filter-section">
                     <h3>Enchant</h3>
-                    <select id="enchant-filter">
-                        <option value="">Any Enchant</option>
+                    <select id="enchant-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select enchant levels...</option>
                         <option value="15">+15 or higher</option>
                         <option value="20">+20 or higher</option>
                         <option value="25">+25 or higher</option>
@@ -97,6 +115,7 @@
                         <option value="45">+45 or higher</option>
                         <option value="50">+50 or higher</option>
                     </select>
+                    <div id="enchant-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
@@ -115,8 +134,8 @@
 
                 <div class="filter-section">
                     <h3>Capacity</h3>
-                    <select id="capacity-filter">
-                        <option value="">Any Capacity</option>
+                    <select id="capacity-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select capacities...</option>
                         <option value="very small">Very Small</option>
                         <option value="small">Small</option>
                         <option value="fairly small">Fairly Small</option>
@@ -132,35 +151,38 @@
                         <option value="huge">Huge</option>
                         <option value="gigantic">Gigantic</option>
                     </select>
+                    <div id="capacity-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Armor Type</h3>
-                    <select id="armor-type-filter">
-                        <option value="">Any Armor</option>
+                    <select id="armor-type-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select armor types...</option>
                         <option value="cloth">Cloth</option>
                         <option value="leather">Leather</option>
                         <option value="scale">Scale</option>
                         <option value="chain">Chain</option>
                         <option value="plate">Plate</option>
                     </select>
+                    <div id="armor-type-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Shield Type</h3>
-                    <select id="shield-type-filter">
-                        <option value="">Any Shield</option>
+                    <select id="shield-type-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select shield types...</option>
                         <option value="small">Small Shield</option>
                         <option value="medium">Medium Shield</option>
                         <option value="large">Large Shield</option>
                         <option value="tower">Tower Shield</option>
                     </select>
+                    <div id="shield-type-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Wear Location</h3>
-                    <select id="wear-location-filter">
-                        <option value="">Any Location</option>
+                    <select id="wear-location-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select wear locations...</option>
                         <option value="pin">Pin</option>
                         <option value="head">Head</option>
                         <option value="hair">Hair</option>
@@ -186,12 +208,36 @@
                         <option value="socks">Socks</option>
                         <option value="feet">Feet</option>
                     </select>
+                    <div id="wear-location-tags" class="filter-tags"></div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Gemstone Rarity</h3>
+                    <select id="gemstone-rarity-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select rarities...</option>
+                        <option value="common">Common</option>
+                        <option value="rare">Rare</option>
+                        <option value="regional">Regional</option>
+                        <option value="legendary">Legendary</option>
+                    </select>
+                    <div id="gemstone-rarity-tags" class="filter-tags"></div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Gemstone Property Count</h3>
+                    <select id="gemstone-properties-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select property counts...</option>
+                        <option value="1">1 Property</option>
+                        <option value="2">2 Properties</option>
+                        <option value="3">3 Properties</option>
+                    </select>
+                    <div id="gemstone-properties-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Skill Required</h3>
-                    <select id="skill-filter">
-                        <option value="">Any Skill</option>
+                    <select id="skill-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select skills...</option>
                         <option value="edged weapons">Edged Weapons</option>
                         <option value="blunt weapons">Blunt Weapons</option>
                         <option value="two handed weapons">Two Handed Weapons</option>
@@ -203,53 +249,22 @@
                         <option value="shield use">Shield Use</option>
                         <option value="armor use">Armor Use</option>
                     </select>
+                    <div id="skill-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Special Properties</h3>
-                    <label><input type="checkbox" id="enhancive-filter"> Enhancive</label><br>
-                    <label><input type="checkbox" id="persists-filter"> Persists</label><br>
-                    <label><input type="checkbox" id="crumbly-filter"> Crumbly</label><br>
-                    <label><input type="checkbox" id="flares-filter"> Has Flares</label>
-                </div>
-
-                <div class="filter-section">
-                    <h3>Gemstone Rarity</h3>
-                    <select id="gemstone-rarity-filter">
-                        <option value="">Any Rarity</option>
-                        <option value="common">Common</option>
-                        <option value="rare">Rare</option>
-                        <option value="regional">Regional</option>
-                        <option value="legendary">Legendary</option>
+                    <select id="special-properties-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select special properties...</option>
+                        <option value="enhancive">Enhancive</option>
+                        <option value="persists">Persists</option>
+                        <option value="crumbly">Crumbly</option>
+                        <option value="flares">Has Flares</option>
+                        <option value="holy">Holy</option>
+                        <option value="max_light">Max Light</option>
+                        <option value="max_deep">Max Deep</option>
                     </select>
-                </div>
-
-                <div class="filter-section">
-                    <h3>Gemstone Property Count</h3>
-                    <select id="gemstone-properties-filter">
-                        <option value="">Any Amount</option>
-                        <option value="1">1 Property</option>
-                        <option value="2">2 Properties</option>
-                        <option value="3">3 Properties</option>
-                    </select>
-                </div>
-
-                <div class="filter-section">
-                    <h3>Sort By</h3>
-                    <select id="sort-filter">
-                        <option value="name">Name</option>
-                        <option value="price-asc">Price (Low to High)</option>
-                        <option value="price-desc">Price (High to Low)</option>
-                        <option value="enchant-desc">Enchant (High to Low)</option>
-                        <option value="town">Town</option>
-                        <option value="type">Item Type</option>
-                        <option value="capacity">Capacity</option>
-                    </select>
-                </div>
-
-                <div class="filter-section">
-                    <button id="apply-filters">Apply Filters</button>
-                    <button id="reset-filters">Reset All</button>
+                    <div id="special-properties-tags" class="filter-tags"></div>
                 </div>
                 </div>
 
