@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 21:49:18 UTC",
+  "created_at": "2025-09-19 22:33:55 UTC",
   "run_time": "13s",
   "town": "Solhaven",
   "shops": [
@@ -45392,6 +45392,22 @@
                   "It is estimated that a fiery scarlet backpack fastened with a dragon-cut bone buckle can store a significant amount with enough space for any number of items.",
                   "Analysis of a fiery scarlet backpack fastened with a dragon-cut bone buckle indicates the item is free from merchant alteration restrictions.",
                   "The scarlet backpack will cost 250,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "back"
+              }
+            },
+            {
+              "id": "328428146",
+              "name": "an inky black snake skin backpack pinned by a shard of jagged bloodstone",
+              "details": {
+                "raw": [
+                  "It is estimated that an inky black snake skin backpack pinned by a shard of jagged bloodstone can store a very large amount with enough space for any number of items.",
+                  "Analysis of an inky black snake skin backpack pinned by a shard of jagged bloodstone indicates the item is free from merchant alteration restrictions.",
+                  "The snake skin backpack will cost 250,000 coins."
                 ],
                 "tags": [
                   "purpose",
