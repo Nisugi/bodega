@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 01:54:29 UTC",
+  "created_at": "2025-09-19 07:36:41 UTC",
   "run_time": "05s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -13158,50 +13158,6 @@
                   }
                 ],
                 "weight": 5
-              }
-            },
-            {
-              "id": "261067090",
-              "name": "a beveled blue sapphire clasp",
-              "details": {
-                "raw": [
-                  "Analysis of a beveled blue sapphire clasp indicates the item is free from merchant alteration restrictions.",
-                  "The blue sapphire clasp will cost 100,000 coins.",
-                  "It has 8 charges.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 400,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a permanently unlocked loresong by Zayp."
-                ],
-                "tags": [
-                  "purpose",
-                  "holy",
-                  "persists",
-                  "small"
-                ],
-                "worn": "pin",
-                "spell": "Faith Shield",
-                "activator": "tapping",
-                "enhancives": [
-                  {
-                    "boost": 3,
-                    "ability": "Magic Item Use Bonus"
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Influence Base"
-                  },
-                  {
-                    "boost": 3,
-                    "ability": "Discipline Base"
-                  },
-                  {
-                    "boost": 6,
-                    "ability": "Spirit Mana Control Bonus"
-                  }
-                ]
               }
             },
             {

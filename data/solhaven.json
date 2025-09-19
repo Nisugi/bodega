@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 01:53:37 UTC",
-  "run_time": "20s",
+  "created_at": "2025-09-19 07:35:54 UTC",
+  "run_time": "21s",
   "town": "Solhaven",
   "shops": [
     {
@@ -17783,30 +17783,6 @@
               }
             },
             {
-              "id": "175556581",
-              "name": "an uncut emerald",
-              "details": {
-                "raw": [
-                  "The emerald can not be worn.",
-                  "Analysis of an uncut emerald indicates the item is free from merchant alteration restrictions.",
-                  "The uncut emerald will cost 11,000 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "175553771",
-              "name": "an uncut emerald",
-              "details": {
-                "raw": [
-                  "The emerald can not be worn.",
-                  "Analysis of an uncut emerald indicates the item is free from merchant alteration restrictions.",
-                  "The uncut emerald will cost 11,000 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
               "id": "231094720",
               "name": "a tiny black pearl",
               "details": {
@@ -29628,22 +29604,6 @@
                 "tags": [],
                 "worn": "waist",
                 "material": "organic material, an extremely common material"
-              }
-            },
-            {
-              "id": "171450",
-              "name": "a pair of rich cordovan leather boots with squared toes",
-              "details": {
-                "raw": [
-                  "It is estimated that a pair of rich cordovan leather boots with squared toes can store a very small amount with enough space for one item.",
-                  "Analysis of a pair of rich cordovan leather boots with squared toes indicates the item is free from merchant alteration restrictions.",
-                  "The cordovan boots will cost 25,000 coins."
-                ],
-                "tags": [
-                  "lightenable"
-                ],
-                "worn": "feet",
-                "material": "leather, an extremely common material"
               }
             },
             {
@@ -44303,22 +44263,6 @@
                   "It is estimated that a jet black rucksack secured with a raven-cut bone buckle can store a slightly large amount with enough space for any number of items.",
                   "Analysis of a jet black rucksack secured with a raven-cut bone buckle indicates the item is free from merchant alteration restrictions.",
                   "The black rucksack will cost 250,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable"
-                ],
-                "worn": "back"
-              }
-            },
-            {
-              "id": "170819",
-              "name": "a silvery blue backpack secured with a snow-owl-cut bone clasp",
-              "details": {
-                "raw": [
-                  "It is estimated that a silvery blue backpack secured with a snow-owl-cut bone clasp can store a significant amount with enough space for any number of items.",
-                  "Analysis of a silvery blue backpack secured with a snow-owl-cut bone clasp indicates the item is free from merchant alteration restrictions.",
-                  "The blue backpack will cost 250,000 coins."
                 ],
                 "tags": [
                   "purpose",

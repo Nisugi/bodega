@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 01:54:07 UTC",
-  "run_time": "22s",
+  "created_at": "2025-09-19 07:36:22 UTC",
+  "run_time": "21s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -16761,18 +16761,6 @@
               }
             },
             {
-              "id": "230232909",
-              "name": "a green sapphire",
-              "details": {
-                "raw": [
-                  "The sapphire can not be worn.",
-                  "Analysis of a green sapphire indicates the item is free from merchant alteration restrictions.",
-                  "The green sapphire will cost 2,900 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
               "id": "230259717",
               "name": "a green sapphire",
               "details": {
@@ -20018,18 +20006,6 @@
                   "The plumes can not be worn.",
                   "Analysis of a bundle of valravn plumes indicates the item is free from merchant alteration restrictions.",
                   "The valravn plumes will cost 42,900 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171483",
-              "name": "a bundle of hinterboar manes",
-              "details": {
-                "raw": [
-                  "The manes can not be worn.",
-                  "Analysis of a bundle of hinterboar manes indicates the item is free from merchant alteration restrictions.",
-                  "The hinterboar manes will cost 24,600 coins."
                 ],
                 "tags": []
               }
@@ -39807,37 +39783,6 @@
               }
             },
             {
-              "id": "180340",
-              "name": "a vultite handaxe",
-              "details": {
-                "raw": [
-                  "Analysis of a vultite handaxe indicates the item is free from merchant alteration restrictions.",
-                  "The vultite handaxe will cost 300,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a huge number of enhancive charges remaining.",
-                  "It is estimated to be worth about 950,000 silvers.",
-                  "It is temporarily weighted to inflict more critical wounds, but exactly how much requires assessment.  Its temporary enhancement will degrade when it scores a successful strike.  It has quite a few uses left before the enhancement degrades away completely, which will cause the item to lose its ability to inflict greater damage.",
-                  "It is predominantly crafted of vultite.",
-                  "It is a basic project (183 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Alistaere."
-                ],
-                "tags": [
-                  "max_light",
-                  "persists"
-                ],
-                "skill": "edged weapons",
-                "material": "vultite, an uncommon metal",
-                "enchant": 20,
-                "enhancives": [
-                  {
-                    "boost": 3,
-                    "ability": "Strength Bonus"
-                  }
-                ],
-                "weight": 3
-              }
-            },
-            {
               "id": "180339",
               "name": "an acid-pitted drakar flamberge",
               "details": {
@@ -43797,23 +43742,6 @@
                   "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The tall glass jar will cost 15,000 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "170098",
-              "name": "an opalescent glass jar containing almandine garnets",
-              "details": {
-                "raw": [
-                  "It is estimated that an opalescent glass jar containing almandine garnets can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of an opalescent glass jar containing almandine garnets indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 15,000 coins."
                 ],
                 "tags": [],
                 "material": "glass, an extremely common material"
@@ -51309,24 +51237,6 @@
                   "You may eat a slime-covered grave blossom.",
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The grave blossom will cost 3,000 coins."
-                ],
-                "tags": [
-                  "purpose"
-                ],
-                "worn": "pin",
-                "material": "organic material, an extremely common material"
-              }
-            },
-            {
-              "id": "170965",
-              "name": "a twisted black mawflower",
-              "details": {
-                "raw": [
-                  "Analysis of a twisted black mawflower indicates the creator has provided the following information:",
-                  "This is a foraged item.  It is a type of flower.",
-                  "You may eat a twisted black mawflower.",
-                  "There is a chance you can sell this at a local Herbal Shop.",
-                  "The black mawflower will cost 3,000 coins."
                 ],
                 "tags": [
                   "purpose"
