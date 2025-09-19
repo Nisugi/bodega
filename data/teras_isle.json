@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 22:36:28 UTC",
-  "run_time": "02m 02s",
+  "created_at": "2025-09-19 00:16:36 UTC",
+  "run_time": "02m 04s",
   "town": "Teras Isle",
   "shops": [
     {
@@ -1348,7 +1348,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "villswood, an infrequent wood",
                 "enchant": 18,
                 "enhancives": [
@@ -2488,7 +2488,7 @@
                   "holy",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "faewood, an unusual wood",
                 "enchant": 20,
                 "enhancives": [
@@ -3300,7 +3300,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "weight": 6
@@ -3828,7 +3828,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 98,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 11 days, 22 hours and 1 minute."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 20 hours and 21 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -5317,7 +5317,7 @@
                   "purpose",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "firewheel, an extremely rare wood",
                 "enhancives": [
                   {
@@ -5643,7 +5643,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 35,
                 "enhancives": [
@@ -5689,7 +5689,7 @@
                   "persists",
                   "small"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "enhancives": [
                   {
@@ -6269,7 +6269,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "orase, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -6817,7 +6817,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "enhancives": [
@@ -7217,7 +7217,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -7253,7 +7253,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -8495,7 +8495,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "orase, an uncommon wood",
                 "enchant": 20,
                 "weight": 6
@@ -8796,7 +8796,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -9432,7 +9432,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -9678,7 +9678,7 @@
                   "It is somewhat padded against critical blows.",
                   "It is predominantly crafted of leather.",
                   "It is a simple project (43 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 11 days, 10 hours and 53 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 9 hours and 13 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9721,7 +9721,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "leather, an extremely common material"
               }
             },
@@ -10037,7 +10037,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 12
@@ -10294,7 +10294,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "rolaren, a very rare alloy",
                 "enchant": 20,
                 "enhancives": [
@@ -10338,7 +10338,7 @@
                   "max_light",
                   "holy"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "faewood, an unusual wood",
                 "enchant": 20,
                 "weight": 3
@@ -10530,7 +10530,7 @@
                   "It is estimated to be worth about 9,050,000 silvers.",
                   "It is predominantly crafted of illthorn.",
                   "It is an involved project (205 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 18 hours and 22 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 4 days, 16 hours and 42 minutes."
                 ],
                 "tags": [
                   "lightenable"
@@ -10669,7 +10669,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 4
@@ -10694,7 +10694,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 12
@@ -10774,7 +10774,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -11537,7 +11537,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 8
@@ -11641,7 +11641,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "enhancives": [
@@ -11738,7 +11738,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "enhancives": [
@@ -11950,7 +11950,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vaalorn, a rare metal",
                 "enchant": 18,
                 "enhancives": [
@@ -11982,7 +11982,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "flare": "the power of an earth elemental",
@@ -12020,7 +12020,7 @@
                   "holy",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "faewood, an unusual wood",
                 "enchant": 20,
                 "enhancives": [
@@ -12045,7 +12045,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "villswood, an infrequent wood"
               }
             },
@@ -12209,7 +12209,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "carmiln, an uncommon wood",
                 "enchant": 6,
                 "enhancives": [
@@ -12323,7 +12323,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 6
@@ -12893,7 +12893,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "weight": 5
               }
             },
@@ -13175,7 +13175,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "enhancives": [
