@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 16:45:30 UTC",
-  "run_time": "18s",
+  "created_at": "2025-09-19 18:49:23 UTC",
+  "run_time": "19s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -1883,6 +1883,52 @@
                   }
                 ],
                 "weight": 2
+              }
+            },
+            {
+              "id": "170432",
+              "name": "a mass of congealed slime",
+              "details": {
+                "raw": [
+                  "The slime can not be worn.",
+                  "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
+                  "This is a foraged item.  It is a roleplaying item.",
+                  "You may eat a mass of congealed slime.",
+                  "There is a chance you can sell this at a local Herbal Shop.",
+                  "The congealed slime will cost 5,000 coins."
+                ],
+                "tags": [],
+                "material": "organic material, an extremely common material"
+              }
+            },
+            {
+              "id": "323006766",
+              "name": "a mass of congealed slime",
+              "details": {
+                "raw": [
+                  "The slime can not be worn.",
+                  "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
+                  "This is a foraged item.  It is a roleplaying item.",
+                  "You may eat a mass of congealed slime.",
+                  "There is a chance you can sell this at a local Herbal Shop.",
+                  "The congealed slime will cost 5,000 coins."
+                ],
+                "tags": []
+              }
+            },
+            {
+              "id": "323125146",
+              "name": "a mass of congealed slime",
+              "details": {
+                "raw": [
+                  "The slime can not be worn.",
+                  "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
+                  "This is a foraged item.  It is a roleplaying item.",
+                  "You may eat a mass of congealed slime.",
+                  "There is a chance you can sell this at a local Herbal Shop.",
+                  "The congealed slime will cost 5,000 coins."
+                ],
+                "tags": []
               }
             }
           ],
@@ -16902,42 +16948,6 @@
                   "The ruby can not be worn.",
                   "Analysis of an uncut ruby indicates the item is free from merchant alteration restrictions.",
                   "The uncut ruby will cost 6,500 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171559",
-              "name": "a blue sapphire",
-              "details": {
-                "raw": [
-                  "The sapphire can not be worn.",
-                  "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
-                  "The blue sapphire will cost 6,500 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171558",
-              "name": "a blue sapphire",
-              "details": {
-                "raw": [
-                  "The sapphire can not be worn.",
-                  "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
-                  "The blue sapphire will cost 6,500 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171557",
-              "name": "a blue sapphire",
-              "details": {
-                "raw": [
-                  "The sapphire can not be worn.",
-                  "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
-                  "The blue sapphire will cost 6,500 coins."
                 ],
                 "tags": []
               }
@@ -51370,7 +51380,49 @@
   ],
   "removed_items": [
     {
-      "id": "171534",
+      "id": "171557",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171558",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171559",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "230342599",
       "name": "a black opal",
       "details": {
         "raw": [
@@ -51398,7 +51450,7 @@
       "last_seen_shop": "Medulis's Magic Shoppe"
     },
     {
-      "id": "230342599",
+      "id": "171534",
       "name": "a black opal",
       "details": {
         "raw": [

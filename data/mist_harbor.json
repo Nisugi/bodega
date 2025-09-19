@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 16:46:00 UTC",
-  "run_time": "14s",
+  "created_at": "2025-09-19 18:50:02 UTC",
+  "run_time": "18s",
   "town": "Mist Harbor",
   "shops": [
     {
@@ -15013,31 +15013,6 @@
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "weight": 6
-              }
-            },
-            {
-              "id": "168390",
-              "name": "a glistening sephwir light crossbow",
-              "details": {
-                "raw": [
-                  "You see a glistening sephwir light crossbow which is not cocked.",
-                  "Analysis of a glistening sephwir light crossbow indicates the item has certain alteration restrictions.  It cannot be used in alterations.",
-                  "The sephwir light crossbow will cost 350,000 coins.",
-                  "It is estimated to be worth about 400,000 silvers.",
-                  "It is sighted to assist in aiming, but exactly how much requires assessment.",
-                  "It is predominantly crafted of sephwir.",
-                  "It is a simple project (83 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable"
-                ],
-                "skill": "ranged weapons",
-                "worn": "shoulders",
-                "material": "sephwir, an extremely rare wood",
-                "enchant": 25,
-                "weight": 8
               }
             },
             {
@@ -40376,6 +40351,71 @@
                 "enchant": 10,
                 "weight": 21
               }
+            },
+            {
+              "id": "324859830",
+              "name": "some gold-lined satin robes",
+              "details": {
+                "raw": [
+                  "It has a small enchanter's glyph.",
+                  "The robes is cloth armor that covers the torso, arms, legs, neck, and head.",
+                  "Analysis of some gold-lined satin robes indicates the item is free from merchant alteration restrictions.",
+                  "The satin robes will cost 125,000 coins.",
+                  "It is estimated to be worth about 26,000 silvers.",
+                  "It is predominantly crafted of cloth.",
+                  "It is a simple project (36 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by a bard."
+                ],
+                "tags": [
+                  "lightenable"
+                ],
+                "worn": "chest",
+                "material": "cloth, an extremely common material",
+                "enchant": 20,
+                "weight": 8
+              }
+            },
+            {
+              "id": "324734577",
+              "name": "a drake dagger",
+              "details": {
+                "raw": [
+                  "Analysis of a drake dagger indicates the item is free from merchant alteration restrictions.",
+                  "The drake dagger will cost 25,000 coins.",
+                  "It is estimated to be worth about 900 silvers.",
+                  "It is predominantly crafted of drake.",
+                  "It is a simple project (0 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Gittyna."
+                ],
+                "tags": [
+                  "max_light",
+                  "small"
+                ],
+                "skill": "edged weapons",
+                "material": "drake, a common material",
+                "flare": "the power of a fire elemental"
+              }
+            },
+            {
+              "id": "324734561",
+              "name": "a drake dagger",
+              "details": {
+                "raw": [
+                  "Analysis of a drake dagger indicates the item is free from merchant alteration restrictions.",
+                  "The drake dagger will cost 25,000 coins.",
+                  "It is estimated to be worth about 900 silvers.",
+                  "It is predominantly crafted of drake.",
+                  "It is a simple project (0 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Gittyna."
+                ],
+                "tags": [
+                  "max_light",
+                  "small"
+                ],
+                "skill": "edged weapons",
+                "material": "drake, a common material",
+                "flare": "the power of a fire elemental"
+              }
             }
           ],
           "sign": [
@@ -56778,6 +56818,33 @@
   ],
   "removed_items": [
     {
+      "id": "168390",
+      "name": "a glistening sephwir light crossbow",
+      "details": {
+        "raw": [
+          "You see a glistening sephwir light crossbow which is not cocked.",
+          "Analysis of a glistening sephwir light crossbow indicates the item has certain alteration restrictions.  It cannot be used in alterations.",
+          "The sephwir light crossbow will cost 350,000 coins.",
+          "It is estimated to be worth about 400,000 silvers.",
+          "It is sighted to assist in aiming, but exactly how much requires assessment.",
+          "It is predominantly crafted of sephwir.",
+          "It is a simple project (83 difficulty) for an adventurer to modify.",
+          "It has a temporarily unlocked loresong by a bard."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "skill": "ranged weapons",
+        "worn": "shoulders",
+        "material": "sephwir, an extremely rare wood",
+        "enchant": 25,
+        "weight": 8
+      },
+      "removed_date": "2025-09-19T18:49:48Z",
+      "last_seen_shop": "Dyreknor's Outfitting"
+    },
+    {
       "id": "158689",
       "name": "a fuzzy knitted pegasus-patterned purple-hazed jute hat",
       "details": {
@@ -56790,21 +56857,6 @@
         "material": "cloth, an extremely common material"
       },
       "removed_date": "2025-09-19T14:41:56Z",
-      "last_seen_shop": "Tenacity's Outfitting"
-    },
-    {
-      "id": "158708",
-      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
-      "details": {
-        "raw": [
-          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
-          "The silk scarf will cost 30,000 coins."
-        ],
-        "tags": [],
-        "worn": "neck",
-        "material": "cloth, an extremely common material"
-      },
-      "removed_date": "2025-09-19T13:22:20Z",
       "last_seen_shop": "Tenacity's Outfitting"
     },
     {
@@ -56825,6 +56877,21 @@
           "The tart charm will cost 35,000 coins."
         ],
         "tags": []
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "158708",
+      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "details": {
+        "raw": [
+          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
+          "The silk scarf will cost 30,000 coins."
+        ],
+        "tags": [],
+        "worn": "neck",
+        "material": "cloth, an extremely common material"
       },
       "removed_date": "2025-09-19T13:22:20Z",
       "last_seen_shop": "Tenacity's Outfitting"

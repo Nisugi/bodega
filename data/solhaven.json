@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 16:45:08 UTC",
+  "created_at": "2025-09-19 18:48:58 UTC",
   "run_time": "14s",
   "town": "Solhaven",
   "shops": [
@@ -59535,21 +59535,6 @@
       "last_seen_shop": "Nighthaven"
     },
     {
-      "id": "200124945",
-      "name": "a dilute copper ayan'eth potion",
-      "details": {
-        "raw": [
-          "The copper liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
-          "The potion can not be worn.",
-          "The copper ayan'eth potion will cost 24,000,000 coins."
-        ],
-        "tags": [],
-        "material": "glass, an extremely common material"
-      },
-      "removed_date": "2025-09-19T16:45:01Z",
-      "last_seen_shop": "The Serpent's Den"
-    },
-    {
       "id": "253896469",
       "name": "a faceted glass jar containing blood red garnets",
       "details": {
@@ -59569,18 +59554,19 @@
       "last_seen_shop": "Zephyryl's General Store"
     },
     {
-      "id": "179252",
-      "name": "a black opal",
+      "id": "200124945",
+      "name": "a dilute copper ayan'eth potion",
       "details": {
         "raw": [
-          "The opal can not be worn.",
-          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
-          "The black opal will cost 9,200 coins."
+          "The copper liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
+          "The potion can not be worn.",
+          "The copper ayan'eth potion will cost 24,000,000 coins."
         ],
-        "tags": []
+        "tags": [],
+        "material": "glass, an extremely common material"
       },
-      "removed_date": "2025-09-19T16:44:58Z",
-      "last_seen_shop": "Requiell's Magic Shoppe"
+      "removed_date": "2025-09-19T16:45:01Z",
+      "last_seen_shop": "The Serpent's Den"
     },
     {
       "id": "158440155",
@@ -59590,6 +59576,20 @@
           "The ruby can not be worn.",
           "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
           "The star ruby will cost 3,880 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:44:58Z",
+      "last_seen_shop": "Requiell's Magic Shoppe"
+    },
+    {
+      "id": "179252",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
         ],
         "tags": []
       },
