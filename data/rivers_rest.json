@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 22:48:05 UTC",
-  "run_time": "02m 31s",
+  "created_at": "2025-09-19 00:14:14 UTC",
+  "run_time": "02m 30s",
   "town": "River's Rest",
   "shops": [
     {
@@ -93,7 +93,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "weight": 7
               }
             },
@@ -107,7 +107,7 @@
                   "The shoulder guard will cost 500,000 coins."
                 ],
                 "tags": [],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "leather, an extremely common material"
               }
             },
@@ -2584,7 +2584,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ora, an uncommon metal",
                 "enchant": 10,
                 "enhancives": [
@@ -3877,7 +3877,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -4387,7 +4387,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "villswood, an infrequent wood",
                 "enchant": 18,
                 "enhancives": [
@@ -4635,7 +4635,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "yew, an uncommon wood",
                 "enchant": 2,
                 "enhancives": [
@@ -4822,7 +4822,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a basic project (123 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 1 hour and 45 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 12 days, 18 minutes."
                 ],
                 "tags": [
                   "max_light",
@@ -5243,7 +5243,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -5468,7 +5468,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal"
               }
             },
@@ -5777,7 +5777,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -5889,7 +5889,7 @@
                   "deepenable",
                   "small"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -6011,7 +6011,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "weight": 3
               }
             },
@@ -6092,7 +6092,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -6141,7 +6141,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "leather, an extremely common material",
                 "weight": 8
               }
@@ -6165,7 +6165,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "leather, an extremely common material",
                 "weight": 7
               }
@@ -6377,7 +6377,7 @@
                 "tags": [
                   "small"
                 ],
-                "worn": "legs"
+                "worn": "pants"
               }
             }
           ],
@@ -6504,7 +6504,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -6576,7 +6576,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "golvern, a very rare metal",
                 "enchant": 25,
                 "weight": 8
@@ -6654,7 +6654,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 20,
                 "weight": 11
@@ -6886,7 +6886,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -7371,7 +7371,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7420,7 +7420,7 @@
                   "The shaggy rackhal blanket will cost 150,000 coins."
                 ],
                 "tags": [],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -8165,7 +8165,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 25,
                 "flare": "the power of a dark substance",
@@ -8199,7 +8199,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "glowbark, an extraordinarily rare wood",
                 "enchant": 22,
                 "enhancives": [
@@ -8933,7 +8933,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -9025,7 +9025,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "enhancives": [
@@ -9078,7 +9078,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 24,
                 "weight": 2
@@ -9118,7 +9118,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood"
               }
             },
@@ -9175,7 +9175,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 25,
                 "weight": 2
@@ -9199,7 +9199,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enhancives": [
                   {
@@ -9258,7 +9258,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal"
               }
             },
@@ -9381,7 +9381,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood"
               }
             }
@@ -9588,7 +9588,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "carmiln, an uncommon wood",
                 "enchant": 6,
                 "flare": "the power of an ice elemental",
@@ -9659,7 +9659,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -9695,7 +9695,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood"
               }
             },
@@ -9720,7 +9720,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "kakore, an uncommon wood",
                 "enchant": 10,
                 "enhancives": [
@@ -9761,7 +9761,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "enhancives": [
@@ -9855,7 +9855,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -10366,7 +10366,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "hoarbeam, an unusual wood",
                 "enchant": 12,
                 "flare": "the power of a dark substance",
@@ -10409,7 +10409,7 @@
                   "max_light",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -11082,7 +11082,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "flare": "the power of a lightning bolt",
@@ -13474,7 +13474,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ora, an uncommon metal",
                 "enchant": 15,
                 "enhancives": [
@@ -13654,7 +13654,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "illthorn, an extremely rare wood",
                 "enchant": 25,
                 "weight": 9
@@ -13943,7 +13943,7 @@
                   "The goat hide trousers will cost 10,000 coins."
                 ],
                 "tags": [],
-                "worn": "legs"
+                "worn": "pants"
               }
             },
             {
@@ -14057,7 +14057,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "weight": 6
@@ -14224,7 +14224,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -14252,7 +14252,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "weight": 8
               }
@@ -14273,7 +14273,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "weight": 4
               }
@@ -14331,7 +14331,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -14359,7 +14359,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -14383,7 +14383,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "weight": 2
@@ -14953,7 +14953,7 @@
                   "    It seems to have a lot of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 13 days, 23 hours and 58 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 22 hours and 32 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -15255,7 +15255,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 7 days, 17 hours and 24 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 7 days, 15 hours and 58 minutes."
                 ],
                 "tags": [
                   "purpose",
