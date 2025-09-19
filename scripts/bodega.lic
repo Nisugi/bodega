@@ -359,7 +359,7 @@ module Bodega
 
     def _props(line)
       PROPS.select do |_prop, pattern|
-        if _prop == :worn && line =~ /can be worn anywhere on the body/i
+        if _prop == :worn && line =~ /anywhere on the body/i
           @props[:worn] = "pin"
           true  # Return true to indicate a match was found
         elsif _prop == :worn && line =~ /around the chest, beneath another garment/i
@@ -374,10 +374,10 @@ module Bodega
         elsif _prop == :worn && line =~ /hanging it from the shoulders/i
           @props[:worn] = "cloak"
           true  # Return true to indicate a match was found
-        elsif _prop == :worn && line =~ /can be worn on the legs/i
+        elsif _prop == :worn && line =~ /on the legs/i
           @props[:worn] = "pants"
           true  # Return true to indicate a match was found
-        elsif _prop == :worn && line =~ /can be worn around the legs/i
+        elsif _prop == :worn && line =~ /around the legs/i
           @props[:worn] = "legs"
           true  # Return true to indicate a match was found
         elsif (result = line.match(pattern))

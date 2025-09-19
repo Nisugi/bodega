@@ -423,7 +423,7 @@ class SearchEngine {
         const container = document.createElement('div');
 
         // Item type
-        if (item.itemType && item.itemType !== 'miscellaneous') {
+        if (item.itemType) {
             const tag = document.createElement('span');
             tag.className = 'property-tag';
             tag.textContent = item.itemType.charAt(0).toUpperCase() + item.itemType.slice(1);

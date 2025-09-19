@@ -368,7 +368,7 @@ class BrowseEngine {
     formatItemProperties(item) {
         const props = [];
 
-        if (item.itemType && item.itemType !== 'miscellaneous') {
+        if (item.itemType) {
             props.push(item.itemType);
         }
         if (item.capacity) {

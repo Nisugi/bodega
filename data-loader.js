@@ -380,7 +380,7 @@ class DataLoader {
             else if (properties.isShield) properties.itemType = 'shield';
             else if (properties.isContainer) properties.itemType = 'container';
             else if (properties.isJewelry) properties.itemType = 'jewelry';
-            else properties.itemType = 'miscellaneous';
+            // No default itemType assignment
         }
 
         return properties;
