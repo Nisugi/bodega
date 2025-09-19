@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 14:41:36 UTC",
-  "run_time": "15s",
+  "created_at": "2025-09-19 16:45:30 UTC",
+  "run_time": "18s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -2176,22 +2176,6 @@
                   "The greater fire will cost 100,000 coins."
                 ],
                 "tags": []
-              }
-            },
-            {
-              "id": "170432",
-              "name": "a mass of congealed slime",
-              "details": {
-                "raw": [
-                  "The slime can not be worn.",
-                  "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
-                  "This is a foraged item.  It is a roleplaying item.",
-                  "You may eat a mass of congealed slime.",
-                  "There is a chance you can sell this at a local Herbal Shop.",
-                  "The congealed slime will cost 5,000 coins."
-                ],
-                "tags": [],
-                "material": "organic material, an extremely common material"
               }
             },
             {
@@ -16701,42 +16685,6 @@
               }
             },
             {
-              "id": "230342599",
-              "name": "a black opal",
-              "details": {
-                "raw": [
-                  "The opal can not be worn.",
-                  "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
-                  "The black opal will cost 9,200 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171535",
-              "name": "a black opal",
-              "details": {
-                "raw": [
-                  "The opal can not be worn.",
-                  "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
-                  "The black opal will cost 9,200 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "171534",
-              "name": "a black opal",
-              "details": {
-                "raw": [
-                  "The opal can not be worn.",
-                  "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
-                  "The black opal will cost 9,200 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
               "id": "171537",
               "name": "an iridescent labradorite stone",
               "details": {
@@ -21849,6 +21797,90 @@
                 ],
                 "tags": [],
                 "material": "gemstone, an extremely common material"
+              }
+            },
+            {
+              "id": "320854342",
+              "name": "a rectangular green crystal bottle",
+              "details": {
+                "raw": [
+                  "The bottle can not be worn.",
+                  "Analysis of a rectangular green crystal bottle indicates the creator has provided the following information:",
+                  "This bottle contains 30 pills that, when eaten, offer a spellup akin to what the Invoker would offer.  This includes many defensive spells not known by the user.",
+                  "MEASURE it to see how many pills it contains.",
+                  "TURN it to retrieve a pill.  The bottle will shatter when empty.",
+                  "EAT a pill to activate it.",
+                  "It cannot be altered.",
+                  "The green crystal bottle will cost 1,200,000 coins."
+                ],
+                "tags": [],
+                "material": "gemstone, an extremely common material"
+              }
+            },
+            {
+              "id": "320854344",
+              "name": "a rectangular green crystal bottle",
+              "details": {
+                "raw": [
+                  "The bottle can not be worn.",
+                  "Analysis of a rectangular green crystal bottle indicates the creator has provided the following information:",
+                  "This bottle contains 30 pills that, when eaten, offer a spellup akin to what the Invoker would offer.  This includes many defensive spells not known by the user.",
+                  "MEASURE it to see how many pills it contains.",
+                  "TURN it to retrieve a pill.  The bottle will shatter when empty.",
+                  "EAT a pill to activate it.",
+                  "It cannot be altered.",
+                  "The green crystal bottle will cost 1,200,000 coins."
+                ],
+                "tags": [],
+                "material": "gemstone, an extremely common material"
+              }
+            },
+            {
+              "id": "320854133",
+              "name": "a mithril juggernaut pin",
+              "details": {
+                "raw": [
+                  "The gleaming mithril pin is a souvenir from the one and only Enormous Mithril Juggernaut.  The Juggernaut, home to a clan of dwarven craftsmen, travels on and under the world of Elanthia.  Few can brag to have seen the Juggernaut, much less been inside it.",
+                  "The juggernaut pin will cost 10,000,000 coins."
+                ],
+                "tags": [],
+                "worn": "pin"
+              }
+            },
+            {
+              "id": "320854150",
+              "name": "a faenor-hilted feras falchion",
+              "details": {
+                "raw": [
+                  "The feras falchion will cost 5,000,000 coins.",
+                  "It is an enhancive item:",
+                  "    It seems to be out of enhancive charges.",
+                  "It is estimated to be worth about 200,000 silvers.",
+                  "It is predominantly crafted of feras.",
+                  "It is an involved project (213 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Karkith."
+                ],
+                "tags": [
+                  "max_light",
+                  "persists"
+                ],
+                "skill": "edged weapons",
+                "material": "feras, a common material",
+                "enhancives": [
+                  {
+                    "boost": 8,
+                    "ability": "Stamina Recovery"
+                  },
+                  {
+                    "boost": 6,
+                    "ability": "Edged Weapons Bonus"
+                  },
+                  {
+                    "boost": 7,
+                    "ability": "Stalking and Hiding Bonus"
+                  }
+                ],
+                "weight": 3
               }
             }
           ]
@@ -51337,6 +51369,66 @@
     }
   ],
   "removed_items": [
+    {
+      "id": "171534",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171535",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "230342599",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "170432",
+      "name": "a mass of congealed slime",
+      "details": {
+        "raw": [
+          "The slime can not be worn.",
+          "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
+          "This is a foraged item.  It is a roleplaying item.",
+          "You may eat a mass of congealed slime.",
+          "There is a chance you can sell this at a local Herbal Shop.",
+          "The congealed slime will cost 5,000 coins."
+        ],
+        "tags": [],
+        "material": "organic material, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:14Z",
+      "last_seen_shop": "Sharth's Armory"
+    },
     {
       "id": "301963451",
       "name": "an opalescent glass jar containing polished pink coral",

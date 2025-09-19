@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 14:41:16 UTC",
-  "run_time": "13s",
+  "created_at": "2025-09-19 16:45:08 UTC",
+  "run_time": "14s",
   "town": "Solhaven",
   "shops": [
     {
@@ -17963,18 +17963,6 @@
               }
             },
             {
-              "id": "158440155",
-              "name": "a star ruby",
-              "details": {
-                "raw": [
-                  "The ruby can not be worn.",
-                  "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
-                  "The star ruby will cost 3,880 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
               "id": "158290734",
               "name": "a star sapphire",
               "details": {
@@ -18126,18 +18114,6 @@
                   "The sapphire can not be worn.",
                   "Analysis of a deep blue mermaid's-tear sapphire indicates the item is free from merchant alteration restrictions.",
                   "The mermaid's-tear sapphire will cost 10,000 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
-              "id": "179252",
-              "name": "a black opal",
-              "details": {
-                "raw": [
-                  "The opal can not be worn.",
-                  "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
-                  "The black opal will cost 9,200 coins."
                 ],
                 "tags": []
               }
@@ -30067,23 +30043,6 @@
               }
             },
             {
-              "id": "253896469",
-              "name": "a faceted glass jar containing blood red garnets",
-              "details": {
-                "raw": [
-                  "It is estimated that a faceted glass jar containing blood red garnets can store a very small amount with enough space for one item.",
-                  "The jar can not be worn.",
-                  "Analysis of a faceted glass jar containing blood red garnets indicates the creator has provided the following information:",
-                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
-                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
-                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
-                  "The glass jar will cost 49,999 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
               "id": "253337834",
               "name": "a faceted glass jar containing pieces of white jade",
               "details": {
@@ -32782,19 +32741,6 @@
                   "The silver liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
                   "The potion can not be worn.",
                   "The silver ayan'eth potion will cost 29,000,000 coins."
-                ],
-                "tags": [],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "200124945",
-              "name": "a dilute copper ayan'eth potion",
-              "details": {
-                "raw": [
-                  "The copper liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
-                  "The potion can not be worn.",
-                  "The copper ayan'eth potion will cost 24,000,000 coins."
                 ],
                 "tags": [],
                 "material": "glass, an extremely common material"
@@ -36361,20 +36307,6 @@
                     "ability": "First Aid Bonus"
                   }
                 ]
-              }
-            },
-            {
-              "id": "174482",
-              "name": "a topaz-inset copper crown",
-              "details": {
-                "raw": [
-                  "Analysis of a topaz-inset copper crown indicates the item is free from merchant alteration restrictions.",
-                  "The copper crown will cost 50,000 coins."
-                ],
-                "tags": [
-                  "purpose"
-                ],
-                "worn": "head"
               }
             },
             {
@@ -51990,29 +51922,6 @@
           "branch": "north",
           "items": [
             {
-              "id": "161849",
-              "name": "a hefty mithril dagger",
-              "details": {
-                "raw": [
-                  "It has Methrammar's crafting mark.",
-                  "Analysis of a hefty mithril dagger indicates the item is free from merchant alteration restrictions.",
-                  "The mithril dagger will cost 50,000 coins.",
-                  "It is forged by Methrammar and has increased (+2) effectiveness in combat.",
-                  "It is estimated to be worth about 700 silvers.",
-                  "It is predominantly crafted of mithril.",
-                  "It is a simple project (-19 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Aechasist."
-                ],
-                "tags": [
-                  "max_light",
-                  "small"
-                ],
-                "skill": "edged weapons",
-                "material": "mithril, an uncommon metal",
-                "enchant": 5
-              }
-            },
-            {
               "id": "161848",
               "name": "a well-crafted mithril dagger",
               "details": {
@@ -59583,5 +59492,109 @@
       ]
     }
   ],
-  "removed_items": []
+  "removed_items": [
+    {
+      "id": "161849",
+      "name": "a hefty mithril dagger",
+      "details": {
+        "raw": [
+          "It has Methrammar's crafting mark.",
+          "Analysis of a hefty mithril dagger indicates the item is free from merchant alteration restrictions.",
+          "The mithril dagger will cost 50,000 coins.",
+          "It is forged by Methrammar and has increased (+2) effectiveness in combat.",
+          "It is estimated to be worth about 700 silvers.",
+          "It is predominantly crafted of mithril.",
+          "It is a simple project (-19 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Aechasist."
+        ],
+        "tags": [
+          "max_light",
+          "small"
+        ],
+        "skill": "edged weapons",
+        "material": "mithril, an uncommon metal",
+        "enchant": 5
+      },
+      "removed_date": "2025-09-19T16:45:06Z",
+      "last_seen_shop": "Aechasist's General Store"
+    },
+    {
+      "id": "174482",
+      "name": "a topaz-inset copper crown",
+      "details": {
+        "raw": [
+          "Analysis of a topaz-inset copper crown indicates the item is free from merchant alteration restrictions.",
+          "The copper crown will cost 50,000 coins."
+        ],
+        "tags": [
+          "purpose"
+        ],
+        "worn": "head"
+      },
+      "removed_date": "2025-09-19T16:45:02Z",
+      "last_seen_shop": "Nighthaven"
+    },
+    {
+      "id": "200124945",
+      "name": "a dilute copper ayan'eth potion",
+      "details": {
+        "raw": [
+          "The copper liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
+          "The potion can not be worn.",
+          "The copper ayan'eth potion will cost 24,000,000 coins."
+        ],
+        "tags": [],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:01Z",
+      "last_seen_shop": "The Serpent's Den"
+    },
+    {
+      "id": "253896469",
+      "name": "a faceted glass jar containing blood red garnets",
+      "details": {
+        "raw": [
+          "It is estimated that a faceted glass jar containing blood red garnets can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of a faceted glass jar containing blood red garnets indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 49,999 coins."
+        ],
+        "tags": [],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:01Z",
+      "last_seen_shop": "Zephyryl's General Store"
+    },
+    {
+      "id": "179252",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:44:58Z",
+      "last_seen_shop": "Requiell's Magic Shoppe"
+    },
+    {
+      "id": "158440155",
+      "name": "a star ruby",
+      "details": {
+        "raw": [
+          "The ruby can not be worn.",
+          "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
+          "The star ruby will cost 3,880 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T16:44:58Z",
+      "last_seen_shop": "Requiell's Magic Shoppe"
+    }
+  ]
 }
