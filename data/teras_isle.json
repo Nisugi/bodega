@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 11:21:44 UTC",
+  "created_at": "2025-09-19 13:21:29 UTC",
   "run_time": "03s",
   "town": "Teras Isle",
   "shops": [
@@ -13968,5 +13968,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }

@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 11:22:25 UTC",
-  "run_time": "07s",
+  "created_at": "2025-09-19 13:22:10 UTC",
+  "run_time": "06s",
   "town": "Ta'Illistim",
   "shops": [
     {
@@ -24158,5 +24158,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }

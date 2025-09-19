@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 11:22:29 UTC",
-  "run_time": "04s",
+  "created_at": "2025-09-19 13:22:14 UTC",
+  "run_time": "03s",
   "town": "Ta'Vaalor,",
   "shops": [
     {
@@ -15305,5 +15305,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }

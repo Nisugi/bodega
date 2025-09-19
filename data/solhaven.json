@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 11:21:57 UTC",
+  "created_at": "2025-09-19 13:21:41 UTC",
   "run_time": "12s",
   "town": "Solhaven",
   "shops": [
@@ -59582,5 +59582,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }

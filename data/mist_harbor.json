@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 11:22:43 UTC",
-  "run_time": "13s",
+  "created_at": "2025-09-19 13:22:26 UTC",
+  "run_time": "12s",
   "town": "Mist Harbor",
   "shops": [
     {
@@ -28583,26 +28583,6 @@
               }
             },
             {
-              "id": "158625",
-              "name": "a tart charm",
-              "details": {
-                "raw": [
-                  "The charm can not be worn.",
-                  "Analysis of a tart charm indicates the creator has provided the following information:",
-                  "    ----Sound Charm----",
-                  "This is a special charm that can be attached to a charm bracelet or other piece of charm jewelry.",
-                  "When it is played with while on the bracelet, it can make a sound.",
-                  "Current Sound: a loud sighing sound",
-                  "    ====Alteration Guidelines====",
-                  "You can alter the 15/15/15, long, and show of this tart charm, though the noun must remain \"charm.\"",
-                  "As this is meant to be attached to a bracelet, this should always be considered to be tiny/small.",
-                  "Certain merchants may be able to change the sound this item makes.",
-                  "The tart charm will cost 35,000 coins."
-                ],
-                "tags": []
-              }
-            },
-            {
               "id": "158623",
               "name": "a campfire emblazoned tin",
               "details": {
@@ -28685,6 +28665,36 @@
                 "worn": "socks",
                 "material": "cloth, an extremely common material"
               }
+            },
+            {
+              "id": "319216997",
+              "name": "a niello-threaded knitted tweed hat",
+              "details": {
+                "raw": [
+                  "Analysis of a niello-threaded knitted tweed hat indicates the item is free from merchant alteration restrictions.",
+                  "The tweed hat will cost 35,000 coins."
+                ],
+                "tags": [],
+                "worn": "head",
+                "material": "cloth, an extremely common material"
+              }
+            },
+            {
+              "id": "319071874",
+              "name": "a niello-threaded knitted tweed backpack",
+              "details": {
+                "raw": [
+                  "It is estimated that a niello-threaded knitted tweed backpack can store a significant amount with enough space for any number of items.",
+                  "Analysis of a niello-threaded knitted tweed backpack indicates the item is free from merchant alteration restrictions.",
+                  "The tweed backpack will cost 199,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "back",
+                "material": "cloth, an extremely common material"
+              }
             }
           ],
           "sign": [
@@ -28757,19 +28767,6 @@
                 ],
                 "tags": [],
                 "worn": "feet"
-              }
-            },
-            {
-              "id": "158708",
-              "name": "a lustrous knitted moon phase-patterned sea silk scarf",
-              "details": {
-                "raw": [
-                  "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
-                  "The silk scarf will cost 30,000 coins."
-                ],
-                "tags": [],
-                "worn": "neck",
-                "material": "cloth, an extremely common material"
               }
             },
             {
@@ -56773,6 +56770,45 @@
           ]
         }
       ]
+    }
+  ],
+  "removed_items": [
+    {
+      "id": "158708",
+      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "details": {
+        "raw": [
+          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
+          "The silk scarf will cost 30,000 coins."
+        ],
+        "tags": [],
+        "worn": "neck",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "158625",
+      "name": "a tart charm",
+      "details": {
+        "raw": [
+          "The charm can not be worn.",
+          "Analysis of a tart charm indicates the creator has provided the following information:",
+          "    ----Sound Charm----",
+          "This is a special charm that can be attached to a charm bracelet or other piece of charm jewelry.",
+          "When it is played with while on the bracelet, it can make a sound.",
+          "Current Sound: a loud sighing sound",
+          "    ====Alteration Guidelines====",
+          "You can alter the 15/15/15, long, and show of this tart charm, though the noun must remain \"charm.\"",
+          "As this is meant to be attached to a bracelet, this should always be considered to be tiny/small.",
+          "Certain merchants may be able to change the sound this item makes.",
+          "The tart charm will cost 35,000 coins."
+        ],
+        "tags": []
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
     }
   ]
 }

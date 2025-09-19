@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 11:22:14 UTC",
-  "run_time": "13s",
+  "created_at": "2025-09-19 13:22:00 UTC",
+  "run_time": "14s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -51352,5 +51352,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }

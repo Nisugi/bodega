@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 11:22:18 UTC",
+  "created_at": "2025-09-19 13:22:03 UTC",
   "run_time": "03s",
   "town": "Zul Logoth",
   "shops": [
@@ -6796,5 +6796,6 @@
         }
       ]
     }
-  ]
+  ],
+  "removed_items": []
 }
