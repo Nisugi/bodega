@@ -1,3 +1,62 @@
+// Multi-select filter management
+class MultiSelectFilter {
+    constructor(selectId, tagContainerId) {
+        this.select = document.getElementById(selectId);
+        this.tagContainer = document.getElementById(tagContainerId);
+        this.selectedValues = new Set();
+
+        if (!this.select || !this.tagContainer) return;
+
+        this.initializeEvents();
+    }
+
+    initializeEvents() {
+        this.select.addEventListener('change', (e) => {
+            const value = e.target.value;
+            if (value && value !== '') {
+                this.addSelection(value, e.target.options[e.target.selectedIndex].text);
+                // Reset to placeholder
+                this.select.selectedIndex = 0;
+            }
+        });
+    }
+
+    addSelection(value, label) {
+        if (this.selectedValues.has(value)) return;
+
+        this.selectedValues.add(value);
+
+        const tag = document.createElement('span');
+        tag.className = 'filter-tag';
+        tag.dataset.value = value;
+        tag.innerHTML = `${label} <span class="remove">×</span>`;
+
+        tag.addEventListener('click', () => {
+            this.removeSelection(value);
+            if (window.searchEngine) {
+                window.searchEngine.performSearch();
+            }
+        });
+
+        this.tagContainer.appendChild(tag);
+    }
+
+    removeSelection(value) {
+        this.selectedValues.delete(value);
+        const tag = this.tagContainer.querySelector(`[data-value="${value}"]`);
+        if (tag) tag.remove();
+    }
+
+    getSelectedValues() {
+        return Array.from(this.selectedValues);
+    }
+
+    clear() {
+        this.selectedValues.clear();
+        this.tagContainer.innerHTML = '';
+    }
+}
+
 // Search and Filter System
 class SearchEngine {
     constructor() {
@@ -5,6 +64,13 @@ class SearchEngine {
         this.currentPage = 1;
         this.itemsPerPage = 100;
         this.currentSort = { field: 'name', direction: 'asc' };
+
+        // Initialize multi-select filters
+        this.multiSelectFilters = {
+            town: new MultiSelectFilter('town-filter', 'town-tags'),
+            price: new MultiSelectFilter('price-filter', 'price-tags'),
+            itemType: new MultiSelectFilter('item-type-filter', 'item-type-tags')
+        };
 
         this.initializeEventListeners();
     }
@@ -115,12 +181,12 @@ class SearchEngine {
     getFilters() {
         return {
             search: document.getElementById('search-input').value.toLowerCase().trim(),
-            towns: Array.from(document.getElementById('town-filter').selectedOptions).map(opt => opt.value).filter(v => v),
-            priceRange: DataLoader.getPriceRange(document.getElementById('price-filter').value),
+            towns: this.multiSelectFilters.town.getSelectedValues(),
+            priceRanges: this.multiSelectFilters.price.getSelectedValues(),
             minEnchant: parseInt(document.getElementById('enchant-filter').value) || 0,
 
             // New advanced filters
-            itemType: document.getElementById('item-type-filter').value,
+            itemTypes: this.multiSelectFilters.itemType.getSelectedValues(),
             capacityLevel: document.getElementById('capacity-filter').value,
             armorType: document.getElementById('armor-type-filter').value,
             shieldType: document.getElementById('shield-type-filter').value,
@@ -182,16 +248,22 @@ class SearchEngine {
             return false;
         }
 
-        // Town filter
+        // Town filter - now supports multiple selections
         if (filters.towns.length > 0 && !filters.towns.includes(item.town)) {
             return false;
         }
 
-        // Price filter
-        if (item.price !== null) {
-            if (item.price < filters.priceRange.min || item.price > filters.priceRange.max) {
-                return false;
+        // Price filter - now supports multiple ranges
+        if (filters.priceRanges.length > 0 && item.price !== null) {
+            let matchesAnyRange = false;
+            for (const rangeStr of filters.priceRanges) {
+                const priceRange = DataLoader.getPriceRange(rangeStr);
+                if (item.price >= priceRange.min && item.price <= priceRange.max) {
+                    matchesAnyRange = true;
+                    break;
+                }
             }
+            if (!matchesAnyRange) return false;
         }
 
         // Enchant filter
@@ -201,19 +273,25 @@ class SearchEngine {
             }
         }
 
-        // Item type filter
-        if (filters.itemType) {
-            if (filters.itemType === 'gemstone') {
-                // For gemstone filter, check if item has gemstone properties
-                if (!item.gemstoneProperties || item.gemstoneProperties.length === 0) {
-                    return false;
-                }
-            } else {
-                // For other item types, use normal filtering
-                if (item.itemType !== filters.itemType) {
-                    return false;
+        // Item type filter - now supports multiple selections
+        if (filters.itemTypes.length > 0) {
+            let matchesType = false;
+            for (const type of filters.itemTypes) {
+                if (type === 'gemstone') {
+                    // For gemstone filter, check if item has gemstone properties
+                    if (item.gemstoneProperties && item.gemstoneProperties.length > 0) {
+                        matchesType = true;
+                        break;
+                    }
+                } else {
+                    // For other item types, use normal filtering
+                    if (item.itemType === type) {
+                        matchesType = true;
+                        break;
+                    }
                 }
             }
+            if (!matchesType) return false;
         }
 
         // Capacity filter
@@ -705,16 +783,13 @@ class SearchEngine {
     resetFilters() {
         document.getElementById('search-input').value = '';
 
-        // Reset multi-select town filter
-        const townFilter = document.getElementById('town-filter');
-        for (let i = 0; i < townFilter.options.length; i++) {
-            townFilter.options[i].selected = false;
-        }
+        // Clear multi-select filters
+        this.multiSelectFilters.town.clear();
+        this.multiSelectFilters.price.clear();
+        this.multiSelectFilters.itemType.clear();
 
         // Reset single-select filters
-        document.getElementById('price-filter').selectedIndex = 0;
         document.getElementById('enchant-filter').selectedIndex = 0;
-        document.getElementById('item-type-filter').selectedIndex = 0;
         document.getElementById('capacity-filter').selectedIndex = 0;
         document.getElementById('armor-type-filter').selectedIndex = 0;
         document.getElementById('shield-type-filter').selectedIndex = 0;

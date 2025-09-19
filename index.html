@@ -61,15 +61,16 @@
 
                 <div class="filter-section">
                     <h3>Town</h3>
-                    <select id="town-filter" multiple size="10">
-                        <option value="">All Towns</option>
+                    <select id="town-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select towns...</option>
                     </select>
+                    <div id="town-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
                     <h3>Price Range</h3>
-                    <select id="price-filter">
-                        <option value="">Any Price</option>
+                    <select id="price-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select price ranges...</option>
                         <option value="0-1000">Under 1k</option>
                         <option value="1000-10000">1k - 10k</option>
                         <option value="10000-100000">10k - 100k</option>
@@ -80,6 +81,7 @@
                         <option value="10000000-50000000">10M - 50M</option>
                         <option value="50000000-999999999">Over 50M</option>
                     </select>
+                    <div id="price-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">
@@ -99,8 +101,8 @@
 
                 <div class="filter-section">
                     <h3>Item Type</h3>
-                    <select id="item-type-filter">
-                        <option value="">All Types</option>
+                    <select id="item-type-filter" class="multi-select-dropdown">
+                        <option value="" disabled selected>Select item types...</option>
                         <option value="weapon">Weapons</option>
                         <option value="armor">Armor</option>
                         <option value="shield">Shields</option>
@@ -108,6 +110,7 @@
                         <option value="jewelry">Jewelry</option>
                         <option value="gemstone">Gemstones</option>
                     </select>
+                    <div id="item-type-tags" class="filter-tags"></div>
                 </div>
 
                 <div class="filter-section">

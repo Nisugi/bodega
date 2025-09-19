@@ -250,6 +250,47 @@ header h1 {
     font-size: 9px;
 }
 
+/* Multi-select filter tags */
+.filter-tags {
+    margin-top: 8px;
+    min-height: 24px;
+}
+
+.filter-tag {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 3px 8px;
+    margin: 2px 4px 2px 0;
+    border-radius: 12px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filter-tag:hover {
+    background: #357abd;
+}
+
+.filter-tag .remove {
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filter-tag .remove:hover {
+    color: #ff9999;
+}
+
+.multi-select-dropdown {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+}
+
 .property-tag.enhancive {
     background: #e8f5e8;
     color: #2e7d32;

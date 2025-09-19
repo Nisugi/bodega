@@ -520,7 +520,7 @@ class DataLoader {
         const townFilter = document.getElementById('town-filter');
         const uniqueTowns = [...new Set(this.towns)].sort();
 
-        // Clear existing options except "All Towns"
+        // Clear existing options except the placeholder
         while (townFilter.children.length > 1) {
             townFilter.removeChild(townFilter.lastChild);
         }
