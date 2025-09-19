@@ -31,10 +31,14 @@ class DataLoader {
         try {
             console.log('Starting data load...');
 
+            // Load town data files in parallel
             const loadPromises = this.dataFiles.map(file => this.loadTownData(file));
             const townDataArray = await Promise.all(loadPromises);
 
-            this.processAllData(townDataArray);
+            // Also load the separate removed_items.json if it exists
+            const removedItemsData = await this.loadRemovedItems();
+
+            this.processAllData(townDataArray, removedItemsData);
             this.updateStats();
             this.populateTownFilter();
 
@@ -67,7 +71,27 @@ class DataLoader {
         }
     }
 
-    processAllData(townDataArray) {
+    async loadRemovedItems() {
+        try {
+            console.log('Loading removed_items.json...');
+            const response = await fetch('data/removed_items.json');
+
+            if (!response.ok) {
+                console.log('No separate removed_items.json found, using embedded data');
+                return null;
+            }
+
+            const data = await response.json();
+            console.log('Loaded separate removed_items.json');
+            return data;
+
+        } catch (error) {
+            console.log('No separate removed_items.json found, using embedded data');
+            return null;
+        }
+    }
+
+    processAllData(townDataArray, removedItemsData) {
         this.allItems = [];
         this.removedItems = [];
         this.towns = [];
@@ -105,8 +129,9 @@ class DataLoader {
                 });
             });
 
-            // Process removed items if they exist
-            if (townData.removed_items && Array.isArray(townData.removed_items)) {
+            // Process removed items from embedded data (for backward compatibility)
+            // Only use embedded data if we don't have separate removed_items.json
+            if (!removedItemsData && townData.removed_items && Array.isArray(townData.removed_items)) {
                 townData.removed_items.forEach(removedItem => {
                     const processedItem = this.processItem(removedItem, {}, {}, townData);
                     if (processedItem) {
@@ -121,14 +146,34 @@ class DataLoader {
             }
         });
 
-        // Filter removed items to last 14 days
-        const fourteenDaysAgo = new Date();
-        fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
+        // Process removed items from separate file if available
+        if (removedItemsData) {
+            console.log('Processing removed items from separate file...');
+            Object.keys(removedItemsData).forEach(townName => {
+                const cleanTownName = townName.replace(/,\s*$/, '');
+                const removedItems = removedItemsData[townName];
 
-        this.removedItems = this.removedItems.filter(item => {
-            const removedDate = new Date(item.removedDate);
-            return removedDate >= fourteenDaysAgo;
-        });
+                if (Array.isArray(removedItems)) {
+                    removedItems.forEach(removedItem => {
+                        // Create minimal townData for processing
+                        const fakeTownData = { town: cleanTownName };
+                        const processedItem = this.processItem(removedItem, {}, {}, fakeTownData);
+
+                        if (processedItem) {
+                            // Add removal metadata
+                            processedItem.removedDate = removedItem.removed_date || removedItem.removedDate || new Date().toISOString();
+                            processedItem.lastSeenShop = removedItem.last_seen_shop || removedItem.lastSeenShop || null;
+                            processedItem.lastSeenTown = removedItem.town || cleanTownName;
+
+                            this.removedItems.push(processedItem);
+                        }
+                    });
+                }
+            });
+        }
+
+        // No filtering by date - let the backend handle retention policy
+        // The backend now manages cleanup based on size/date constraints
 
         this.lastUpdated = oldestUpdate;
     }

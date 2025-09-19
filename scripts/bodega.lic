@@ -829,11 +829,143 @@ module Bodega
       }
     end
 
+    def self.load_removed_items
+      # Load the global removed items file with migration support
+      return @removed_items_data if @removed_items_data
+
+      file_path = Assets.local_path("removed_items.json")
+
+      if File.exist?(file_path)
+        begin
+          @removed_items_data = JSON.parse(File.read(file_path))
+          Log.out("Loaded removed_items.json", label: :smart)
+        rescue JSON::ParserError => e
+          Log.out("Failed to load removed_items.json: #{e.message}", label: :smart)
+          @removed_items_data = {}
+        end
+      else
+        # First run - migrate from existing town files if they have removed_items
+        Log.out("No removed_items.json found, checking for migration...", label: :migrate)
+        migrated_data = {}
+
+        towns.each do |town|
+          begin
+            town_data = load_and_validate_town_json(town)
+            if town_data && town_data['removed_items'] && town_data['removed_items'].any?
+              migrated_data[town] = town_data['removed_items']
+              Log.out("Migrating #{town_data['removed_items'].size} removed items from #{town}.json", label: :migrate)
+            end
+          rescue => e
+            Log.out("Error checking #{town} for migration: #{e.message}", label: :migrate)
+          end
+        end
+
+        @removed_items_data = migrated_data
+
+        if migrated_data.any?
+          save_removed_items
+          Log.out("Migration complete - saved to removed_items.json", label: :migrate)
+        else
+          Log.out("No existing removed_items to migrate", label: :migrate)
+        end
+      end
+
+      @removed_items_data ||= {}
+    end
+
+    def self.save_removed_items
+      # Save the global removed items file
+      return if @removed_items_data.nil? || @removed_items_data.empty?
+
+      begin
+        Assets.write_local_json(@removed_items_data, "removed_items")
+        Log.out("Saved removed_items.json", label: :smart)
+      rescue => e
+        Log.out("Failed to save removed_items.json: #{e.message}", label: :smart)
+      end
+    end
+
+    def self.clean_removed_items_by_size
+      # Configurable size-based cleanup
+      max_size_mb = (Opts["removed-max-size"] || 10).to_f
+      min_days = (Opts["removed-min-days"] || 14).to_i
+      max_days = (Opts["removed-max-days"] || 180).to_i
+
+      file_path = Assets.local_path("removed_items.json")
+
+      # First pass: remove anything older than max_days
+      max_cutoff = Time.now.utc - (max_days * 24 * 60 * 60)
+
+      @removed_items_data.each do |town, items|
+        @removed_items_data[town] = items.select do |item|
+          begin
+            Time.parse(item['removed_date']) >= max_cutoff
+          rescue
+            false # Remove items with invalid dates
+          end
+        end
+      end
+
+      # Remove empty town entries
+      @removed_items_data.delete_if { |_town, items| items.empty? }
+
+      # Save and check file size
+      save_removed_items
+      return unless File.exist?(file_path)
+
+      file_size_mb = File.size(file_path) / (1024.0 * 1024.0)
+
+      if file_size_mb > max_size_mb
+        Log.out("removed_items.json is #{file_size_mb.round(2)}MB, trimming to #{max_size_mb}MB", label: :cleanup)
+
+        # Second pass: trim to size while respecting min_days
+        min_cutoff = Time.now.utc - (min_days * 24 * 60 * 60)
+
+        # Get all items sorted by date (newest first)
+        all_items = []
+        @removed_items_data.each do |town, items|
+          items.each { |item| all_items << item }
+        end
+        all_items.sort_by! { |item| item['removed_date'] }.reverse!
+
+        # Calculate how many items to keep
+        reduction_ratio = max_size_mb / file_size_mb
+        target_count = (all_items.size * reduction_ratio * 0.9).to_i # 90% of target to leave buffer
+
+        # Keep newest items that are also within min_days
+        items_to_keep = all_items.select do |item|
+          begin
+            Time.parse(item['removed_date']) >= min_cutoff
+          rescue
+            false
+          end
+        end
+
+        # If we still have too many, take only the newest
+        items_to_keep = items_to_keep.first(target_count) if items_to_keep.size > target_count
+
+        # Rebuild by town
+        @removed_items_data = {}
+        items_to_keep.each do |item|
+          town = item['town'] || item['last_seen_shop'] # fallback for old data
+          @removed_items_data[town] ||= []
+          @removed_items_data[town] << item
+        end
+
+        save_removed_items
+        new_size = File.size(file_path) / (1024.0 * 1024.0)
+        Log.out("Trimmed removed_items.json from #{file_size_mb.round(2)}MB to #{new_size.round(2)}MB", label: :cleanup)
+      end
+    end
+
     def self.capture_removed_items(town, shop_data, item_ids_to_remove, shop_name)
       # Capture removed items before deleting them
       return unless shop_data && shop_data['inv']
 
-      @removed_items_tracker[town] ||= []
+      # Load existing data if not loaded
+      load_removed_items
+
+      @removed_items_data[town] ||= []
       current_time = Time.now.utc.iso8601
 
       shop_data['inv'].each do |room|
@@ -843,7 +975,8 @@ module Bodega
             removed_item = item.dup
             removed_item['removed_date'] = current_time
             removed_item['last_seen_shop'] = shop_name
-            @removed_items_tracker[town] << removed_item
+            removed_item['town'] = town
+            @removed_items_data[town] << removed_item
           end
         end
       end
@@ -875,37 +1008,15 @@ module Bodega
     end
 
     def self.get_removed_items_for_town(town)
-      # Get current session's removed items for this town
-      current_removed = @removed_items_tracker[town] || []
+      # Load the global removed items data if not loaded
+      load_removed_items
 
-      # Load existing removed items from previous runs (if any)
-      existing_removed = []
-      begin
-        town_data = load_and_validate_town_json(town)
-        if town_data && town_data['removed_items']
-          existing_removed = town_data['removed_items']
-        end
-      rescue
-        # Ignore errors loading existing data
-      end
-
-      # Combine current and existing removed items
-      all_removed = existing_removed + current_removed
-
-      # Filter to last 14 days
-      fourteen_days_ago = Time.now.utc - (14 * 24 * 60 * 60)
-      recent_removed = all_removed.select do |item|
-        begin
-          removed_time = Time.parse(item['removed_date'])
-          removed_time >= fourteen_days_ago
-        rescue
-          false # Skip items with invalid dates
-        end
-      end
+      # Get all removed items for this town
+      all_removed = @removed_items_data[town] || []
 
       # Remove duplicates by item ID (keep most recent)
       unique_removed = {}
-      recent_removed.each do |item|
+      all_removed.each do |item|
         item_id = item['id'].to_s
         if !unique_removed[item_id] || Time.parse(item['removed_date']) > Time.parse(unique_removed[item_id]['removed_date'])
           unique_removed[item_id] = item
@@ -980,15 +1091,11 @@ module Bodega
 
           # ALWAYS update timestamp when parser runs - shows last scan time on website
           # This ensures users see when we last checked for updates, not when data last changed
-          # Get removed items for this town (if any) and merge with existing
-          removed_items = get_removed_items_for_town(town)
-
           data = {
             created_at: Time.now.utc,
             run_time: Utils.fmt_time(Time.now - start),
             town: town,
-            shops: shops || [],
-            removed_items: removed_items
+            shops: shops || []
           }
 
           filename = save_json(name: town, data: data)
@@ -998,8 +1105,17 @@ module Bodega
 
       # Display smart parsing summary if we were in smart mode
       display_smart_summary if Opts.smart
-      # Clear removed items tracker after saving
-      @removed_items_tracker = {}
+
+      # Clean and save the global removed items file after all towns are processed
+      if @removed_items_data && @removed_items_data.any?
+        clean_removed_items_by_size
+        save_removed_items
+      end
+
+      # Add removed_items.json to created files list for upload
+      if File.exist?(Assets.local_path("removed_items.json"))
+        @created_files << "removed_items.json"
+      end
 
       @created_files
     end
