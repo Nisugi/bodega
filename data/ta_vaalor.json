@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 23:04:55 UTC",
-  "run_time": "02m 35s",
+  "created_at": "2025-09-19 00:11:33 UTC",
+  "run_time": "02m 37s",
   "town": "Ta'Vaalor,",
   "shops": [
     {
@@ -981,7 +981,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -1263,7 +1263,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "enhancives": [
@@ -2605,7 +2605,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "enhancives": [
                   {
@@ -3075,7 +3075,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -3636,7 +3636,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -4792,7 +4792,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "sephwir, an extremely rare wood",
                 "enchant": 25,
                 "weight": 2
@@ -4815,7 +4815,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 4
@@ -4840,7 +4840,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "illthorn, an extremely rare wood",
                 "enchant": 25,
                 "weight": 7
@@ -4895,7 +4895,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 25,
                 "weight": 2
@@ -5045,7 +5045,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders"
+                "worn": "cloak"
               }
             },
             {
@@ -5061,7 +5061,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -5078,7 +5078,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders"
+                "worn": "cloak"
               }
             },
             {
@@ -5092,7 +5092,7 @@
                   "The black leather pants will cost 15,000 coins."
                 ],
                 "tags": [],
-                "worn": "legs",
+                "worn": "pants",
                 "material": "leather, an extremely common material"
               }
             },
@@ -5108,7 +5108,7 @@
                 "tags": [
                   "lightenable"
                 ],
-                "worn": "legs"
+                "worn": "pants"
               }
             }
           ],
@@ -5287,7 +5287,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -6230,7 +6230,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "rolaren, a very rare alloy",
                 "enchant": 25,
                 "weight": 8
@@ -6416,7 +6416,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wood, an extremely common material",
                 "enchant": 20,
                 "weight": 6
@@ -7374,7 +7374,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ipantor, an extraordinarily rare wood",
                 "enchant": 17,
                 "enhancives": [
@@ -7407,7 +7407,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "yew, an uncommon wood",
                 "enchant": 2,
                 "enhancives": [
@@ -7443,7 +7443,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -7481,7 +7481,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -7587,7 +7587,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "flare": "the power of an earth elemental",
@@ -7625,7 +7625,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "illthorn, an extremely rare wood",
                 "enchant": 25,
                 "enhancives": [
@@ -8062,7 +8062,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -8092,7 +8092,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 20,
                 "weight": 3
@@ -8181,7 +8181,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "orase, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -8309,7 +8309,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "weight": 7
@@ -8874,7 +8874,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "enhancives": [
@@ -8916,7 +8916,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -9011,7 +9011,7 @@
                   "purpose",
                   "max_light"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 17,
                 "weight": 4
@@ -9208,7 +9208,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -9576,7 +9576,7 @@
                   "max_light",
                   "persists"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "enhancives": [
                   {
@@ -9609,7 +9609,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "enhancives": [
@@ -9644,7 +9644,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 24
               }
@@ -9880,7 +9880,7 @@
                   "The plaid trousers will cost 5,000 coins."
                 ],
                 "tags": [],
-                "worn": "legs"
+                "worn": "pants"
               }
             },
             {
@@ -10075,7 +10075,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -10108,7 +10108,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "hoarbeam, an unusual wood",
                 "enchant": 12,
                 "enhancives": [
@@ -10147,7 +10147,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -10198,7 +10198,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "enhancives": [
@@ -10270,7 +10270,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "fireleaf, a very rare wood",
                 "enchant": 22,
                 "enhancives": [
@@ -10527,7 +10527,7 @@
                   "The cinnamon skirt will cost 99,999 coins."
                 ],
                 "tags": [],
-                "worn": "legs",
+                "worn": "pants",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -10644,7 +10644,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mossbark, an uncommon wood",
                 "enchant": 15,
                 "enhancives": [
@@ -10878,7 +10878,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wood, an extremely common material",
                 "weight": 6
               }
@@ -11052,7 +11052,7 @@
                   "The black linen shroud will cost 99,999 coins."
                 ],
                 "tags": [],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -11263,7 +11263,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -11518,7 +11518,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders and back"
+                "worn": "shoulders"
               }
             },
             {
@@ -11905,7 +11905,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back"
+                "worn": "shoulders"
               }
             },
             {
@@ -11926,7 +11926,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal",
                 "enchant": 25,
                 "weight": 6
@@ -12008,7 +12008,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "steel, an extremely common metal",
                 "cost": 500
               }
@@ -12560,7 +12560,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ora, an uncommon metal",
                 "enchant": 10,
                 "enhancives": [
@@ -13078,7 +13078,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithglin, a rare metal",
                 "enchant": 15,
                 "flare": "the power of a flaming substance",
@@ -13591,7 +13591,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "glaes, a rare metal",
                 "enchant": 15,
                 "enhancives": [
@@ -13995,7 +13995,7 @@
                   "The flyrsilk trousers will cost 3,500,000 coins."
                 ],
                 "tags": [],
-                "worn": "legs",
+                "worn": "pants",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -14016,7 +14016,7 @@
                   "persists",
                   "small"
                 ],
-                "worn": "legs",
+                "worn": "pants",
                 "material": "cloth, an extremely common material",
                 "enhancives": [
                   {
@@ -14594,7 +14594,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -15077,7 +15077,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "rhimar, a rare metal",
                 "enchant": 25,
                 "flare": "the power of an ice elemental",
@@ -15355,7 +15355,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "drakar, a rare metal"
               }
             },
