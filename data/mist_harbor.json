@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-19 13:22:26 UTC",
+  "created_at": "2025-09-19 14:42:03 UTC",
   "run_time": "12s",
   "town": "Mist Harbor",
   "shops": [
@@ -28695,6 +28695,23 @@
                 "worn": "back",
                 "material": "cloth, an extremely common material"
               }
+            },
+            {
+              "id": "320738627",
+              "name": "a knitted celestial-patterned silver-hazed aneula backpack",
+              "details": {
+                "raw": [
+                  "It is estimated that a knitted celestial-patterned silver-hazed aneula backpack can store a significant amount with enough space for any number of items.",
+                  "Analysis of a knitted celestial-patterned silver-hazed aneula backpack indicates the item is free from merchant alteration restrictions.",
+                  "The aneula backpack will cost 199,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "back",
+                "material": "cloth, an extremely common material"
+              }
             }
           ],
           "sign": [
@@ -29018,19 +29035,6 @@
                 ],
                 "tags": [],
                 "worn": "pants",
-                "material": "cloth, an extremely common material"
-              }
-            },
-            {
-              "id": "158689",
-              "name": "a fuzzy knitted pegasus-patterned purple-hazed jute hat",
-              "details": {
-                "raw": [
-                  "Analysis of a fuzzy knitted pegasus-patterned purple-hazed jute hat indicates the item is free from merchant alteration restrictions.",
-                  "The jute hat will cost 35,000 coins."
-                ],
-                "tags": [],
-                "worn": "head",
                 "material": "cloth, an extremely common material"
               }
             },
@@ -56774,18 +56778,18 @@
   ],
   "removed_items": [
     {
-      "id": "158708",
-      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "id": "158689",
+      "name": "a fuzzy knitted pegasus-patterned purple-hazed jute hat",
       "details": {
         "raw": [
-          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
-          "The silk scarf will cost 30,000 coins."
+          "Analysis of a fuzzy knitted pegasus-patterned purple-hazed jute hat indicates the item is free from merchant alteration restrictions.",
+          "The jute hat will cost 35,000 coins."
         ],
         "tags": [],
-        "worn": "neck",
+        "worn": "head",
         "material": "cloth, an extremely common material"
       },
-      "removed_date": "2025-09-19T13:22:20Z",
+      "removed_date": "2025-09-19T14:41:56Z",
       "last_seen_shop": "Tenacity's Outfitting"
     },
     {
@@ -56806,6 +56810,21 @@
           "The tart charm will cost 35,000 coins."
         ],
         "tags": []
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "158708",
+      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "details": {
+        "raw": [
+          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
+          "The silk scarf will cost 30,000 coins."
+        ],
+        "tags": [],
+        "worn": "neck",
+        "material": "cloth, an extremely common material"
       },
       "removed_date": "2025-09-19T13:22:20Z",
       "last_seen_shop": "Tenacity's Outfitting"
