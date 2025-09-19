@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-18 22:57:57 UTC",
-  "run_time": "59s",
+  "created_at": "2025-09-19 00:08:48 UTC",
+  "run_time": "01m 04s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -95,7 +95,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "yew, an uncommon wood",
                 "enchant": 25,
                 "flare": "the power of an ice elemental",
@@ -397,7 +397,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mithril, an uncommon metal",
                 "enchant": 5,
                 "enhancives": [
@@ -517,7 +517,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "golvern, a very rare metal",
                 "enchant": 30,
                 "weight": 12
@@ -542,7 +542,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20,
                 "weight": 5
@@ -567,7 +567,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "rhimar, a rare metal",
                 "enchant": 25,
                 "flare": "the power of an ice elemental",
@@ -593,7 +593,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "gornar, a rare metal",
                 "enchant": 25,
                 "flare": "the power of an earth elemental",
@@ -625,7 +625,7 @@
                   "max_light",
                   "deepenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "leather, an extremely common material"
               }
             },
@@ -786,7 +786,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "cloth, an extremely common material",
                 "weight": 2
               }
@@ -943,7 +943,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "weight": 4
               }
@@ -966,7 +966,7 @@
                   "max_deep",
                   "max_light"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "metal, an extremely common material",
                 "weight": 4
               }
@@ -1142,7 +1142,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "veil iron, an extraordinarily rare metal",
                 "enchant": 25,
                 "weight": 7
@@ -1201,7 +1201,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "leather, an extremely common material",
                 "weight": 4
               }
@@ -1223,7 +1223,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders",
+                "worn": "cloak",
                 "material": "leather, an extremely common material",
                 "weight": 7
               }
@@ -1394,7 +1394,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "carmiln, an uncommon wood",
                 "enchant": 6,
                 "enhancives": [
@@ -1585,7 +1585,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "deringo, an uncommon wood",
                 "enchant": 8,
                 "enhancives": [
@@ -1982,7 +1982,7 @@
                   "persists"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "mesille, an unusual wood",
                 "enchant": 15,
                 "enhancives": [
@@ -2012,7 +2012,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 24,
                 "weight": 2
@@ -2457,7 +2457,7 @@
                   "purpose",
                   "max_light"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "villswood, an infrequent wood",
                 "enchant": 40,
                 "weight": 6
@@ -2509,7 +2509,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "invar, an unusual metal"
               }
             },
@@ -2533,7 +2533,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "enhancives": [
@@ -2612,7 +2612,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "invar, an unusual metal",
                 "enchant": 2,
                 "weight": 10
@@ -2720,7 +2720,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal"
               }
             },
@@ -2782,7 +2782,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of faewood.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 14 days, 5 hours and 55 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 14 days, 4 hours and 45 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -2998,7 +2998,7 @@
                   "    It seems to have quite a few enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 3 days, 16 hours and 11 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 15 hours and 1 minute."
                 ],
                 "tags": [
                   "purpose",
@@ -3177,7 +3177,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "weight": 7
@@ -3703,7 +3703,7 @@
                   "purpose",
                   "lightenable"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "vultite, an uncommon metal",
                 "enchant": 20
               }
@@ -4053,7 +4053,7 @@
                   "lightenable",
                   "persists"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "orase, an uncommon wood",
                 "enchant": 20,
                 "enhancives": [
@@ -4499,7 +4499,7 @@
                   "lightenable"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "ruic, an uncommon wood",
                 "enchant": 26,
                 "weight": 12
@@ -6647,7 +6647,7 @@
                   "max_light"
                 ],
                 "skill": "ranged weapons",
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "wyrwood, an extraordinarily rare wood",
                 "enchant": 24,
                 "weight": 2
@@ -6694,7 +6694,7 @@
                   "purpose",
                   "max_light"
                 ],
-                "worn": "shoulders and back",
+                "worn": "shoulders",
                 "material": "imflass, an uncommon metal",
                 "enchant": 12,
                 "flare": "the power of a lightning bolt",
