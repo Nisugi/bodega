@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 00:35:40 UTC",
-  "run_time": "09m 26s",
+  "created_at": "2025-09-19 01:54:07 UTC",
+  "run_time": "22s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -7208,19 +7208,6 @@
               }
             },
             {
-              "id": "175966",
-              "name": "a striated black and grey jasper",
-              "details": {
-                "raw": [
-                  "The jasper can not be worn.",
-                  "Analysis of a striated black and grey jasper indicates the item is free from merchant alteration restrictions.",
-                  "The black and grey jasper will cost 10,000 coins."
-                ],
-                "tags": [],
-                "material": "gemstone, a very common gemstone"
-              }
-            },
-            {
               "id": "175965",
               "name": "a green-blue griffin bone baton",
               "details": {
@@ -7239,19 +7226,6 @@
                   "small"
                 ],
                 "activator": "waving"
-              }
-            },
-            {
-              "id": "175964",
-              "name": "a tiny puffball mushroom",
-              "details": {
-                "raw": [
-                  "It is collapsing in on itself with mold and decay.",
-                  "You determine that the puffball mushroom is some kind of food.  It appears to be rotten.",
-                  "Analysis of a tiny puffball mushroom indicates the creator has provided the following information:",
-                  "The puffball mushroom will cost 2,000 coins."
-                ],
-                "tags": []
               }
             },
             {
@@ -7301,19 +7275,6 @@
                 "worn": "neck",
                 "material": "gemstone, an extremely common material",
                 "activator": "waving"
-              }
-            },
-            {
-              "id": "175960",
-              "name": "a ruby-adorned rose gold pectoral",
-              "details": {
-                "raw": [
-                  "Analysis of a ruby-adorned rose gold pectoral indicates the item has certain alteration restrictions.  This material cannot be dyed.",
-                  "The rose gold pectoral will cost 25,000 coins."
-                ],
-                "tags": [],
-                "worn": "neck",
-                "material": "rose gold, an infrequent alloy"
               }
             },
             {
@@ -7618,6 +7579,45 @@
                 ],
                 "tags": [],
                 "material": "organic material, an extremely common material"
+              }
+            },
+            {
+              "id": "172511",
+              "name": "a heavy invar slab",
+              "details": {
+                "raw": [
+                  "The slab can not be worn.",
+                  "Analysis of a heavy invar slab indicates the item is free from merchant alteration restrictions.",
+                  "The invar slab will cost 1,000,000 coins."
+                ],
+                "tags": [],
+                "material": "invar, an unusual metal"
+              }
+            },
+            {
+              "id": "172510",
+              "name": "a heavy razern slab",
+              "details": {
+                "raw": [
+                  "The slab can not be worn.",
+                  "Analysis of a heavy razern slab indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+                  "The razern slab will cost 350,000 coins."
+                ],
+                "tags": [],
+                "material": "razern, a very rare metal"
+              }
+            },
+            {
+              "id": "172512",
+              "name": "a heavy white ora slab",
+              "details": {
+                "raw": [
+                  "The slab can not be worn.",
+                  "Analysis of a heavy white ora slab indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  White ora may only be used as an accent on holy items.  It cannot be dyed.  This material cannot be dyed.",
+                  "The white ora slab will cost 150,000 coins."
+                ],
+                "tags": [],
+                "material": "white ora, a very rare metal"
               }
             }
           ]
@@ -8900,6 +8900,30 @@
                     "ability": "Harness Power Bonus"
                   }
                 ]
+              }
+            },
+            {
+              "id": "172518",
+              "name": "a plum-spiraled golden panther totem suspended from grey hemp",
+              "details": {
+                "raw": [
+                  "Analysis of a plum-spiraled golden panther totem suspended from grey hemp indicates the item is free from merchant alteration restrictions.",
+                  "The golden panther totem will cost 50,000 coins.",
+                  "It has 12 charges.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is estimated to be worth about 9,750 silvers.",
+                  "It is magic resistant.",
+                  "It is predominantly crafted of wood.",
+                  "It has a permanently unlocked loresong by Imrys."
+                ],
+                "tags": [
+                  "purpose",
+                  "small"
+                ],
+                "worn": "neck",
+                "material": "wood, an extremely common material",
+                "spell": "Thurfel's Ward",
+                "activator": "tapping"
               }
             }
           ]
@@ -13141,30 +13165,6 @@
               }
             },
             {
-              "id": "172518",
-              "name": "a plum-spiraled golden panther totem suspended from grey hemp",
-              "details": {
-                "raw": [
-                  "Analysis of a plum-spiraled golden panther totem suspended from grey hemp indicates the item is free from merchant alteration restrictions.",
-                  "The golden panther totem will cost 50,000 coins.",
-                  "It has 12 charges.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is estimated to be worth about 9,750 silvers.",
-                  "It is magic resistant.",
-                  "It is predominantly crafted of wood.",
-                  "It has a permanently unlocked loresong by Imrys."
-                ],
-                "tags": [
-                  "purpose",
-                  "small"
-                ],
-                "worn": "neck",
-                "material": "wood, an extremely common material",
-                "spell": "Thurfel's Ward",
-                "activator": "tapping"
-              }
-            },
-            {
               "id": "172517",
               "name": "a scorched ipantor light crossbow",
               "details": {
@@ -13306,45 +13306,6 @@
                   }
                 ],
                 "weight": 4
-              }
-            },
-            {
-              "id": "172512",
-              "name": "a heavy white ora slab",
-              "details": {
-                "raw": [
-                  "The slab can not be worn.",
-                  "Analysis of a heavy white ora slab indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  White ora may only be used as an accent on holy items.  It cannot be dyed.  This material cannot be dyed.",
-                  "The white ora slab will cost 200,000 coins."
-                ],
-                "tags": [],
-                "material": "white ora, a very rare metal"
-              }
-            },
-            {
-              "id": "172511",
-              "name": "a heavy invar slab",
-              "details": {
-                "raw": [
-                  "The slab can not be worn.",
-                  "Analysis of a heavy invar slab indicates the item is free from merchant alteration restrictions.",
-                  "The invar slab will cost 1,000,000 coins."
-                ],
-                "tags": [],
-                "material": "invar, an unusual metal"
-              }
-            },
-            {
-              "id": "172510",
-              "name": "a heavy razern slab",
-              "details": {
-                "raw": [
-                  "The slab can not be worn.",
-                  "Analysis of a heavy razern slab indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
-                  "The razern slab will cost 350,000 coins."
-                ],
-                "tags": [],
-                "material": "razern, a very rare metal"
               }
             }
           ]
