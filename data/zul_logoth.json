@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 07:36:26 UTC",
-  "run_time": "04s",
+  "created_at": "2025-09-19 09:42:40 UTC",
+  "run_time": "43s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -11,7 +11,9 @@
         {
           "room_title": "Ichiran's General Store",
           "branch": "entry",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -39,7 +41,9 @@
                   "Analysis of a bundle of eonake arrows indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  This material cannot be dyed.",
                   "The eonake arrows will cost 1,000,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -55,7 +59,9 @@
                   "Analysis of a bundle of urglaes-tipped arrows indicates the item is free from merchant alteration restrictions.",
                   "The urglaes-tipped arrows will cost 750,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -73,7 +79,9 @@
                   "Analysis of a bundle of glowbark bolts indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
                   "The glowbark bolts will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -738,7 +746,9 @@
                   "It is predominantly crafted of wood.",
                   "It has a permanently unlocked loresong by Krayze."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "wood, an extremely common material",
                 "weight": 2
@@ -1062,7 +1072,9 @@
                   "It is predominantly crafted of steel.",
                   "It has a permanently unlocked loresong by Krayze."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "steel, an extremely common metal",
                 "weight": 2
@@ -1095,7 +1107,9 @@
                   "The cloth can not be worn.",
                   "The bolt of elesine cloth will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -1328,7 +1342,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 89,000 silvers.",
                   "It has a permanently unlocked loresong by a bard."
@@ -1357,11 +1371,8 @@
                   "There are 5 spells inscribed on the arcane vellum.",
                   "It takes you a moment to focus on the arcane vellum.",
                   "On the arcane vellum you see",
-                  "    (908) Major Fire",
-                  "   (1750) Fash'lo'nae's Gift",
                   "    (401) Elemental Defense I",
-                  "    (504) Slow",
-                  "    (915) Weapon Fire",
+                  " 4 unreadable spells",
                   "The vellum can not be worn.",
                   "The arcane vellum will cost 499,999 coins.",
                   "It is estimated to be worth about 18,000 silvers.",
@@ -1422,7 +1433,7 @@
                   "Analysis of a faewood runestaff indicates the item is free from merchant alteration restrictions.",
                   "The faewood runestaff will cost 199,999 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 400,000 silvers.",
                   "It is predominantly crafted of faewood.",
                   "It is a simple project (41 difficulty) for an adventurer to modify.",
@@ -1572,7 +1583,7 @@
                   "Analysis of a deringo hand crossbow indicates the item is free from merchant alteration restrictions.",
                   "The deringo hand crossbow will cost 549,999 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 200,000 silvers.",
                   "It is sighted to assist in aiming, but exactly how much requires assessment.",
                   "It is predominantly crafted of deringo.",
@@ -1610,7 +1621,9 @@
                   "Analysis of a mangled steel spoon indicates the item is free from merchant alteration restrictions.",
                   "The steel spoon will cost 349,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "steel, an extremely common metal"
               }
             },
@@ -1894,7 +1907,9 @@
                   "Analysis of a delicately carved mistwood table leg indicates the item is free from merchant alteration restrictions.",
                   "The table leg will cost 9,999,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -2108,7 +2123,9 @@
                   "It is predominantly crafted of bone.",
                   "It has a permanently unlocked loresong by Eamun."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "weight": 2
               }
@@ -2302,7 +2319,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 77,000 silvers.",
                   "It has a permanently unlocked loresong by Sutayllyc."
                 ],
@@ -2477,7 +2494,9 @@
                   "The lock can not be worn.",
                   "The blood red lock will cost 9,999,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             }
@@ -2733,7 +2752,9 @@
                   "The shard can not be worn.",
                   "The Mandis Crystal shard will cost 5,000,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2782,7 +2803,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of faewood.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 14 days, 4 hours and 45 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 19 hours and 11 minutes."
                 ],
                 "tags": [
                   "lightenable",
@@ -2822,7 +2843,9 @@
                   "HUG your note to see a list of denied scripts.",
                   "The yellow note will cost 49,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -2835,15 +2858,14 @@
                   "There are 5 spells inscribed on the wrinkled scroll.",
                   "It takes you a moment to focus on the wrinkled scroll.",
                   "On the wrinkled scroll you see",
-                  "    (215) Heroism",
                   "   (1701) Arcane Decoy",
-                  "   (1108) Empathy",
-                  "    (215) Heroism",
-                  "    (106) Spirit Fog",
+                  " 4 unreadable spells",
                   "The scroll can not be worn.",
                   "The wrinkled scroll will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2855,15 +2877,13 @@
                   "There are 5 spells inscribed on the dark scroll.",
                   "It takes you a moment to focus on the dark scroll.",
                   "On the dark scroll you see",
-                  "    (404) Disarm Enhancement",
-                  "    (508) Elemental Bias",
-                  "    (409) Elemental Blast",
-                  "    (910) Major Shock",
-                  "   (1750) Fash'lo'nae's Gift",
+                  " 5 unreadable spells",
                   "The scroll can not be worn.",
                   "The dark scroll will cost 500,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2875,13 +2895,13 @@
                   "There are 3 spells inscribed on the arcane scroll.",
                   "It takes you a moment to focus on the arcane scroll.",
                   "On the arcane scroll you see",
-                  "   (1102) Limb Repair",
-                  "   (1110) Empathic Assault",
-                  "    (215) Heroism",
+                  " 3 unreadable spells",
                   "The scroll can not be worn.",
                   "The arcane scroll will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2893,15 +2913,13 @@
                   "There are 5 spells inscribed on the golden papyrus.",
                   "It takes you a moment to focus on the golden papyrus.",
                   "On the golden papyrus you see",
-                  "    (215) Heroism",
-                  "    (205) Light",
-                  "    (103) Spirit Defense",
-                  "    (212) Interference",
-                  "    (203) Manna",
+                  " 5 unreadable spells",
                   "The papyrus can not be worn.",
                   "The golden papyrus will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2913,16 +2931,13 @@
                   "There are 6 spells inscribed on the crumbling scroll.",
                   "It takes you a moment to focus on the crumbling scroll.",
                   "On the crumbling scroll you see",
-                  "    (115) Fasthr's Reward",
-                  "    (102) Spirit Barrier",
-                  "   (1102) Limb Repair",
-                  "   (1107) Adrenal Surge",
-                  "    (215) Heroism",
-                  "   (1110) Empathic Assault",
+                  " 6 unreadable spells",
                   "The scroll can not be worn.",
                   "The crumbling scroll will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2998,7 +3013,7 @@
                   "    It seems to have quite a few enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 3 days, 15 hours and 1 minute."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 5 hours and 27 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -3028,15 +3043,13 @@
                   "There are 5 spells inscribed on the crumpled paper.",
                   "It takes you a moment to focus on the crumpled paper.",
                   "On the crumpled paper you see",
-                  "    (115) Fasthr's Reward",
-                  "    (203) Manna",
-                  "    (202) Spirit Shield",
-                  "    (219) Spell Shield",
-                  "    (215) Heroism",
+                  " 5 unreadable spells",
                   "The paper can not be worn.",
                   "The crumpled paper will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             }
           ]
@@ -3060,7 +3073,9 @@
                   "Analysis of some deathstone earrings indicates the item is free from merchant alteration restrictions.",
                   "The deathstone earrings will cost 100,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "ears"
               }
             }
@@ -3220,7 +3235,9 @@
         {
           "room_title": "Omra's General Store",
           "branch": "east",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a large sign:",
             "T3 fully unlocked sandwich board! | Corset and Bodice are Vanishing Point | Check out the verb trapped gown &amp;amp;amp; beautiful container clothing items!"
@@ -3229,7 +3246,9 @@
         {
           "room_title": "Omra's General Store",
           "branch": "west",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a large sign:",
             "Magics!  Quivers!  Everything is as you see here.  Gloves are custom altered."
@@ -3245,7 +3264,9 @@
         {
           "room_title": "Frorin's General Store",
           "branch": "entry",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a speckled granite sign:",
             "Welcome to shop of Frorin and Clunk, Dwarven Blade Makers",
@@ -3256,7 +3277,9 @@
         {
           "room_title": "Frorin's General Store",
           "branch": "north",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a speckled granite sign:",
             "This room has wares forged by Frorin Felagun",
@@ -3635,7 +3658,7 @@
                   "Analysis of a rolaren morning star indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
                   "The rolaren morning star will cost 1,500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 900,000 silvers.",
                   "It is temporarily weighted to inflict more damage, but exactly how much requires assessment.  Its temporary enhancement will degrade when it scores a successful strike.  It has quite a few uses left before the enhancement degrades away completely, which will cause the item to lose its ability to inflict greater damage.",
                   "It is predominantly crafted of rolaren.",
@@ -3720,7 +3743,9 @@
                   "A square of sky blue marbrinus is used for the cobbling artisan skill.  It is considered a cobbling upper.",
                   "The sky blue marbrinus will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -3817,7 +3842,9 @@
                   " Your vellum may not be altered or changed in any way.",
                   "The soft white vellum will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -3829,7 +3856,7 @@
                   "Analysis of a baby blue mithril bastard sword indicates the item is free from merchant alteration restrictions.",
                   "The mithril bastard sword will cost 3,500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 600,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (-10 difficulty) for an adventurer to modify."
@@ -3889,7 +3916,9 @@
                   "Both players see: [...] dappled light spilling on your face through rustling leaves.",
                   "The small copper tree will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "copper, an extremely common metal"
               }
             }
@@ -3990,7 +4019,7 @@
                   "Analysis of an invar-tipped steel claidhmore indicates the item is free from merchant alteration restrictions.",
                   "The steel claidhmore will cost 2,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is predominantly crafted of steel.",
                   "It is an overwhelming project (1,629 difficulty) for an adventurer to modify."
                 ],
@@ -4183,10 +4212,12 @@
                   "It is an enhancive item:",
                   "    This enhancive item may not be used by the following races: Human Giantman Half-Elf Sylvankind Dark Elf Elf Dwarf Halfling Forest Gnome Burghal Gnome Half-Krolvin Erithian",
                   "    It seems to be out of enhancive charges.",
-                  "    The enhancive bonuses provided by this item should last nearly enough time for a dwarf to eat dinner.",
+                  "    The enhancive bonuses provided by this item should last nearly enough time for a giantman to eat dinner.",
                   "It will crumble into dust after its last enhancive charge has been expended."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "enhancives": [
                   {
                     "boost": 5,
@@ -4203,7 +4234,7 @@
                   "Analysis of an acid-stained mithglin flail indicates the item is free from merchant alteration restrictions.",
                   "The mithglin flail will cost 500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is predominantly crafted of mithglin.",
                   "It is a simple project (17 difficulty) for an adventurer to modify."
                 ],
@@ -4234,7 +4265,9 @@
                   "Analysis of a crystal-set polished bone amulet indicates the item is free from merchant alteration restrictions.",
                   "The polished bone amulet will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck"
               }
             },
@@ -4282,7 +4315,9 @@
                   "You can try to POKE, PULL, SHAKE, TURN, HUG, and SLAP the monster.",
                   "The toy swamp monster will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -4364,7 +4399,9 @@
         {
           "room_title": "Andorhal's General Store",
           "branch": "entry",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -4385,7 +4422,7 @@
                   "Analysis of an indigo witchwood runestaff indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
                   "The witchwood runestaff will cost 1,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 750,000 silvers.",
                   "It is predominantly crafted of witchwood.",
                   "It is an involved project (210 difficulty) for an adventurer to modify.",
@@ -4543,7 +4580,7 @@
                   "Analysis of an orase runestaff indicates the item is free from merchant alteration restrictions.",
                   "The orase runestaff will cost 300,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,900,000 silvers.",
                   "It is predominantly crafted of orase.",
                   "It is a simple project (77 difficulty) for an adventurer to modify.",
@@ -5044,7 +5081,7 @@
                   "Exterior:",
                   "a coarse black roltalen canvas tent painted in grey wolf silhouettes",
                   "Interior:",
-                  "[Zoleta's Tent]",
+                  "[Brodega's Tent]",
                   "The interior of the tent is pretty sparse.  Bits of sand and dirt are scattered across the ground.  The scent of mildew permeates the air.",
                   "The room interior can be altered to reference a placed lantern, bedroll, storage container, trash can, or scent.  If not referenced, additional sentences will be appended to display them.  There is a 511 character limit total on the room descriptions.  Any items not referenced will show in the room as \"You also see...\".  The items will not be linked in the room description; you can ANALYZE inside the tent to see the items that are placed there to interact with.",
                   "You can STAND the tent to pitch it, and FOLD it to take it down.  You can also CLEAN, LEAN, or KNOCK on the tent.",
@@ -5060,7 +5097,9 @@
                   "It is predominantly crafted of cloth.",
                   "It has a permanently unlocked loresong by Amhrain."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "weight": 6
               }
@@ -5152,7 +5191,7 @@
                   "It has 10 charges.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 650,000 silvers.",
                   "It is magic resistant.",
@@ -5353,7 +5392,9 @@
                   "It is estimated to be worth about 2,400 silvers.",
                   "It has a permanently unlocked loresong by Humoresque."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "spell": "Spirit Guard",
                 "activator": "rubbing",
                 "weight": 2
@@ -5395,7 +5436,9 @@
                   "It is estimated to be worth about 25,000 silvers.",
                   "It has a permanently unlocked loresong by Humoresque."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "spell": "Eye Spy",
                 "activator": "tapping",
                 "weight": 2
@@ -5431,7 +5474,9 @@
                   "A glaes-bound blackened tsark tusk is tier 1 of 2 tiers.",
                   "The blackened tsark tusk will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
@@ -5466,7 +5511,9 @@
                   "An invar-bound carved boar tusk is tier 1 of 2 tiers.",
                   "The carved boar tusk will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
@@ -5501,7 +5548,9 @@
                   "A steel-bound dark minotaur horn is tier 1 of 2 tiers.",
                   "The dark minotaur horn will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
@@ -5522,17 +5571,23 @@
         {
           "room_title": "Deleu's General Store",
           "branch": "entry",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Deleu's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Deleu's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -5842,12 +5897,16 @@
         {
           "room_title": "Omrii's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Omrii's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -5871,7 +5930,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The iron kettle head will cost 199,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material"
               }
             },
@@ -5886,7 +5947,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The brass arm will cost 199,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material"
               }
             }
@@ -6095,7 +6158,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 300,000 silvers.",
                   "It has a permanently unlocked loresong by Munsecours."
@@ -6283,10 +6346,12 @@
                   "The token can not be worn.",
                   "Analysis of a flame-edged cinderous token indicates the creator has provided the following information:",
                   "When REDEEMed, this token will grant a custom Minor Fire bolt message to your character:",
-                  "Zoleta propels a fierce gout of flames at a giant rat!",
+                  "Brodega propels a fierce gout of flames at a giant rat!",
                   "The cinderous token will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -6300,7 +6365,7 @@
                   "It has 0 charges.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 650,000 silvers.",
                   "It is magic resistant.",
@@ -6370,7 +6435,7 @@
                   "Analysis of a bloodstone studded mithril ring indicates the item is free from merchant alteration restrictions.",
                   "The studded mithril ring will cost 1,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
@@ -6440,7 +6505,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a permanently unlocked loresong by Munsecours."
@@ -6471,7 +6536,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a permanently unlocked loresong by Munsecours."
@@ -6506,7 +6571,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 70,000 silvers.",
                   "It has a permanently unlocked loresong by a bard."
@@ -6558,7 +6623,9 @@
                   "It is a basic project (139 difficulty) for an adventurer to modify.",
                   "It has a permanently unlocked loresong by a bard."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "mithril, an uncommon metal",
                 "weight": 3
@@ -6817,7 +6884,9 @@
         {
           "room_title": "Mageriah's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     }

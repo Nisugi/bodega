@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 07:36:00 UTC",
-  "run_time": "06s",
+  "created_at": "2025-09-19 09:35:47 UTC",
+  "run_time": "01m 45s",
   "town": "River's Rest",
   "shops": [
     {
@@ -37,7 +37,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin"
               }
             },
@@ -49,7 +51,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin"
               }
             },
@@ -61,7 +65,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin"
               }
             },
@@ -73,7 +79,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin"
               }
             },
@@ -106,7 +114,9 @@
                   "The guard is intended to be a pauldron or shoulder guard of some sort.  It must remain in the essence of the base item when altering it.",
                   "The shoulder guard will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "shoulders",
                 "material": "leather, an extremely common material"
               }
@@ -127,7 +137,9 @@
                   "Try as you might, you cannot get a good sense of whether or not the wizard's pockets could get any deeper, but you might be able to have a talented merchant lighten the rhimar ice wizard for you.",
                   "The rhimar ice wizard will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "rhimar, a rare metal"
               }
             },
@@ -147,7 +159,9 @@
                   "Try as you might, you cannot get a good sense of whether or not the wizard's pockets could get any deeper, but you might be able to have a talented merchant lighten the veniom air wizard for you.",
                   "The veniom air wizard will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "veniom, a very rare metal"
               }
             }
@@ -165,7 +179,9 @@
                   "Analysis of a bug-eyed shrunken goblin head strung from a fraying length of knotted hemp indicates the item is free from merchant alteration restrictions.",
                   "The shrunken goblin head will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material"
               }
@@ -184,7 +200,9 @@
                   "You estimate that the cigar could burn for another thirty minutes or so.",
                   "The black cigar will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -198,7 +216,9 @@
                   "SCRIPT NAME: Skirt Pin",
                   "The skirt pin will cost 25,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "metal, an extremely common material"
               }
@@ -214,9 +234,9 @@
                   "The burgonet does not have any custom feature settings.  It can have up to four.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
                   "  tucked under a steel close burgonet plumed with a colorful set of feathers, which is tightly knotted in the back.",
-                  "  She has a steel close burgonet plumed with a colorful set of feathers covering her bald head.",
-                  "  with a steel close burgonet plumed with a colorful set of feathers placed at the crown of her head.",
-                  "  She has a steel close burgonet plumed with a colorful set of feathers placed at the crown of her bald head.",
+                  "  He has a steel close burgonet plumed with a colorful set of feathers covering his bald head.",
+                  "  with a steel close burgonet plumed with a colorful set of feathers placed at the crown of his head.",
+                  "  He has a steel close burgonet plumed with a colorful set of feathers placed at the crown of his bald head.",
                   "Please note, that if you have the custom settings made for someone bald, it won't look right for someone with hair, and vice versa.  You also can't wear this with another hair quirk/unique field altering item to change your features.  This item isn't limited to just bandana-type items, it can also be a crown, tiara, visored helm, or something similar.",
                   "  Custom feature 1: None.",
                   "  Custom feature 2: None.",
@@ -246,9 +266,9 @@
                   "The bandana does not have any custom feature settings.  It can have up to four.",
                   "When adding custom feature settings, it will be just like altering your hair quirk (or unique line if you're bald).  An example would be:",
                   "  tucked under a sun-faded linen bandana, which is tightly knotted in the back.",
-                  "  She has a sun-faded linen bandana covering her bald head.",
-                  "  with a sun-faded linen bandana placed at the crown of her head.",
-                  "  She has a sun-faded linen bandana placed at the crown of her bald head.",
+                  "  He has a sun-faded linen bandana covering his bald head.",
+                  "  with a sun-faded linen bandana placed at the crown of his head.",
+                  "  He has a sun-faded linen bandana placed at the crown of his bald head.",
                   "Please note, that if you have the custom settings made for someone bald, it won't look right for someone with hair, and vice versa.  You also can't wear this with another hair quirk/unique field altering item to change your features.  This item isn't limited to just bandana-type items, it can also be a crown, tiara, visored helm, or something similar.",
                   "  Custom feature 1: None.",
                   "  Custom feature 2: None.",
@@ -256,7 +276,9 @@
                   "  Custom feature 4: None.",
                   "The linen bandana will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "cloth, an extremely common material"
               }
@@ -271,7 +293,9 @@
                   "You can try to SHAKE, RUB, and PULL the hook.",
                   "The veniom hook will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "ear",
                 "material": "veniom, a very rare metal"
               }
@@ -402,7 +426,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -416,7 +442,9 @@
                   "Alteration Instructions:  You may alter freely, but it must remain metal of some kind of necklace and have a chain.",
                   "The silver necklace will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "silver, an extremely common metal"
               }
@@ -431,7 +459,9 @@
                   "Alteration Instructions:  You may alter freely, but the adjective must remain a metal type and the noun must be a torc of some kind.",
                   "The white gold torc will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "white gold, an infrequent alloy"
               }
@@ -445,13 +475,13 @@
                   "Analysis of an intricately woven circlet of brilliant yellow beach sunflowers indicates the creator has provided the following information:",
                   "An intricately woven circlet of brilliant yellow beach sunflowers has been worked on by an item from the Weave a Little Dream of Me Collection I series.  As a result, it has additional actions it can do that the average woven item can't.  They are:",
                   " Bow, Curtsy, Remove, Twist, and Wear.",
-                  "Additionally, when you wear an intricately woven circlet of brilliant yellow beach sunflowers, it will change your hairstyle to the following:",
-                  "She has waist length, none deep red hair tousled into a textured bun that is barely restrained by an intricately woven circlet of brilliant yellow beach sunflowers.",
                   "You may have a merchant customize a hairstyle on the circlet.",
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "organic material, an extremely common material"
               }
@@ -463,7 +493,9 @@
                 "raw": [
                   "The tangerine zinnia will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
@@ -478,7 +510,9 @@
                   "This is a Woven Chain (i.e. it was created via weaving!)  A talented merchant can alter it but only with heavy caveats: the noun cannot change unless it is to alter it back to its default wording (this item's default noun is a \"garland\"), and the long description is currently unable to be altered.  You can add a show that does not contradict the hard-coded LOOK.",
                   "The woven garland will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "gemstone, an extremely common material"
               }
@@ -510,7 +544,9 @@
                   "It cannot be altered.",
                   "The blue crystal bottle will cost 1,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -558,7 +594,9 @@
                   "It cannot be altered.",
                   "The green crystal bottle will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -593,7 +631,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -669,7 +709,9 @@
                   "Analysis of a mangled steel spoon indicates the item is free from merchant alteration restrictions.",
                   "The steel spoon will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "steel, an extremely common metal"
               }
             }
@@ -697,7 +739,9 @@
                   "It cannot be altered.",
                   "The green crystal bottle will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -715,7 +759,9 @@
                   "It cannot be altered.",
                   "The green crystal bottle will cost 1,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -733,7 +779,9 @@
                   "It cannot be altered.",
                   "The blue crystal bottle will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -751,7 +799,9 @@
                   "It cannot be altered.",
                   "The blue crystal bottle will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -769,7 +819,9 @@
                   "It cannot be altered.",
                   "The green crystal bottle will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -782,7 +834,9 @@
                   "Analysis of a book-holding bodach figurine indicates the item is free from merchant alteration restrictions.",
                   "The bodach figurine will cost 35,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -855,7 +909,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 1,100,000 silvers.",
                   "It has a permanently unlocked loresong by Toiko."
@@ -894,7 +948,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -908,7 +964,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 300,000 silvers.",
                   "It has a temporarily unlocked loresong by a bard."
@@ -1043,7 +1099,9 @@
                   "Analysis of a titian-haired witch figurine indicates the item is free from merchant alteration restrictions.",
                   "The witch figurine will cost 35,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -1155,7 +1213,9 @@
                   "This piece can be lightened, deepened, and altered according to the notes above.",
                   "The bum roll will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "waist",
                 "material": "cloth, an extremely common material"
               }
@@ -1172,7 +1232,9 @@
                   "Verbs marked with an asterisk (*) will behave differently based on your DEMEANOR.",
                   "The gnarled hand will cost 3,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "organic material, an extremely common material"
               }
@@ -1187,11 +1249,13 @@
                   "This oil is for perfume or cologne.  Current verbs are: DRINK, MEASURE, POUR, and SMELL.",
                   "When applied, this oil will produce the following scent.",
                   " First-person: You have the peaty, smoky bouquet of whiskey subtly scenting your skin.",
-                  " Third-person: Zoleta has the peaty, smoky bouquet of whiskey subtly scenting her skin.",
+                  " Third-person: Brodega has the peaty, smoky bouquet of whiskey subtly scenting his skin.",
                   "This scent is eligible for permanence.",
                   "The peaty whiskey oil will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -1232,10 +1296,12 @@
                   "The locket can not be worn.",
                   "Analysis of a jasper and silver-caged locket indicates the creator has provided the following information:",
                   "When REDEEMed, this locket will grant a custom death message to your character:",
-                  "  * Death be not proud, and Zoleta be not alive.",
+                  "  * Death be not proud, and Brodega be not alive.",
                   "The silver-caged locket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "silver, an extremely common metal"
               }
             },
@@ -1250,7 +1316,9 @@
                   "the golden crown symbol of Koar",
                   "The golden crown symbol will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gold, an uncommon metal"
               }
             },
@@ -1262,10 +1330,12 @@
                   "The candleholder can not be worn.",
                   "Analysis of a fractured glass candleholder indicates the creator has provided the following information:",
                   "When REDEEMed, this candleholder will grant a custom death message to your character:",
-                  "  * According to the traditions of the Human people, let Zoleta be mourned.",
+                  "  * According to the traditions of the Giantman people, let Brodega be mourned.",
                   "The glass candleholder will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -1301,7 +1371,7 @@
                   "Analysis of a soot black drake scimitar indicates the item is free from merchant alteration restrictions.",
                   "The drake scimitar will cost 50,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 33,000 silvers.",
                   "It is predominantly crafted of drake.",
                   "It is a simple project (2 difficulty) for an adventurer to modify.",
@@ -1339,7 +1409,9 @@
                   "It cannot be altered.",
                   "The stability contract will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -1618,7 +1690,9 @@
                   "This parchment will grant knowledge of Nalfein Fanspeak.  REDEEM the parchment to access.",
                   "The fan-folded parchment will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -1638,7 +1712,9 @@
                   "Any willing merchant should be able to change the 15/15/15, long, and show of this charm, though the noun must remain \"charm\".",
                   "The cat charm will cost 1,000,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -1649,10 +1725,12 @@
                   "The tombstone can not be worn.",
                   "Analysis of a bright orange circular tombstone indicates the creator has provided the following information:",
                   "When REDEEMed, this tombstone will grant a custom death message to your character:",
-                  "  * Zoleta will never see another sunset!",
+                  "  * Brodega will never see another sunset!",
                   "The orange circular tombstone will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material"
               }
             },
@@ -1664,10 +1742,12 @@
                   "The tombstone can not be worn.",
                   "Analysis of a broken clover-shaped tombstone indicates the creator has provided the following information:",
                   "When REDEEMed, this tombstone will grant a custom death message to your character:",
-                  "  * Zoleta just took an unlucky hit!",
+                  "  * Brodega just took an unlucky hit!",
                   "The clover-shaped tombstone will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material"
               }
             },
@@ -1679,10 +1759,12 @@
                   "The nodule can not be worn.",
                   "Analysis of a reticulated quartz nodule indicates the creator has provided the following information:",
                   "When REDEEMed, this nodule will grant a custom death message to your character:",
-                  "  * Laugh all you want.  Zoleta may have died, but she died trying.",
+                  "  * Laugh all you want.  Brodega may have died, but he died trying.",
                   "The quartz nodule will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -1694,10 +1776,12 @@
                   "The locket can not be worn.",
                   "Analysis of a jasper and silver-caged locket indicates the creator has provided the following information:",
                   "When REDEEMed, this locket will grant a custom death message to your character:",
-                  "  * Death be not proud, and Zoleta be not alive.",
+                  "  * Death be not proud, and Brodega be not alive.",
                   "The silver-caged locket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "silver, an extremely common metal"
               }
             },
@@ -1728,301 +1812,303 @@
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "The item has Flourishes that do the following:",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "This is an EzScripted item.  Some alteration restrictions may apply.  It has the following messaging:",
                   "  pull",
                   "  1st Person: You tug lightly on your leaf-patterned cravat loosening the knot somewhat.",
-                  "  3rd Person: Zoleta tugs lightly on her leaf-patterned cravat loosening the knot somewhat.",
+                  "  3rd Person: Brodega tugs lightly on his leaf-patterned cravat loosening the knot somewhat.",
                   "  push",
                   "  1st Person: You straighten your leaf-patterned cravat and smooth the fabric.",
-                  "  3rd Person: Zoleta straightens her leaf-patterned cravat and smoothes the fabric.",
+                  "  3rd Person: Brodega straightens his leaf-patterned cravat and smoothes the fabric.",
                   "  remove",
                   "  1st Person: You untie the knot on your leaf-patterned cravat and slip it from around your neck.",
-                  "  3rd Person: Zoleta unties the knot on her leaf-patterned cravat and slips it from around her neck.",
+                  "  3rd Person: Brodega unties the knot on his leaf-patterned cravat and slips it from around his neck.",
                   "  wear",
                   "  1st Person: You hang your leaf-patterned cravat around your neck and tighten the knot.",
-                  "  3rd Person: Zoleta hangs her leaf-patterned cravat around her neck and tightens the knot.",
+                  "  3rd Person: Brodega hangs his leaf-patterned cravat around his neck and tightens the knot.",
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "The leaf-patterned cravat will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "cloth, an extremely common material"
               }
@@ -2057,7 +2143,9 @@
                   "There are no tiers to unlock.",
                   "The crimson silk scarf will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "cloth, an extremely common material"
               }
@@ -2109,7 +2197,7 @@
                   "In this state, you feel like you can WEAR and REMOVE the stick.",
                   "The stick currently has only one style available when worn.",
                   "Currently available style:",
-                  "She has waist length, none deep red hair swept up into a casual twist secured with a carved mesille stick.",
+                  "She has shaven head, none ginger hair swept up into a casual twist secured with a carved mesille stick.",
                   "The mesille stick will cost 15,000 coins."
                 ],
                 "tags": [
@@ -2129,10 +2217,12 @@
                   "In this state, you feel like you can WEAR and REMOVE the barrette.",
                   "The barrette currently has only one style available when worn.",
                   "Currently available style:",
-                  "She has waist length, none deep red hair swept up into a casual twist secured with a scorched mesille barrette.",
+                  "She has shaven head, none ginger hair swept up into a casual twist secured with a scorched mesille barrette.",
                   "The mesille barrette will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "mesille, an unusual wood"
               }
@@ -2146,7 +2236,9 @@
                   "The emerald can not be worn.",
                   "The emerald will cost 20,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2158,7 +2250,9 @@
                   "The emerald can not be worn.",
                   "The emerald will cost 20,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -2172,7 +2266,9 @@
                   "You can NUDGE your villswood heels to change how the heels will be attached to a shoe.  It's currently set to: with villswood heels.",
                   "The villswood heels will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "villswood, an infrequent wood"
               }
             },
@@ -2254,7 +2350,9 @@
                 "raw": [
                   "The lavender pansy will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
@@ -2266,7 +2364,9 @@
                 "raw": [
                   "The carnelian blood lily will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
@@ -2278,7 +2378,9 @@
                 "raw": [
                   "The ivory snapdragon will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure"
               }
@@ -2296,7 +2398,9 @@
                   "WRAITH, SPIDER, GHOUL, WITCH, BAT, CAT, ROSE, CLOUD, BEETLE, BLACK-WIDOW, MISTAKE.",
                   "The black paintbrush will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             }
@@ -2573,7 +2677,7 @@
                   "Analysis of a thick ora shield indicates the item is free from merchant alteration restrictions.",
                   "The ora shield will cost 2,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 800,000 silvers.",
                   "It is predominantly crafted of ora.",
                   "It is a simple project (20 difficulty) for an adventurer to modify.",
@@ -3252,7 +3356,9 @@
                   "Analysis of a golden plaque indicates the item is free from merchant alteration restrictions.",
                   "The golden plaque will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -3266,7 +3372,9 @@
                   "You can tell that the gloves are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The thrak hide gloves will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hands",
                 "material": "leather, an extremely common material"
               }
@@ -3394,7 +3502,9 @@
                   "The pothinir can not be worn.",
                   "Analysis of a tincture of pothinir indicates the item is free from merchant alteration restrictions."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250
               }
             },
@@ -3406,7 +3516,9 @@
                   "The aloeas can not be worn.",
                   "Analysis of a tincture of aloeas indicates the item is free from merchant alteration restrictions."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250
               }
             },
@@ -3418,7 +3530,9 @@
                   "The ephlox can not be worn.",
                   "Analysis of a tincture of ephlox indicates the item is free from merchant alteration restrictions."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250
               }
             },
@@ -3431,7 +3545,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3443,7 +3559,9 @@
                   "Analysis of a crystalline flask containing a sparkling aquamarine potion indicates the item is free from merchant alteration restrictions.",
                   "The aquamarine potion will cost 14,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3454,7 +3572,9 @@
                   "The stone can not be worn.",
                   "Analysis of a smooth stone indicates the item is free from merchant alteration restrictions."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 500
               }
             },
@@ -3482,7 +3602,9 @@
                   "Analysis of a bar of charcoal soap indicates the item is free from merchant alteration restrictions.",
                   "The charcoal soap will cost 32,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -3494,7 +3616,9 @@
                   "The potion can not be worn.",
                   "The pure potion will cost 13,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3506,7 +3630,9 @@
                   "Analysis of a black crystal indicates the item is free from merchant alteration restrictions.",
                   "The black crystal will cost 2,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3518,7 +3644,9 @@
                   "Analysis of a cracked clay disc indicates the item is free from merchant alteration restrictions.",
                   "The clay disc will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3533,7 +3661,9 @@
                   "Alterations to the adjective must make sense to be on a fletching.  This includes: colors; paint and dyes (eg. blue-painted, red-dyed, green-stained); designs that make sense on a small fletching (pink-striped, trident-stamped); or feathers of a specific bird (green parrot, mottled falcon).  Nothing crazy, like attachable adornments (no deathstone-studded fletchings!), are allowed.",
                   "The blood red eagle fletchings will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3601,7 +3731,9 @@
         {
           "room_title": "white crystals",
           "branch": "fresh",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Kaldonis's Smuggled Treasure",
@@ -3616,7 +3748,9 @@
                   "Analysis of a greater mana regeneration potion indicates the item is free from merchant alteration restrictions.",
                   "The regeneration potion will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3629,7 +3763,9 @@
                   "The description of the golden ash wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
                   "The golden ash wand will cost 3,100 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3687,7 +3823,9 @@
                   "The description of the golden ash wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
                   "The golden ash wand will cost 3,100 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3747,7 +3885,9 @@
                   "Analysis of a greater mana potion indicates the creator has provided the following information:",
                   "The mana potion will cost 10,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3759,7 +3899,9 @@
                   "Analysis of a full mana potion indicates the creator has provided the following information:",
                   "The mana potion will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -3808,7 +3950,9 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The moonflowers will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "organic material, an extremely common material"
               }
@@ -3892,7 +4036,9 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The indigo mushroom will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -3906,7 +4052,9 @@
                   "You can tell that the boots are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The thrak hide boots will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "feet",
                 "material": "leather, an extremely common material"
               }
@@ -3980,7 +4128,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -4009,7 +4159,9 @@
                   "Analysis of some fermented sea pineapple indicates the creator has provided the following information:",
                   "The sea pineapple will cost 1,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             }
           ],
@@ -4071,7 +4223,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The sparkling dust will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -4251,7 +4405,9 @@
                   "This churn can be freely altered with a long description or a show description.",
                   "The rhimar-lined churn will cost 65,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "rhimar, a rare metal"
               }
             },
@@ -4263,7 +4419,7 @@
                   "Analysis of an elegant garnet necklace indicates the item is free from merchant alteration restrictions.",
                   "The garnet necklace will cost 95,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 75,000 silvers.",
                   "It is magic resistant.",
                   "It has a permanently unlocked loresong by Zindane."
@@ -4374,7 +4530,7 @@
                   "Analysis of a villswood composite bow indicates the item is free from merchant alteration restrictions.",
                   "The composite bow will cost 490,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,200,000 silvers.",
                   "It is somewhat sighted to assist in aiming than a normal weapon of its type.",
                   "It is predominantly crafted of villswood.",
@@ -4714,7 +4870,9 @@
                   " Your token may not be altered or changed in any way.",
                   "The firewheel style token will cost 290,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -4729,7 +4887,9 @@
                   "This is a mean humanoid toy.  It has no tiers and traps TAP, HUG, SMOOCH, and TURN.  It can be altered as long as it remains a humanoid toy and the alteration suits the ornery messaging.  No happy/cheerful/sickly sweet toy descriptions!",
                   "The domania doll will cost 4,900,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -4822,7 +4982,7 @@
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a basic project (123 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 12 days, 18 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 11 days, 14 hours and 56 minutes."
                 ],
                 "tags": [
                   "max_light",
@@ -4933,7 +5093,7 @@
                   "Analysis of an orase runestaff indicates the item is free from merchant alteration restrictions.",
                   "The orase runestaff will cost 100,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,500,000 silvers.",
                   "It is predominantly crafted of orase.",
                   "It is a simple project (65 difficulty) for an adventurer to modify.",
@@ -5003,7 +5163,9 @@
         {
           "room_title": "Eldekkar's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Eldekkar's Outfitting",
@@ -5058,7 +5220,9 @@
                   " Your curio may not be altered or changed in any way.",
                   "The illusion style curio will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             }
@@ -5087,7 +5251,9 @@
                   "Analysis of a violet orc hide bodice indicates the item is free from merchant alteration restrictions.",
                   "The orc hide bodice will cost 2,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin"
               }
             },
@@ -5128,7 +5294,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -5146,7 +5314,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -5232,7 +5402,7 @@
                   "Analysis of a thick imflass shield indicates the item is free from merchant alteration restrictions.",
                   "The imflass shield will cost 75,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 450,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (50 difficulty) for an adventurer to modify.",
@@ -5553,7 +5723,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -5571,7 +5743,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -5589,7 +5763,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -5607,7 +5783,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -5682,7 +5860,9 @@
                   "Analysis of a half-filled bottle of stale beer indicates the creator has provided the following information:",
                   "The stale beer will cost 2,500 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -5902,7 +6082,9 @@
                   "Analysis of an ivy-engraved chartreuse fire agate indicates the item is free from merchant alteration restrictions.",
                   "The chartreuse fire agate will cost 6,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -5946,7 +6128,9 @@
                   "Analysis of an inky necrotic core indicates the item is free from merchant alteration restrictions.",
                   "The necrotic core will cost 10,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -5960,7 +6144,9 @@
                   "Alterations are fine so long as it remains a napkin, rag, piece of cloth, etc.",
                   "The silk napkin will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -5974,7 +6160,7 @@
                   "It has 4 charges.  It is empowered and can be charged for an additional 157.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 250,000 silvers.",
                   "It has a permanently unlocked loresong by Rottgut."
@@ -6026,7 +6212,9 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The mistweed will cost 3,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -6068,7 +6256,9 @@
                   "You get the feeling, just by appearance, that if you BREAK or EAT the parchment, you would effectively destroy it.",
                   "The parchment will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -6206,7 +6396,9 @@
                   "It is predominantly crafted of gold.",
                   "It has a permanently unlocked loresong by Amhrain."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gold, an uncommon metal",
                 "weight": 2
               }
@@ -6252,7 +6444,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The pincer-shaped gauntlet will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "metal, an extremely common material"
               }
@@ -6321,7 +6515,9 @@
                   "Usage: BUNDLE",
                   "The moonstone sphere will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -6360,7 +6556,9 @@
                   "It cannot be permified.  There are 3 doses left.",
                   "The lagoon blue bottle will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -6493,7 +6691,7 @@
                   "Analysis of a carved mossbark shield indicates the item is free from merchant alteration restrictions.",
                   "The mossbark shield will cost 300,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 750,000 silvers.",
                   "It is predominantly crafted of mossbark.",
                   "It is a simple project (31 difficulty) for an adventurer to modify.",
@@ -6613,7 +6811,7 @@
                   "Analysis of an enruned mithril trident indicates the item is free from merchant alteration restrictions.",
                   "The mithril trident will cost 200,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 550,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (-5 difficulty) for an adventurer to modify.",
@@ -6793,7 +6991,7 @@
                   "Analysis of a gornar rapier indicates the item has certain alteration restrictions.  This material cannot be dyed.",
                   "The gornar rapier will cost 100,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is predominantly crafted of gornar.",
                   "It is a simple project (54 difficulty) for an adventurer to modify.",
@@ -6932,7 +7130,9 @@
                   "Each individual projectile will be \"a light glaes-tipped bolt\".",
                   "The glaes-tipped bolts will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -6948,7 +7148,9 @@
                   "Each individual projectile will be \"a light vaalin-banded bolt\".",
                   "The vaalin-banded bolts will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -6964,7 +7166,9 @@
                   "Each individual projectile will be \"a light vaalin-banded bolt\".",
                   "The vaalin-banded bolts will cost 40,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -6980,7 +7184,9 @@
                   "Each individual projectile will be \"a light glaes-tipped bolt\".",
                   "The glaes-tipped bolts will cost 40,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -6996,7 +7202,9 @@
                   "Each individual projectile will be \"a light blade-tipped bolt\".",
                   "The blade-tipped bolts will cost 30,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7008,7 +7216,9 @@
                   "The caps can not be worn.",
                   "The drakar caps will cost 4,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "drakar, a rare metal"
               }
             },
@@ -7021,7 +7231,9 @@
                   "The arrowheads can not be worn.",
                   "The drakar arrowheads will cost 7,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "drakar, a rare metal"
               }
             },
@@ -7040,7 +7252,9 @@
                   "Exit Message: The air bubble encasing the room suddenly begins to disintegrate and as a surge of water rushes towards you, your surroundings blur...",
                   "The monkey's paw trinket will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -7053,25 +7267,27 @@
                   "Invoking this sheaf of parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Gesturing simply in the air, you invoke the wind to be your ally, and then cast [Spell Name]...",
-                  "Third Person:  Gesturing simply in the air, Zoleta invokes the wind to be her ally, and then casts...",
+                  "Third Person:  Gesturing simply in the air, Brodega invokes the wind to be his ally, and then casts...",
                   "Hidden or Invisible:  Rising softly on the air is the gentle sound of someone invoking the wind to be their ally.",
                   "Specific Spell Restriction:  602",
                   "Invoking this sheaf of parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Gesturing simply in the air, you invoke the wind to be your ally, and then cast [Spell Name]...",
-                  "Third Person:  Gesturing simply in the air, Zoleta invokes the wind to be her ally, and then casts...",
+                  "Third Person:  Gesturing simply in the air, Brodega invokes the wind to be his ally, and then casts...",
                   "Hidden or Invisible:  Rising softly on the air is the gentle sound of someone invoking the wind to be their ally.",
                   "Specific Spell Restriction:  602",
                   "Analysis of a translucent sheaf of parchment indicates the creator has provided the following information:",
                   "Invoking this sheaf of parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Gesturing simply in the air, you invoke the wind to be your ally, and then cast [Spell Name]...",
-                  "Third Person:  Gesturing simply in the air, Zoleta invokes the wind to be her ally, and then casts...",
+                  "Third Person:  Gesturing simply in the air, Brodega invokes the wind to be his ally, and then casts...",
                   "Hidden or Invisible:  Rising softly on the air is the gentle sound of someone invoking the wind to be their ally.",
                   "Specific Spell Restriction:  602",
                   "The sheaf of parchment will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7082,26 +7298,28 @@
                   "This off-white vellum looks interesting...  Perhaps you should read it.",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your golden eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your golden brown skin before sending it outward into the surrounding area.",
+                  "Third Person:  Brodega's golden eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his golden brown skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your golden eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your golden brown skin before sending it outward into the surrounding area.",
+                  "Third Person:  Brodega's golden eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his golden brown skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "Analysis of a cloudy off-white vellum indicates the creator has provided the following information:",
                   "Invoking this off-white vellum will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Your pale blue eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your lily white skin before sending it outward into the surrounding area.",
-                  "Third Person:  Zoleta's pale blue eyes slip closed and she issues a gentle summons to the spirits of water and moisture.  Flashing around her, the spirits respond and leave trails of their power upon her lily white skin, which she then channels and sends outward into the surrounding area.",
+                  "First Person:  Your golden eyes slip closed and you issue a gentle summons to the spirits of water and moisture asking that they aid you in the casting of [Spell Name].  Their power collects in the air around you and you carefully draw it inward, letting it leave trails upon your golden brown skin before sending it outward into the surrounding area.",
+                  "Third Person:  Brodega's golden eyes slip closed and he issues a gentle summons to the spirits of water and moisture.  Flashing around him, the spirits respond and leave trails of their power upon his golden brown skin, which he then channels and sends outward into the surrounding area.",
                   "Hidden or Invisible:  Preceding a soft, spoken spell is a gentle summons to the spirits of water and moisture.",
                   "Specific Spell Restriction:  106",
                   "The off-white vellum will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7112,26 +7330,28 @@
                   "This hoarfrost-rimed slip looks interesting...  Perhaps you should read it.",
                   "Invoking this hoarfrost-rimed slip will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your pale blue eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
-                  "Third Person:  Reciting the mystical phrases of her elemental spell, a rime of frost suddenly encircles Zoleta's pale blue eyes and infuses the whites of her ocular cavity with icy blue energy that dissipates as she releases her spell.",
+                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your golden eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
+                  "Third Person:  Reciting the mystical phrases of his elemental spell, a rime of frost suddenly encircles Brodega's golden eyes and infuses the whites of his ocular cavity with icy blue energy that dissipates as he releases his spell.",
                   "Hidden or Invisible:  Mystical phrases fill the air.",
                   "Spell Circle Restrictions:  Major Elemental",
                   "Invoking this hoarfrost-rimed slip will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your pale blue eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
-                  "Third Person:  Reciting the mystical phrases of her elemental spell, a rime of frost suddenly encircles Zoleta's pale blue eyes and infuses the whites of her ocular cavity with icy blue energy that dissipates as she releases her spell.",
+                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your golden eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
+                  "Third Person:  Reciting the mystical phrases of his elemental spell, a rime of frost suddenly encircles Brodega's golden eyes and infuses the whites of his ocular cavity with icy blue energy that dissipates as he releases his spell.",
                   "Hidden or Invisible:  Mystical phrases fill the air.",
                   "Spell Circle Restrictions:  Major Elemental",
                   "Analysis of a thin hoarfrost-rimed slip indicates the creator has provided the following information:",
                   "Invoking this hoarfrost-rimed slip will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
-                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your pale blue eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
-                  "Third Person:  Reciting the mystical phrases of her elemental spell, a rime of frost suddenly encircles Zoleta's pale blue eyes and infuses the whites of her ocular cavity with icy blue energy that dissipates as she releases her spell.",
+                  "First Person:  Reciting the mystical phrases of [Spell Name], you feel a rime of frost wreathe your golden eyes and infuse them with an icy blue energy that dissipates as you release your spell.",
+                  "Third Person:  Reciting the mystical phrases of his elemental spell, a rime of frost suddenly encircles Brodega's golden eyes and infuses the whites of his ocular cavity with icy blue energy that dissipates as he releases his spell.",
                   "Hidden or Invisible:  Mystical phrases fill the air.",
                   "Spell Circle Restrictions:  Major Elemental",
                   "The hoarfrost-rimed slip will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7143,25 +7363,27 @@
                   "Invoking this thick parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Reaching outward, you call upon the spirits of chaos to come to your aid and to empower your [Spell Name] spell.",
-                  "Third Person:  Zoleta calls upon the spirits of chaos to come to her aid and to empower her spell.",
+                  "Third Person:  Brodega calls upon the spirits of chaos to come to his aid and to empower his spell.",
                   "Hidden or Invisible:  From somewhere nearby, a wild call for aid to the spirits of chaos echoes through the area.",
                   "Specific Spell Restriction:  216",
                   "Invoking this thick parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Reaching outward, you call upon the spirits of chaos to come to your aid and to empower your [Spell Name] spell.",
-                  "Third Person:  Zoleta calls upon the spirits of chaos to come to her aid and to empower her spell.",
+                  "Third Person:  Brodega calls upon the spirits of chaos to come to his aid and to empower his spell.",
                   "Hidden or Invisible:  From somewhere nearby, a wild call for aid to the spirits of chaos echoes through the area.",
                   "Specific Spell Restriction:  216",
                   "Analysis of a mottled thick parchment indicates the creator has provided the following information:",
                   "Invoking this thick parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Reaching outward, you call upon the spirits of chaos to come to your aid and to empower your [Spell Name] spell.",
-                  "Third Person:  Zoleta calls upon the spirits of chaos to come to her aid and to empower her spell.",
+                  "Third Person:  Brodega calls upon the spirits of chaos to come to his aid and to empower his spell.",
                   "Hidden or Invisible:  From somewhere nearby, a wild call for aid to the spirits of chaos echoes through the area.",
                   "Specific Spell Restriction:  216",
                   "The thick parchment will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7173,7 +7395,9 @@
                   "Analysis of a gnomish woodcarver effigy indicates the item is free from merchant alteration restrictions.",
                   "The woodcarver effigy will cost 3,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -7285,7 +7509,9 @@
                   "The tool can not be worn.",
                   "The bronze tool will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "bronze, a very common alloy"
               }
             },
@@ -7300,7 +7526,9 @@
                   "It may be altered, but it must remain a veil-like cloth face covering of some sort.",
                   "The kidskin face wrap will cost 45,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "leather, an extremely common material"
               }
@@ -7317,7 +7545,9 @@
                   "You can TURN and RUB your compass.",
                   "The copper compass will cost 35,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material"
               }
             },
@@ -7335,7 +7565,9 @@
                   "This item has Stay-Put qualities.  If you PLACE it, it will be moved to the ground in your current room and stay there, unable to be picked up by others or taken by the janitor, for 4 hours.  You may NUDGE it at a valid container to place the lamp on top of the container until you NUDGE it out of its place again.  After the duration expires, the item is fair game for others and for the janitor.  Alternately, the item may be PLACEd by the owner of a private property within the grounds of the property or by the owner of a stall or loft in and will stay there until PLACEd or NUDGEd again.",
                   "The red crystal oil lamp will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -7347,7 +7579,9 @@
                   "The hide can not be worn.",
                   "The iron boar hide will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "leather, an extremely common material"
               }
             },
@@ -7359,7 +7593,7 @@
                   "An ahmdir blue yierka wool cape has an etched bone bangle fitted into the left corner where the fabric has been stitched to form a sleeve, while the right corner has a lacquered morduska talon fibula pinned to it.",
                   "It is estimated that an ahmdir blue yierka wool cape can store a significant amount with enough space for any number of items.",
                   "Analysis of an ahmdir blue yierka wool cape indicates the creator has provided the following information:",
-                  "An ahmdir blue yierka wool cape is part of the Shield Cape Collection, which was purchased at Duskruin in the shop \"Shield Thyself\".  It is a passive defense item that has a chance to block an incoming blow.  The chance increases with each tier that is unlocked.  If the wearer has no weapons in her hands, no shield/runestaff, or is using a bow/crossbow, then she gets the full benefit of the cape.  Otherwise the chance is halved.",
+                  "An ahmdir blue yierka wool cape is part of the Shield Cape Collection, which was purchased at Duskruin in the shop \"Shield Thyself\".  It is a passive defense item that has a chance to block an incoming blow.  The chance increases with each tier that is unlocked.  If the wearer has no weapons in his hands, no shield/runestaff, or is using a bow/crossbow, then he gets the full benefit of the cape.  Otherwise the chance is halved.",
                   "  Its current status is OTS and that gives it access to the following verbs: pull (removes brooch), push (adds brooch), remove, turn (removes bangle), twist (adds bangle), wear",
                   "To upgrade its abilities, you will need to obtain an unlock certificate.",
                   "Brooch Data: (Brooch is Absent) A lacquered morduska talon fibula can be changed by using PULL to remove the brooch and PUSH to add a new one.  Please note, only specialized brooches will work.  Once your brooch is upgraded from the default piece, it unlocks a 50% chance to retain a charge within it for each successful block.  When the brooch reaches 10 charges, it automatically flares and absorbs all of the charges.",
@@ -7404,7 +7638,9 @@
                   "ANALYZE again in the next 10 seconds for Customization and Alteration Instructions.",
                   "The grey ironwood mechanism will cost 2,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -7419,7 +7655,9 @@
                   "It may be altered freely provided the noun remains blanket.",
                   "The shaggy rackhal blanket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material"
               }
@@ -7434,7 +7672,9 @@
                   "This is carrier oil for a Sacred Flame lamp.  It can take on the scent of a perfume and used to light a Sacred Flame oil lamp.  POUR the perfume into the oil.  This has 5 charges",
                   "The unscented lamp oil will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -7449,7 +7689,9 @@
                   "Try to TURN and TOSS the wrench!",
                   "The golden invar wrench will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "invar, an unusual metal"
               }
             },
@@ -7484,7 +7726,9 @@
                   "Lip Gloss by Naidem",
                   "The cotton rag will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -7496,7 +7740,9 @@
                   "The laje can not be worn.",
                   "The ingot of laje will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "laje, an infrequent metal"
               }
             }
@@ -7528,7 +7774,9 @@
                   "It cannot be altered.",
                   "The urchin guide contract will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7541,7 +7789,9 @@
                   "Analysis of an iridescent blush pink crystal indicates the item is free from merchant alteration restrictions.",
                   "The blush pink crystal will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -7554,7 +7804,9 @@
                   "Analysis of a gold-flushed fiery crimson crystal indicates the item is free from merchant alteration restrictions.",
                   "The fiery crimson crystal will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -7567,14 +7819,14 @@
                   "Invoking this sheet of music will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a lively jig, you hum a folk tune about fickle Lady Luck.  You playfully launch into song and as the comical words to the chorus fall from your lips, you seamlessly weave them into [Spell Name].",
-                  "Third Person:  Zoleta hums a traditional folk song about fickle Lady Luck.  She leaves behind the humming and playfully launches into the comical chorus.",
+                  "Third Person:  Brodega hums a traditional folk song about fickle Lady Luck.  He leaves behind the humming and playfully launches into the comical chorus.",
                   "Hidden or Invisible:  From somewhere nearby, you hear someone humming a traditional folk song about Lady Luck, which they finish by outright singing the comical chorus.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1006",
                   "Invoking this sheet of music will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a lively jig, you hum a folk tune about fickle Lady Luck.  You playfully launch into song and as the comical words to the chorus fall from your lips, you seamlessly weave them into [Spell Name].",
-                  "Third Person:  Zoleta hums a traditional folk song about fickle Lady Luck.  She leaves behind the humming and playfully launches into the comical chorus.",
+                  "Third Person:  Brodega hums a traditional folk song about fickle Lady Luck.  He leaves behind the humming and playfully launches into the comical chorus.",
                   "Hidden or Invisible:  From somewhere nearby, you hear someone humming a traditional folk song about Lady Luck, which they finish by outright singing the comical chorus.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1006",
@@ -7582,13 +7834,15 @@
                   "Invoking this sheet of music will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a lively jig, you hum a folk tune about fickle Lady Luck.  You playfully launch into song and as the comical words to the chorus fall from your lips, you seamlessly weave them into [Spell Name].",
-                  "Third Person:  Zoleta hums a traditional folk song about fickle Lady Luck.  She leaves behind the humming and playfully launches into the comical chorus.",
+                  "Third Person:  Brodega hums a traditional folk song about fickle Lady Luck.  He leaves behind the humming and playfully launches into the comical chorus.",
                   "Hidden or Invisible:  From somewhere nearby, you hear someone humming a traditional folk song about Lady Luck, which they finish by outright singing the comical chorus.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1006",
                   "The sheet of music will cost 750,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7600,25 +7854,27 @@
                   "Invoking this hoarfrost-rimed papyrus will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Lithely moving your hands through the air, you intone a sonorous mantra and shift your body into a fluid stance that calls to mind wind, water, and ice.  As you utter the last syllables, a wave of cold air radiates outward from you.",
-                  "Third Person:  Lithely moving her hands through the air, Zoleta intones a sonorous mantra and shifts her body into a fluid, open stance.  As she utters the last syllables, a wave of cold air radiates outward from her.",
+                  "Third Person:  Lithely moving his hands through the air, Brodega intones a sonorous mantra and shifts his body into a fluid, open stance.  As he utters the last syllables, a wave of cold air radiates outward from him.",
                   "Hidden or Invisible:  As a sonorous mantra fills the air a wave of cold follows it, but quickly dissipates.",
                   "Specific Spell Restriction:  1215",
                   "Invoking this hoarfrost-rimed papyrus will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Lithely moving your hands through the air, you intone a sonorous mantra and shift your body into a fluid stance that calls to mind wind, water, and ice.  As you utter the last syllables, a wave of cold air radiates outward from you.",
-                  "Third Person:  Lithely moving her hands through the air, Zoleta intones a sonorous mantra and shifts her body into a fluid, open stance.  As she utters the last syllables, a wave of cold air radiates outward from her.",
+                  "Third Person:  Lithely moving his hands through the air, Brodega intones a sonorous mantra and shifts his body into a fluid, open stance.  As he utters the last syllables, a wave of cold air radiates outward from him.",
                   "Hidden or Invisible:  As a sonorous mantra fills the air a wave of cold follows it, but quickly dissipates.",
                   "Specific Spell Restriction:  1215",
                   "Analysis of a thin hoarfrost-rimed papyrus indicates the creator has provided the following information:",
                   "Invoking this hoarfrost-rimed papyrus will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Lithely moving your hands through the air, you intone a sonorous mantra and shift your body into a fluid stance that calls to mind wind, water, and ice.  As you utter the last syllables, a wave of cold air radiates outward from you.",
-                  "Third Person:  Lithely moving her hands through the air, Zoleta intones a sonorous mantra and shifts her body into a fluid, open stance.  As she utters the last syllables, a wave of cold air radiates outward from her.",
+                  "Third Person:  Lithely moving his hands through the air, Brodega intones a sonorous mantra and shifts his body into a fluid, open stance.  As he utters the last syllables, a wave of cold air radiates outward from him.",
                   "Hidden or Invisible:  As a sonorous mantra fills the air a wave of cold follows it, but quickly dissipates.",
                   "Specific Spell Restriction:  1215",
                   "The hoarfrost-rimed papyrus will cost 250,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7631,7 +7887,9 @@
                   "You can WAVE, TURN, WEAR, or REMOVE the band.",
                   "The metal band will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "finger",
                 "material": "metal, an extremely common material"
               }
@@ -7644,7 +7902,9 @@
                   "The vial can not be worn.",
                   "The string-wrapped vial will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -7656,7 +7916,9 @@
                   "The bottle can not be worn.",
                   "The frosted glass bottle will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -7671,7 +7933,9 @@
                   "Try as you might, you cannot get a good sense of whether or not the envelope's pockets could get any deeper, but you can tell that the envelope is as light as it can get.",
                   "The charcoal envelope will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7685,7 +7949,9 @@
                   "Analysis of an ecru card sketched with a fine-lined wyrwood sapling indicates the item is free from merchant alteration restrictions.",
                   "The ecru card will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7709,7 +7975,9 @@
                   " Custom Calling Card Setting 3: Not Set",
                   "The card case will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7719,13 +7987,15 @@
               "details": {
                 "raw": [
                   "Faintly visible on the face of the pendant is the image of an ethereal grey tombstone.",
-                  "There appears to be something engraved on the tombstone.  It reads, \"Here lies Zoleta.  May she rest in peace.\"",
+                  "There appears to be something engraved on the tombstone.  It reads, \"Here lies Brodega.  May he rest in peace.\"",
                   "The image of the tombstone is currently cast in shadow.",
                   "Analysis of a veniom-edged gold gravestone pendant indicates the creator has provided the following information:",
                   "This item will summon a tombstone upon your death, to remain there until you breathe once again.  TURN will toggle this ability.  LOOK to see if the ability is active, if not, RUB it.",
                   "The gold gravestone pendant will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "gold, an uncommon metal"
               }
@@ -7765,7 +8035,9 @@
                   "You can tell that the gloves are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The flyrsilk gloves will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hands",
                 "material": "cloth, an extremely common material"
               }
@@ -7785,7 +8057,9 @@
                   "You can tell that the gloves are as light as they can get, but you might be able to have a talented merchant deepen their pockets for you.",
                   "The lotus silk gloves will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hands",
                 "material": "cloth, an extremely common material"
               }
@@ -7801,7 +8075,9 @@
                   "  You can TURN, CLENCH, PUSH and FLIP the cutter.",
                   "The glaes cigar cutter will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glaes, a rare metal"
               }
             },
@@ -7817,7 +8093,9 @@
                   "TAP, CLEAN, SCOWL (SCOWL my lorgnette at <TARGET>).",
                   "The villswood lorgnette will cost 45,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "villswood, an infrequent wood"
               }
             },
@@ -7837,7 +8115,9 @@
                   "Try as you might, you cannot get a good sense of whether or not the case's pockets could get any deeper, but you can tell that the case is as light as it can get.",
                   "The instrument case will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "leather, an extremely common material"
               }
             },
@@ -7849,7 +8129,9 @@
                   "The tuner can not be worn.",
                   "The brass tuner will cost 7,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material"
               }
             },
@@ -7863,7 +8145,9 @@
                   "This item can be held while playing a two-handed instrument in the off-hand.  It may be altered freely, provided it remains as a pick, plectrum or other appropriate noun.",
                   "The mother-of-pearl plectrum will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7877,7 +8161,9 @@
                   "This item can be held while playing a two-handed instrument in the off-hand.  It may be altered freely, provided it remains as a pick, plectrum or other appropriate noun.",
                   "The toroise shell pick will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -7893,7 +8179,9 @@
                   "Currently, this stein is Tier 1 (of 2), and you can PUSH and RAISE it.  Some merchants may be able to unlock it further for you.",
                   "The silver stein will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7905,14 +8193,14 @@
                   "Invoking this off-white parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a favorite chanty, you liltingly begin to sing the [Spell Name].",
-                  "Third Person:  Zoleta liltingly begins to sing a sea chanty, her timbre launching into the repeating chorus with ease.",
+                  "Third Person:  Brodega liltingly begins to sing a sea chanty, his timbre launching into the repeating chorus with ease.",
                   "Hidden or Invisible:  From somewhere nearby, you hear the lilting sound of a chanty being sung.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1004",
                   "Invoking this off-white parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a favorite chanty, you liltingly begin to sing the [Spell Name].",
-                  "Third Person:  Zoleta liltingly begins to sing a sea chanty, her timbre launching into the repeating chorus with ease.",
+                  "Third Person:  Brodega liltingly begins to sing a sea chanty, his timbre launching into the repeating chorus with ease.",
                   "Hidden or Invisible:  From somewhere nearby, you hear the lilting sound of a chanty being sung.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1004",
@@ -7920,13 +8208,15 @@
                   "Invoking this off-white parchment will grant you permanent access to a special method of preparing your spells.",
                   "It will provide the following phrase:",
                   "First Person:  Calling to mind a favorite chanty, you liltingly begin to sing the [Spell Name].",
-                  "Third Person:  Zoleta liltingly begins to sing a sea chanty, her timbre launching into the repeating chorus with ease.",
+                  "Third Person:  Brodega liltingly begins to sing a sea chanty, his timbre launching into the repeating chorus with ease.",
                   "Hidden or Invisible:  From somewhere nearby, you hear the lilting sound of a chanty being sung.",
                   "Profession Restrictions:  Bard only",
                   "Specific Spell Restriction:  1004",
                   "The off-white parchment will cost 500,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -7938,7 +8228,9 @@
                   "The case can not be worn.",
                   "The mahogany case will cost 1,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             }
@@ -8221,7 +8513,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a temporarily unlocked loresong by Zedez."
@@ -8251,7 +8543,7 @@
                   "It has 0 charges.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 300,000 silvers.",
                   "It is magic resistant.",
@@ -8316,7 +8608,7 @@
                   "Analysis of an embossed vultite aventail indicates the item is free from merchant alteration restrictions.",
                   "The vultite aventail will cost 999,999 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is temporarily and moderately resistant (11%) to crushing attacks, provided by a temporary enhancement and will degrade when the wearer is struck in combat.  It has an incredible amount of uses left before the enhancement degrades away completely, which will cause the item to simply return to normal.",
                   "It is estimated to be worth about 500,000 silvers.",
                   "It is predominantly crafted of vultite.",
@@ -8391,7 +8683,7 @@
                   "Analysis of a thin-bladed mithril handaxe indicates the item is free from merchant alteration restrictions.",
                   "The mithril handaxe will cost 500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 400,000 silvers.",
                   "It is predominantly crafted of mithril.",
                   "It is a simple project (91 difficulty) for an adventurer to modify.",
@@ -8439,7 +8731,7 @@
                   "It has 16 charges.  It is empowered and can be charged for an additional 432.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 300,000 silvers.",
                   "It has a permanently unlocked loresong by Zedez."
@@ -8510,7 +8802,7 @@
                   "The ora crown will cost 1,000,000 coins.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 200,000 silvers."
                 ],
@@ -8566,7 +8858,7 @@
                   "Analysis of an ivory-inlaid silver torc indicates the item is free from merchant alteration restrictions.",
                   "The silver torc will cost 5,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 450,000 silvers.",
                   "It is magic resistant.",
@@ -8599,7 +8891,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will disintegrate after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a temporarily unlocked loresong by Zedez."
@@ -8832,7 +9124,7 @@
                   "It has 0 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a permanently unlocked loresong by Zedez."
@@ -8960,12 +9252,16 @@
         {
           "room_title": "crystal sighted crossbows - 4x OTS mech bows",
           "branch": "T1",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "golvern maul - 5x, ELEGANT forging",
           "branch": "blessed",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -9130,7 +9426,7 @@
                   "Analysis of a glistening orase runestaff indicates the item is free from merchant alteration restrictions.",
                   "The orase runestaff will cost 797,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,400,000 silvers.",
                   "It is predominantly crafted of orase.",
                   "It is a basic project (156 difficulty) for an adventurer to modify."
@@ -9223,7 +9519,9 @@
                   "It cannot be altered.",
                   "The larger locker contract will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -9240,7 +9538,9 @@
                   "It cannot be altered.",
                   "The larger locker contract will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -9323,7 +9623,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -9342,7 +9644,9 @@
                   "It is a basic project (151 difficulty) for an adventurer to modify.",
                   "It has a temporarily unlocked loresong by Wretors."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "imflass, an uncommon metal",
                 "weight": 3
@@ -9414,7 +9718,7 @@
                   "Analysis of a thick vultite aventail indicates the item is free from merchant alteration restrictions.",
                   "The vultite aventail will cost 2,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 500,000 silvers.",
                   "It is predominantly crafted of vultite.",
                   "It is a simple project (8 difficulty) for an adventurer to modify.",
@@ -9709,7 +10013,7 @@
                   "The kakore aegis will cost 100,000 coins.",
                   "It protects against magical attacks with a bonus of 5.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 350,000 silvers.",
                   "It is predominantly crafted of kakore.",
                   "It is a simple project (36 difficulty) for an adventurer to modify.",
@@ -10727,7 +11031,7 @@
                   "Analysis of a cyan imflass knuckle-blade indicates the item is free from merchant alteration restrictions.",
                   "The imflass knuckle-blade will cost 1,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 750,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (55 difficulty) for an adventurer to modify.",
@@ -10796,7 +11100,9 @@
         {
           "room_title": "Annandale's General Store",
           "branch": "entry",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Annandale's Outfitting",
@@ -10814,7 +11120,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The sparkling dust will cost 1,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -10830,7 +11138,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The veniom thread will cost 7,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "veniom, a very rare metal"
               }
             },
@@ -10846,7 +11156,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The wooden rod will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             }
@@ -10869,7 +11181,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -10886,7 +11200,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 30,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -10903,7 +11219,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -10920,7 +11238,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -10937,7 +11257,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 3,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -10954,7 +11276,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 3,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             }
@@ -11338,7 +11662,9 @@
                   "This totem is not suitable for alterations or fodder.  It appears as if it might be suitable for carving with a chisel.  You should find a jagged stone which can be found within the Duskruin tunnels.",
                   "The ur-barath totem will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material"
               }
             },
@@ -11353,7 +11679,9 @@
                   "This totem is not suitable for alterations or fodder.  It appears as if it might be suitable for carving with a chisel.  You should find a jagged stone which can be found within the Duskruin tunnels.",
                   "The ur-barath totem will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material"
               }
             },
@@ -11404,7 +11732,9 @@
                   "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
                   "The glass jar will cost 85,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -11593,7 +11923,7 @@
                   "Analysis of an orase runestaff indicates the item is free from merchant alteration restrictions.",
                   "The orase runestaff will cost 100,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 650,000 silvers.",
                   "It is predominantly crafted of orase.",
                   "It is a simple project (47 difficulty) for an adventurer to modify.",
@@ -11623,7 +11953,7 @@
                   "Analysis of an invar-edged imflass falchion indicates the item is free from merchant alteration restrictions.",
                   "The imflass falchion will cost 150,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 600,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (51 difficulty) for an adventurer to modify.",
@@ -11701,7 +12031,9 @@
                   "Analysis of a simple tabard indicates the item is free from merchant alteration restrictions.",
                   "The simple tabard will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "front",
                 "material": "cloth, an extremely common material"
               }
@@ -11716,7 +12048,9 @@
                   "Analysis of a large sourdough bagel indicates the creator has provided the following information:",
                   "The sourdough bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11728,7 +12062,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11740,7 +12076,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11752,7 +12090,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11764,7 +12104,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11777,7 +12119,9 @@
                   "Analysis of a perfect dill pickle indicates the creator has provided the following information:",
                   "The dill pickle will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11790,7 +12134,9 @@
                   "Analysis of a munched-on lightly toasted bagel indicates the creator has provided the following information:",
                   "The lightly toasted bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11806,7 +12152,9 @@
                   "It is magic resistant.",
                   "It has a temporarily unlocked loresong by Mongonator."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "weight": 2
               }
             },
@@ -11820,7 +12168,9 @@
                   "This is a fire bomb that can only be used within Duskruin Arena.  It causes fire damage over time.",
                   "The crimson glass sphere will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material"
               }
             },
@@ -11874,7 +12224,9 @@
                   "The permit can not be worn.",
                   "The shop permit will cost 999,999,900 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11896,7 +12248,9 @@
                   "The permit can not be worn.",
                   "The shop permit will cost 999,999,900 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11909,7 +12263,9 @@
                   "Analysis of a dish of slightly melted butter indicates the creator has provided the following information:",
                   "The slightly melted butter will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11924,7 +12280,7 @@
                   "Exterior:",
                   "a canary yellow canvas tent",
                   "Interior:",
-                  "[Zoleta's Tent]",
+                  "[Brodega's Tent]",
                   "The interior of the tent is pretty sparse.  Bits of sand and dirt are scattered across the ground.  The scent of mildew permeates the air.",
                   "The room interior can be altered to reference a placed lantern, bedroll, storage container, trash can, or scent.  If not referenced, additional sentences will be appended to display them.  There is a 511 character limit total on the room descriptions.  Any items not referenced will show in the room as \"You also see...\".  The items will not be linked in the room description; you can ANALYZE inside the tent to see the items that are placed there to interact with.",
                   "You can STAND the tent to pitch it, and FOLD it to take it down.  You can also CLEAN, LEAN, or KNOCK on the tent.",
@@ -11937,7 +12293,9 @@
                   "This tent can be lightened by one pound until it reaches two pounds.",
                   "The yellow canvas tent will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -11951,7 +12309,9 @@
                   "Analysis of a pickled egg indicates the creator has provided the following information:",
                   "The pickled egg will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11964,7 +12324,9 @@
                   "Analysis of a toasted wheat bagel indicates the creator has provided the following information:",
                   "The wheat bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -11977,7 +12339,9 @@
                   "Analysis of a saucer of cream cheese indicates the creator has provided the following information:",
                   "The cream cheese will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             }
           ],
@@ -12002,7 +12366,9 @@
                   "Analysis of a chewed-on buttered bagel indicates the creator has provided the following information:",
                   "The buttered bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12015,7 +12381,9 @@
                   "Analysis of a half chewed-on bagel indicates the creator has provided the following information:",
                   "The chewed-on bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12028,7 +12396,9 @@
                   "Analysis of a chewy sea salt-topped bagel indicates the creator has provided the following information:",
                   "The sea salt-topped bagel will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12090,7 +12460,9 @@
                   "~*~ End Custom Analyze ~*~",
                   "The moonstone Liabo globe will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -12137,7 +12509,9 @@
                   "~*~ End Custom Analyze ~*~",
                   "The ruby Tilaok globe will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -12232,7 +12606,9 @@
                   "~*~ End Custom Analyze ~*~",
                   "The copper Elanthia globe will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "copper, an extremely common metal"
               }
             },
@@ -12295,7 +12671,9 @@
                   "~*~ End Custom Analyze ~*~",
                   "The obsidian Lornon globe will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -12337,7 +12715,7 @@
               "details": {
                 "raw": [
                   "This delightfully colorful token is very eye-catching.",
-                  "[This is a Treasure Boost for Free to Play accounts.  As you are a subscriber, this benefit is already included in your account package.  By redeeming this, the Free to Play character will gain extra treasure.  It has a duration of 3 hours for Free to Play accounts.]",
+                  "[This is a Treasure Boost for Free to Play accounts.  By redeeming this, you will gain extra treasure for 3 hours.  To redeem this, please enter REDEEM token.]",
                   "The token can not be worn.",
                   "Analysis of a small coin-shaped token indicates the creator has provided the following information:",
                   "This token is a Treasure Boost redeemable by Free To Play characters to gain extra treasure for 3 hours.",
@@ -12345,7 +12723,9 @@
                   "It cannot be altered.",
                   "The coin-shaped token will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material"
               }
             },
@@ -12359,7 +12739,9 @@
                   "Analysis of a handful of mint leaves indicates the creator has provided the following information:",
                   "The mint leaves will cost 999,999 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12391,7 +12773,9 @@
                   "Analysis of some dried-out journey bread crumbs indicates the creator has provided the following information:",
                   "The journey bread crumbs will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12404,7 +12788,9 @@
                   "Analysis of a perfect dill pickle indicates the creator has provided the following information:",
                   "The dill pickle will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             }
           ],
@@ -12572,7 +12958,9 @@
                   "The register can not be worn.",
                   "The partner's register will cost 999,999,900 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12585,7 +12973,9 @@
                   "The register can not be worn.",
                   "The partner's register will cost 999,999,900 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12600,7 +12990,9 @@
                   "Verbs: MEASURE, STARE, TOUCH.",
                   "The sai hilt-glyph will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gold, an uncommon metal"
               }
             },
@@ -12697,7 +13089,9 @@
                   "Analysis of a crystal clear potion vial indicates the item is free from merchant alteration restrictions.",
                   "The clear potion vial will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12708,10 +13102,12 @@
                   "This tiny crystalline vial contains what appears to be fake blood.",
                   "The vial can not be worn.",
                   "Analysis of a blood red liquid-filled vial indicates the creator has provided the following information:",
-                  "This is a vial of fake blood for a trick dagger that makes it look as though you injure yourself.  You can EAT or SHAKE the vial.  EATing the vial will destroy it and add a temporary unique feature line of 'Blood drips from the corner of her lip.' if no other unique feature-altering items are worn.",
+                  "This is a vial of fake blood for a trick dagger that makes it look as though you injure yourself.  You can EAT or SHAKE the vial.  EATing the vial will destroy it and add a temporary unique feature line of 'Blood drips from the corner of his lip.' if no other unique feature-altering items are worn.",
                   "The liquid-filled vial will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12722,7 +13118,9 @@
                   "The votive can not be worn.",
                   "The red votive will cost 100,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -12734,7 +13132,9 @@
                   "Analysis of a ruic block indicates the item is free from merchant alteration restrictions.",
                   "The ruic block will cost 12,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "ruic, an uncommon wood"
               }
             },
@@ -12746,7 +13146,7 @@
                   "Analysis of a thick strip of white gauze indicates the item is free from merchant alteration restrictions.",
                   "The white gauze will cost 750,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 36,000 silvers."
                 ],
                 "tags": [
@@ -12772,7 +13172,7 @@
                   "Analysis of an onyx and beryl pin indicates the item is free from merchant alteration restrictions.",
                   "The beryl pin will cost 1,500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
@@ -12840,7 +13240,7 @@
                   "Analysis of a golden wheat sheaf-shaped amulet indicates the item has certain alteration restrictions.  This material cannot be dyed.",
                   "The wheat sheaf amulet will cost 500,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 36,000 silvers.",
                   "It is predominantly crafted of gold.",
                   "It has a temporarily unlocked loresong by Innez."
@@ -12870,7 +13270,9 @@
                   "Analysis of a giant pumpkin cookie indicates the creator has provided the following information:",
                   "The pumpkin cookie will cost 50,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13097,7 +13499,7 @@
                   "Analysis of a sigil-etched carmiln runestaff indicates the item is free from merchant alteration restrictions.",
                   "The carmiln runestaff will cost 40,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 88,000 silvers.",
                   "It is predominantly crafted of carmiln.",
                   "It is a simple project (12 difficulty) for an adventurer to modify.",
@@ -13211,7 +13613,9 @@
                   "It is an involved project (212 difficulty) for an adventurer to modify.",
                   "It has a temporarily unlocked loresong by a bard."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "ora, an uncommon metal",
                 "weight": 3
@@ -13716,7 +14120,9 @@
                   "Analysis of a crystalline vial containing some anointing oil indicates the item is free from merchant alteration restrictions.",
                   "The anointing oil will cost 8,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13728,7 +14134,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 8,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13740,7 +14148,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 8,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13767,7 +14177,9 @@
                   "Analysis of a crystalline flask containing a scintillating pale red potion indicates the item is free from merchant alteration restrictions.",
                   "The pale red potion will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13779,7 +14191,9 @@
                   "Analysis of a crystalline flask containing a softly glowing blue potion indicates the item is free from merchant alteration restrictions.",
                   "The glowing blue potion will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13791,7 +14205,9 @@
                   "Analysis of a crystalline flask containing a gold-flecked clear potion indicates the item is free from merchant alteration restrictions.",
                   "The clear potion will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13803,7 +14219,9 @@
                   "Analysis of a lesser health potion indicates the creator has provided the following information:",
                   "The health potion will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13815,7 +14233,9 @@
                   "Analysis of a crystalline flask containing a gold-flecked clear potion indicates the item is free from merchant alteration restrictions.",
                   "The clear potion will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13826,7 +14246,9 @@
                   "The talisman can not be worn.",
                   "The malachite talisman will cost 5,000 coins."
                 ],
-                "tags": []
+                "tags": [
+
+                ]
               }
             },
             {
@@ -13907,7 +14329,9 @@
                   "It cannot be altered.",
                   "The Lumnis schedule will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material"
               }
             },
@@ -13942,7 +14366,9 @@
                   "Analysis of a pair of goat hide trousers indicates the item is free from merchant alteration restrictions.",
                   "The goat hide trousers will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pants"
               }
             },
@@ -14036,7 +14462,9 @@
                   "The cloth can not be worn.",
                   "The bolt of elesine cloth will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material"
               }
             },
@@ -14096,7 +14524,7 @@
                   "It has 10 charges.  It is rechargeable.",
                   "It will persist after its last magical charge has been expended.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It has a temporarily unlocked loresong by a bard."
@@ -14403,12 +14831,16 @@
         {
           "room_title": "Klyle's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Klyle's General Store",
           "branch": "west",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -14430,7 +14862,7 @@
                   "Analysis of an imflass aventail indicates the item is free from merchant alteration restrictions.",
                   "The imflass aventail will cost 750,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 850,000 silvers.",
                   "It is predominantly crafted of imflass.",
                   "It is a simple project (44 difficulty) for an adventurer to modify.",
@@ -14807,7 +15239,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The iron leg will cost 350,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material"
               }
             },
@@ -14822,7 +15256,9 @@
                   "This is a 3x modifier with 750 flat experience award orb.  It is not currently attuned to any character.",
                   "The indigo orb will cost 10,499,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -14837,7 +15273,9 @@
                   "This is a 4x modifier with 1000 flat experience award orb.  It is not currently attuned to any character.",
                   "The violet orb will cost 18,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             },
@@ -14852,7 +15290,9 @@
                   "This is a 3x modifier with 750 flat experience award orb.  It is not currently attuned to any character.",
                   "The indigo orb will cost 10,499,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material"
               }
             }
@@ -14953,7 +15393,7 @@
                   "    It seems to have a lot of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 13 days, 22 hours and 32 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 13 days, 13 hours and 10 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -15255,7 +15695,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 7 days, 15 hours and 58 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 7 days, 6 hours and 37 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -15312,7 +15752,9 @@
                   " Your nugget may not be altered or changed in any way.",
                   "The faenor nugget will cost 33,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "faenor, a rare metal"
               }
             },
@@ -15325,7 +15767,7 @@
                   "Analysis of an imflass helm indicates the item is free from merchant alteration restrictions.",
                   "The imflass helm will cost 5,000,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,700,000 silvers.",
                   "It is temporarily padded to lessen the damage the wearer takes, but exactly how much requires assessment.  Its temporary enhancement will degrade when the wearer is struck in combat.  It has quite a few uses left before the enhancement degrades away completely, which will cause the item to lose its ability to grant greater protection.",
                   "It is predominantly crafted of imflass.",
@@ -15514,7 +15956,7 @@
                   "Analysis of a polished glaes helm indicates the item is free from merchant alteration restrictions.",
                   "The glaes helm will cost 900,000 coins.",
                   "It is an enhancive item:",
-                  "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
                   "It is estimated to be worth about 1,450,000 silvers.",
                   "It is temporarily padded to lessen the damage the wearer takes, but exactly how much requires assessment.  Its temporary enhancement will degrade when the wearer is struck in combat.  It has quite a few uses left before the enhancement degrades away completely, which will cause the item to lose its ability to grant greater protection.",
                   "It is predominantly crafted of glaes.",
