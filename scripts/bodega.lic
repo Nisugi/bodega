@@ -740,6 +740,7 @@ module Bodega
 
       # Initialize tracking if not exists
       @smart_stats ||= { new_items: 0, removed_items: 0, unchanged_items: 0, shops_scanned: 0 }
+      @removed_items_tracker ||= {}
 
       # Step 1: Get current browse IDs from shop scan
       coll = Collector.new(
@@ -792,8 +793,9 @@ module Bodega
       @smart_stats[:unchanged_items] += unchanged_ids.size
       @smart_stats[:shops_scanned] += 1
 
-      # Step 6: Remove deleted items from existing shop structure
+      # Step 6: Capture and remove deleted items from existing shop structure
       if removed_ids.any?
+        capture_removed_items(town, existing_shop, removed_ids, _name)
         remove_items_from_shop(existing_shop, removed_ids)
       end
 
@@ -827,6 +829,26 @@ module Bodega
       }
     end
 
+    def self.capture_removed_items(town, shop_data, item_ids_to_remove, shop_name)
+      # Capture removed items before deleting them
+      return unless shop_data && shop_data['inv']
+
+      @removed_items_tracker[town] ||= []
+      current_time = Time.now.utc.iso8601
+
+      shop_data['inv'].each do |room|
+        next unless room['items']
+        room['items'].each do |item|
+          if item_ids_to_remove.include?(item['id'].to_s)
+            removed_item = item.dup
+            removed_item['removed_date'] = current_time
+            removed_item['last_seen_shop'] = shop_name
+            @removed_items_tracker[town] << removed_item
+          end
+        end
+      end
+    end
+
     def self.remove_items_from_shop(shop_data, item_ids_to_remove)
       # Remove specific item IDs from shop's inventory structure
       return unless shop_data && shop_data['inv']
@@ -850,6 +872,47 @@ module Bodega
       first_room = shop_data['inv'].first
       first_room['items'] ||= []
       first_room['items'].concat(new_items)
+    end
+
+    def self.get_removed_items_for_town(town)
+      # Get current session's removed items for this town
+      current_removed = @removed_items_tracker[town] || []
+
+      # Load existing removed items from previous runs (if any)
+      existing_removed = []
+      begin
+        town_data = load_and_validate_town_json(town)
+        if town_data && town_data['removed_items']
+          existing_removed = town_data['removed_items']
+        end
+      rescue
+        # Ignore errors loading existing data
+      end
+
+      # Combine current and existing removed items
+      all_removed = existing_removed + current_removed
+
+      # Filter to last 14 days
+      fourteen_days_ago = Time.now.utc - (14 * 24 * 60 * 60)
+      recent_removed = all_removed.select do |item|
+        begin
+          removed_time = Time.parse(item['removed_date'])
+          removed_time >= fourteen_days_ago
+        rescue
+          false # Skip items with invalid dates
+        end
+      end
+
+      # Remove duplicates by item ID (keep most recent)
+      unique_removed = {}
+      recent_removed.each do |item|
+        item_id = item['id'].to_s
+        if !unique_removed[item_id] || Time.parse(item['removed_date']) > Time.parse(unique_removed[item_id]['removed_date'])
+          unique_removed[item_id] = item
+        end
+      end
+
+      unique_removed.values.sort_by { |item| item['removed_date'] }.reverse
     end
 
     def self.display_smart_summary
@@ -917,11 +980,15 @@ module Bodega
 
           # ALWAYS update timestamp when parser runs - shows last scan time on website
           # This ensures users see when we last checked for updates, not when data last changed
+          # Get removed items for this town (if any) and merge with existing
+          removed_items = get_removed_items_for_town(town)
+
           data = {
             created_at: Time.now.utc,
             run_time: Utils.fmt_time(Time.now - start),
             town: town,
             shops: shops || [],
+            removed_items: removed_items
           }
 
           filename = save_json(name: town, data: data)
@@ -931,6 +998,8 @@ module Bodega
 
       # Display smart parsing summary if we were in smart mode
       display_smart_summary if Opts.smart
+      # Clear removed items tracker after saving
+      @removed_items_tracker = {}
 
       @created_files
     end
