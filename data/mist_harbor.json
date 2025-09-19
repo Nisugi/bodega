@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-19 18:50:02 UTC",
-  "run_time": "18s",
+  "created_at": "2025-09-19 20:36:55 UTC",
+  "run_time": "15s",
   "town": "Mist Harbor",
   "shops": [
     {
@@ -56860,6 +56860,21 @@
       "last_seen_shop": "Tenacity's Outfitting"
     },
     {
+      "id": "158708",
+      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "details": {
+        "raw": [
+          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
+          "The silk scarf will cost 30,000 coins."
+        ],
+        "tags": [],
+        "worn": "neck",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
       "id": "158625",
       "name": "a tart charm",
       "details": {
@@ -56877,21 +56892,6 @@
           "The tart charm will cost 35,000 coins."
         ],
         "tags": []
-      },
-      "removed_date": "2025-09-19T13:22:20Z",
-      "last_seen_shop": "Tenacity's Outfitting"
-    },
-    {
-      "id": "158708",
-      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
-      "details": {
-        "raw": [
-          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
-          "The silk scarf will cost 30,000 coins."
-        ],
-        "tags": [],
-        "worn": "neck",
-        "material": "cloth, an extremely common material"
       },
       "removed_date": "2025-09-19T13:22:20Z",
       "last_seen_shop": "Tenacity's Outfitting"
