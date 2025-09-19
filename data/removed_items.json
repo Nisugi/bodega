@@ -1,0 +1,1668 @@
+{
+  "Wehnimer's Landing": [
+    {
+      "id": "108424912",
+      "name": "an opalescent glass jar containing grey pearls",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing grey pearls can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing grey pearls indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 60,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:35:36Z",
+      "last_seen_shop": "Gemaneen's General Store"
+    },
+    {
+      "id": "232834164",
+      "name": "an opalescent glass jar containing golden topazes",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing golden topazes can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing golden topazes indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 70,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:35:33Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "318489492",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:35:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "165958",
+      "name": "some old double leather",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph.",
+          "The leather is leather armor that covers the torso, arms, legs, neck, and head.",
+          "Analysis of some old double leather indicates the item is free from merchant alteration restrictions.",
+          "The double leather will cost 500,000 coins.",
+          "It protects against magical attacks with a bonus of 5.",
+          "It is temporarily and moderately resistant (11%) to shocking attacks, provided by a temporary enhancement and will degrade when the wearer is struck in combat.  It has an incredible amount of uses left before the enhancement degrades away completely, which will cause the item to simply return to normal.",
+          "It is estimated to be worth about 600,000 silvers.",
+          "It is predominantly crafted of leather.",
+          "It is a simple project (98 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Nitos."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "worn": "chest",
+        "material": "leather, an extremely common material",
+        "enchant": 25,
+        "weight": 14
+      },
+      "removed_date": "2025-09-19T20:35:16Z",
+      "last_seen_shop": "Vendor's Weaponry"
+    },
+    {
+      "id": "292238723",
+      "name": "an opalescent glass jar containing pink topazes",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pink topazes can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pink topazes indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 70,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "137498679",
+      "name": "an ivory-inlaid gold earring",
+      "details": {
+        "raw": [
+          "Analysis of an ivory-inlaid gold earring indicates the item is free from merchant alteration restrictions.",
+          "The gold earring will cost 2,500,000 coins.",
+          "It has 18 charges.  It is empowered and can be charged for an additional 286.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a fair amount of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 75,000 silvers.",
+          "It has a permanently unlocked loresong by Relay."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "ear",
+        "spell": "Elemental Deflection",
+        "activator": "tapping",
+        "enhancives": [
+          {
+            "boost": 6,
+            "ability": "Polearm Weapons Bonus"
+          },
+          {
+            "boost": 1,
+            "ability": "Wisdom Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "108387275",
+      "name": "a coral inset mithril torc",
+      "details": {
+        "raw": [
+          "Analysis of a coral inset mithril torc indicates the item is free from merchant alteration restrictions.",
+          "The inset mithril torc will cost 5,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 200,000 silvers.",
+          "It is magic resistant.",
+          "It has a permanently unlocked loresong by Relay."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "neck",
+        "enhancives": [
+          {
+            "boost": 7,
+            "ability": "Dexterity Base"
+          },
+          {
+            "boost": 7,
+            "ability": "Edged Weapons Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "66601425",
+      "name": "a radiant-cut bloodjewel necklace",
+      "details": {
+        "raw": [
+          "Analysis of a radiant-cut bloodjewel necklace indicates the item is free from merchant alteration restrictions.",
+          "The bloodjewel necklace will cost 650,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will disintegrate after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 100,000 silvers.",
+          "It has a permanently unlocked loresong by Relay."
+        ],
+        "tags": [
+          "purpose",
+          "holy",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "neck",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 6,
+            "ability": "Polearm Weapons Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "232833971",
+      "name": "an opalescent glass jar containing pink rhodochrosite stones",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pink rhodochrosite stones can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pink rhodochrosite stones indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 70,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "219416831",
+      "name": "an opalescent glass jar containing smoky topazes",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing smoky topazes can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing smoky topazes indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 70,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "123573716",
+      "name": "a beech-handled golvern-studded sledgehammer",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph.",
+          "Analysis of a beech-handled golvern-studded sledgehammer indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+          "The golvern-studded sledgehammer will cost 1,500,000 coins.",
+          "It is estimated to be worth about 600,000 silvers.",
+          "It is predominantly crafted of golvern.",
+          "It is a simple project (97 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Relay."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "twohanded weapons",
+        "material": "golvern, a very rare metal",
+        "enchant": 30,
+        "weight": 8
+      },
+      "removed_date": "2025-09-19T18:48:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe"
+    },
+    {
+      "id": "282189621",
+      "name": "an opalescent glass jar containing pink sapphires",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pink sapphires can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pink sapphires indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 50,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318569845",
+      "name": "an opalescent glass jar containing uncut emeralds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut emeralds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318489491",
+      "name": "an opalescent glass jar containing uncut emeralds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut emeralds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318489493",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318489489",
+      "name": "an opalescent glass jar containing golden topazes",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing golden topazes can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing golden topazes indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318489488",
+      "name": "an opalescent glass jar containing turquoise stones",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing turquoise stones can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing turquoise stones indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "128907115",
+      "name": "an opalescent glass jar containing uncut emeralds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut emeralds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "128942433",
+      "name": "an opalescent glass jar containing uncut emeralds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut emeralds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "265229584",
+      "name": "an opalescent glass jar containing green sapphires",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing green sapphires can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing green sapphires indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 25,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:23Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "277340262",
+      "name": "an opalescent glass jar containing blue sapphires",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing blue sapphires can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing blue sapphires indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 75,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:08Z",
+      "last_seen_shop": "Traiva's General Store"
+    },
+    {
+      "id": "120615234",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 110,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:08Z",
+      "last_seen_shop": "Traiva's General Store"
+    },
+    {
+      "id": "120615232",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 110,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:48:08Z",
+      "last_seen_shop": "Traiva's General Store"
+    },
+    {
+      "id": "128892041",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 100,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:47:59Z",
+      "last_seen_shop": "Vindicate's Armory"
+    },
+    {
+      "id": "318810252",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 100,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T18:47:59Z",
+      "last_seen_shop": "Vindicate's Armory"
+    },
+    {
+      "id": "157873",
+      "name": "a scratched ipantor short bow",
+      "details": {
+        "raw": [
+          "Analysis of a scratched ipantor short bow indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+          "The ipantor short bow will cost 105,000 coins."
+        ],
+        "tags": [
+          "purpose",
+          "max_light"
+        ],
+        "skill": "ranged weapons",
+        "worn": "shoulders",
+        "material": "ipantor, an extraordinarily rare wood"
+      },
+      "removed_date": "2025-09-19T18:47:57Z",
+      "last_seen_shop": "The Gravedigger's Stash"
+    },
+    {
+      "id": "42109871",
+      "name": "an opalescent glass jar containing white opals",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing white opals can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing white opals indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 50,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:44:47Z",
+      "last_seen_shop": "Sythril's Combat Gear"
+    },
+    {
+      "id": "283809801",
+      "name": "an opalescent glass jar containing grey pearls",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing grey pearls can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing grey pearls indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 50,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:44:47Z",
+      "last_seen_shop": "Sythril's Combat Gear"
+    },
+    {
+      "id": "318489487",
+      "name": "an opalescent glass jar containing polished red coral",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing polished red coral can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing polished red coral indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:44:37Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "164014",
+      "name": "some gold-lined green satin robes",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph.",
+          "The robes is cloth armor that covers the torso, arms, legs, neck, and head.",
+          "Analysis of some gold-lined green satin robes indicates the item is free from merchant alteration restrictions.",
+          "The green satin robes will cost 100,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have quite a few enhancive charges remaining.",
+          "It is estimated to be worth about 250,000 silvers.",
+          "It is predominantly crafted of cloth.",
+          "It is a simple project (50 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by a bard."
+        ],
+        "tags": [
+          "lightenable",
+          "persists"
+        ],
+        "worn": "chest",
+        "material": "cloth, an extremely common material",
+        "enchant": 20,
+        "enhancives": [
+          {
+            "boost": 3,
+            "ability": "Mana Recovery"
+          },
+          {
+            "boost": 2,
+            "ability": "Influence Bonus"
+          },
+          {
+            "boost": 12,
+            "ability": "Max Health"
+          }
+        ],
+        "weight": 6
+      },
+      "removed_date": "2025-09-19T16:44:26Z",
+      "last_seen_shop": "Geijon's Magic Shoppe"
+    },
+    {
+      "id": "157469",
+      "name": "a tiny cobalt blue sphere",
+      "details": {
+        "raw": [
+          "The sphere is perfectly smooth and appears to be crafted from finely spun glass.  Faint runes are etched into the surface.",
+          "The sphere can not be worn.",
+          "Analysis of a tiny cobalt blue sphere indicates the item is free from merchant alteration restrictions."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material",
+        "cost": 1
+      },
+      "removed_date": "2025-09-19T16:44:09Z",
+      "last_seen_shop": "Dark Tower Imports"
+    },
+    {
+      "id": "318489486",
+      "name": "an opalescent glass jar containing white pearls",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing white pearls can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing white pearls indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 48,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:21:13Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318569840",
+      "name": "an opalescent glass jar containing pink rhodochrosite stones",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pink rhodochrosite stones can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pink rhodochrosite stones indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:21:13Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "318569844",
+      "name": "an opalescent glass jar containing polished pink coral",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing polished pink coral can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing polished pink coral indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:21:13Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe"
+    },
+    {
+      "id": "68222425",
+      "name": "a dragonfly-cut ivory aranthium-bloom",
+      "details": {
+        "raw": [
+          "But you are not holding a dragonfly-cut ivory aranthium-bloom.",
+          "The aranthium-bloom can not be worn.",
+          "The ivory aranthium-bloom will cost 6,750 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "aranthium, a rare gemstone"
+      },
+      "removed_date": "2025-09-19T21:48:28Z",
+      "last_seen_shop": "Leafi's Confectionery Castle",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "318489315",
+      "name": "an opalescent glass jar containing white opals",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing white opals can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing white opals indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 19,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:48:47Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "318489330",
+      "name": "an opalescent glass jar containing white opals",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing white opals can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing white opals indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 19,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:48:47Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe",
+      "town": "Wehnimer's Landing"
+    }
+  ],
+  "Solhaven": [
+    {
+      "id": "253337839",
+      "name": "an opalescent glass jar containing polished red coral",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing polished red coral can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing polished red coral indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 29,999 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:35:50Z",
+      "last_seen_shop": "Zephyryl's General Store"
+    },
+    {
+      "id": "161849",
+      "name": "a hefty mithril dagger",
+      "details": {
+        "raw": [
+          "It has Methrammar's crafting mark.",
+          "Analysis of a hefty mithril dagger indicates the item is free from merchant alteration restrictions.",
+          "The mithril dagger will cost 50,000 coins.",
+          "It is forged by Methrammar and has increased (+2) effectiveness in combat.",
+          "It is estimated to be worth about 700 silvers.",
+          "It is predominantly crafted of mithril.",
+          "It is a simple project (-19 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Aechasist."
+        ],
+        "tags": [
+          "max_light",
+          "small"
+        ],
+        "skill": "edged weapons",
+        "material": "mithril, an uncommon metal",
+        "enchant": 5
+      },
+      "removed_date": "2025-09-19T16:45:06Z",
+      "last_seen_shop": "Aechasist's General Store"
+    },
+    {
+      "id": "174482",
+      "name": "a topaz-inset copper crown",
+      "details": {
+        "raw": [
+          "Analysis of a topaz-inset copper crown indicates the item is free from merchant alteration restrictions.",
+          "The copper crown will cost 50,000 coins."
+        ],
+        "tags": [
+          "purpose"
+        ],
+        "worn": "head"
+      },
+      "removed_date": "2025-09-19T16:45:02Z",
+      "last_seen_shop": "Nighthaven"
+    },
+    {
+      "id": "200124945",
+      "name": "a dilute copper ayan'eth potion",
+      "details": {
+        "raw": [
+          "The copper liquid inside appears to be dilute.  The label on the potion reads \"ayan'eth\" in a flowing script.",
+          "The potion can not be worn.",
+          "The copper ayan'eth potion will cost 24,000,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:01Z",
+      "last_seen_shop": "The Serpent's Den"
+    },
+    {
+      "id": "253896469",
+      "name": "a faceted glass jar containing blood red garnets",
+      "details": {
+        "raw": [
+          "It is estimated that a faceted glass jar containing blood red garnets can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of a faceted glass jar containing blood red garnets indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 49,999 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:01Z",
+      "last_seen_shop": "Zephyryl's General Store"
+    },
+    {
+      "id": "179252",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T16:44:58Z",
+      "last_seen_shop": "Requiell's Magic Shoppe"
+    },
+    {
+      "id": "158440155",
+      "name": "a star ruby",
+      "details": {
+        "raw": [
+          "The ruby can not be worn.",
+          "Analysis of a star ruby indicates the item is free from merchant alteration restrictions.",
+          "The star ruby will cost 3,880 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T16:44:58Z",
+      "last_seen_shop": "Requiell's Magic Shoppe"
+    }
+  ],
+  "Icemule Trace": [
+    {
+      "id": "301963452",
+      "name": "an opalescent glass jar containing pieces of green jade",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pieces of green jade can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pieces of green jade indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 25,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:36:20Z",
+      "last_seen_shop": "Koreina's Armory"
+    },
+    {
+      "id": "301963450",
+      "name": "an opalescent glass jar containing pieces of white jade",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pieces of white jade can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pieces of white jade indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 25,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:36:20Z",
+      "last_seen_shop": "Koreina's Armory"
+    },
+    {
+      "id": "171559",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171558",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171557",
+      "name": "a blue sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a blue sapphire indicates the item is free from merchant alteration restrictions.",
+          "The blue sapphire will cost 6,500 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T18:49:10Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171534",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "171535",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "230342599",
+      "name": "a black opal",
+      "details": {
+        "raw": [
+          "The opal can not be worn.",
+          "Analysis of a black opal indicates the item is free from merchant alteration restrictions.",
+          "The black opal will cost 9,200 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T16:45:18Z",
+      "last_seen_shop": "Medulis's Magic Shoppe"
+    },
+    {
+      "id": "170432",
+      "name": "a mass of congealed slime",
+      "details": {
+        "raw": [
+          "The slime can not be worn.",
+          "Analysis of a mass of congealed slime indicates the creator has provided the following information:",
+          "This is a foraged item.  It is a roleplaying item.",
+          "You may eat a mass of congealed slime.",
+          "There is a chance you can sell this at a local Herbal Shop.",
+          "The congealed slime will cost 5,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "organic material, an extremely common material"
+      },
+      "removed_date": "2025-09-19T16:45:14Z",
+      "last_seen_shop": "Sharth's Armory"
+    },
+    {
+      "id": "301963451",
+      "name": "an opalescent glass jar containing polished pink coral",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing polished pink coral can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing polished pink coral indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 25,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-19T14:41:35Z",
+      "last_seen_shop": "Koreina's Armory"
+    }
+  ],
+  "Ta'Illistim": [
+    {
+      "id": "229369588",
+      "name": "a jade-inlaid gold barrette",
+      "details": {
+        "raw": [
+          "Analysis of a jade-inlaid gold barrette indicates the item is free from merchant alteration restrictions.",
+          "The gold barrette will cost 100,000 coins.",
+          "It has 0 charges.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 700,000 silvers.",
+          "It is magic resistant.",
+          "It has a permanently unlocked loresong by Audriena."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "pin",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "Picking Locks Ranks"
+          },
+          {
+            "boost": 3,
+            "ability": "Perception Ranks"
+          },
+          {
+            "boost": 2,
+            "ability": "Strength Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T18:49:31Z",
+      "last_seen_shop": "Ivyie's Outfitting"
+    },
+    {
+      "id": "182067",
+      "name": "a rectangular green crystal bottle",
+      "details": {
+        "raw": [
+          "The bottle can not be worn.",
+          "Analysis of a rectangular green crystal bottle indicates the creator has provided the following information:",
+          "This bottle contains 10 pills that, when eaten, offer a spellup akin to what the Invoker would offer.  This includes many defensive spells not known by the user.",
+          "MEASURE it to see how many pills it contains.",
+          "TURN it to retrieve a pill.  The bottle will shatter when empty.",
+          "EAT a pill to activate it.",
+          "It cannot be altered.",
+          "The green crystal bottle will cost 750,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "gemstone, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:49:47Z",
+      "last_seen_shop": "Skootz's Magic Shoppe",
+      "town": "Ta'Illistim"
+    }
+  ],
+  "Ta'Vaalor,": [
+    {
+      "id": "173347",
+      "name": "a sable leather underbust harness tied with bronze acantha leaf charms",
+      "details": {
+        "raw": [
+          "It is estimated that a sable leather underbust harness tied with bronze acantha leaf charms can store a very small amount with enough space for several items of very small size.",
+          "Analysis of a sable leather underbust harness tied with bronze acantha leaf charms indicates the item is free from merchant alteration restrictions.",
+          "The leather harness will cost 50,000 coins."
+        ],
+        "tags": [
+          "purpose",
+          "max_light",
+          "deepenable"
+        ],
+        "worn": "front",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T20:36:35Z",
+      "last_seen_shop": "The Rose And Thorn"
+    },
+    {
+      "id": "261067084",
+      "name": "a long-cut golden topaz earring",
+      "details": {
+        "raw": [
+          "Analysis of a long-cut golden topaz earring indicates the item is free from merchant alteration restrictions.",
+          "The golden topaz earring will cost 50,000 coins.",
+          "It has 0 charges.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It is estimated to be worth about 150,000 silvers.",
+          "It is magic resistant.",
+          "It has a permanently unlocked loresong by Drevenn."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "persists",
+          "small"
+        ],
+        "worn": "ear",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "Stamina Recovery"
+          },
+          {
+            "boost": 5,
+            "ability": "Max Health"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T18:49:43Z",
+      "last_seen_shop": "Kakoon's Magic Shoppe"
+    }
+  ],
+  "Mist Harbor": [
+    {
+      "id": "168390",
+      "name": "a glistening sephwir light crossbow",
+      "details": {
+        "raw": [
+          "You see a glistening sephwir light crossbow which is not cocked.",
+          "Analysis of a glistening sephwir light crossbow indicates the item has certain alteration restrictions.  It cannot be used in alterations.",
+          "The sephwir light crossbow will cost 350,000 coins.",
+          "It is estimated to be worth about 400,000 silvers.",
+          "It is sighted to assist in aiming, but exactly how much requires assessment.",
+          "It is predominantly crafted of sephwir.",
+          "It is a simple project (83 difficulty) for an adventurer to modify.",
+          "It has a temporarily unlocked loresong by a bard."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "skill": "ranged weapons",
+        "worn": "shoulders",
+        "material": "sephwir, an extremely rare wood",
+        "enchant": 25,
+        "weight": 8
+      },
+      "removed_date": "2025-09-19T18:49:48Z",
+      "last_seen_shop": "Dyreknor's Outfitting"
+    },
+    {
+      "id": "158689",
+      "name": "a fuzzy knitted pegasus-patterned purple-hazed jute hat",
+      "details": {
+        "raw": [
+          "Analysis of a fuzzy knitted pegasus-patterned purple-hazed jute hat indicates the item is free from merchant alteration restrictions.",
+          "The jute hat will cost 35,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "worn": "head",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T14:41:56Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "158708",
+      "name": "a lustrous knitted moon phase-patterned sea silk scarf",
+      "details": {
+        "raw": [
+          "Analysis of a lustrous knitted moon phase-patterned sea silk scarf indicates the item is free from merchant alteration restrictions.",
+          "The silk scarf will cost 30,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "worn": "neck",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "158625",
+      "name": "a tart charm",
+      "details": {
+        "raw": [
+          "The charm can not be worn.",
+          "Analysis of a tart charm indicates the creator has provided the following information:",
+          "    ----Sound Charm----",
+          "This is a special charm that can be attached to a charm bracelet or other piece of charm jewelry.",
+          "When it is played with while on the bracelet, it can make a sound.",
+          "Current Sound: a loud sighing sound",
+          "    ====Alteration Guidelines====",
+          "You can alter the 15/15/15, long, and show of this tart charm, though the noun must remain \"charm.\"",
+          "As this is meant to be attached to a bracelet, this should always be considered to be tiny/small.",
+          "Certain merchants may be able to change the sound this item makes.",
+          "The tart charm will cost 35,000 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-19T13:22:20Z",
+      "last_seen_shop": "Tenacity's Outfitting"
+    },
+    {
+      "id": "311483100",
+      "name": "a niello-threaded knitted lagoon blue sea silk backpack",
+      "details": {
+        "raw": [
+          "It is estimated that a niello-threaded knitted lagoon blue sea silk backpack can store a significant amount with enough space for any number of items.",
+          "Analysis of a niello-threaded knitted lagoon blue sea silk backpack indicates the item is free from merchant alteration restrictions.",
+          "The silk backpack will cost 199,000 coins."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "worn": "back",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:49:58Z",
+      "last_seen_shop": "Tenacity's Outfitting",
+      "town": "Mist Harbor"
+    }
+  ],
+  "River's Rest": [
+    {
+      "id": "173694",
+      "name": "some reinforced rolaren plates",
+      "details": {
+        "raw": [
+          "These are some armored plates for a golem chassis.",
+          "The plates can not be worn.",
+          "Analysis of some reinforced rolaren plates indicates the creator has provided the following information:",
+          "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
+          "The rolaren plates will cost 350,000 coins.",
+          "It is estimated to be worth about 100,000 silvers."
+        ],
+        "tags": [
+          "small"
+        ],
+        "material": "metal, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173693",
+      "name": "an engraved pewter tiara",
+      "details": {
+        "raw": [
+          "Analysis of an engraved pewter tiara indicates the item is free from merchant alteration restrictions.",
+          "The pewter tiara will cost 1,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a fair amount of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 100,000 silvers.",
+          "It is magic resistant.",
+          "It has a temporarily unlocked loresong by a bard."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "head",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "First Aid Bonus"
+          },
+          {
+            "boost": 5,
+            "ability": "Blunt Weapons Bonus"
+          },
+          {
+            "boost": 3,
+            "ability": "Edged Weapons Bonus"
+          },
+          {
+            "boost": 7,
+            "ability": "Intuition Base"
+          }
+        ]
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173692",
+      "name": "an oversized iron leg",
+      "details": {
+        "raw": [
+          "This is a leg for a golem chassis.",
+          "The leg can not be worn.",
+          "Analysis of an oversized iron leg indicates the creator has provided the following information:",
+          "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
+          "The iron leg will cost 350,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "metal, an extremely common material"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173731",
+      "name": "a glaes-tipped imflass longsword",
+      "details": {
+        "raw": [
+          "Analysis of a glaes-tipped imflass longsword indicates the item is free from merchant alteration restrictions.",
+          "The imflass longsword will cost 50,000 coins.",
+          "It is estimated to be worth about 22,000 silvers.",
+          "It is predominantly crafted of imflass.",
+          "It is a simple project (41 difficulty) for an adventurer to modify.",
+          "It has a temporarily unlocked loresong by a bard."
+        ],
+        "tags": [
+          "max_light"
+        ],
+        "skill": "edged weapons",
+        "material": "imflass, an uncommon metal",
+        "enchant": 12,
+        "weight": 3
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173730",
+      "name": "an imflass military pick",
+      "details": {
+        "raw": [
+          "Analysis of an imflass military pick indicates the item is free from merchant alteration restrictions.",
+          "The military pick will cost 50,000 coins.",
+          "It is estimated to be worth about 30,000 silvers.",
+          "It is predominantly crafted of imflass.",
+          "It is a simple project (41 difficulty) for an adventurer to modify.",
+          "It has a temporarily unlocked loresong by a bard."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "twohanded weapons",
+        "material": "imflass, an uncommon metal",
+        "enchant": 12,
+        "weight": 6
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173715",
+      "name": "a scorched faewood runestaff",
+      "details": {
+        "raw": [
+          "Analysis of a scorched faewood runestaff indicates the item is free from merchant alteration restrictions.",
+          "The faewood runestaff will cost 1,000,000 coins.",
+          "It is estimated to be worth about 150,000 silvers.",
+          "It is predominantly crafted of faewood.",
+          "It is a simple project (36 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by a bard."
+        ],
+        "tags": [
+          "lightenable",
+          "holy"
+        ],
+        "skill": "twohanded weapons",
+        "material": "faewood, an unusual wood",
+        "enchant": 20,
+        "weight": 4
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173714",
+      "name": "an imflass military pick",
+      "details": {
+        "raw": [
+          "Analysis of an imflass military pick indicates the item is free from merchant alteration restrictions.",
+          "The military pick will cost 1,500,000 coins.",
+          "It is estimated to be worth about 700,000 silvers.",
+          "It is temporarily weighted to inflict more critical wounds, but exactly how much requires assessment.  Its temporary enhancement will degrade when it scores a successful strike.  It has quite a few uses left before the enhancement degrades away completely, which will cause the item to lose its ability to inflict greater damage.",
+          "It is predominantly crafted of imflass.",
+          "It is an involved project (227 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Lyrikka."
+        ],
+        "tags": [
+          "max_light"
+        ],
+        "skill": "twohanded weapons",
+        "material": "imflass, an uncommon metal",
+        "enchant": 12,
+        "flare": "the power of an ice elemental",
+        "weight": 4
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173713",
+      "name": "an acid-stained vultite knuckle-blade",
+      "details": {
+        "raw": [
+          "Analysis of an acid-stained vultite knuckle-blade indicates the item is free from merchant alteration restrictions.",
+          "The vultite knuckle-blade will cost 4,000,000 coins."
+        ],
+        "tags": [
+          "max_light"
+        ],
+        "skill": "brawling",
+        "material": "vultite, an uncommon metal"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173712",
+      "name": "a crimson orase runestaff",
+      "details": {
+        "raw": [
+          "Analysis of a crimson orase runestaff indicates the item is free from merchant alteration restrictions.",
+          "The orase runestaff will cost 100,000 coins."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "twohanded weapons",
+        "material": "orase, an uncommon wood"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173711",
+      "name": "a veniom-hilted rolaren rapier",
+      "details": {
+        "raw": [
+          "Analysis of a veniom-hilted rolaren rapier indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+          "The rolaren rapier will cost 800,000 coins."
+        ],
+        "tags": [
+          "max_light"
+        ],
+        "skill": "edged weapons",
+        "material": "rolaren, a very rare alloy"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173710",
+      "name": "a gleaming vultite chain hauberk",
+      "details": {
+        "raw": [
+          "The hauberk is chain armor that covers the torso, arms, legs, neck, and head.",
+          "Analysis of a gleaming vultite chain hauberk indicates the item is free from merchant alteration restrictions.",
+          "The vultite chain hauberk will cost 320,000 coins."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "worn": "chest",
+        "material": "vultite, an uncommon metal"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    },
+    {
+      "id": "173709",
+      "name": "an engraved mithril mace",
+      "details": {
+        "raw": [
+          "Analysis of an engraved mithril mace indicates the item is free from merchant alteration restrictions.",
+          "The mithril mace will cost 450,000 coins."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "blunt weapons",
+        "material": "mithril, an uncommon metal"
+      },
+      "removed_date": "2025-09-19T21:49:22Z",
+      "last_seen_shop": "Tshiva's General Store",
+      "town": "River's Rest"
+    }
+  ]
+}
