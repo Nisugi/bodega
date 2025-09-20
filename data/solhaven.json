@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-20 06:46:55 UTC",
-  "run_time": "14s",
+  "created_at": "2025-09-20 09:10:53 UTC",
+  "run_time": "06m 41s",
   "town": "Solhaven",
   "shops": [
     {
@@ -898,13 +898,13 @@
               "name": "a gnome travel brochure",
               "details": {
                 "raw": [
-                  "   Current Time: 05:27   Current Flight Schedule",
+                  "   Current Time: 05:04   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
                   "    ---------------------------------------------------------------",
                   "Times be estimates only!  Subject ta change by headwinds an' tailwinds an' sidewinds an' stuff!  Deal wit' it!",
-                  "   Current Time: 05:27   Current Flight Schedule",
+                  "   Current Time: 05:04   Current Flight Schedule",
                   "   Depart| From                    | To                      |Arrive",
                   "    -----+-------------------------+-------------------------+------",
                   "    22:46|Gnome Homeland           |Gnome Homeland           |22:46",
@@ -6414,7 +6414,7 @@
                   "It is estimated to be worth about 82,000 silvers.",
                   "It is predominantly crafted of eahnor.",
                   "It is a simple project (13 difficulty) for an adventurer to modify.",
-                  "It has a temporarily unlocked loresong by a bard for 3 days, 16 hours and 44 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 2 days, 17 hours and 7 minutes."
                 ],
                 "tags": [
                   "max_light"
@@ -9030,7 +9030,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 150,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 7 days, 18 hours and 2 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 6 days, 18 hours and 25 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9071,7 +9071,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 2 hours and 21 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 2 hours and 44 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -9658,7 +9658,7 @@
                   "    It seems to have a fair amount of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 80,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 3 hours and 38 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 4 hours and 1 minute."
                 ],
                 "tags": [
                   "purpose",
@@ -9692,7 +9692,7 @@
                   "    It seems to have several enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
-                  "It has a temporarily unlocked loresong by a bard for 4 days, 3 hours and 52 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 3 days, 4 hours and 15 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -37118,171 +37118,12 @@
           "branch": "entry",
           "items": [
             {
-              "id": "174490",
-              "name": "a bloodjewel studded copper crown",
-              "details": {
-                "raw": [
-                  "Analysis of a bloodjewel studded copper crown indicates the item is free from merchant alteration restrictions.",
-                  "The studded copper crown will cost 275,000 coins.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 72,000 silvers.",
-                  "It has a permanently unlocked loresong by Nitos."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable"
-                ],
-                "worn": "head",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Edged Weapons Bonus"
-                  }
-                ],
-                "weight": 2
-              }
-            },
-            {
-              "id": "174489",
-              "name": "a beveled red dreamstone bracer",
-              "details": {
-                "raw": [
-                  "Analysis of a beveled red dreamstone bracer indicates the item is free from merchant alteration restrictions.",
-                  "The red dreamstone bracer will cost 1,485,000 coins.",
-                  "It has 11 charges.  It is empowered and can be charged for an additional 366.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 97,000 silvers.",
-                  "It has a permanently unlocked loresong by a bard."
-                ],
-                "tags": [
-                  "purpose",
-                  "small"
-                ],
-                "worn": "wrist",
-                "spell": "Tend Lore",
-                "activator": "tapping",
-                "enhancives": [
-                  {
-                    "boost": 4,
-                    "ability": "Spell Aiming Bonus"
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "First Aid Bonus"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "174488",
-              "name": "a marquise-cut beryl band",
-              "details": {
-                "raw": [
-                  "Analysis of a marquise-cut beryl band indicates the item is free from merchant alteration restrictions.",
-                  "The beryl band will cost 485,000 coins.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a huge number of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 150,000 silvers.",
-                  "It has a permanently unlocked loresong by Broyles."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "small"
-                ],
-                "worn": "finger",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Edged Weapons Bonus"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "174487",
-              "name": "a turquoise-set silver band",
-              "details": {
-                "raw": [
-                  "Analysis of a turquoise-set silver band indicates the item is free from merchant alteration restrictions.",
-                  "The silver band will cost 500,000 coins.",
-                  "It has 13 charges.  It is rechargeable.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a fair amount of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 100,000 silvers.",
-                  "It has a permanently unlocked loresong by Vellani."
-                ],
-                "tags": [
-                  "purpose",
-                  "holy",
-                  "small"
-                ],
-                "worn": "finger",
-                "spell": "Warding Sphere",
-                "activator": "rubbing",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Edged Weapons Bonus"
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "First Aid Bonus"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "174481",
-              "name": "a gleaming aquamarine crown",
-              "details": {
-                "raw": [
-                  "Analysis of a gleaming aquamarine crown indicates the item is free from merchant alteration restrictions.",
-                  "The aquamarine crown will cost 500,000 coins.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 150,000 silvers.",
-                  "It has a permanently unlocked loresong by Xolanthe."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable"
-                ],
-                "worn": "head",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 5,
-                    "ability": "Spell Aiming Bonus"
-                  }
-                ],
-                "weight": 2
-              }
-            },
-            {
               "id": "174477",
               "name": "a petal-cut red sunstone crown",
               "details": {
                 "raw": [
                   "Analysis of a petal-cut red sunstone crown indicates the item is free from merchant alteration restrictions.",
-                  "The red sunstone crown will cost 10,000,000 coins.",
+                  "The red sunstone crown will cost 15,000,000 coins.",
                   "It is an enhancive item:",
                   "    It seems to have a lot of enhancive charges remaining.",
                   "It will crumble into dust after its last enhancive charge has been expended.",
@@ -37314,6 +37155,203 @@
                   }
                 ],
                 "weight": 2
+              }
+            },
+            {
+              "id": "174481",
+              "name": "a gleaming aquamarine crown",
+              "details": {
+                "raw": [
+                  "Analysis of a gleaming aquamarine crown indicates the item is free from merchant alteration restrictions.",
+                  "The aquamarine crown will cost 150,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will disintegrate after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It has a permanently unlocked loresong by Xolanthe."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable"
+                ],
+                "worn": "head",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Spell Aiming Bonus"
+                  }
+                ],
+                "weight": 2
+              }
+            },
+            {
+              "id": "174490",
+              "name": "a bloodjewel studded copper crown",
+              "details": {
+                "raw": [
+                  "Analysis of a bloodjewel studded copper crown indicates the item is free from merchant alteration restrictions.",
+                  "The studded copper crown will cost 150,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 72,000 silvers.",
+                  "It has a permanently unlocked loresong by Nitos."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable"
+                ],
+                "worn": "head",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Edged Weapons Bonus"
+                  }
+                ],
+                "weight": 2
+              }
+            },
+            {
+              "id": "174487",
+              "name": "a turquoise-set silver band",
+              "details": {
+                "raw": [
+                  "Analysis of a turquoise-set silver band indicates the item is free from merchant alteration restrictions.",
+                  "The silver band will cost 750,000 coins.",
+                  "It has 13 charges.  It is rechargeable.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have a fair amount of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 100,000 silvers.",
+                  "It has a permanently unlocked loresong by Vellani."
+                ],
+                "tags": [
+                  "purpose",
+                  "holy",
+                  "small"
+                ],
+                "worn": "finger",
+                "spell": "Warding Sphere",
+                "activator": "rubbing",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Edged Weapons Bonus"
+                  },
+                  {
+                    "boost": 5,
+                    "ability": "First Aid Bonus"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "174488",
+              "name": "a marquise-cut beryl band",
+              "details": {
+                "raw": [
+                  "Analysis of a marquise-cut beryl band indicates the item is free from merchant alteration restrictions.",
+                  "The beryl band will cost 480,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will disintegrate after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have a huge number of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It has a permanently unlocked loresong by Broyles."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "worn": "finger",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Edged Weapons Bonus"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "174489",
+              "name": "a beveled red dreamstone bracer",
+              "details": {
+                "raw": [
+                  "Analysis of a beveled red dreamstone bracer indicates the item is free from merchant alteration restrictions.",
+                  "The red dreamstone bracer will cost 1,400,000 coins.",
+                  "It has 11 charges.  It is empowered and can be charged for an additional 366.",
+                  "It will disintegrate after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 97,000 silvers.",
+                  "It has a permanently unlocked loresong by a bard."
+                ],
+                "tags": [
+                  "purpose",
+                  "small"
+                ],
+                "worn": "wrist",
+                "spell": "Tend Lore",
+                "activator": "tapping",
+                "enhancives": [
+                  {
+                    "boost": 4,
+                    "ability": "Spell Aiming Bonus"
+                  },
+                  {
+                    "boost": 5,
+                    "ability": "First Aid Bonus"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "214484221",
+              "name": "an oval bloodstone pendant",
+              "details": {
+                "raw": [
+                  "An oval cabochon of translucent scarlet bloodstone is set within the pendant.  Thready veins of nacre wend beneath the stone's surface and ripple with a gentle, pulsing rhythm reminiscent of blood flow.",
+                  "Analysis of an oval bloodstone pendant indicates the creator has provided the following information:",
+                  "Bloodstone Jewelry",
+                  "  The bloodstone pendant has been infused with the vitality of an Empath and is tier 1 with 100 of 100 charges remaining.",
+                  "  The bloodstone pendant is not currently attuned to anyone.",
+                  "Tier 1:  Altered State",
+                  "  Grants enhancive attributes of +20 max health, +10 max mana, and +5 max stamina per tier.",
+                  "Tier 2:  Augmented Recovery",
+                  "  Grants enhancive attributes of +4 health, +2 mana, and +1 stamina recovery per tier.",
+                  "Tier 3:  Vivacity",
+                  "  Activated ability to regain 20% of health, 10% of stamina, or 5% of mana every 2 seconds for 10 seconds.",
+                  "  - BESEECH pendant (HEALTH / STAMINA / MANA)",
+                  "Tier 4:  Sanguine Swap",
+                  "  Store all existing wounds into the jewelry for 10 minutes, after which the wounds will automatically reappear.",
+                  "  - SPIN:  Initiate the transfer of wounds for a second time to transfer the wounds back early.",
+                  "Tier 5:  Sanguine Sacrifice",
+                  "  Attacks deal an additional amount of concussion damage, occasionally overflowing to cause Major Bleed.",
+                  "  - PROD: Disable the additional messaging for concussion damage.",
+                  "  - PINCH: Toggle whether to enable the overflow capability.",
+                  "The bloodstone pendant can be TUCKed while worn in order to hide it from sight.",
+                  "Alteration Guidelines",
+                  "  This item has not been locked to a final wear location and therefore may not be altered.",
+                  "  You may FLIP the bloodstone pendant to change its worn location until it is worn the first time.",
+                  "  Eligible locations include neck, wrist, ankle, finger, ear/ears, belt, hair, and pin-worn.",
+                  "The bloodstone pendant will cost 3,950,000 coins."
+                ],
+                "tags": [
+
+                ],
+                "worn": "neck",
+                "material": "gemstone, an extremely common material"
               }
             },
             {
@@ -37446,44 +37484,6 @@
 
                 ],
                 "material": "organic material, an extremely common material"
-              }
-            },
-            {
-              "id": "214484221",
-              "name": "an oval bloodstone pendant",
-              "details": {
-                "raw": [
-                  "An oval cabochon of translucent scarlet bloodstone is set within the pendant.  Thready veins of nacre wend beneath the stone's surface and ripple with a gentle, pulsing rhythm reminiscent of blood flow.",
-                  "Analysis of an oval bloodstone pendant indicates the creator has provided the following information:",
-                  "Bloodstone Jewelry",
-                  "  The bloodstone pendant has been infused with the vitality of an Empath and is tier 1 with 100 of 100 charges remaining.",
-                  "  The bloodstone pendant is not currently attuned to anyone.",
-                  "Tier 1:  Altered State",
-                  "  Grants enhancive attributes of +20 max health, +10 max mana, and +5 max stamina per tier.",
-                  "Tier 2:  Augmented Recovery",
-                  "  Grants enhancive attributes of +4 health, +2 mana, and +1 stamina recovery per tier.",
-                  "Tier 3:  Vivacity",
-                  "  Activated ability to regain 20% of health, 10% of stamina, or 5% of mana every 2 seconds for 10 seconds.",
-                  "  - BESEECH pendant (HEALTH / STAMINA / MANA)",
-                  "Tier 4:  Sanguine Swap",
-                  "  Store all existing wounds into the jewelry for 10 minutes, after which the wounds will automatically reappear.",
-                  "  - SPIN:  Initiate the transfer of wounds for a second time to transfer the wounds back early.",
-                  "Tier 5:  Sanguine Sacrifice",
-                  "  Attacks deal an additional amount of concussion damage, occasionally overflowing to cause Major Bleed.",
-                  "  - PROD: Disable the additional messaging for concussion damage.",
-                  "  - PINCH: Toggle whether to enable the overflow capability.",
-                  "The bloodstone pendant can be TUCKed while worn in order to hide it from sight.",
-                  "Alteration Guidelines",
-                  "  This item has not been locked to a final wear location and therefore may not be altered.",
-                  "  You may FLIP the bloodstone pendant to change its worn location until it is worn the first time.",
-                  "  Eligible locations include neck, wrist, ankle, finger, ear/ears, belt, hair, and pin-worn.",
-                  "The bloodstone pendant will cost 4,000,000 coins."
-                ],
-                "tags": [
-
-                ],
-                "worn": "neck",
-                "material": "gemstone, an extremely common material"
               }
             }
           ],
@@ -45123,6 +45123,22 @@
               }
             },
             {
+              "id": "328428146",
+              "name": "an inky black snake skin backpack pinned by a shard of jagged bloodstone",
+              "details": {
+                "raw": [
+                  "It is estimated that an inky black snake skin backpack pinned by a shard of jagged bloodstone can store a very large amount with enough space for any number of items.",
+                  "Analysis of an inky black snake skin backpack pinned by a shard of jagged bloodstone indicates the item is free from merchant alteration restrictions.",
+                  "The snake skin backpack will cost 250,000 coins."
+                ],
+                "tags": [
+                  "purpose",
+                  "lightenable"
+                ],
+                "worn": "back"
+              }
+            },
+            {
               "id": "206032964",
               "name": "a sleek russet backpack secured with a jet-pupiled heliodor eye clasp",
               "details": {
@@ -45291,22 +45307,6 @@
                   "It is estimated that a fiery scarlet backpack fastened with a dragon-cut bone buckle can store a significant amount with enough space for any number of items.",
                   "Analysis of a fiery scarlet backpack fastened with a dragon-cut bone buckle indicates the item is free from merchant alteration restrictions.",
                   "The scarlet backpack will cost 250,000 coins."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable"
-                ],
-                "worn": "back"
-              }
-            },
-            {
-              "id": "328428146",
-              "name": "an inky black snake skin backpack pinned by a shard of jagged bloodstone",
-              "details": {
-                "raw": [
-                  "It is estimated that an inky black snake skin backpack pinned by a shard of jagged bloodstone can store a very large amount with enough space for any number of items.",
-                  "Analysis of an inky black snake skin backpack pinned by a shard of jagged bloodstone indicates the item is free from merchant alteration restrictions.",
-                  "The snake skin backpack will cost 250,000 coins."
                 ],
                 "tags": [
                   "purpose",
@@ -49459,7 +49459,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 68,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 8 days, 4 hours and 36 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 7 days, 4 hours and 59 minutes."
                 ],
                 "tags": [
                   "purpose",
@@ -49492,7 +49492,7 @@
                   "It will crumble into dust after its last enhancive charge has been expended.",
                   "It is estimated to be worth about 100,000 silvers.",
                   "It is magic resistant.",
-                  "It has a temporarily unlocked loresong by a bard for 10 days, 14 hours and 5 minutes."
+                  "It has a temporarily unlocked loresong by a bard for 9 days, 14 hours and 28 minutes."
                 ],
                 "tags": [
                   "purpose"
