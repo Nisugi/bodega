@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-20 13:07:36 UTC",
-  "run_time": "15s",
+  "created_at": "2025-09-20 14:33:57 UTC",
+  "run_time": "18s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -24295,6 +24295,21 @@
 
                 ],
                 "material": "gemstone, a rare gemstone"
+              }
+            },
+            {
+              "id": "338619545",
+              "name": "a petrified mammoth tusk",
+              "details": {
+                "raw": [
+                  "The tusk can not be worn.",
+                  "Analysis of a petrified mammoth tusk indicates the item is free from merchant alteration restrictions.",
+                  "The mammoth tusk will cost 10,000 coins."
+                ],
+                "tags": [
+
+                ],
+                "material": "organic material, a rare piece of treasure"
               }
             }
           ],
@@ -50514,6 +50529,44 @@
                   }
                 ],
                 "weight": 21
+              }
+            },
+            {
+              "id": "338495722",
+              "name": "an opalescent glass jar containing uncut diamonds",
+              "details": {
+                "raw": [
+                  "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 100,000 coins."
+                ],
+                "tags": [
+
+                ],
+                "material": "glass, an extremely common material"
+              }
+            },
+            {
+              "id": "338495723",
+              "name": "a faceted glass jar containing uncut emeralds",
+              "details": {
+                "raw": [
+                  "It is estimated that a faceted glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+                  "The jar can not be worn.",
+                  "Analysis of a faceted glass jar containing uncut emeralds indicates the creator has provided the following information:",
+                  "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                  "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                  "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                  "The glass jar will cost 100,000 coins."
+                ],
+                "tags": [
+
+                ],
+                "material": "glass, an extremely common material"
               }
             }
           ],
