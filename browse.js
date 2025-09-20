@@ -238,7 +238,7 @@ class BrowseEngine {
                 <div class="shop-detail-name">${shopName}</div>
                 ${shopMappingData ? `
                     <div class="shop-navigation-info">
-                        <div class="shop-map-id">📍 Room #${shopMappingData.map_id || shopMappingData}</div>
+                        <div class="shop-map-id">📍 Room #${shopMappingData.map_id}</div>
                         ${shopMappingData.exterior ? `<div class="shop-exterior">Go: ${shopMappingData.exterior}</div>` : ''}
                     </div>
                 ` : ''}
