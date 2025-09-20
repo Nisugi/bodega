@@ -702,7 +702,7 @@ class SearchEngine {
             ` : ''}
 
             <div class="modal-section">
-                <h4>Shop Location ${this.getShopMapInfo(item.shopName)}</h4>
+                <h4>Shop Location${this.getShopMapInfoInline(item.shopName)}</h4>
                 <p>${item.shopLocation}</p>
             </div>
 
@@ -723,6 +723,15 @@ class SearchEngine {
             const mapId = shopMappingData.map_id;
             const exterior = shopMappingData.exterior;
             return `<br><span style="color: #1b5e20; font-weight: bold;">📍 Room: ${mapId}</span>${exterior ? `<br><span style="color: #2e7d32; font-style: italic;">Go: ${exterior}</span>` : ''}`;
+        }
+        return '';
+    }
+
+    getShopMapInfoInline(shopName) {
+        const shopMappingData = window.dataLoader?.shopMapping?.[shopName];
+        if (shopMappingData) {
+            const mapId = shopMappingData.map_id;
+            return ` <span style="color: #1b5e20; font-weight: bold;">(📍 Room: ${mapId})</span>`;
         }
         return '';
     }
