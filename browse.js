@@ -145,11 +145,15 @@ class BrowseEngine {
     }
 
     displayShopDirectory(townName) {
+        console.log(`displayShopDirectory called for town: ${townName}`);
         const tbody = document.getElementById('results-body');
         const resultsCount = document.getElementById('results-count');
         const pageInfo = document.getElementById('page-info');
 
+        console.log('Found tbody element:', tbody);
+
         const shops = Object.keys(this.townData[townName]).sort();
+        console.log(`Found ${shops.length} shops:`, shops.slice(0, 3));
 
         // Update header
         resultsCount.textContent = `${shops.length} shops in ${townName}`;
@@ -158,45 +162,58 @@ class BrowseEngine {
         // Clear table and create shop directory
         tbody.innerHTML = '';
 
-        shops.forEach(shopName => {
-            const shop = this.townData[townName][shopName];
-            const metadata = this.shopMetadata[townName][shopName] || {};
+        if (shops.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5" class="no-results">No shops found in this town.</td></tr>';
+            return;
+        }
 
-            // Count items in shop
-            let itemCount = 0;
-            let roomCount = Object.keys(shop).length;
-            Object.values(shop).forEach(room => {
-                itemCount += room.length;
-            });
+        shops.forEach((shopName, index) => {
+            try {
+                const shop = this.townData[townName][shopName];
+                const metadata = this.shopMetadata[townName][shopName] || {};
 
-            // Create shop card row
-            const shopRow = document.createElement('tr');
-            shopRow.className = 'shop-directory-row';
+                // Count items in shop
+                let itemCount = 0;
+                let roomCount = Object.keys(shop).length;
+                Object.values(shop).forEach(room => {
+                    itemCount += room.length;
+                });
 
-            const locationInfo = this.extractLocationInfo(metadata);
+                // Create shop card row
+                const shopRow = document.createElement('tr');
+                shopRow.className = 'shop-directory-row';
 
-            const shopCard = `
-                <td colspan="5" class="shop-directory-card">
-                    <div class="shop-card">
-                        <div class="shop-card-header">
-                            <div class="shop-card-name">${shopName}</div>
-                            <div class="shop-card-stats">
-                                <span class="stat-badge">${itemCount} items</span>
-                                <span class="stat-badge">${roomCount} room${roomCount !== 1 ? 's' : ''}</span>
-                                ${locationInfo ? `<span class="stat-badge location">${locationInfo}</span>` : ''}
+                const locationInfo = this.extractLocationInfo(metadata);
+
+                const shopCard = `
+                    <td colspan="5" class="shop-directory-card">
+                        <div class="shop-card">
+                            <div class="shop-card-header">
+                                <div class="shop-card-name">${shopName}</div>
+                                <div class="shop-card-stats">
+                                    <span class="stat-badge">${itemCount} items</span>
+                                    <span class="stat-badge">${roomCount} room${roomCount !== 1 ? 's' : ''}</span>
+                                    ${locationInfo ? `<span class="stat-badge location">${locationInfo}</span>` : ''}
+                                </div>
+                            </div>
+                            <div class="shop-card-footer">
+                                <div class="shop-card-action">Click to browse inventory →</div>
                             </div>
                         </div>
-                        <div class="shop-card-footer">
-                            <div class="shop-card-action">Click to browse inventory →</div>
-                        </div>
-                    </div>
-                </td>
-            `;
+                    </td>
+                `;
 
-            shopRow.innerHTML = shopCard;
-            shopRow.addEventListener('click', () => this.selectShop(townName, shopName));
-            tbody.appendChild(shopRow);
+                shopRow.innerHTML = shopCard;
+                shopRow.addEventListener('click', () => this.selectShop(townName, shopName));
+                tbody.appendChild(shopRow);
+
+                console.log(`Added shop card ${index + 1}/${shops.length}: ${shopName}`);
+            } catch (error) {
+                console.error(`Error creating shop card for ${shopName}:`, error);
+            }
         });
+
+        console.log(`Finished creating ${shops.length} shop cards for ${townName}`);
     }
 
 
@@ -238,7 +255,7 @@ class BrowseEngine {
                 <div class="shop-detail-name">${shopName}</div>
                 ${shopMappingData ? `
                     <div class="shop-navigation-info">
-                        <div class="shop-map-id">📍 Room #${shopMappingData.map_id}</div>
+                        <div class="shop-map-id">📍 Room: ${shopMappingData.map_id}</div>
                         ${shopMappingData.exterior ? `<div class="shop-exterior">Go: ${shopMappingData.exterior}</div>` : ''}
                     </div>
                 ` : ''}
@@ -424,29 +441,20 @@ class BrowseEngine {
     }
 
     backToShops() {
+        console.log('backToShops() called');
+        console.log('currentTown:', this.currentTown);
+
         if (this.currentTown) {
-            this.showShopList(this.currentTown);
+            // Hide the room list sidebar
             this.hideRoomList();
 
-            // Show all items in town
-            let allTownItems = [];
-            Object.values(this.townData[this.currentTown]).forEach(shop => {
-                Object.values(shop).forEach(room => {
-                    allTownItems = allTownItems.concat(room);
-                });
-            });
+            // Display the shop directory in the main area
+            this.displayShopDirectory(this.currentTown);
 
-            this.updateResultsHeader(this.currentTown, allTownItems.length);
-
-            // Display shops overview instead of individual items
-            const tbody = document.getElementById('results-body');
-            tbody.innerHTML = `
-                <tr>
-                    <td colspan="5" style="text-align: center; padding: 20px;">
-                        Select a shop from the sidebar to view its inventory
-                    </td>
-                </tr>
-            `;
+            // Clear the current shop selection
+            this.currentShop = null;
+        } else {
+            console.log('No currentTown set, cannot display shop directory');
         }
     }
 }

@@ -722,7 +722,7 @@ class SearchEngine {
         if (shopMappingData) {
             const mapId = shopMappingData.map_id;
             const exterior = shopMappingData.exterior;
-            return `<br><span style="color: #1b5e20; font-weight: bold;">📍 Room #${mapId}</span>${exterior ? `<br><span style="color: #2e7d32; font-style: italic;">Go: ${exterior}</span>` : ''}`;
+            return `<br><span style="color: #1b5e20; font-weight: bold;">📍 Room: ${mapId}</span>${exterior ? `<br><span style="color: #2e7d32; font-style: italic;">Go: ${exterior}</span>` : ''}`;
         }
         return '';
     }
