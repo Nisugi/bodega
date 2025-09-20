@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-20 09:10:53 UTC",
-  "run_time": "06m 41s",
+  "created_at": "2025-09-20 10:35:55 UTC",
+  "run_time": "14s",
   "town": "Solhaven",
   "shops": [
     {
@@ -49509,6 +49509,36 @@
                   }
                 ],
                 "weight": 2
+              }
+            },
+            {
+              "id": "336773218",
+              "name": "a snake-etched copper band",
+              "details": {
+                "raw": [
+                  "Analysis of a snake-etched copper band indicates the item is free from merchant alteration restrictions.",
+                  "The copper band will cost 750,000 coins.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It seems to have more than your average dwarf could count enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is estimated to be worth about 250,000 silvers.",
+                  "It has a permanently unlocked loresong by Masuda."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "worn": "finger",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 8,
+                    "ability": "Dodging Bonus"
+                  }
+                ]
               }
             }
           ],
