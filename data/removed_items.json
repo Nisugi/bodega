@@ -840,6 +840,204 @@
       "removed_date": "2025-09-19T21:48:47Z",
       "last_seen_shop": "Aniarra's Magic Shoppe",
       "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "268759971",
+      "name": "an opalescent glass jar containing uncut diamonds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut diamonds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut diamonds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 100,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "gemstone, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:21:23Z",
+      "last_seen_shop": "Anstara's Magic Shoppe",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "79722616",
+      "name": "a translucent glaes jar containing green tourmalines",
+      "details": {
+        "raw": [
+          "It is estimated that a translucent glaes jar containing green tourmalines can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of a translucent glaes jar containing green tourmalines indicates the creator has provided the following information:",
+          "This glaes jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glaes jar will cost 20,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:21:24Z",
+      "last_seen_shop": "Tolwynn's Treasures, Wanton",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "158958",
+      "name": "a shimmering green orb",
+      "details": {
+        "raw": [
+          "Green tendrils writhe within the orb.  Your desire to rub and caress it is nearly overwhelming.  You sense there is 1 use within the orb.",
+          "The orb can not be worn.",
+          "Analysis of a shimmering green orb indicates the creator has provided the following information:",
+          "This is a 1.5x modifier with 250 flat experience award orb.  It is not currently attuned to any character.",
+          "The green orb will cost 500,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "gemstone, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:21:35Z",
+      "last_seen_shop": "Leafi's Confectionery Castle",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "203642310",
+      "name": "an opalescent glass jar containing uncut emeralds",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing uncut emeralds indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 99,500 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:21:57Z",
+      "last_seen_shop": "Aniarra's Magic Shoppe",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "181441",
+      "name": "a frayed leather harness",
+      "details": {
+        "raw": [
+          "The leather harness is composed of several straps, some lined with a row of slots for smaller bladed weapons or wands, while a series of straps lines the backing.  Hanging from the harness are large sacks, narrow tubes, small pouches, and containers.",
+          "It is estimated that a frayed leather harness can store a medium amount with enough space for any number of items.",
+          "Analysis of a frayed leather harness indicates the creator has provided the following information:",
+          "The leather harness is unlocked, but could be unlocked once more.  It has 12 verbs.",
+          "When altering, keep in mind that the harness's messaging references large and small containers, and a row of weapon slots and straps.  These can all be altered by a skilled merchant.  The containers should remain plural.  Currently, they are set to slots (wands and small weapons), straps (belted weapons), a series of straps (back weapons), large sacks (bundled weapons), narrow tubes (paper and scrolls), small pouches (trinkets), and containers (anything else).",
+          "The leather harness will cost 2,500,000 coins."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "worn": "front",
+        "material": "leather, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:22:00Z",
+      "last_seen_shop": "Maiken's Weaponry",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "180165",
+      "name": "some golden full leather",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph.",
+          "A slender ivory tag affixed to the inner lining of the full leather reads, \"26 sum. +15 Max Mana, +8 Spell Aiming, +3 Arcane Symbols. Persists.\"",
+          "The leather is leather armor that covers the torso and arms.",
+          "Analysis of some golden full leather indicates the item is free from merchant alteration restrictions.",
+          "The full leather will cost 5,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It is estimated to be worth about 700,000 silvers.",
+          "It is predominantly crafted of leather.",
+          "It is a simple project (40 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Sirenica."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable",
+          "persists"
+        ],
+        "worn": "chest",
+        "material": "leather, an extremely common material",
+        "enchant": 5,
+        "enhancives": [
+          {
+            "boost": 15,
+            "ability": "Max Mana"
+          },
+          {
+            "boost": 8,
+            "ability": "Spell Aiming Bonus"
+          },
+          {
+            "boost": 3,
+            "ability": "Arcane Symbols Bonus"
+          }
+        ],
+        "weight": 13
+      },
+      "removed_date": "2025-09-20T02:22:01Z",
+      "last_seen_shop": "Brute's Armory",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "180164",
+      "name": "some jagged gornar-inlaid earrings",
+      "details": {
+        "raw": [
+          "A slender ivory tag affixed to the back of the gornar-inlaid earrings reads, \"30 sum. +10 Max Mana, +10 EMC, +3 Influence Bonus, +2 Discipline Bonus. Persists.\"",
+          "Analysis of some jagged gornar-inlaid earrings indicates the item is free from merchant alteration restrictions.",
+          "[The earrings will be charged until 3/2/2026 02:10:08 CST.]",
+          "The gornar-inlaid earrings will cost 16,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to be out of enhancive charges.",
+          "It is estimated to be worth about 500,000 silvers.",
+          "It is predominantly crafted of metal.",
+          "It has a permanently unlocked loresong by Belrog."
+        ],
+        "tags": [
+          "persists",
+          "small"
+        ],
+        "worn": "ears",
+        "material": "metal, an extremely common material",
+        "enhancives": [
+          {
+            "boost": 10,
+            "ability": "Max Mana"
+          },
+          {
+            "boost": 10,
+            "ability": "Elemental Mana Control Bonus"
+          },
+          {
+            "boost": 3,
+            "ability": "Influence Bonus"
+          },
+          {
+            "boost": 2,
+            "ability": "Discipline Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T02:22:01Z",
+      "last_seen_shop": "Brute's Armory",
+      "town": "Wehnimer's Landing"
     }
   ],
   "Solhaven": [
@@ -974,6 +1172,82 @@
       },
       "removed_date": "2025-09-19T16:44:58Z",
       "last_seen_shop": "Requiell's Magic Shoppe"
+    },
+    {
+      "id": "178929",
+      "name": "a cushion-cut white sunstone band",
+      "details": {
+        "raw": [
+          "Analysis of a cushion-cut white sunstone band indicates the item is free from merchant alteration restrictions.",
+          "The white sunstone band will cost 1,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 200,000 silvers.",
+          "It is magic resistant.",
+          "It has a permanently unlocked loresong by Jooniper."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "finger",
+        "enhancives": [
+          {
+            "boost": 9,
+            "ability": "Influence Base"
+          },
+          {
+            "boost": 5,
+            "ability": "Logic Base"
+          },
+          {
+            "boost": 2,
+            "ability": "Spirit Mana Control Bonus"
+          },
+          {
+            "boost": 1,
+            "ability": "Spell Aiming Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T02:22:23Z",
+      "last_seen_shop": "Earthdiver's Magic Shoppe",
+      "town": "Solhaven"
+    },
+    {
+      "id": "161098",
+      "name": "a ruby-inset ora necklace",
+      "details": {
+        "raw": [
+          "Analysis of a ruby-inset ora necklace indicates the item is free from merchant alteration restrictions.",
+          "The ora necklace will cost 500,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 300,000 silvers.",
+          "It is magic resistant.",
+          "It has a permanently unlocked loresong by Vonaq."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "neck",
+        "enhancives": [
+          {
+            "boost": 8,
+            "ability": "Agility Base"
+          },
+          {
+            "boost": 7,
+            "ability": "Influence Base"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T02:22:25Z",
+      "last_seen_shop": "Nucky's Outfitting",
+      "town": "Solhaven"
     }
   ],
   "Icemule Trace": [
@@ -1155,6 +1429,99 @@
       },
       "removed_date": "2025-09-19T14:41:35Z",
       "last_seen_shop": "Koreina's Armory"
+    },
+    {
+      "id": "175623",
+      "name": "an asymmetric tunic of muted hunter green maedatha",
+      "details": {
+        "raw": [
+          "It is estimated that an asymmetric tunic of muted hunter green maedatha can store a very small amount with enough space for one item of very small size.",
+          "Analysis of an asymmetric tunic of muted hunter green maedatha indicates the creator has provided the following information:",
+          "This is a Vanishing Point tunic.  Alterations (long or show) are fine on this provided the item doesn't have a high or restricting neck.  General collars are okay.  It should also be able to completely hide a dagger in the inside lining - no sheer fabrics (chiffon, voile, gauze, etc.) unless they are layered.  Acceptable nouns for this are: corset, bodice, chemise, gown, cotehardie, kirtle, bliaut, dress, houppelande, robe, tunic, or shirt.",
+          "This tunic is Tier 0 / 1 (two tiers).  Verbs are: GET, PULL, PUT, REMOVE, and WEAR.",
+          "The hunter green tunic will cost 50,000 coins."
+        ],
+        "tags": [
+          "max_light",
+          "deepenable"
+        ],
+        "worn": "chest",
+        "material": "cloth, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:22:36Z",
+      "last_seen_shop": "Olisette's Outfitting",
+      "town": "Icemule Trace"
+    },
+    {
+      "id": "175679",
+      "name": "a carved bloodstone signet",
+      "details": {
+        "raw": [
+          "The signet is made of bloodstone and has a design of crossed quills engraved into its face.",
+          "Analysis of a carved bloodstone signet indicates the creator has provided the following information:",
+          "Your signet can be altered but it must remain a signet ring or signet band.",
+          "The seal design on your signet can be altered freely.",
+          "Both long descriptions and shows are fine.",
+          "This signet is an off the shelf model (tier 0 of 2 tiers or OTS).    You are able to use the following verbs on it: WEAR, REMOVE, LOOK and PUSH.",
+          "The bloodstone signet will cost 500,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "worn": "finger",
+        "material": "gemstone, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:22:36Z",
+      "last_seen_shop": "Olisette's Outfitting",
+      "town": "Icemule Trace"
+    },
+    {
+      "id": "172593",
+      "name": "a perfect mithril short-sword",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph and Speelgutz's crafting mark.",
+          "Analysis of a perfect mithril short-sword indicates the item is free from merchant alteration restrictions.",
+          "The mithril short-sword will cost 5,000,000 coins.",
+          "It is forged by Speelgutz and has increased (+3) effectiveness in combat.",
+          "It is estimated to be worth about 60,000 silvers.",
+          "It is predominantly crafted of mithril.",
+          "It may be enchanted up to a bonus of 25 by a wizard and was last enchanted by Karkus.",
+          "It is a simple project (38 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Gittyna."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "edged weapons",
+        "material": "mithril, an uncommon metal",
+        "enchant": 25,
+        "weight": 3
+      },
+      "removed_date": "2025-09-20T02:22:41Z",
+      "last_seen_shop": "Faulkil's Weaponry",
+      "town": "Icemule Trace"
+    },
+    {
+      "id": "170966",
+      "name": "a slime-covered grave blossom",
+      "details": {
+        "raw": [
+          "Analysis of a slime-covered grave blossom indicates the creator has provided the following information:",
+          "This is a foraged item.  It is a type of flower.",
+          "You may eat a slime-covered grave blossom.",
+          "There is a chance you can sell this at a local Herbal Shop.",
+          "The grave blossom will cost 3,000 coins."
+        ],
+        "tags": [
+          "purpose"
+        ],
+        "worn": "pin",
+        "material": "organic material, an extremely common material"
+      },
+      "removed_date": "2025-09-20T02:22:48Z",
+      "last_seen_shop": "Brokkrsten's Magic Shoppe",
+      "town": "Icemule Trace"
     }
   ],
   "Ta'Illistim": [
@@ -1219,6 +1586,45 @@
         "material": "gemstone, an extremely common material"
       },
       "removed_date": "2025-09-19T21:49:47Z",
+      "last_seen_shop": "Skootz's Magic Shoppe",
+      "town": "Ta'Illistim"
+    },
+    {
+      "id": "182054",
+      "name": "a polished mithglin helm",
+      "details": {
+        "raw": [
+          "The helm is miscellaneous armor that covers the head.",
+          "Analysis of a polished mithglin helm indicates the item is free from merchant alteration restrictions.",
+          "The mithglin helm will cost 600,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It is estimated to be worth about 1,000,000 silvers.",
+          "It is padded to lessen the damage the wearer takes, but exactly how much requires assessment.",
+          "It is predominantly crafted of mithglin.",
+          "It is a simple project (26 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Fosorian."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable",
+          "persists"
+        ],
+        "worn": "head",
+        "material": "mithglin, a rare metal",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "Spell Aiming Ranks"
+          },
+          {
+            "boost": 11,
+            "ability": "Logic Base"
+          }
+        ],
+        "weight": 4
+      },
+      "removed_date": "2025-09-20T02:22:59Z",
       "last_seen_shop": "Skootz's Magic Shoppe",
       "town": "Ta'Illistim"
     }
@@ -1386,6 +1792,72 @@
       },
       "removed_date": "2025-09-19T21:49:58Z",
       "last_seen_shop": "Tenacity's Outfitting",
+      "town": "Mist Harbor"
+    },
+    {
+      "id": "13124154",
+      "name": "an ivory-inlaid silver pin",
+      "details": {
+        "raw": [
+          "Analysis of an ivory-inlaid silver pin indicates the item is free from merchant alteration restrictions.",
+          "The silver pin will cost 2,500,000 coins.",
+          "It has 4 charges.  It is empowered and can be charged for an additional 263.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have several enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 200,000 silvers.",
+          "It has a temporarily unlocked loresong by a bard for 10 days, 6 hours and 13 minutes."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "pin",
+        "spell": "Spirit Guard",
+        "activator": "rubbing",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "Arcane Symbols Bonus"
+          },
+          {
+            "boost": 3,
+            "ability": "Dexterity Bonus"
+          },
+          {
+            "boost": 2,
+            "ability": "Aura Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T02:23:06Z",
+      "last_seen_shop": "Miaah's Outfitting",
+      "town": "Mist Harbor"
+    },
+    {
+      "id": "188705",
+      "name": "a crimson imflass mace",
+      "details": {
+        "raw": [
+          "Analysis of a crimson imflass mace indicates the item is free from merchant alteration restrictions.",
+          "The imflass mace will cost 50,000 coins.",
+          "It is estimated to be worth about 61,000 silvers.",
+          "It is predominantly crafted of imflass.",
+          "It is a basic project (141 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Annarosa."
+        ],
+        "tags": [
+          "lightenable"
+        ],
+        "skill": "blunt weapons",
+        "material": "imflass, an uncommon metal",
+        "enchant": 12,
+        "flare": "the power of a lightning bolt",
+        "weight": 6
+      },
+      "removed_date": "2025-09-20T02:23:12Z",
+      "last_seen_shop": "Annarosa's Weaponry",
       "town": "Mist Harbor"
     }
   ],
