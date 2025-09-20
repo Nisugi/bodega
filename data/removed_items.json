@@ -1082,6 +1082,153 @@
       "removed_date": "2025-09-20T04:40:09Z",
       "last_seen_shop": "Aniarra's Magic Shoppe",
       "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "174983",
+      "name": "an uncut diamond",
+      "details": {
+        "raw": [
+          "The diamond can not be worn.",
+          "Analysis of an uncut diamond indicates the item is free from merchant alteration restrictions.",
+          "The uncut diamond will cost 15,000 coins.",
+          "It is estimated to be worth about 7,000 silvers."
+        ],
+        "tags": [
+          "small"
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:00Z",
+      "last_seen_shop": "Regwen's Outfitting",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "330069964",
+      "name": "an opalescent glass jar containing pink sapphires",
+      "details": {
+        "raw": [
+          "It is estimated that an opalescent glass jar containing pink sapphires can store a very small amount with enough space for one item.",
+          "The jar can not be worn.",
+          "Analysis of an opalescent glass jar containing pink sapphires indicates the creator has provided the following information:",
+          "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+          "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+          "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+          "The glass jar will cost 40,000 coins."
+        ],
+        "tags": [
+
+        ],
+        "material": "glass, an extremely common material"
+      },
+      "removed_date": "2025-09-20T06:46:11Z",
+      "last_seen_shop": "Traiva's General Store",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "180173",
+      "name": "a chiseled white sunstone clasp",
+      "details": {
+        "raw": [
+          "Analysis of a chiseled white sunstone clasp indicates this is a clasp for use in Lock Mastery, and that the item is free from merchant alteration restrictions.",
+          "The white sunstone clasp will cost 1,000,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 350,000 silvers.",
+          "It is magic resistant.",
+          "It has a temporarily unlocked loresong by Katness."
+        ],
+        "tags": [
+          "purpose",
+          "small"
+        ],
+        "worn": "pin",
+        "enhancives": [
+          {
+            "boost": 7,
+            "ability": "Influence Base"
+          },
+          {
+            "boost": 7,
+            "ability": "Max Mana"
+          },
+          {
+            "boost": 4,
+            "ability": "Two-Handed Weapons Bonus"
+          },
+          {
+            "boost": 4,
+            "ability": "Climbing Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:27Z",
+      "last_seen_shop": "Brute's Armory",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "324458086",
+      "name": "a radiant-cut alexandrite pin",
+      "details": {
+        "raw": [
+          "Analysis of a radiant-cut alexandrite pin indicates the item is free from merchant alteration restrictions.",
+          "The alexandrite pin will cost 600,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will disintegrate after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 100,000 silvers.",
+          "It has a permanently unlocked loresong by Relay."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "pin",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 4,
+            "ability": "Two-Handed Weapons Bonus"
+          },
+          {
+            "boost": 4,
+            "ability": "Stalking and Hiding Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:32Z",
+      "last_seen_shop": "Nevil's Magic Shoppe",
+      "town": "Wehnimer's Landing"
+    },
+    {
+      "id": "64658641",
+      "name": "a suit of white leather brigandine with ornate vultite studs",
+      "details": {
+        "raw": [
+          "It has a small enchanter's glyph.",
+          "The brigandine is scale armor that covers the torso, arms, legs, neck, and head.",
+          "Analysis of a suit of white leather brigandine with ornate vultite studs indicates the creator has provided the following information:",
+          "This armor is able to transform from armor into clothing at a simple TICKLE.  Both the armor and clothing may be freely altered.  The unlocking status of this item is:  Off the Shelf, three tiers remaining.",
+          "The white leather brigandine will cost 100,000 coins.",
+          "It is estimated to be worth about 300,000 silvers.",
+          "It is predominantly crafted of leather.",
+          "It is a simple project (46 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Nisme."
+        ],
+        "tags": [
+          "purpose",
+          "lightenable"
+        ],
+        "worn": "chest",
+        "material": "leather, an extremely common material",
+        "enchant": 20,
+        "weight": 17
+      },
+      "removed_date": "2025-09-20T06:46:34Z",
+      "last_seen_shop": "Sythril's Combat Gear",
+      "town": "Wehnimer's Landing"
     }
   ],
   "Solhaven": [
@@ -1291,6 +1438,77 @@
       },
       "removed_date": "2025-09-20T02:22:25Z",
       "last_seen_shop": "Nucky's Outfitting",
+      "town": "Solhaven"
+    },
+    {
+      "id": "159229",
+      "name": "an elegant gold armband",
+      "details": {
+        "raw": [
+          "Analysis of an elegant gold armband indicates the item is free from merchant alteration restrictions.",
+          "The gold armband will cost 1,000,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a fair amount of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 80,000 silvers.",
+          "It has a permanently unlocked loresong by Gouvilent."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "wrist",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 5,
+            "ability": "Two-Handed Weapons Bonus"
+          },
+          {
+            "boost": 5,
+            "ability": "Thrown Weapons Bonus"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:42Z",
+      "last_seen_shop": "Jeneuer's Combat Gear",
+      "town": "Solhaven"
+    },
+    {
+      "id": "179247",
+      "name": "a yellow sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a yellow sapphire indicates the item is free from merchant alteration restrictions.",
+          "The yellow sapphire will cost 2,900 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:45Z",
+      "last_seen_shop": "Requiell's Magic Shoppe",
+      "town": "Solhaven"
+    },
+    {
+      "id": "179246",
+      "name": "a yellow sapphire",
+      "details": {
+        "raw": [
+          "The sapphire can not be worn.",
+          "Analysis of a yellow sapphire indicates the item is free from merchant alteration restrictions.",
+          "The yellow sapphire will cost 2,900 coins."
+        ],
+        "tags": [
+
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:45Z",
+      "last_seen_shop": "Requiell's Magic Shoppe",
       "town": "Solhaven"
     }
   ],
@@ -1583,6 +1801,43 @@
       "removed_date": "2025-09-20T03:05:48Z",
       "last_seen_shop": "Lithyia's General Store",
       "town": "Icemule Trace"
+    },
+    {
+      "id": "172501",
+      "name": "an engraved gold torc",
+      "details": {
+        "raw": [
+          "Analysis of an engraved gold torc indicates the item is free from merchant alteration restrictions.",
+          "The gold torc will cost 750,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 200,000 silvers.",
+          "It has a permanently unlocked loresong by Enoso."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "neck",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 7,
+            "ability": "Dexterity Base"
+          },
+          {
+            "boost": 1,
+            "ability": "Dodging Ranks"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:47:03Z",
+      "last_seen_shop": "Adalfuns's Combat Gear",
+      "town": "Icemule Trace"
     }
   ],
   "Ta'Illistim": [
@@ -1747,6 +2002,43 @@
       },
       "removed_date": "2025-09-19T18:49:43Z",
       "last_seen_shop": "Kakoon's Magic Shoppe"
+    },
+    {
+      "id": "261067098",
+      "name": "a kakore quarter staff",
+      "details": {
+        "raw": [
+          "Analysis of a kakore quarter staff indicates the item is free from merchant alteration restrictions.",
+          "The kakore quarter staff will cost 75,000 coins.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It is estimated to be worth about 650,000 silvers.",
+          "It is predominantly crafted of kakore.",
+          "It is a simple project (29 difficulty) for an adventurer to modify.",
+          "It has a permanently unlocked loresong by Zayp."
+        ],
+        "tags": [
+          "lightenable",
+          "persists"
+        ],
+        "skill": "twohanded weapons",
+        "material": "kakore, an uncommon wood",
+        "enchant": 10,
+        "enhancives": [
+          {
+            "boost": 13,
+            "ability": "Stamina Recovery"
+          },
+          {
+            "boost": 8,
+            "ability": "Max Stamina"
+          }
+        ],
+        "weight": 5
+      },
+      "removed_date": "2025-09-20T06:47:29Z",
+      "last_seen_shop": "Kakoon's Magic Shoppe",
+      "town": "Ta'Vaalor,"
     }
   ],
   "Mist Harbor": [
@@ -1919,6 +2211,39 @@
       },
       "removed_date": "2025-09-20T02:23:12Z",
       "last_seen_shop": "Annarosa's Weaponry",
+      "town": "Mist Harbor"
+    },
+    {
+      "id": "167798",
+      "name": "a chiseled star ruby earcuff",
+      "details": {
+        "raw": [
+          "Analysis of a chiseled star ruby earcuff indicates the item is free from merchant alteration restrictions.",
+          "The star ruby earcuff will cost 500,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will disintegrate after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a fair amount of enhancive charges remaining.",
+          "It will crumble into dust after its last enhancive charge has been expended.",
+          "It is estimated to be worth about 56,000 silvers.",
+          "It has a permanently unlocked loresong by Kasyan."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "small"
+        ],
+        "worn": "ear",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 6,
+            "ability": "Stamina Recovery"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:47:30Z",
+      "last_seen_shop": "Prolly's Magic Shoppe",
       "town": "Mist Harbor"
     }
   ],
@@ -2228,6 +2553,43 @@
       },
       "removed_date": "2025-09-20T03:05:39Z",
       "last_seen_shop": "Sixle's Outfitting",
+      "town": "River's Rest"
+    },
+    {
+      "id": "163230",
+      "name": "a coral studded ora torc",
+      "details": {
+        "raw": [
+          "Analysis of a coral studded ora torc indicates the item is free from merchant alteration restrictions.",
+          "The studded ora torc will cost 550,000 coins.",
+          "It has 0 charges.  It is rechargeable.",
+          "It will persist after its last magical charge has been expended.",
+          "It is an enhancive item:",
+          "    It seems to have a lot of enhancive charges remaining.",
+          "It is estimated to be worth about 200,000 silvers.",
+          "It has a permanently unlocked loresong by Nitos."
+        ],
+        "tags": [
+          "purpose",
+          "imbeddable",
+          "persists",
+          "small"
+        ],
+        "worn": "neck",
+        "activator": "waving",
+        "enhancives": [
+          {
+            "boost": 2,
+            "ability": "Constitution Bonus"
+          },
+          {
+            "boost": 6,
+            "ability": "Stamina Recovery"
+          }
+        ]
+      },
+      "removed_date": "2025-09-20T06:46:56Z",
+      "last_seen_shop": "Aldean's Combat Gear",
       "town": "River's Rest"
     }
   ]

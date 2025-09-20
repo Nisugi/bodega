@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-09-20 04:41:37 UTC",
-  "run_time": "15s",
+  "created_at": "2025-09-20 06:47:42 UTC",
+  "run_time": "13s",
   "town": "Mist Harbor",
   "shops": [
     {
@@ -1896,36 +1896,6 @@
                   {
                     "boost": 7,
                     "ability": "Survival Bonus"
-                  }
-                ]
-              }
-            },
-            {
-              "id": "167798",
-              "name": "a chiseled star ruby earcuff",
-              "details": {
-                "raw": [
-                  "Analysis of a chiseled star ruby earcuff indicates the item is free from merchant alteration restrictions.",
-                  "The star ruby earcuff will cost 500,000 coins.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a fair amount of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is estimated to be worth about 56,000 silvers.",
-                  "It has a permanently unlocked loresong by Kasyan."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "small"
-                ],
-                "worn": "ear",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 6,
-                    "ability": "Stamina Recovery"
                   }
                 ]
               }

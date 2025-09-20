@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-20 04:40:46 UTC",
+  "created_at": "2025-09-20 06:46:59 UTC",
   "run_time": "04s",
   "town": "River's Rest",
   "shops": [
@@ -3089,40 +3089,6 @@
                   }
                 ],
                 "weight": 5
-              }
-            },
-            {
-              "id": "163230",
-              "name": "a coral studded ora torc",
-              "details": {
-                "raw": [
-                  "Analysis of a coral studded ora torc indicates the item is free from merchant alteration restrictions.",
-                  "The studded ora torc will cost 550,000 coins.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 200,000 silvers.",
-                  "It has a permanently unlocked loresong by Nitos."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "persists",
-                  "small"
-                ],
-                "worn": "neck",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 2,
-                    "ability": "Constitution Bonus"
-                  },
-                  {
-                    "boost": 6,
-                    "ability": "Stamina Recovery"
-                  }
-                ]
               }
             },
             {

@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-20 04:41:21 UTC",
+  "created_at": "2025-09-20 06:47:29 UTC",
   "run_time": "04s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -13533,40 +13533,6 @@
                   }
                 ],
                 "weight": 6
-              }
-            },
-            {
-              "id": "261067098",
-              "name": "a kakore quarter staff",
-              "details": {
-                "raw": [
-                  "Analysis of a kakore quarter staff indicates the item is free from merchant alteration restrictions.",
-                  "The kakore quarter staff will cost 75,000 coins.",
-                  "It is an enhancive item:",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It is estimated to be worth about 650,000 silvers.",
-                  "It is predominantly crafted of kakore.",
-                  "It is a simple project (29 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Zayp."
-                ],
-                "tags": [
-                  "lightenable",
-                  "persists"
-                ],
-                "skill": "twohanded weapons",
-                "material": "kakore, an uncommon wood",
-                "enchant": 10,
-                "enhancives": [
-                  {
-                    "boost": 13,
-                    "ability": "Stamina Recovery"
-                  },
-                  {
-                    "boost": 8,
-                    "ability": "Max Stamina"
-                  }
-                ],
-                "weight": 5
               }
             },
             {
