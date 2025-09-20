@@ -606,10 +606,13 @@ module Bodega
 
       (preamble, *inv) = coll.run()
 
-      { preamble: preamble,
+      result = { preamble: preamble,
         town: town,
         id: id,
         inv: parse_inv(inv.map(&:strip)) }
+
+
+      result
     end
 
     def self.add_room(acc, row)
@@ -820,13 +823,16 @@ module Bodega
         add_items_to_shop(existing_shop, new_items)
       end
 
-      # Return the updated shop structure
-      {
+      # Return the updated shop structure, preserving room_id if it exists
+      result = {
         preamble: preamble,
         town: town,
         id: shop_id,
         inv: existing_shop['inv']
       }
+
+
+      result
     end
 
     def self.load_removed_items
@@ -1086,6 +1092,7 @@ module Bodega
       @smart_stats = nil
     end
 
+
     def self.scan_item(id)
       coll = Collector.new(
         command: %[shop inspect #{id}],
@@ -1117,6 +1124,10 @@ module Bodega
 
     def self.to_json()
       @created_files = []
+
+      # First, collect all the data
+      all_town_data = []
+
       Utils.benchmark(template: "scanned shops in {{run_time}}") do
         towns_to_search.each do |town|
           start = Time.now
@@ -1124,16 +1135,22 @@ module Bodega
 
           # ALWAYS update timestamp when parser runs - shows last scan time on website
           # This ensures users see when we last checked for updates, not when data last changed
-          data = {
+          town_data = {
             created_at: Time.now.utc,
             run_time: Utils.fmt_time(Time.now - start),
             town: town,
             shops: shops || []
           }
 
-          filename = save_json(name: town, data: data)
-          @created_files << filename if filename
+          all_town_data << town_data
         end
+      end
+
+
+      # Now save all the data
+      all_town_data.each do |data|
+        filename = save_json(name: data[:town], data: data)
+        @created_files << filename if filename
       end
 
       # Display smart parsing summary if we were in smart mode
@@ -1156,6 +1173,7 @@ module Bodega
     def self.created_files
       @created_files || []
     end
+
 
     def self.save_json(name:, data:)
       return Utils.pp(data) if Opts["dry-run"]
@@ -1582,6 +1600,7 @@ module Bodega
                                 loads existing JSON, compares item IDs, only inspects truly new items
                                 automatically removes deleted items and adds new ones
                                 first run still full speed, subsequent runs are much faster
+
 
         upload mode:
           --upload              upload existing JSON files from local filesystem
