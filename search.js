@@ -702,8 +702,8 @@ class SearchEngine {
             ` : ''}
 
             <div class="modal-section">
-                <h4>Shop Location</h4>
-                <p>${item.shopLocation}${this.getShopMapInfo(item.shop)}</p>
+                <h4>Shop Location ${this.getShopMapInfo(item.shopName)}</h4>
+                <p>${item.shopLocation}</p>
             </div>
 
             ${item.raw && item.raw.length > 0 ? `
