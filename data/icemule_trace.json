@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-09-20 02:22:48 UTC",
+  "created_at": "2025-09-20 03:05:57 UTC",
   "run_time": "15s",
   "town": "Icemule Trace",
   "shops": [
@@ -21958,20 +21958,6 @@
                 "raw": [
                   "The poison can not be worn.",
                   "The indigo-tinted poison will cost 10,000 coins."
-                ],
-                "tags": [
-
-                ],
-                "material": "glass, an extremely common material"
-              }
-            },
-            {
-              "id": "177452",
-              "name": "a vial of maroon-swirled poison",
-              "details": {
-                "raw": [
-                  "The poison can not be worn.",
-                  "The maroon-swirled poison will cost 10,000 coins."
                 ],
                 "tags": [
 
