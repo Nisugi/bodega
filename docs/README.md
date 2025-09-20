@@ -6,7 +6,7 @@ An automated web application for browsing GemStone IV player shop inventories wi
 
 1. **Download the script**: Get `bodega.lic` from the repository and place it in your Lich `scripts/` directory
 2. **Run with upload**: `;bodega --parser --save --upload`
-3. **Browse the data**: [https://nisugi.github.io/bodega/](https://nisugi.github.io/bodega/)
+3. **Browse the data**: [https://playershops.net](https://playershops.net/)
 
 Your shop data will be automatically processed and the website will update within 1-2 minutes!
 
