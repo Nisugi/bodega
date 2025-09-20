@@ -229,10 +229,19 @@ class BrowseEngine {
 
         const metadata = this.shopMetadata[townName][shopName] || {};
 
-        // Enhanced shop header with metadata
+        // Get shop mapping info from data loader
+        const shopMappingData = window.dataLoader?.shopMapping?.[shopName];
+
+        // Enhanced shop header with metadata and navigation info
         selectedShopName.innerHTML = `
             <div class="shop-detail-header">
                 <div class="shop-detail-name">${shopName}</div>
+                ${shopMappingData ? `
+                    <div class="shop-navigation-info">
+                        <div class="shop-map-id">📍 Room #${shopMappingData.map_id || shopMappingData}</div>
+                        ${shopMappingData.exterior ? `<div class="shop-exterior">Go: ${shopMappingData.exterior}</div>` : ''}
+                    </div>
+                ` : ''}
                 ${metadata.location ? `<div class="shop-detail-location">${metadata.location}</div>` : ''}
                 ${metadata.sign ? `<div class="shop-detail-sign">${metadata.sign}</div>` : ''}
             </div>

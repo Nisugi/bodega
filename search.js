@@ -703,7 +703,7 @@ class SearchEngine {
 
             <div class="modal-section">
                 <h4>Shop Location</h4>
-                <p>${item.shopLocation}</p>
+                <p>${item.shopLocation}${this.getShopMapInfo(item.shop)}</p>
             </div>
 
             ${item.raw && item.raw.length > 0 ? `
@@ -715,6 +715,16 @@ class SearchEngine {
         `;
 
         modal.style.display = 'block';
+    }
+
+    getShopMapInfo(shopName) {
+        const shopMappingData = window.dataLoader?.shopMapping?.[shopName];
+        if (shopMappingData) {
+            const mapId = shopMappingData.map_id || shopMappingData;
+            const exterior = shopMappingData.exterior;
+            return `<br><span style="color: #1b5e20; font-weight: bold;">📍 Room #${mapId}</span>${exterior ? `<br><span style="color: #2e7d32; font-style: italic;">Go: ${exterior}</span>` : ''}`;
+        }
+        return '';
     }
 
     closeModal() {

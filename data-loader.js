@@ -7,6 +7,7 @@ class DataLoader {
         this.totalShops = 0;
         this.lastUpdated = null;
         this.isLoading = false;
+        this.shopMapping = {};  // Store shop name to map ID mapping
 
         // List of JSON files to load
         this.dataFiles = [
@@ -37,6 +38,9 @@ class DataLoader {
 
             // Also load the separate removed_items.json if it exists
             const removedItemsData = await this.loadRemovedItems();
+
+            // Load shop mapping data if it exists
+            await this.loadShopMapping();
 
             this.processAllData(townDataArray, removedItemsData);
             this.updateStats();
@@ -87,6 +91,27 @@ class DataLoader {
 
         } catch (error) {
             console.log('No separate removed_items.json found, using embedded data');
+            return null;
+        }
+    }
+
+    async loadShopMapping() {
+        try {
+            console.log('Loading shop mapping data...');
+            const response = await fetch('data/shop_mapping.json');
+
+            if (!response.ok) {
+                console.log('No shop mapping data found');
+                return null;
+            }
+
+            const data = await response.json();
+            this.shopMapping = data.shops || data;  // Handle both formats
+            console.log(`Loaded shop mapping with ${Object.keys(this.shopMapping).length} entries`);
+            return data;
+
+        } catch (error) {
+            console.log('Failed to load shop mapping:', error);
             return null;
         }
     }
