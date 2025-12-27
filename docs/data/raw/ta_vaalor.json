@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-27 06:02:19 UTC",
+  "created_at": "2025-12-27 06:42:33 UTC",
   "run_time": "03s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -33,7 +33,9 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "wear_location": "area",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -64,7 +66,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500000
+                "cost": 2500000,
+                "item_type": null
               }
             },
             {
@@ -94,7 +97,8 @@
                 "tags": [
 
                 ],
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -113,7 +117,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -132,7 +137,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 125000
+                "cost": 125000,
+                "item_type": null
               }
             },
             {
@@ -151,7 +157,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "item_type": null
               }
             },
             {
@@ -169,7 +176,9 @@
                 ],
                 "worn": "head",
                 "material": "golvern, a very rare metal",
-                "cost": 125000
+                "cost": 125000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -188,7 +197,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -222,7 +232,8 @@
                 "tags": [
 
                 ],
-                "cost": 125000
+                "cost": 125000,
+                "item_type": null
               }
             },
             {
@@ -261,7 +272,10 @@
                 ],
                 "worn": "neck",
                 "material": "eahnor, a very rare metal",
-                "cost": 300000
+                "cost": 300000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -300,7 +314,10 @@
                 ],
                 "worn": "neck",
                 "material": "faenor, a rare metal",
-                "cost": 300000
+                "cost": 300000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -318,7 +335,10 @@
                 ],
                 "worn": "finger",
                 "material": "pink gold, an infrequent alloy",
-                "cost": 125000
+                "cost": 125000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -341,7 +361,9 @@
                 ],
                 "worn": "head",
                 "material": "platinum, piece of treasure",
-                "cost": 75000
+                "cost": 75000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -363,7 +385,10 @@
                 ],
                 "worn": "wrist",
                 "material": "gemstone, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "wear_location": "around the wrist",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -386,7 +411,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 1250000
+                "cost": 1250000,
+                "item_type": null
               }
             },
             {
@@ -405,7 +431,9 @@
                   "purpose"
                 ],
                 "worn": "pin",
-                "cost": 100000
+                "cost": 100000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -420,7 +448,8 @@
                 "tags": [
 
                 ],
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               }
             },
             {
@@ -442,7 +471,9 @@
                 ],
                 "worn": "neck",
                 "material": "gold, an uncommon metal",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -461,7 +492,9 @@
                 ],
                 "worn": "feet",
                 "material": "leather, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "on the feet",
+                "item_type": null
               }
             },
             {
@@ -480,7 +513,8 @@
 
                 ],
                 "material": "cloth, an extremely common material",
-                "cost": 175000
+                "cost": 175000,
+                "item_type": null
               }
             },
             {
@@ -499,7 +533,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 45000
+                "cost": 45000,
+                "item_type": null
               }
             },
             {
@@ -524,7 +559,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "item_type": null
               }
             }
           ]
@@ -560,7 +596,8 @@
                 "tags": [
 
                 ],
-                "cost": 250000
+                "cost": 250000,
+                "item_type": null
               }
             },
             {
@@ -593,7 +630,8 @@
                 "tags": [
 
                 ],
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               }
             },
             {
@@ -612,7 +650,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               }
             },
             {
@@ -632,7 +671,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               }
             },
             {
@@ -672,7 +712,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -705,7 +748,8 @@
                 "tags": [
 
                 ],
-                "cost": 75000
+                "cost": 75000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -725,7 +769,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -744,7 +789,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 125000
+                "cost": 125000,
+                "item_type": null
               }
             },
             {
@@ -765,7 +811,8 @@
 
                 ],
                 "material": "brass, a very common alloy",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -787,7 +834,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               }
             },
             {
@@ -806,7 +854,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -826,7 +875,9 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -845,7 +896,8 @@
 
                 ],
                 "material": "iron, an extremely common metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -864,7 +916,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 125000
+                "cost": 125000,
+                "item_type": null
               }
             }
           ],
@@ -893,7 +946,9 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 125000
+                "cost": 125000,
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -923,7 +978,8 @@
                 "tags": [
 
                 ],
-                "cost": 75000
+                "cost": 75000,
+                "item_type": null
               }
             },
             {
@@ -975,7 +1031,10 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -995,7 +1054,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -1020,7 +1080,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -1045,7 +1106,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -1069,7 +1131,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -1099,7 +1162,8 @@
                 "tags": [
 
                 ],
-                "cost": 750000
+                "cost": 750000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -1122,7 +1186,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -1141,7 +1206,9 @@
                   "purpose"
                 ],
                 "worn": "pin",
-                "cost": 100000
+                "cost": 100000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -1161,7 +1228,9 @@
                 ],
                 "worn": "chest",
                 "material": "cloth, an extremely common material",
-                "cost": 55000
+                "cost": 55000,
+                "wear_location": "around the chest",
+                "item_type": null
               }
             },
             {
@@ -1178,11 +1247,15 @@
                 ],
                 "tags": [
                   "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "capacity_level": "very large",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -1201,7 +1274,8 @@
 
                 ],
                 "material": "leather, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -1250,7 +1324,11 @@
                 ],
                 "weight": 60,
                 "material_detail": "",
-                "cost": 10000000
+                "cost": 10000000,
+                "is_armor": true,
+                "armor_type": "plate",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -1296,7 +1374,9 @@
                     "ability": "Armor Use Bonus"
                   }
                 ],
-                "cost": 2500000
+                "cost": 2500000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -1314,7 +1394,9 @@
                 ],
                 "worn": "front",
                 "material": "cloth, an extremely common material",
-                "cost": 35000
+                "cost": 35000,
+                "wear_location": "over the front",
+                "item_type": null
               }
             },
             {
@@ -1334,7 +1416,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 7500
+                "cost": 7500,
+                "item_type": null
               },
               "quantity": 3
             },
@@ -1369,7 +1452,9 @@
                 ],
                 "worn": "head",
                 "material": "pewter, an infrequent alloy",
-                "cost": 200000
+                "cost": 200000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -1388,7 +1473,8 @@
 
                 ],
                 "material": "silver, an extremely common metal",
-                "cost": 30000
+                "cost": 30000,
+                "item_type": null
               }
             },
             {
@@ -1413,7 +1499,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -1432,7 +1519,8 @@
 
                 ],
                 "material": "steel, an extremely common metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -1455,7 +1543,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 225000
+                "cost": 225000,
+                "item_type": null
               }
             },
             {
@@ -1477,7 +1566,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             }
           ],
@@ -1511,10 +1601,13 @@
                   "The beehive-shaped bag will cost 50,000 coins."
                 ],
                 "tags": [
-
+                  "container"
                 ],
                 "material": "leather, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -1534,11 +1627,15 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
                 "material": "wood, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -1571,7 +1668,9 @@
                   }
                 ],
                 "weight": 2,
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -1628,7 +1727,10 @@
                 ],
                 "weight": 9,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -1660,7 +1762,11 @@
                 ],
                 "worn": "head",
                 "material": "mithril, an uncommon metal",
-                "cost": 25000
+                "cost": 25000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head",
+                "item_type": "armor"
               }
             },
             {
@@ -1676,7 +1782,10 @@
 
                 ],
                 "worn": "finger",
-                "cost": 75000
+                "cost": 75000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -1694,10 +1803,14 @@
                 ],
                 "tags": [
                   "max_deep",
-                  "max_light"
+                  "max_light",
+                  "container"
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "capacity_level": "small",
+                "is_container": true,
+                "item_type": "container"
               }
             }
           ],
@@ -1733,7 +1846,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -1756,7 +1871,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -1784,7 +1901,8 @@
                 "spell": "Eye Spy",
                 "activator": "tapping",
                 "material_detail": "",
-                "cost": 15000
+                "cost": 15000,
+                "item_type": null
               }
             },
             {
@@ -1812,7 +1930,8 @@
                 "spell": "Eye Spy",
                 "activator": "tapping",
                 "material_detail": "",
-                "cost": 15000
+                "cost": 15000,
+                "item_type": null
               }
             },
             {
@@ -1831,7 +1950,9 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -1850,7 +1971,8 @@
 
                 ],
                 "material": "brass, a very common alloy",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               }
             },
             {
@@ -1869,7 +1991,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 40000
+                "cost": 40000,
+                "item_type": null
               }
             },
             {
@@ -1886,7 +2009,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "item_type": null
               }
             },
             {
@@ -1907,7 +2031,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -1929,7 +2054,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               }
             },
             {
@@ -1952,7 +2078,9 @@
                 ],
                 "worn": "head",
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             }
           ],
@@ -1989,7 +2117,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2012,7 +2142,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2035,7 +2167,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2058,7 +2192,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2080,7 +2216,9 @@
                 ],
                 "worn": "ankle",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the ankle",
+                "item_type": null
               }
             },
             {
@@ -2102,7 +2240,10 @@
                 ],
                 "worn": "wrist",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "around the wrist",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2125,7 +2266,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2148,7 +2291,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2171,7 +2316,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2194,7 +2341,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2217,7 +2366,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2235,7 +2386,10 @@
                 ],
                 "worn": "neck",
                 "material": "eahnor, a very rare metal",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2255,7 +2409,9 @@
                 ],
                 "worn": "neck",
                 "material": "pewter, an infrequent alloy",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -2275,7 +2431,10 @@
                 ],
                 "worn": "neck",
                 "material": "gold, an uncommon metal",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2295,7 +2454,9 @@
                 ],
                 "worn": "arms",
                 "material": "mithril, an uncommon metal",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the arms",
+                "item_type": null
               }
             }
           ],
@@ -2342,7 +2503,9 @@
                 ],
                 "worn": "head",
                 "material": "cloth, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -2362,7 +2525,9 @@
                 ],
                 "worn": "chest",
                 "material": "cloth, an extremely common material",
-                "cost": 75000
+                "cost": 75000,
+                "wear_location": "around the chest",
+                "item_type": null
               }
             }
           ],
@@ -2443,7 +2608,8 @@
                 "spell": "Elemental Bias",
                 "activator": "raising",
                 "material_detail": "",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               }
             },
             {
@@ -2476,7 +2642,10 @@
                 "spell": "Martial Prowess",
                 "activator": "rubbing",
                 "material_detail": "",
-                "cost": 30000
+                "cost": 30000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2505,7 +2674,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -2526,7 +2697,8 @@
 
                 ],
                 "material": "steel, an extremely common metal",
-                "cost": 250000
+                "cost": 250000,
+                "item_type": null
               },
               "quantity": 8
             },
@@ -2555,7 +2727,10 @@
                 "material": "silver, an extremely common metal",
                 "spell": "Martial Prowess",
                 "activator": "rubbing",
-                "cost": 30000
+                "cost": 30000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2583,7 +2758,10 @@
                 "material": "silver, an extremely common metal",
                 "spell": "Martial Prowess",
                 "activator": "rubbing",
-                "cost": 30000
+                "cost": 30000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2605,7 +2783,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               },
               "quantity": 11
             }
@@ -2652,7 +2831,8 @@
                 ],
                 "material": "metal",
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "item_type": null
               }
             },
             {
@@ -2684,7 +2864,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -2717,7 +2899,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               }
             },
             {
@@ -2749,7 +2933,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -2782,7 +2968,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -2815,7 +3003,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -2848,7 +3038,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -2881,7 +3073,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -2914,7 +3108,9 @@
                 ],
                 "worn": "legs",
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the legs",
+                "item_type": null
               }
             },
             {
@@ -2938,7 +3134,10 @@
                 "worn": "pin",
                 "material": "gold",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -2963,7 +3162,8 @@
                 "tags": [
                   "purpose",
                   "lightenable",
-                  "persists"
+                  "persists",
+                  "container"
                 ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material",
@@ -2974,7 +3174,10 @@
                   }
                 ],
                 "weight": 9,
-                "cost": 1000000
+                "cost": 1000000,
+                "capacity_level": "significant",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -2991,7 +3194,8 @@
                 "tags": [
 
                 ],
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               },
               "quantity": 4
             },
@@ -3009,7 +3213,8 @@
                 "tags": [
 
                 ],
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               },
               "quantity": 6
             }
@@ -3068,7 +3273,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3110,7 +3318,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a steaming substance"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -3156,7 +3370,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3202,7 +3419,11 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "wear_location": "haft of the orase runestaff reads",
+                "item_type": "weapon"
               }
             },
             {
@@ -3243,7 +3464,11 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "wear_location": "haft of the hoarbeam runestaff reads",
+                "item_type": "weapon"
               }
             },
             {
@@ -3271,7 +3496,10 @@
                 "enchant": 25,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3319,7 +3547,13 @@
                 ],
                 "weight": 9,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -3347,7 +3581,10 @@
                 "enchant": 25,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3389,7 +3626,11 @@
                 ],
                 "weight": 8,
                 "material_detail": "",
-                "cost": 2500000
+                "cost": 2500000,
+                "flares": [
+                  "the power of an ice elemental"
+                ],
+                "item_type": null
               }
             },
             {
@@ -3447,7 +3688,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 3000000
+                "cost": 3000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3495,7 +3739,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 10000000
+                "cost": 10000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -3543,7 +3793,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 10000000
+                "cost": 10000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -3599,7 +3855,10 @@
                 ],
                 "weight": 10,
                 "material_detail": "",
-                "cost": 10000000
+                "cost": 10000000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3651,7 +3910,8 @@
                 ],
                 "weight": 15,
                 "material_detail": "",
-                "cost": 10000000
+                "cost": 10000000,
+                "item_type": null
               }
             },
             {
@@ -3671,7 +3931,10 @@
                 ],
                 "skill": "twohanded weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 2500000
+                "cost": 2500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3691,7 +3954,10 @@
                 ],
                 "skill": "twohanded weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 2500000
+                "cost": 2500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3711,7 +3977,10 @@
                 ],
                 "skill": "twohanded weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3731,7 +4000,10 @@
                 ],
                 "skill": "twohanded weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3751,7 +4023,10 @@
                 ],
                 "skill": "twohanded weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 2500000
+                "cost": 2500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3771,7 +4046,10 @@
                 ],
                 "skill": "edged weapons",
                 "material": "vaalorn, a rare metal",
-                "cost": 2500000
+                "cost": 2500000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3829,7 +4107,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 3000000
+                "cost": 3000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3875,7 +4156,10 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -3923,7 +4207,13 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 3000000
+                "cost": 3000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a dark substance"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -3975,7 +4265,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -4023,7 +4316,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "item_type": "weapon"
               }
             }
           ]
@@ -4068,7 +4367,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4099,7 +4402,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4130,7 +4437,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4160,7 +4471,11 @@
                 "enchant": 18,
                 "weight": 22,
                 "material_detail": "",
-                "cost": 175000
+                "cost": 175000,
+                "is_armor": true,
+                "armor_type": "scale",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4190,7 +4505,11 @@
                 "enchant": 20,
                 "weight": 20,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_armor": true,
+                "armor_type": "plate",
+                "wear_location": "torso and arms",
+                "item_type": "armor"
               }
             },
             {
@@ -4221,7 +4540,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4251,7 +4574,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 200000
+                "cost": 200000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4284,7 +4611,11 @@
                 "enchant": 25,
                 "weight": 8,
                 "material_detail": "",
-                "cost": 85000
+                "cost": 85000,
+                "shield_type": "large",
+                "is_shield": true,
+                "blessing": "holy",
+                "item_type": "shield"
               }
             },
             {
@@ -4314,7 +4645,11 @@
                 "enchant": 20,
                 "weight": 25,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_armor": true,
+                "armor_type": "scale",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4336,7 +4671,11 @@
                 ],
                 "worn": "chest",
                 "material": "leather, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4366,7 +4705,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4396,7 +4739,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4428,7 +4775,11 @@
                 "enchant": 15,
                 "weight": 13,
                 "material_detail": "",
-                "cost": 40000
+                "cost": 40000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso and arms",
+                "item_type": "armor"
               }
             },
             {
@@ -4458,7 +4809,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4488,7 +4843,11 @@
                 "enchant": 20,
                 "weight": 20,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso and arms",
+                "item_type": "armor"
               }
             },
             {
@@ -4517,7 +4876,11 @@
                 "enchant": 20,
                 "weight": 40,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "plate",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4548,7 +4911,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4578,7 +4945,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4608,7 +4979,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -4638,7 +5013,11 @@
                 "enchant": 20,
                 "weight": 16,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             }
           ],
@@ -4685,7 +5064,15 @@
                 "forged_avd": 1,
                 "weight": 5,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4718,7 +5105,15 @@
                 "forged_avd": 1,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4751,7 +5146,15 @@
                 "forged_avd": 1,
                 "weight": 7,
                 "material_detail": "",
-                "cost": 125000
+                "cost": 125000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4785,7 +5188,12 @@
                 "forged_avd": 1,
                 "weight": 7,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4818,7 +5226,15 @@
                 "forged_avd": 1,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 85000
+                "cost": 85000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4851,7 +5267,15 @@
                 "forged_avd": 1,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 85000
+                "cost": 85000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4885,7 +5309,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -4919,7 +5348,10 @@
                 "forged_avd": 1,
                 "weight": 12,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": null
               }
             },
             {
@@ -4953,7 +5385,10 @@
                 "forged_avd": 1,
                 "weight": 12,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": null
               }
             },
             {
@@ -4986,7 +5421,15 @@
                 "forged_avd": 1,
                 "weight": 8,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5019,7 +5462,15 @@
                 "forged_avd": 1,
                 "weight": 8,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5052,7 +5503,13 @@
                 "forged_avd": 1,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": null
               }
             },
             {
@@ -5085,7 +5542,15 @@
                 "forged_avd": 1,
                 "weight": 8,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5119,7 +5584,10 @@
                 "forged_avd": 1,
                 "weight": 12,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": null
               }
             },
             {
@@ -5152,7 +5620,15 @@
                 "forged_avd": 2,
                 "weight": 5,
                 "material_detail": "",
-                "cost": 175000
+                "cost": 175000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -5186,7 +5662,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5220,7 +5701,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5254,7 +5740,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5287,7 +5778,15 @@
                 "forged_by": "Aetheri",
                 "forged_avd": 2,
                 "material_detail": "",
-                "cost": 85000
+                "cost": 85000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -5321,7 +5820,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5355,7 +5859,12 @@
                 "forged_avd": 1,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5389,7 +5898,12 @@
                 "forged_avd": 1,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             },
             {
@@ -5422,7 +5936,13 @@
                 "forged_avd": 1,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": null
               }
             },
             {
@@ -5455,7 +5975,15 @@
                 "forged_avd": 1,
                 "weight": 5,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "It is temporarily blessed against the undead with holy water flares."
+                ],
+                "blessing": "holy",
+                "forged_quality": "elegant",
+                "item_type": "weapon"
               }
             }
           ],
@@ -5523,7 +6051,11 @@
                 ],
                 "weight": 10,
                 "material_detail": "",
-                "cost": 750000
+                "cost": 750000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso only",
+                "item_type": "armor"
               }
             },
             {
@@ -5540,7 +6072,8 @@
 
                 ],
                 "material": "faenor, a rare metal",
-                "cost": 300000
+                "cost": 300000,
+                "item_type": null
               },
               "quantity": 40
             },
@@ -5561,7 +6094,8 @@
 
                 ],
                 "material": "gold, an uncommon metal",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               },
               "quantity": 5
             },
@@ -5582,7 +6116,8 @@
 
                 ],
                 "material": "gold, an uncommon metal",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               },
               "quantity": 5
             },
@@ -5620,7 +6155,8 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 9000000
+                "cost": 9000000,
+                "item_type": null
               }
             },
             {
@@ -5648,7 +6184,10 @@
                 "enchant": 25,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -5681,7 +6220,10 @@
                 "td_bonus": 4,
                 "weight": 7,
                 "material_detail": "",
-                "cost": 175000
+                "cost": 175000,
+                "shield_type": "medium",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -5714,7 +6256,10 @@
                 "enchant": 25,
                 "weight": 2,
                 "material_detail": "",
-                "cost": 1500000
+                "cost": 1500000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -5746,7 +6291,11 @@
                 "enchant": 20,
                 "weight": 2,
                 "material_detail": "",
-                "cost": 200000
+                "cost": 200000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "sighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -5761,10 +6310,15 @@
                   "The thick-soled boots will cost 30,000 coins."
                 ],
                 "tags": [
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "feet",
-                "cost": 30000
+                "cost": 30000,
+                "capacity_level": "very small",
+                "is_container": true,
+                "wear_location": "on the feet",
+                "item_type": "container"
               }
             },
             {
@@ -5781,10 +6335,14 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 11
             },
@@ -5803,11 +6361,15 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
                 "material": "leather, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 30
             },
@@ -5825,10 +6387,14 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 33
             },
@@ -5846,10 +6412,14 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 25
             },
@@ -5867,10 +6437,14 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 23
             },
@@ -5888,10 +6462,14 @@
                 "tags": [
                   "purpose",
                   "max_light",
-                  "deepenable"
+                  "deepenable",
+                  "container"
                 ],
                 "worn": "belt",
-                "cost": 25000
+                "cost": 25000,
+                "capacity_level": "medium",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 31
             },
@@ -5908,10 +6486,14 @@
                 ],
                 "tags": [
                   "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "cloak",
-                "cost": 50000
+                "cost": 50000,
+                "capacity_level": "significant",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 29
             },
@@ -5929,11 +6511,15 @@
                 ],
                 "tags": [
                   "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "capacity_level": "significant",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 28
             },
@@ -5950,10 +6536,14 @@
                 ],
                 "tags": [
                   "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "cloak",
-                "cost": 50000
+                "cost": 50000,
+                "capacity_level": "significant",
+                "is_container": true,
+                "item_type": "container"
               },
               "quantity": 25
             },
@@ -5970,11 +6560,15 @@
                   "The black leather pants will cost 15,000 coins."
                 ],
                 "tags": [
-
+                  "container"
                 ],
                 "worn": "pants",
                 "material": "leather, an extremely common material",
-                "cost": 15000
+                "cost": 15000,
+                "capacity_level": "very small",
+                "is_container": true,
+                "wear_location": "on the legs",
+                "item_type": "container"
               },
               "quantity": 29
             },
@@ -5990,10 +6584,15 @@
                   "The black leather pants will cost 15,000 coins."
                 ],
                 "tags": [
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "pants",
-                "cost": 15000
+                "cost": 15000,
+                "capacity_level": "very small",
+                "is_container": true,
+                "wear_location": "on the legs",
+                "item_type": "container"
               },
               "quantity": 25
             }
@@ -6068,7 +6667,11 @@
                 "forged_avd": 2,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -6100,7 +6703,11 @@
                 "forged_avd": 2,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -6132,7 +6739,11 @@
                 "forged_avd": 2,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -6164,7 +6775,11 @@
                 "forged_avd": 2,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -6196,7 +6811,11 @@
                 "forged_avd": 2,
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "forged_quality": "superior",
+                "item_type": "weapon"
               }
             },
             {
@@ -6236,7 +6855,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 50000
+                "cost": 50000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -6256,7 +6878,11 @@
                 ],
                 "worn": "chest",
                 "material": "leather, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               },
               "quantity": 3
             }
@@ -6295,7 +6921,10 @@
                 "enchant": 18,
                 "weight": 8,
                 "material_detail": "",
-                "cost": 75000
+                "cost": 75000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -6330,7 +6959,10 @@
                 "material": "obsidian",
                 "enchant": 10,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -6368,7 +7000,11 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000000
+                "cost": 100000000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "legs",
+                "item_type": "armor"
               }
             },
             {
@@ -6386,7 +7022,9 @@
                 ],
                 "worn": "neck",
                 "material": "steel, an extremely common metal",
-                "cost": 100000000
+                "cost": 100000000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -6432,7 +7070,9 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 100000000
+                "cost": 100000000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -6513,7 +7153,9 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 100000000
+                "cost": 100000000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -6594,7 +7236,9 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 100000000
+                "cost": 100000000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -6612,7 +7256,9 @@
                 ],
                 "worn": "chest",
                 "material": "cloth, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "wear_location": "around the chest",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -6635,13 +7281,18 @@
                 ],
                 "tags": [
                   "purpose",
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "back",
                 "material": "organic material",
                 "weight": 9,
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "capacity_level": "significant",
+                "is_container": true,
+                "wear_location": "on the back",
+                "item_type": "container"
               }
             },
             {
@@ -6670,7 +7321,11 @@
 
                 ],
                 "worn": "chest",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_armor": true,
+                "armor_type": "an",
+                "wear_location": "around the chest",
+                "item_type": "armor"
               },
               "quantity": 6
             }
@@ -6696,7 +7351,8 @@
                 "tags": [
                   "small"
                 ],
-                "cost": 20000
+                "cost": 20000,
+                "item_type": null
               },
               "quantity": 7
             },
@@ -6715,7 +7371,8 @@
                 "tags": [
                   "small"
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               },
               "quantity": 4
             },
@@ -6739,7 +7396,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 15
             },
@@ -6756,7 +7414,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6773,7 +7432,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6790,7 +7450,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6807,7 +7468,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6824,7 +7486,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6841,7 +7504,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6858,7 +7522,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -6875,7 +7540,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 2
             }
@@ -6930,7 +7596,16 @@
                 "flare": "the power of a flaming substance",
                 "weight": 5,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of a flaming substance"
+                ],
+                "blessing": "holy",
+                "crit_weighting": "unknown",
+                "temporary_crit_weighting": true,
+                "item_type": "weapon"
               }
             },
             {
@@ -6961,7 +7636,11 @@
                 "enchant": 20,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 175000
+                "cost": 175000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -6994,7 +7673,13 @@
                 "td_bonus": 5,
                 "weight": 21,
                 "material_detail": "",
-                "cost": 750000
+                "cost": 750000,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso and arms",
+                "crit_padding": "unknown",
+                "temporary_crit_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -7025,7 +7710,15 @@
                 "flare": "the power of an ice elemental",
                 "weight": 4,
                 "material_detail": "",
-                "cost": 400000
+                "cost": 400000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of an ice elemental"
+                ],
+                "dmg_weighting": "unknown",
+                "temporary_dmg_weighting": true,
+                "item_type": "weapon"
               }
             },
             {
@@ -7040,7 +7733,8 @@
                 "tags": [
 
                 ],
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7073,7 +7767,16 @@
                 "flare": "the power of a fire elemental",
                 "weight": 3,
                 "material_detail": "",
-                "cost": 1100000
+                "cost": 1100000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "blessing": "holy",
+                "crit_weighting": "unknown",
+                "temporary_crit_weighting": true,
+                "item_type": "weapon"
               }
             },
             {
@@ -7114,7 +7817,12 @@
                 ],
                 "weight": 6,
                 "material_detail": "",
-                "cost": 3000000
+                "cost": 3000000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "crit_weighting": "unknown",
+                "temporary_crit_weighting": true,
+                "item_type": "weapon"
               }
             },
             {
@@ -7155,7 +7863,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 300000
+                "cost": 300000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -7194,7 +7908,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 600000
+                "cost": 600000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -7236,7 +7953,12 @@
                 ],
                 "weight": 6,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "blessing": "holy",
+                "dmg_weighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -7281,7 +8003,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             }
           ],
@@ -7330,7 +8055,10 @@
                 "weight": 4,
                 "crit_weighting": "very heavily",
                 "material_detail": "",
-                "cost": 1500000
+                "cost": 1500000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -7374,7 +8102,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 2000000
+                "cost": 2000000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -7418,7 +8149,13 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -7438,7 +8175,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -7458,7 +8196,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7478,7 +8217,10 @@
                 ],
                 "worn": "pin",
                 "material": "gold, an uncommon metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -7500,7 +8242,9 @@
                 ],
                 "worn": "pin",
                 "material": "gemstone, an extremely common material",
-                "cost": 5000000
+                "cost": 5000000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -7522,7 +8266,9 @@
                 ],
                 "worn": "pin",
                 "material": "gemstone, an extremely common material",
-                "cost": 5000000
+                "cost": 5000000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -7541,7 +8287,8 @@
 
                 ],
                 "material": "brass, a very common alloy",
-                "cost": 35000
+                "cost": 35000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -7561,7 +8308,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 35000
+                "cost": 35000,
+                "item_type": null
               }
             },
             {
@@ -7583,7 +8331,9 @@
                 ],
                 "material": "wood",
                 "material_detail": "",
-                "cost": 50000
+                "cost": 50000,
+                "is_armor": true,
+                "item_type": "armor"
               }
             },
             {
@@ -7627,7 +8377,13 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 2000000
+                "cost": 2000000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "flares": [
+                  "the power of a disintegrating substance"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -7656,7 +8412,12 @@
                 "worn": "head",
                 "material": "glaes",
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head and neck",
+                "dmg_padding": "unknown",
+                "item_type": "armor"
               }
             },
             {
@@ -7674,7 +8435,8 @@
 
                 ],
                 "material": "fireleaf, a very rare wood",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               },
               "quantity": 5
             },
@@ -7693,7 +8455,8 @@
 
                 ],
                 "material": "illthorn, an extremely rare wood",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -7719,7 +8482,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7741,7 +8505,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -7768,7 +8533,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7790,7 +8556,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7809,7 +8576,9 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 250000
+                "cost": 250000,
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -7828,7 +8597,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 26
             },
@@ -7854,7 +8624,8 @@
 
                 ],
                 "material": "cloth, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -7874,7 +8645,10 @@
                 ],
                 "worn": "pin",
                 "material": "gold, an uncommon metal",
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -7894,7 +8668,10 @@
                 ],
                 "worn": "pin",
                 "material": "organic material, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -7914,7 +8691,10 @@
                 ],
                 "worn": "pin",
                 "material": "bronze, a very common alloy",
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             }
           ],
@@ -7961,7 +8741,9 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -8011,7 +8793,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "shield_type": "small",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -8039,7 +8824,10 @@
                 "material": "wyrwood",
                 "enchant": 24,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -8073,7 +8861,9 @@
                     "ability": "Sorcerous Lore - Demonology Bonus"
                   }
                 ],
-                "cost": 150000
+                "cost": 150000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -8096,7 +8886,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8115,7 +8906,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -8134,7 +8926,8 @@
 
                 ],
                 "material": "brass, a very common alloy",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -8167,7 +8960,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8197,7 +8991,8 @@
                 "tags": [
 
                 ],
-                "cost": 200000
+                "cost": 200000,
+                "item_type": null
               }
             },
             {
@@ -8216,7 +9011,8 @@
 
                 ],
                 "material": "bronze, a very common alloy",
-                "cost": 350000
+                "cost": 350000,
+                "item_type": null
               }
             },
             {
@@ -8241,7 +9037,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -8268,7 +9065,9 @@
                 "worn": "pin",
                 "material": "organic material",
                 "material_detail": "",
-                "cost": 400000
+                "cost": 400000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -8290,7 +9089,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -8327,7 +9127,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 750000
+                "cost": 750000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -8343,7 +9146,9 @@
 
                 ],
                 "worn": "pants",
-                "cost": 5000
+                "cost": 5000,
+                "wear_location": "on the legs",
+                "item_type": null
               },
               "quantity": 4
             },
@@ -8378,7 +9183,8 @@
                     "ability": "Aura Base"
                   }
                 ],
-                "cost": 8000000
+                "cost": 8000000,
+                "item_type": null
               }
             },
             {
@@ -8425,7 +9231,13 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of an ice elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -8450,7 +9262,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -8473,7 +9286,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -8492,7 +9306,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 40000
+                "cost": 40000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -8516,7 +9331,9 @@
                 ],
                 "worn": "hair",
                 "material": "organic material, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "wear_location": "in the hair",
+                "item_type": null
               }
             },
             {
@@ -8535,7 +9352,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -8555,7 +9373,8 @@
 
                 ],
                 "material": "silver, an extremely common metal",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -8574,7 +9393,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             },
             {
@@ -8593,7 +9413,8 @@
 
                 ],
                 "material": "silver, an extremely common metal",
-                "cost": 500000
+                "cost": 500000,
+                "item_type": null
               }
             }
           ]
@@ -8622,7 +9443,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               },
               "quantity": 27
             },
@@ -8668,7 +9490,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 5000000
+                "cost": 5000000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -8719,7 +9544,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -8759,7 +9587,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 750000
+                "cost": 750000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -8782,7 +9613,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8828,7 +9660,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -8854,7 +9689,8 @@
 
                 ],
                 "material": "wood, an extremely common material",
-                "cost": 300000
+                "cost": 300000,
+                "item_type": null
               }
             },
             {
@@ -8873,7 +9709,8 @@
 
                 ],
                 "material": "gold, an uncommon metal",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8903,7 +9740,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8933,7 +9771,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -8975,7 +9814,10 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -8999,7 +9841,10 @@
                 "material": "fireleaf",
                 "enchant": 22,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -9021,7 +9866,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "item_type": null
               }
             },
             {
@@ -9044,7 +9890,9 @@
                 ],
                 "worn": "hair",
                 "material": "organic material, an extremely common material",
-                "cost": 40000
+                "cost": 40000,
+                "wear_location": "in the hair",
+                "item_type": null
               }
             },
             {
@@ -9067,7 +9915,9 @@
                 ],
                 "worn": "hair",
                 "material": "organic material, an extremely common material",
-                "cost": 40000
+                "cost": 40000,
+                "wear_location": "in the hair",
+                "item_type": null
               }
             },
             {
@@ -9086,7 +9936,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -9105,7 +9956,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -9124,7 +9976,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -9143,7 +9996,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               }
             },
             {
@@ -9162,7 +10016,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -9186,7 +10041,9 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 200000
+                "cost": 200000,
+                "wear_location": "area",
+                "item_type": null
               }
             },
             {
@@ -9216,7 +10073,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -9252,7 +10110,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -9285,7 +10144,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             }
           ]
@@ -9353,7 +10213,10 @@
                 ],
                 "weight": 9,
                 "material_detail": "",
-                "cost": 999999
+                "cost": 999999,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -9377,7 +10240,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -9414,7 +10278,11 @@
                 "spell": "Bless",
                 "activator": "tapping",
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "around the wrist",
+                "is_jewelry": true,
+                "blessing": "holy",
+                "item_type": "jewelry"
               }
             },
             {
@@ -9433,7 +10301,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -9459,7 +10328,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -9481,7 +10351,9 @@
                 ],
                 "worn": "pants",
                 "material": "cloth, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "on the legs",
+                "item_type": null
               }
             },
             {
@@ -9519,7 +10391,10 @@
                 ],
                 "worn": "neck",
                 "material": "gemstone, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -9544,7 +10419,9 @@
                 "worn": "ankle",
                 "material": "metal",
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "on the ankle",
+                "item_type": null
               }
             },
             {
@@ -9558,7 +10435,8 @@
                 "tags": [
 
                 ],
-                "cost": 3499999
+                "cost": 3499999,
+                "item_type": null
               }
             },
             {
@@ -9589,7 +10467,10 @@
                 ],
                 "gemstone_bound_to": "Loxik",
                 "material": "gemstone, an extremely common material",
-                "cost": 3000000
+                "cost": 3000000,
+                "wear_location": "ebon jewel",
+                "is_gemstone": true,
+                "item_type": "gemstone"
               }
             },
             {
@@ -9646,7 +10527,10 @@
                 "weight": 3,
                 "sighting": "fairly",
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -9665,7 +10549,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -9712,7 +10597,12 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head",
+                "crit_padding": "unknown",
+                "item_type": "armor"
               }
             },
             {
@@ -9738,7 +10628,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -9804,7 +10696,10 @@
                 "worn": "shoulders",
                 "material": "wood, an extremely common material",
                 "weight": 6,
-                "cost": 99999
+                "cost": 99999,
+                "shield_type": "medium",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -9821,7 +10716,10 @@
                   "purpose"
                 ],
                 "worn": "neck",
-                "cost": 6666666
+                "cost": 6666666,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -9893,7 +10791,12 @@
                 ],
                 "weight": 20,
                 "material_detail": "",
-                "cost": 26543543
+                "cost": 26543543,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso",
+                "crit_padding": "unknown",
+                "item_type": "armor"
               }
             },
             {
@@ -9930,7 +10833,15 @@
                 "flare": "the power of a fire elemental",
                 "weight": 2,
                 "material_detail": "",
-                "cost": 4000001
+                "cost": 4000001,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "dmg_weighting": "unknown",
+                "crit_weighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -9963,7 +10874,11 @@
                 "weight": 21,
                 "dmg_padding": "fairly",
                 "material_detail": "",
-                "cost": 900100
+                "cost": 900100,
+                "is_armor": true,
+                "armor_type": "plate",
+                "wear_location": "torso only",
+                "item_type": "armor"
               }
             }
           ],
@@ -9992,7 +10907,8 @@
                 ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10022,7 +10938,8 @@
                 "spell": "Invisibility",
                 "activator": "tapping",
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10055,7 +10972,10 @@
                 ],
                 "gemstone_bound_to": "Loxik",
                 "material": "gemstone, an extremely common material",
-                "cost": 2500000
+                "cost": 2500000,
+                "wear_location": "gold-hearted jewel",
+                "is_gemstone": true,
+                "item_type": "gemstone"
               }
             },
             {
@@ -10086,7 +11006,10 @@
                 ],
                 "gemstone_bound_to": "Loxik",
                 "material": "gemstone, an extremely common material",
-                "cost": 3456543
+                "cost": 3456543,
+                "wear_location": "opal-sheened jewel",
+                "is_gemstone": true,
+                "item_type": "gemstone"
               }
             },
             {
@@ -10117,7 +11040,13 @@
                 "enchant": 5,
                 "weight": 20,
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso only",
+                "dmg_padding": "unknown",
+                "temporary_dmg_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -10140,7 +11069,8 @@
                 "tags": [
 
                 ],
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10159,7 +11089,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10179,7 +11110,8 @@
                   "small"
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10217,7 +11149,9 @@
                     "ability": "Blunt Weapons Bonus"
                   }
                 ],
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             }
           ],
@@ -10267,7 +11201,10 @@
                 ],
                 "gemstone_bound_to": "Loxik",
                 "material": "gemstone, an extremely common material",
-                "cost": 16000000
+                "cost": 16000000,
+                "wear_location": "amethyst jewel",
+                "is_gemstone": true,
+                "item_type": "gemstone"
               }
             },
             {
@@ -10310,7 +11247,11 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "neck",
+                "item_type": "armor"
               }
             },
             {
@@ -10329,7 +11270,8 @@
 
                 ],
                 "material": "metal, an extremely common material",
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               }
             },
             {
@@ -10372,7 +11314,9 @@
                   }
                 ],
                 "weight": 2,
-                "cost": 99999
+                "cost": 99999,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -10387,10 +11331,15 @@
                   "The hide boots will cost 99,999 coins."
                 ],
                 "tags": [
-                  "lightenable"
+                  "lightenable",
+                  "container"
                 ],
                 "worn": "feet",
-                "cost": 99999
+                "cost": 99999,
+                "capacity_level": "very small",
+                "is_container": true,
+                "wear_location": "on the feet",
+                "item_type": "container"
               }
             },
             {
@@ -10414,7 +11363,8 @@
                 ],
                 "material": "silver",
                 "material_detail": "",
-                "cost": 439456
+                "cost": 439456,
+                "item_type": null
               }
             },
             {
@@ -10429,7 +11379,8 @@
                 "tags": [
 
                 ],
-                "cost": 450111
+                "cost": 450111,
+                "item_type": null
               }
             },
             {
@@ -10448,7 +11399,8 @@
                 "tags": [
 
                 ],
-                "cost": 999000
+                "cost": 999000,
+                "item_type": null
               }
             },
             {
@@ -10466,10 +11418,14 @@
                 "tags": [
                   "purpose",
                   "max_deep",
-                  "max_light"
+                  "max_light",
+                  "container"
                 ],
                 "worn": "shoulders",
-                "cost": 11111111
+                "cost": 11111111,
+                "capacity_level": "large",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -10485,7 +11441,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 450000
+                "cost": 450000,
+                "item_type": null
               }
             },
             {
@@ -10500,7 +11457,8 @@
                 "tags": [
 
                 ],
-                "cost": 9999
+                "cost": 9999,
+                "item_type": null
               }
             },
             {
@@ -10518,7 +11476,9 @@
                 ],
                 "worn": "socks",
                 "material": "cloth, an extremely common material",
-                "cost": 9999
+                "cost": 9999,
+                "wear_location": "on the feet",
+                "item_type": null
               }
             },
             {
@@ -10548,7 +11508,11 @@
                 "enchant": 15,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "crit_weighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -10594,7 +11558,11 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 99999
+                "cost": 99999,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "neck",
+                "item_type": "armor"
               }
             }
           ],
@@ -10650,7 +11618,9 @@
                     "ability": "Swimming Bonus"
                   }
                 ],
-                "cost": 40000
+                "cost": 40000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -10678,7 +11648,11 @@
                 "worn": "finger",
                 "spell": "Defense of the Faithful",
                 "activator": "tapping",
-                "cost": 40000
+                "cost": 40000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "blessing": "holy",
+                "item_type": "jewelry"
               }
             },
             {
@@ -10704,7 +11678,9 @@
                 "worn": "wrist",
                 "spell": "Thurfel's Ward",
                 "activator": "rubbing",
-                "cost": 80000
+                "cost": 80000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             }
           ],
@@ -10739,7 +11715,9 @@
                 "worn": "wrist",
                 "spell": "Wizard's Shield",
                 "activator": "tapping",
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -10765,7 +11743,10 @@
                 "worn": "neck",
                 "spell": "Elemental Bias",
                 "activator": "tapping",
-                "cost": 175000
+                "cost": 175000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -10789,7 +11770,9 @@
                 ],
                 "worn": "pin",
                 "material": "organic material, an extremely common material",
-                "cost": 20000
+                "cost": 20000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             }
           ],
@@ -10825,7 +11808,9 @@
                 "worn": "finger",
                 "spell": "Elemental Bias",
                 "activator": "rubbing",
-                "cost": 40000
+                "cost": 40000,
+                "wear_location": "around the finger",
+                "item_type": null
               }
             },
             {
@@ -10851,7 +11836,9 @@
                 "spell": "Cone of Elements",
                 "activator": "tapping",
                 "weight": 2,
-                "cost": 130000
+                "cost": 130000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -10888,7 +11875,10 @@
                     "ability": "Elemental Lore - Earth Bonus"
                   }
                 ],
-                "cost": 80000
+                "cost": 80000,
+                "wear_location": "around the wrist",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -10919,7 +11909,10 @@
                 "enchant": 25,
                 "weight": 6,
                 "material_detail": "",
-                "cost": 110000
+                "cost": 110000,
+                "shield_type": "medium",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -10947,7 +11940,10 @@
                 "enchant": 20,
                 "weight": 4,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             }
           ],
@@ -10981,7 +11977,8 @@
                 "tags": [
 
                 ],
-                "cost": 5000000
+                "cost": 5000000,
+                "item_type": null
               }
             },
             {
@@ -10999,7 +11996,10 @@
                 ],
                 "worn": "pin",
                 "material": "silver, an extremely common metal",
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -11020,7 +12020,10 @@
                 ],
                 "worn": "shoulders",
                 "material": "steel, an extremely common metal",
-                "cost": 500
+                "cost": 500,
+                "shield_type": "medium",
+                "is_shield": true,
+                "item_type": "shield"
               },
               "quantity": 4
             }
@@ -11070,7 +12073,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -11104,7 +12109,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -11138,7 +12145,9 @@
                 ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -11156,7 +12165,9 @@
                 ],
                 "worn": "wrist",
                 "material": "silver, an extremely common metal",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -11172,7 +12183,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               }
             },
             {
@@ -11188,7 +12200,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               }
             },
             {
@@ -11204,7 +12217,9 @@
                   "purpose"
                 ],
                 "worn": "neck",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -11220,7 +12235,9 @@
                   "purpose"
                 ],
                 "worn": "head",
-                "cost": 25000
+                "cost": 25000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             }
           ],
@@ -11250,7 +12267,8 @@
                 "tags": [
 
                 ],
-                "cost": 5000
+                "cost": 5000,
+                "item_type": null
               }
             },
             {
@@ -11267,7 +12285,8 @@
                 "tags": [
 
                 ],
-                "cost": 5000
+                "cost": 5000,
+                "item_type": null
               }
             }
           ],
@@ -11312,7 +12331,9 @@
                 ],
                 "spell": "Soul Ward",
                 "activator": "rubbing",
-                "cost": 100000
+                "cost": 100000,
+                "blessing": "holy",
+                "item_type": null
               }
             },
             {
@@ -11364,7 +12385,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -11379,7 +12403,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 34
             },
@@ -11395,7 +12420,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 45
             },
@@ -11444,7 +12470,11 @@
                 ],
                 "weight": 20,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso and arms",
+                "item_type": "armor"
               }
             },
             {
@@ -11459,7 +12489,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 20
             },
@@ -11475,7 +12506,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 50
             },
@@ -11502,7 +12534,9 @@
                 ],
                 "worn": "ears",
                 "material": "wood, an extremely common material",
-                "cost": 100000
+                "cost": 100000,
+                "wear_location": "by any race",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -11518,7 +12552,8 @@
                 "tags": [
 
                 ],
-                "cost": 5000
+                "cost": 5000,
+                "item_type": null
               },
               "quantity": 32
             },
@@ -11534,7 +12569,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 47
             },
@@ -11550,7 +12586,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 13
             },
@@ -11566,7 +12603,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 10
             },
@@ -11582,7 +12620,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 9
             },
@@ -11598,7 +12637,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 16
             },
@@ -11614,7 +12654,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 50
             },
@@ -11644,7 +12685,11 @@
                 "weight": 4,
                 "crit_padding": "very heavily",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "legs",
+                "item_type": "armor"
               }
             },
             {
@@ -11698,7 +12743,10 @@
                 ],
                 "weight": 10,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "shield_type": "large",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -11738,7 +12786,9 @@
                     "ability": "Strength Bonus"
                   }
                 ],
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -11753,7 +12803,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 5
             },
@@ -11810,7 +12861,11 @@
                 "weight": 5,
                 "dmg_weighting": "heavily",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "blessing": "holy",
+                "item_type": "weapon"
               }
             },
             {
@@ -11854,7 +12909,13 @@
                 "weight": 10,
                 "dmg_weighting": "exceptionally",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -11869,7 +12930,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 14
             },
@@ -11885,7 +12947,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 11
             },
@@ -11918,7 +12981,16 @@
                 "flare": "the power of a fire elemental",
                 "weight": 3,
                 "material_detail": "",
-                "cost": 500000
+                "cost": 500000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "legs",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "dmg_padding": "unknown",
+                "temporary_dmg_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -11957,7 +13029,9 @@
                     "ability": "Max Stamina"
                   }
                 ],
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             }
           ]
@@ -11981,7 +13055,8 @@
 
                 ],
                 "material": "stone, an extremely common material",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               },
               "quantity": 40
             },
@@ -12031,7 +13106,10 @@
                 "weight": 5,
                 "crit_weighting": "lightly",
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -12046,7 +13124,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 3
             },
@@ -12101,7 +13180,13 @@
                 ],
                 "weight": 6,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of an ice elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -12134,7 +13219,10 @@
                 "weight": 3,
                 "sighting": "fairly",
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -12149,7 +13237,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 16
             },
@@ -12198,7 +13287,10 @@
                 "weight": 5,
                 "crit_weighting": "very heavily",
                 "material_detail": "",
-                "cost": 75000
+                "cost": 75000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -12213,7 +13305,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 17
             },
@@ -12229,7 +13322,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 20
             },
@@ -12245,7 +13339,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 4
             },
@@ -12292,7 +13387,10 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "brawling",
+                "item_type": "weapon"
               }
             },
             {
@@ -12336,7 +13434,10 @@
                     "ability": "Swimming Ranks"
                   }
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -12351,7 +13452,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -12366,7 +13468,8 @@
                 "tags": [
 
                 ],
-                "cost": 99999
+                "cost": 99999,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -12384,7 +13487,8 @@
 
                 ],
                 "material": "gold, an uncommon metal",
-                "cost": 999999
+                "cost": 999999,
+                "item_type": null
               },
               "quantity": 12
             },
@@ -12403,10 +13507,13 @@
                   "The glass jar will cost 1,500,000 coins."
                 ],
                 "tags": [
-
+                  "container"
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 1500000
+                "cost": 1500000,
+                "capacity_level": "very small",
+                "is_container": true,
+                "item_type": "container"
               }
             },
             {
@@ -12422,7 +13529,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               }
             },
             {
@@ -12437,7 +13545,8 @@
                 "tags": [
 
                 ],
-                "cost": 100000
+                "cost": 100000,
+                "item_type": null
               }
             },
             {
@@ -12457,7 +13566,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 175000
+                "cost": 175000,
+                "item_type": null
               }
             },
             {
@@ -12472,7 +13582,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 7
             },
@@ -12488,7 +13599,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 6
             },
@@ -12504,7 +13616,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -12559,7 +13672,10 @@
                 ],
                 "weight": 6,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "shield_type": "small",
+                "is_shield": true,
+                "item_type": "shield"
               }
             },
             {
@@ -12606,7 +13722,11 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "brawling",
+                "dmg_weighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -12652,7 +13772,10 @@
                 "weight": 6,
                 "sighting": "fairly",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             }
           ],
@@ -12708,7 +13831,10 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 60000
+                "cost": 60000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -12723,7 +13849,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -12739,7 +13866,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -12755,7 +13883,8 @@
                 "tags": [
 
                 ],
-                "cost": 2500
+                "cost": 2500,
+                "item_type": null
               },
               "quantity": 14
             },
@@ -12785,7 +13914,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 22000
+                "cost": 22000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -12815,7 +13946,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 22000
+                "cost": 22000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 50
             },
@@ -12845,7 +13978,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 285000
+                "cost": 285000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 10
             },
@@ -12875,7 +14010,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 245000
+                "cost": 245000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 26
             },
@@ -12905,7 +14042,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 22000
+                "cost": 22000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 34
             },
@@ -12935,7 +14074,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 220000
+                "cost": 220000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 30
             },
@@ -12968,7 +14109,13 @@
                 "flare": "the power of an earth elemental",
                 "crit_weighting": "very heavily",
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "brawling",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -13002,7 +14149,11 @@
                 "enchant": 18,
                 "weight": 10,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "sighting": "unknown",
+                "item_type": "weapon"
               }
             },
             {
@@ -13017,7 +14168,8 @@
                 "tags": [
 
                 ],
-                "cost": 10000
+                "cost": 10000,
+                "item_type": null
               },
               "quantity": 8
             },
@@ -13064,7 +14216,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -13110,7 +14265,10 @@
                 ],
                 "weight": 7,
                 "material_detail": "",
-                "cost": 100000
+                "cost": 100000,
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -13139,7 +14297,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 285000
+                "cost": 285000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 3
             },
@@ -13169,7 +14329,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 285000
+                "cost": 285000,
+                "wear_location": "container (back",
+                "item_type": null
               }
             },
             {
@@ -13198,7 +14360,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 220000
+                "cost": 220000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 8
             },
@@ -13228,7 +14392,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 22000
+                "cost": 22000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 7
             },
@@ -13259,7 +14425,8 @@
                 "tags": [
 
                 ],
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -13300,7 +14467,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 150000
+                "cost": 150000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -13349,7 +14519,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 90000
+                "cost": 90000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "mana (+1)"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -13392,7 +14568,15 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 75000
+                "cost": 75000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a fire elemental"
+                ],
+                "crit_weighting": "unknown",
+                "temporary_crit_weighting": true,
+                "item_type": "weapon"
               }
             },
             {
@@ -13419,7 +14603,10 @@
                 ],
                 "worn": "finger",
                 "material": "bone, an extremely common material",
-                "cost": 2000000
+                "cost": 2000000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               },
               "quantity": 21
             },
@@ -13465,7 +14652,9 @@
                     "ability": "Stamina Recovery"
                   }
                 ],
-                "cost": 50000
+                "cost": 50000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             }
           ]
@@ -13508,7 +14697,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 150000
+                "cost": 150000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 35
             },
@@ -13554,7 +14745,9 @@
                     "ability": "Spiritual Lore - Religion Bonus"
                   }
                 ],
-                "cost": 600000
+                "cost": 600000,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -13605,7 +14798,9 @@
                     "ability": "Arcane Symbols Bonus"
                   }
                 ],
-                "cost": 7500000
+                "cost": 7500000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -13654,7 +14849,9 @@
                     "ability": "Intuition Bonus"
                   }
                 ],
-                "cost": 10500000
+                "cost": 10500000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -13691,7 +14888,9 @@
                     "ability": "Edged Weapons Bonus"
                   }
                 ],
-                "cost": 750000
+                "cost": 750000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -13741,7 +14940,10 @@
                     "ability": "Logic Base"
                   }
                 ],
-                "cost": 500000
+                "cost": 500000,
+                "wear_location": "around the neck",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -13792,7 +14994,10 @@
                     "ability": "Combat Maneuvers Ranks"
                   }
                 ],
-                "cost": 120000
+                "cost": 120000,
+                "wear_location": "around the finger",
+                "is_jewelry": true,
+                "item_type": "jewelry"
               }
             },
             {
@@ -13835,7 +15040,9 @@
                     "ability": "Stamina Recovery"
                   }
                 ],
-                "cost": 150000
+                "cost": 150000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -13885,7 +15092,9 @@
                     "ability": "Elemental Lore - Water Bonus"
                   }
                 ],
-                "cost": 120000
+                "cost": 120000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -13936,7 +15145,9 @@
                     "ability": "Ranged Weapons Bonus"
                   }
                 ],
-                "cost": 225000
+                "cost": 225000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -13980,7 +15191,9 @@
                     "ability": "Stamina Recovery"
                   }
                 ],
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -14025,7 +15238,9 @@
                     "ability": "Intuition Bonus"
                   }
                 ],
-                "cost": 1500000
+                "cost": 1500000,
+                "wear_location": "around the finger",
+                "item_type": null
               }
             },
             {
@@ -14078,7 +15293,13 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 450000
+                "cost": 450000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head",
+                "dmg_padding": "unknown",
+                "temporary_dmg_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -14125,7 +15346,13 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 375000
+                "cost": 375000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "neck",
+                "dmg_padding": "unknown",
+                "temporary_dmg_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -14186,7 +15413,11 @@
                 ],
                 "weight": 24,
                 "material_detail": "",
-                "cost": 8750000
+                "cost": 8750000,
+                "is_armor": true,
+                "armor_type": "chain",
+                "wear_location": "torso",
+                "item_type": "armor"
               }
             },
             {
@@ -14204,7 +15435,9 @@
                 ],
                 "worn": "pants",
                 "material": "cloth, an extremely common material",
-                "cost": 2500000
+                "cost": 2500000,
+                "wear_location": "on the legs",
+                "item_type": null
               }
             },
             {
@@ -14238,7 +15471,9 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 2500000
+                "cost": 2500000,
+                "wear_location": "on the legs",
+                "item_type": null
               }
             },
             {
@@ -14288,7 +15523,11 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 800000
+                "cost": 800000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head",
+                "item_type": "armor"
               }
             },
             {
@@ -14339,7 +15578,9 @@
                     "ability": "Agility Bonus"
                   }
                 ],
-                "cost": 1200000
+                "cost": 1200000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -14357,7 +15598,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 25000
+                "cost": 25000,
+                "item_type": null
               },
               "quantity": 34
             },
@@ -14378,7 +15620,8 @@
 
                 ],
                 "material": "steel, an extremely common metal",
-                "cost": 375000
+                "cost": 375000,
+                "item_type": null
               }
             },
             {
@@ -14396,7 +15639,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 50000
+                "cost": 50000,
+                "item_type": null
               }
             }
           ]
@@ -14421,7 +15665,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 20000
+                "cost": 20000,
+                "item_type": null
               },
               "quantity": 6
             },
@@ -14441,7 +15686,8 @@
 
                 ],
                 "material": "gemstone, an extremely common material",
-                "cost": 20000
+                "cost": 20000,
+                "item_type": null
               },
               "quantity": 50
             },
@@ -14465,7 +15711,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 1500000
+                "cost": 1500000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -14489,7 +15736,8 @@
 
                 ],
                 "material": "glass, an extremely common material",
-                "cost": 1500000
+                "cost": 1500000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -14541,7 +15789,10 @@
                     "ability": "Aura Bonus"
                   }
                 ],
-                "cost": 750000
+                "cost": 750000,
+                "wear_location": "around the wrist",
+                "blessing": "holy",
+                "item_type": null
               }
             },
             {
@@ -14598,7 +15849,9 @@
                     "ability": "Trading Bonus"
                   }
                 ],
-                "cost": 3750000
+                "cost": 3750000,
+                "wear_location": "around the wrist",
+                "item_type": null
               }
             },
             {
@@ -14643,7 +15896,9 @@
                   }
                 ],
                 "weight": 2,
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "on the head",
+                "item_type": null
               }
             },
             {
@@ -14672,7 +15927,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 190000
+                "cost": 190000,
+                "wear_location": "container (back",
+                "item_type": null
               },
               "quantity": 13
             },
@@ -14696,7 +15953,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 87000
+                "cost": 87000,
+                "wear_location": "containers",
+                "item_type": null
               },
               "quantity": 6
             },
@@ -14720,7 +15979,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 58500
+                "cost": 58500,
+                "wear_location": "containers",
+                "item_type": null
               },
               "quantity": 2
             },
@@ -14771,7 +16032,9 @@
                     "ability": "Two Weapon Combat Bonus"
                   }
                 ],
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -14811,7 +16074,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 1500000
+                "cost": 1500000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -14860,7 +16126,9 @@
                     "ability": "Max Stamina"
                   }
                 ],
-                "cost": 280000
+                "cost": 280000,
+                "wear_location": "around the finger",
+                "item_type": null
               }
             },
             {
@@ -14910,7 +16178,10 @@
                 ],
                 "weight": 6,
                 "material_detail": "",
-                "cost": 250000
+                "cost": 250000,
+                "is_weapon": true,
+                "weapon_type": "ranged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -14933,7 +16204,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 29750
+                "cost": 29750,
+                "wear_location": "containers",
+                "item_type": null
               },
               "quantity": 7
             },
@@ -14957,7 +16230,9 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 29750
+                "cost": 29750,
+                "wear_location": "containers",
+                "item_type": null
               },
               "quantity": 50
             }
@@ -15009,7 +16284,11 @@
                     "ability": "Harness Power Ranks"
                   }
                 ],
-                "cost": 1000000
+                "cost": 1000000,
+                "wear_location": "anywhere on the body",
+                "is_jewelry": true,
+                "blessing": "holy",
+                "item_type": "jewelry"
               }
             },
             {
@@ -15063,7 +16342,13 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 2250000
+                "cost": 2250000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "flares": [
+                  "the power of an ice elemental"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -15109,7 +16394,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 2250000
+                "cost": 2250000,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -15139,7 +16427,10 @@
                 "enchant": 25,
                 "weight": 15,
                 "material_detail": "",
-                "cost": 2250000
+                "cost": 2250000,
+                "dmg_weighting": "unknown",
+                "crit_weighting": "unknown",
+                "item_type": null
               }
             },
             {
@@ -15171,7 +16462,13 @@
                 "enchant": 25,
                 "weight": 9,
                 "material_detail": "",
-                "cost": 140000
+                "cost": 140000,
+                "is_armor": true,
+                "armor_type": "leather",
+                "wear_location": "torso and arms",
+                "crit_padding": "unknown",
+                "temporary_crit_padding": true,
+                "item_type": "armor"
               }
             },
             {
@@ -15218,7 +16515,8 @@
                 ],
                 "weight": 5,
                 "material_detail": "",
-                "cost": 1000000
+                "cost": 1000000,
+                "item_type": null
               }
             },
             {
@@ -15266,7 +16564,13 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 3000000
+                "cost": 3000000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of a lightning bolt"
+                ],
+                "item_type": "weapon"
               }
             },
             {
@@ -15316,7 +16620,9 @@
                     "ability": "Dodging Bonus"
                   }
                 ],
-                "cost": 750000
+                "cost": 750000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             },
             {
@@ -15355,7 +16661,9 @@
                     "ability": "Shield Use Bonus"
                   }
                 ],
-                "cost": 1687500
+                "cost": 1687500,
+                "wear_location": "anywhere on the body",
+                "item_type": null
               }
             },
             {
@@ -15407,7 +16715,10 @@
                 ],
                 "weight": 2,
                 "material_detail": "",
-                "cost": 1875000
+                "cost": 1875000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -15438,7 +16749,10 @@
                 "flare": "a disrupting substance",
                 "weight": 3,
                 "material_detail": "",
-                "cost": 375000
+                "cost": 375000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -15484,7 +16798,11 @@
                 ],
                 "weight": 3,
                 "material_detail": "",
-                "cost": 375000
+                "cost": 375000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head and neck",
+                "item_type": "armor"
               }
             },
             {
@@ -15536,7 +16854,11 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 10500000
+                "cost": 10500000,
+                "is_armor": true,
+                "armor_type": "accessory",
+                "wear_location": "head and neck",
+                "item_type": "armor"
               }
             },
             {
@@ -15554,7 +16876,8 @@
 
                 ],
                 "material": "organic material, an extremely common material",
-                "cost": 200000
+                "cost": 200000,
+                "item_type": null
               },
               "quantity": 2
             },
@@ -15586,7 +16909,8 @@
                   "max_light",
                   "deepenable",
                   "persists",
-                  "small"
+                  "small",
+                  "container"
                 ],
                 "worn": "waist",
                 "material": "cloth",
@@ -15601,7 +16925,11 @@
                   }
                 ],
                 "material_detail": "",
-                "cost": 2440000
+                "cost": 2440000,
+                "capacity_level": "very small",
+                "is_container": true,
+                "wear_location": "around the waist",
+                "item_type": "container"
               }
             },
             {
@@ -15653,7 +16981,10 @@
                 ],
                 "weight": 4,
                 "material_detail": "",
-                "cost": 2250000
+                "cost": 2250000,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
               }
             },
             {
@@ -15696,7 +17027,9 @@
                     "ability": "Logic Bonus"
                   }
                 ],
-                "cost": 450000
+                "cost": 450000,
+                "wear_location": "around the neck",
+                "item_type": null
               }
             }
           ]
