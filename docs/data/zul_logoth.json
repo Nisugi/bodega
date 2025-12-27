@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-27 12:38:45 UTC",
-  "run_time": "04s",
+  "created_at": "2025-12-27 14:19:29 UTC",
+  "run_time": "03s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -3738,6 +3738,7 @@
                   "deepenable",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -3773,6 +3774,7 @@
                   "lightenable",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 150000,
@@ -3806,6 +3808,7 @@
                   "max_light",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -3835,6 +3838,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -3958,6 +3962,7 @@
                   "It has a permanently unlocked loresong by Krayze."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -4160,6 +4165,7 @@
                   "lightenable",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 7500000,
@@ -4192,6 +4198,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -4227,6 +4234,7 @@
                   "deepenable",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -5553,6 +5561,7 @@
                   "magic_resistant",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 399999,
@@ -5586,6 +5595,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -5623,6 +5633,7 @@
                   "small",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2999999,
@@ -5651,6 +5662,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -6249,6 +6261,7 @@
                   "deepenable",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1249999,
@@ -6284,6 +6297,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -7420,6 +7434,7 @@
                 "tags": [
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -7466,6 +7481,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -7687,6 +7703,7 @@
                   "The glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -7929,6 +7946,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -12469,6 +12487,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 12:40:33 UTC",
+  "processed_at": "2025-12-27 14:21:20 UTC",
   "processing_version": "v2.0"
 }
