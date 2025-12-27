@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-27 10:20:42 UTC",
-  "run_time": "03s",
+  "created_at": "2025-12-27 12:38:45 UTC",
+  "run_time": "04s",
   "town": "Zul Logoth",
   "shops": [
     {
@@ -3737,6 +3737,7 @@
                   "max_light",
                   "deepenable",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -3771,6 +3772,7 @@
                   "scripted",
                   "lightenable",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 150000,
@@ -3803,6 +3805,7 @@
                   "max_deep",
                   "max_light",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -3832,6 +3835,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -3954,6 +3958,7 @@
                   "It has a permanently unlocked loresong by Krayze."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container"
                 ],
@@ -4154,6 +4159,7 @@
                   "purpose",
                   "lightenable",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 7500000,
@@ -4186,6 +4192,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -4220,6 +4227,7 @@
                   "deepenable",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -5544,6 +5552,7 @@
                   "lightenable",
                   "magic_resistant",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 399999,
@@ -5577,6 +5586,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -5612,6 +5622,7 @@
                   "deepenable",
                   "small",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2999999,
@@ -5640,6 +5651,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -6236,6 +6248,7 @@
                   "max_light",
                   "deepenable",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1249999,
@@ -6271,6 +6284,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -7405,6 +7419,7 @@
                 ],
                 "tags": [
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -7451,6 +7466,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container"
                 ],
@@ -7671,6 +7687,7 @@
                   "The glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container"
                 ],
@@ -7912,6 +7929,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -12451,6 +12469,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 10:22:30 UTC",
+  "processed_at": "2025-12-27 12:40:33 UTC",
   "processing_version": "v2.0"
 }
