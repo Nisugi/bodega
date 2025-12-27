@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-27 06:02:09 UTC",
+  "created_at": "2025-12-27 06:42:23 UTC",
   "run_time": "03s",
   "town": "Zul Logoth",
   "shops": [
@@ -3564,6 +3564,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -3597,6 +3598,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -3629,6 +3631,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -3658,6 +3661,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -3782,6 +3786,7 @@
                   "It has a permanently unlocked loresong by Krayze."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "worn": "pin",
@@ -3982,6 +3987,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -4015,6 +4021,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "hands",
@@ -4049,6 +4056,7 @@
                   "deepenable",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "worn": "head",
@@ -5346,6 +5354,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -5380,6 +5389,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "worn": "waist",
@@ -5414,6 +5424,7 @@
                   "max_light",
                   "deepenable",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "waist",
@@ -5443,6 +5454,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "head",
@@ -6028,6 +6040,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -6063,6 +6076,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -7199,6 +7213,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -7245,6 +7260,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -7459,6 +7475,7 @@
                   "The glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -7703,6 +7720,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -12188,6 +12206,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 06:25:26 UTC",
+  "processed_at": "2025-12-27 06:44:18 UTC",
   "processing_version": "v2.0"
 }

@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-27 06:02:06 UTC",
-  "run_time": "15s",
+  "created_at": "2025-12-27 06:42:20 UTC",
+  "run_time": "14s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -1854,6 +1854,7 @@
                   "The glass jar will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -2357,6 +2358,7 @@
                   "The sycamore coffin will cost 10,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "wood, an extremely common material",
@@ -4049,6 +4051,7 @@
                   "The glass jar will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -4505,6 +4508,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -4756,6 +4760,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "chest",
@@ -4818,6 +4823,7 @@
                   "max_light",
                   "persists",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "front",
@@ -6663,6 +6669,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "pin",
@@ -9378,6 +9385,7 @@
                   "The rhimar ice wizard will cost 450,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "rhimar, a rare metal",
@@ -16287,6 +16295,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -16668,6 +16677,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -17611,6 +17621,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "chest",
@@ -25322,6 +25333,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -25351,6 +25363,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -25380,6 +25393,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -25409,6 +25423,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -27815,6 +27830,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -27849,6 +27865,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -27880,6 +27897,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -27913,6 +27931,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "pants",
@@ -28267,6 +28286,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -28305,6 +28325,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -29238,6 +29259,7 @@
                   "purpose",
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -29719,6 +29741,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -29807,6 +29830,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -29840,6 +29864,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -30540,6 +30565,7 @@
                 ],
                 "tags": [
                   "purpose",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -30582,6 +30608,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30606,6 +30633,7 @@
                   "The tall glass jar will cost 220,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30630,6 +30658,7 @@
                   "The glass jar will cost 220,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30654,6 +30683,7 @@
                   "The glass jar will cost 220,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30678,6 +30708,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30702,6 +30733,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30763,6 +30795,7 @@
                   "The glass jar will cost 2,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30787,6 +30820,7 @@
                   "The glass jar will cost 2,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -30973,6 +31007,7 @@
                   "The yellow clay vase will cost 1,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "organic material, an extremely common material",
@@ -32819,22 +32854,6 @@
 
                 ],
                 "cost": 74100,
-                "item_type": null
-              }
-            },
-            {
-              "id": "142054",
-              "name": "a bundle of valravn plumes",
-              "details": {
-                "raw": [
-                  "The plumes can not be worn.",
-                  "Analysis of a bundle of valravn plumes indicates the item is free from merchant alteration restrictions.",
-                  "The valravn plumes will cost 51,300 coins."
-                ],
-                "tags": [
-
-                ],
-                "cost": 51300,
                 "item_type": null
               }
             },
@@ -35730,6 +35749,7 @@
                 "tags": [
                   "holy",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "hands",
@@ -39862,6 +39882,7 @@
                   "The glass jar will cost 5,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -40116,6 +40137,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -40138,6 +40160,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -40221,6 +40244,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -40249,6 +40273,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -40310,6 +40335,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -40333,6 +40359,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -40374,6 +40401,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -40397,6 +40425,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -41537,6 +41566,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -41679,6 +41709,7 @@
                   "The glass jar will cost 225,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -41959,6 +41990,7 @@
                   "The glass jar will cost 225,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -42033,6 +42065,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -44542,6 +44575,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "waist",
@@ -44677,6 +44711,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -44700,6 +44735,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -44726,6 +44762,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "chest",
@@ -44780,6 +44817,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "pants",
@@ -44806,6 +44844,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -44832,6 +44871,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "hands",
@@ -44859,6 +44899,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "hands",
@@ -45547,6 +45588,7 @@
                   "The square glass bottle will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -45571,6 +45613,7 @@
                   "The square glass bottle will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -48360,6 +48403,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48393,6 +48437,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48426,6 +48471,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48459,6 +48505,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48492,6 +48539,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48525,6 +48573,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "material": "wood",
@@ -48584,6 +48633,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container"
                 ],
                 "material": "cloth",
@@ -49731,6 +49781,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -50257,6 +50308,7 @@
                   "The thick glass jar will cost 70,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -50281,6 +50333,7 @@
                   "The thick glass jar will cost 140,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -50339,6 +50392,7 @@
                   "The thick glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -51940,6 +51994,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -53134,6 +53189,7 @@
                   "max_light",
                   "deepenable",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -53518,6 +53574,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -53550,6 +53607,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -53618,6 +53676,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -53654,6 +53713,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -53688,6 +53748,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -53761,6 +53822,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54007,6 +54069,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "hands",
@@ -54069,6 +54132,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -54155,6 +54219,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54205,6 +54270,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54347,6 +54413,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54407,6 +54474,7 @@
                   "purpose",
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54490,6 +54558,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -54865,6 +54934,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "ankle",
@@ -54888,6 +54958,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -54912,6 +54983,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -54936,6 +55008,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -54960,6 +55033,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55062,6 +55136,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55085,6 +55160,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55136,6 +55212,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55325,6 +55402,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55348,6 +55426,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -55595,6 +55674,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -56091,6 +56171,7 @@
                   "The blue sapphire case will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "gemstone, an extremely common material",
@@ -57835,6 +57916,7 @@
                 "tags": [
                   "holy",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -58266,6 +58348,7 @@
                   "max_light",
                   "deepenable",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -58297,6 +58380,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -58377,6 +58461,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -58453,6 +58538,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -58573,6 +58659,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -61803,6 +61890,7 @@
                   "The white sea glass bottle will cost 1,240,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -61827,6 +61915,7 @@
                   "The white sea glass bottle will cost 1,240,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -61881,6 +61970,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -62347,6 +62437,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -62381,6 +62472,7 @@
                 "tags": [
                   "max_deep",
                   "small",
+                  "container",
                   "container"
                 ],
                 "worn": "pin",
@@ -62495,6 +62587,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -62522,6 +62615,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "pants",
@@ -62854,6 +62948,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -62883,6 +62978,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -62927,6 +63023,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -62949,6 +63046,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "pin",
@@ -66290,6 +66388,7 @@
                   "The glass jar will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66314,6 +66413,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66338,6 +66438,7 @@
                   "The glass jar will cost 89,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66362,6 +66463,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66386,6 +66488,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66410,6 +66513,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66434,6 +66538,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66458,6 +66563,7 @@
                   "The tall glass jar will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66482,6 +66588,7 @@
                   "The glass jar will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66541,6 +66648,7 @@
                   "The tall glass jar will cost 12,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66575,6 +66683,7 @@
                   "The tall glass jar will cost 90,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66599,6 +66708,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66623,6 +66733,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66647,6 +66758,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66671,6 +66783,7 @@
                   "The tall glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66695,6 +66808,7 @@
                   "The tall glass jar will cost 99,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66719,6 +66833,7 @@
                   "The tall glass jar will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66755,6 +66870,7 @@
                   "The tall glass jar will cost 55,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66779,6 +66895,7 @@
                   "The tall glass jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66803,6 +66920,7 @@
                   "The tall glass jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66827,6 +66945,7 @@
                   "The tall glass jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66851,6 +66970,7 @@
                   "The glaes jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66875,6 +66995,7 @@
                   "The tall glass jar will cost 75,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66899,6 +67020,7 @@
                   "The tall glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66923,6 +67045,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -66947,6 +67070,7 @@
                   "The tall glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -68172,6 +68296,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -68200,6 +68325,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -68228,6 +68354,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -68256,6 +68383,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -69485,6 +69613,7 @@
                   "The red-striped box will cost 4,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "organic material, an extremely common material",
@@ -69510,6 +69639,7 @@
                   "The vanilla-dyed box will cost 4,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "organic material, an extremely common material",
@@ -69560,6 +69690,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69588,6 +69719,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69616,6 +69748,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69644,6 +69777,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69691,6 +69825,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -69721,6 +69856,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -69771,6 +69907,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -69824,6 +69961,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -69853,6 +69991,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -69939,6 +70078,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -70193,6 +70333,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "shoulders",
@@ -70441,6 +70582,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -70467,6 +70609,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -70493,6 +70636,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -70522,6 +70666,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70550,6 +70695,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70578,6 +70724,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70606,6 +70753,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70634,6 +70782,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70662,6 +70811,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70690,6 +70840,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70718,6 +70869,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70746,6 +70898,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70770,6 +70923,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -70919,6 +71073,7 @@
                   "The mahogany box will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "wood, an extremely common material",
@@ -70944,6 +71099,7 @@
                   "The charcoal-drawn box will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "organic material, an extremely common material",
@@ -70973,6 +71129,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container"
                 ],
                 "worn": "pin",
@@ -71012,6 +71169,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71040,6 +71198,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71068,6 +71227,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71096,6 +71256,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71124,6 +71285,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71152,6 +71314,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71180,6 +71343,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71208,6 +71372,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71236,6 +71401,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71264,6 +71430,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71292,6 +71459,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "feet",
@@ -71345,6 +71513,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -71430,6 +71599,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -71907,37 +72077,6 @@
               }
             },
             {
-              "id": "149210",
-              "name": "a smooth bone ring pierced by tiny crystal shards",
-              "details": {
-                "raw": [
-                  "Across the surface of the ring, spots of ochre and brown stains radiate from tiny crystalline structures embedded in the bone.  Ichor green motes and shadows lurk within the crystals, living inclusions that alternately lighten and darken the calcification along the ring's edges.  A faint pulse, deep and bone-jarring, accompanies the flickering, beating like a necrotic heart.",
-                  "The ring can be worn around the finger.  The ring appears to serve some purpose.",
-                  "It looks like this item has been mainly crafted out of bone, an extremely common material.",
-                  "Analysis of a smooth bone ring pierced by tiny crystal shards indicates the creator has provided the following information:",
-                  "The smooth bone ring is a prize from the Arena of the Abyss (Ebon Gate event).  When worn, it has a chance to summon an undead creature from a recently slain creature.",
-                  "                   Attuned: No one",
-                  "                   Charges: 0 (ON, PROD to toggle)",
-                  "              Lich's Curse: 0% (ON, TAP to toggle)",
-                  "           Voln's Blessing: 0%",
-                  "              Appearance: ON (COVER to toggle)",
-                  "Lich's Curse is a % chance for the undead the ring spawns to be a boss creature.  Voln's Blessing is a % chance for the ring owner to receive +15 AS/DS and +10 CS/TD for 30 seconds when they kill the undead the ring spawned.",
-                  "The ring cannot be altered in any way!",
-                  "The smooth bone ring will cost 50,000 coins."
-                ],
-                "tags": [
-                  "purpose"
-                ],
-                "worn": "finger",
-                "material": "bone, an extremely common material",
-                "cost": 50000,
-                "wear_location": "around the finger",
-                "is_jewelry": true,
-                "item_type": "jewelry"
-              },
-              "quantity": 2
-            },
-            {
               "id": "149201",
               "name": "a bright orange note",
               "details": {
@@ -72262,6 +72401,7 @@
                   "The glass jar will cost 65,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72286,6 +72426,7 @@
                   "The glass jar will cost 75,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72310,6 +72451,7 @@
                   "The glass jar will cost 75,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72334,6 +72476,7 @@
                   "The glass jar will cost 65,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72358,6 +72501,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72382,6 +72526,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72406,6 +72551,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72430,6 +72576,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72454,6 +72601,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72478,6 +72626,7 @@
                   "The glass jar will cost 40,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72712,6 +72861,7 @@
                   "The thick glass jar will cost 95,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72736,6 +72886,7 @@
                   "The thick glass jar will cost 95,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72760,6 +72911,7 @@
                   "The thick glass jar will cost 95,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -72879,6 +73031,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -73539,6 +73692,7 @@
                   "The shimmering pink bottle will cost 1,250,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -73764,6 +73918,7 @@
                   "max_deep",
                   "max_light",
                   "magic_resistant",
+                  "container",
                   "container"
                 ],
                 "worn": "cloak",
@@ -73965,6 +74120,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container"
                 ],
                 "worn": "belt",
@@ -74201,6 +74357,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "gemstone, an extremely common material",
@@ -74225,6 +74382,7 @@
                   "The glass jar will cost 7,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -74291,6 +74449,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container"
                 ],
                 "worn": "back",
@@ -74475,6 +74634,7 @@
                   "The glass jar will cost 14,500 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -74581,6 +74741,7 @@
                   "The thick glass jar will cost 8,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -76558,6 +76719,7 @@
                   "The thick glass jar will cost 550 coins."
                 ],
                 "tags": [
+                  "container",
                   "container"
                 ],
                 "material": "glass, an extremely common material",
@@ -76755,6 +76917,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 06:25:24 UTC",
+  "processed_at": "2025-12-27 06:44:17 UTC",
   "processing_version": "v2.0"
 }
