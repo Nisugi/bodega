@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-27 20:23:30 UTC",
+  "created_at": "2025-12-27 22:20:45 UTC",
   "run_time": "03s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -1255,6 +1255,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -1617,6 +1618,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -1644,6 +1646,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -1828,6 +1831,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3192,6 +3196,7 @@
                   "purpose",
                   "lightenable",
                   "persists",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6323,6 +6328,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 30000,
@@ -6349,6 +6355,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6385,6 +6392,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6411,6 +6419,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6446,6 +6455,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6471,6 +6481,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6506,6 +6517,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6530,6 +6542,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6565,6 +6578,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -6590,6 +6604,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6623,6 +6638,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -6648,6 +6664,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7338,6 +7355,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11402,6 +11420,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999,
@@ -11488,6 +11507,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -13605,6 +13625,7 @@
                   "The glass jar will cost 1,500,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -16412,58 +16433,6 @@
           "branch": "west",
           "items": [
             {
-              "id": "153237",
-              "name": "a malachite and smoky topaz brooch",
-              "details": {
-                "raw": [
-                  "The brooch can be worn anywhere on the body.  The brooch appears to serve some purpose.",
-                  "Analysis of a malachite and smoky topaz brooch indicates the item is free from merchant alteration restrictions.",
-                  "The smoky topaz brooch will cost 1,000,000 coins.",
-                  "It is a holy item.",
-                  "It is currently imbedded with the Aura of the Arkati spell.",
-                  "It has 5 charges.  It is empowered and can be charged for an additional 131.",
-                  "It could be activated by tapping it.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 6 to Wisdom Base.",
-                  "    This enhancement may not be used by adventurers who have not trained 35 times.",
-                  "    It provides a boost of 3 to Harness Power Ranks.",
-                  "    This enhancement may not be used by adventurers who have not trained 20 times.",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is a small item, under a pound.",
-                  "It is estimated to be worth about 650,000 silvers.",
-                  "It has a permanently unlocked loresong by Bolenhart."
-                ],
-                "tags": [
-                  "purpose",
-                  "holy",
-                  "imbedded",
-                  "small"
-                ],
-                "cost": 1000000,
-                "worn": "pin",
-                "activator": "tapping",
-                "spell": "Aura of the Arkati",
-                "enhancives": [
-                  {
-                    "boost": 6,
-                    "ability": "Wisdom Base",
-                    "level": 35
-                  },
-                  {
-                    "boost": 3,
-                    "ability": "Harness Power Ranks",
-                    "level": 20
-                  }
-                ],
-                "wear_location": "anywhere on the body",
-                "is_jewelry": true,
-                "blessing": "holy",
-                "item_type": "jewelry"
-              }
-            },
-            {
               "id": "153238",
               "name": "a sigil-etched rhimar short sword",
               "details": {
@@ -17095,6 +17064,7 @@
                   "deepenable",
                   "persists",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
