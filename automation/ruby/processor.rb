@@ -234,8 +234,23 @@ class BodegaProcessor
         quantity: item[:quantity],
         details: details
       }.compact
+    elsif item[:details]&.[](:raw)
+      # Old format (details.raw exists) - apply advanced processing
+      details = item[:details]
+      # Build extracted hash from existing details for add_advanced_properties
+      extracted = {
+        skill: details[:skill],
+        dmg_padding: details[:dmg_padding],
+        crit_padding: details[:crit_padding],
+        dmg_weighting: details[:dmg_weighting],
+        crit_weighting: details[:crit_weighting],
+        sighting: details[:sighting],
+        forged_avd: details[:forged_avd],
+      }
+      add_advanced_properties(details, extracted, item[:name])
+      item
     else
-      # Already processed - pass through
+      # Unknown format - pass through
       item
     end
   end
