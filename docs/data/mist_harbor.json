@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-27 04:27:11 UTC",
-  "run_time": "17s",
+  "created_at": "2025-12-27 06:02:31 UTC",
+  "run_time": "12s",
   "town": "Mist Harbor",
   "shops": [
     {
@@ -39728,21 +39728,6 @@
           "branch": "east",
           "items": [
             {
-              "id": "155024119",
-              "name": "a donut-shaped snowy white ice stone",
-              "details": {
-                "raw": [
-                  "But you are not holding a donut-shaped snowy white ice stone.",
-                  "The stone can not be worn.",
-                  "The snowy white ice stone will cost 12,000 coins."
-                ],
-                "tags": [
-
-                ],
-                "cost": 12000
-              }
-            },
-            {
               "id": "42315061",
               "name": "a bright pink note",
               "details": {
@@ -72097,5 +72082,7 @@
         }
       ]
     }
-  ]
+  ],
+  "processed_at": "2025-12-27 06:04:03 UTC",
+  "processing_version": "v2.0"
 }

@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-27 04:26:20 UTC",
-  "run_time": "05s",
+  "created_at": "2025-12-27 06:01:50 UTC",
+  "run_time": "03s",
   "town": "River's Rest",
   "shops": [
     {
@@ -18980,5 +18980,7 @@
         }
       ]
     }
-  ]
+  ],
+  "processed_at": "2025-12-27 06:04:03 UTC",
+  "processing_version": "v2.0"
 }
