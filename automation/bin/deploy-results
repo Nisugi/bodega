@@ -20,9 +20,9 @@ fi
 git config user.name "Bodega Automation"
 git config user.email "automation@bodega.local"
 
-# Add all data files
+# Add all data files (both raw and processed)
 log "Adding data files to git..."
-git add docs/data/*.json
+git add docs/data/*.json docs/data/raw/*.json
 
 # Check if there are changes to commit
 if git diff --staged --quiet; then

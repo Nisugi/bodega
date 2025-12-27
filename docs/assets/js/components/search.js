@@ -661,6 +661,7 @@ class SearchEngine {
                 if (prop === 'forged') {
                     if (!item.forgedQuality && !item.forgedAvd) return false;
                 }
+                if (prop === 'scripted' && (!item.tags || !item.tags.includes('scripted'))) return false;
             }
         }
 

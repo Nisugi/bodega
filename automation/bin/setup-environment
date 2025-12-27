@@ -69,12 +69,9 @@ echo "Creating symlink to data directory..."
 DATA_DIR="$(pwd)/docs/data"
 BODEGA_LINK="automation/lich/bodega"
 
-# Remove existing bodega directory/symlink if it exists
-if [ -L "$BODEGA_LINK" ]; then
-  echo "Removing existing symlink: $BODEGA_LINK"
-  rm "$BODEGA_LINK"
-elif [ -d "$BODEGA_LINK" ]; then
-  echo "Removing existing directory: $BODEGA_LINK"
+# Remove existing bodega file/directory/symlink if it exists
+if [ -e "$BODEGA_LINK" ] || [ -L "$BODEGA_LINK" ]; then
+  echo "Removing existing: $BODEGA_LINK"
   rm -rf "$BODEGA_LINK"
 fi
 
