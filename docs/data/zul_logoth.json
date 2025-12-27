@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-27 14:19:29 UTC",
+  "created_at": "2025-12-27 16:24:24 UTC",
   "run_time": "03s",
   "town": "Zul Logoth",
   "shops": [
@@ -1096,37 +1096,6 @@
                     "level": 33
                   }
                 ],
-                "is_weapon": true,
-                "weapon_type": "twohanded weapons",
-                "item_type": "weapon"
-              }
-            },
-            {
-              "id": "132955",
-              "name": "a sigil-etched illthorn runestaff",
-              "details": {
-                "raw": [
-                  "It has a small enchanter's glyph.",
-                  "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
-                  "It looks like this item has been mainly crafted out of illthorn, an extremely rare wood.  It cannot be used in alterations.",
-                  "Analysis of a sigil-etched illthorn runestaff indicates the item has certain alteration restrictions.  It cannot be used in alterations.",
-                  "You might be able to have a talented merchant lighten the illthorn runestaff for you.",
-                  "The illthorn runestaff will cost 25,000,000 coins.",
-                  "It imparts a bonus of +45 more than usual.",
-                  "It appears to weigh about 4 pounds.",
-                  "It is estimated to be worth about 9,050,000 silvers.",
-                  "It is predominantly crafted of illthorn.",
-                  "It is an involved project (205 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Broyles."
-                ],
-                "tags": [
-                  "lightenable"
-                ],
-                "cost": 25000000,
-                "enchant": 45,
-                "material": "illthorn",
-                "skill": "twohanded weapons",
-                "weight": 4,
                 "is_weapon": true,
                 "weapon_type": "twohanded weapons",
                 "item_type": "weapon"
@@ -3739,6 +3708,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -3772,6 +3742,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3809,6 +3780,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -3838,6 +3810,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3962,6 +3935,7 @@
                   "It has a permanently unlocked loresong by Krayze."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4166,6 +4140,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 7500000,
@@ -4198,6 +4173,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4234,6 +4210,7 @@
                   "deepenable",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -5562,6 +5539,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 399999,
@@ -5595,6 +5573,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -5634,6 +5613,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2999999,
@@ -5662,6 +5642,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6262,6 +6243,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1249999,
@@ -6297,6 +6279,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7435,6 +7418,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -7481,6 +7465,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7703,6 +7688,7 @@
                   "The glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7946,6 +7932,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12487,6 +12474,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 14:21:20 UTC",
+  "processed_at": "2025-12-27 16:26:17 UTC",
   "processing_version": "v2.0"
 }
