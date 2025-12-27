@@ -45,7 +45,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "cost": 10000000,
                 "wear_location": "anywhere on the body",
@@ -61,7 +63,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "cost": 10000000,
                 "wear_location": "anywhere on the body",
@@ -77,7 +81,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "cost": 10000000,
                 "wear_location": "anywhere on the body",
@@ -93,7 +99,9 @@
                   "Analysis of a pair of black-tinted glasses indicates the item is free from merchant alteration restrictions.",
                   "The black-tinted glasses will cost 10,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "cost": 10000000,
                 "wear_location": "anywhere on the body",
@@ -139,7 +147,9 @@
                   "The guard is intended to be a pauldron or shoulder guard of some sort.  It must remain in the essence of the base item when altering it.",
                   "The shoulder guard will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "shoulders",
                 "material": "leather, an extremely common material",
                 "cost": 500000,
@@ -216,7 +226,9 @@
                   "Analysis of a bug-eyed shrunken goblin head strung from a fraying length of knotted hemp indicates the item is free from merchant alteration restrictions.",
                   "The shrunken goblin head will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material",
                 "cost": 1000000,
@@ -262,7 +274,9 @@
                   "SCRIPT NAME: Skirt Pin",
                   "The skirt pin will cost 25,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "metal, an extremely common material",
                 "cost": 25000000,
@@ -336,7 +350,9 @@
                   "  Custom feature 4: None.",
                   "The linen bandana will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "cloth, an extremely common material",
                 "cost": 50000,
@@ -356,7 +372,9 @@
                   "You can try to SHAKE, RUB, and PULL the hook.",
                   "The veniom hook will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "ear",
                 "material": "veniom, a very rare metal",
                 "cost": 500000,
@@ -520,7 +538,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 10000,
                 "item_type": null
@@ -539,7 +559,9 @@
                   "Alteration Instructions:  You may alter freely, but it must remain metal of some kind of necklace and have a chain.",
                   "The silver necklace will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "silver, an extremely common metal",
                 "cost": 100000,
@@ -560,7 +582,9 @@
                   "Alteration Instructions:  You may alter freely, but the adjective must remain a metal type and the noun must be a torc of some kind.",
                   "The white gold torc will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "white gold, an infrequent alloy",
                 "cost": 100000,
@@ -583,7 +607,9 @@
                   "You can add a scent to it by pouring perfume on it.",
                   "The woven circlet will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "organic material, an extremely common material",
                 "cost": 250000,
@@ -600,7 +626,9 @@
                   "It looks like this item has been mainly crafted out of organic material, piece of treasure.",
                   "The tangerine zinnia will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure",
                 "cost": 100000,
@@ -620,7 +648,9 @@
                   "This is a Woven Chain (i.e. it was created via weaving!)  A talented merchant can alter it but only with heavy caveats: the noun cannot change unless it is to alter it back to its default wording (this item's default noun is a \"garland\"), and the long description is currently unable to be altered.  You can add a show that does not contradict the hard-coded LOOK.",
                   "The woven garland will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "gemstone, an extremely common material",
                 "cost": 100000,
@@ -663,7 +693,9 @@
                   "This piece can be lightened, deepened, and altered according to the notes above.",
                   "The bum roll will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "waist",
                 "material": "cloth, an extremely common material",
                 "cost": 150000,
@@ -685,7 +717,9 @@
                   "Verbs marked with an asterisk (*) will behave differently based on your DEMEANOR.",
                   "The gnarled hand will cost 3,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "organic material, an extremely common material",
                 "cost": 3000000,
@@ -708,7 +742,9 @@
                   "This scent is eligible for permanence.",
                   "The peaty whiskey oil will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -762,7 +798,9 @@
                   "  * Death be not proud, and Brodega be not alive.",
                   "The silver-caged locket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "silver, an extremely common metal",
                 "cost": 150000,
                 "item_type": null
@@ -780,7 +818,9 @@
                   "the golden crown symbol of Koar",
                   "The golden crown symbol will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gold, an uncommon metal",
                 "cost": 150000,
                 "item_type": null
@@ -798,7 +838,9 @@
                   "  * According to the traditions of the Giantman people, let Brodega be mourned.",
                   "The glass candleholder will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -904,7 +946,9 @@
                   "It cannot be altered.",
                   "The stability contract will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 100000,
                 "item_type": null
@@ -1307,7 +1351,9 @@
                   "This parchment will grant knowledge of Nalfein Fanspeak.  REDEEM the parchment to access.",
                   "The fan-folded parchment will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 75000,
                 "item_type": null
@@ -1329,7 +1375,9 @@
                   "Any willing merchant should be able to change the 15/15/15, long, and show of this charm, though the noun must remain \"charm\".",
                   "The cat charm will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 1000000,
                 "item_type": null
               }
@@ -1346,7 +1394,9 @@
                   "  * Brodega will never see another sunset!",
                   "The orange circular tombstone will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -1364,7 +1414,9 @@
                   "  * Brodega just took an unlucky hit!",
                   "The clover-shaped tombstone will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -1382,7 +1434,9 @@
                   "  * Laugh all you want.  Brodega may have died, but he died trying.",
                   "The quartz nodule will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -1400,7 +1454,9 @@
                   "  * Death be not proud, and Brodega be not alive.",
                   "The silver-caged locket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "silver, an extremely common metal",
                 "cost": 150000,
                 "item_type": null
@@ -1734,7 +1790,9 @@
                   "If there is a typo in the above messaging, please ASSIST and request a referral to speak to a GameMaster to fix it.  DO NOT BUG or BUGITEM the cravat!",
                   "The leaf-patterned cravat will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "material": "cloth, an extremely common material",
                 "cost": 150000,
@@ -1781,7 +1839,9 @@
                   "There are no tiers to unlock.",
                   "The crimson silk scarf will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "material": "cloth, an extremely common material",
                 "cost": 200000,
@@ -1876,7 +1936,9 @@
                   "She has shaven head, none ginger hair swept up into a casual twist secured with a scorched mesille barrette.",
                   "The mesille barrette will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "mesille, an unusual wood",
                 "cost": 15000,
@@ -1896,7 +1958,9 @@
                   "You can NUDGE your villswood heels to change how the heels will be attached to a shoe.  It's currently set to: with villswood heels.",
                   "The villswood heels will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "villswood, an infrequent wood",
                 "cost": 25000,
                 "item_type": null
@@ -1940,7 +2004,9 @@
                   "It looks like this item has been mainly crafted out of organic material, piece of treasure.",
                   "The lavender pansy will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure",
                 "cost": 50000,
@@ -1957,7 +2023,9 @@
                   "It looks like this item has been mainly crafted out of organic material, piece of treasure.",
                   "The ivory snapdragon will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hair",
                 "material": "organic material, piece of treasure",
                 "cost": 50000,
@@ -1979,7 +2047,9 @@
                   "WRAITH, SPIDER, GHOUL, WITCH, BAT, CAT, ROSE, CLOUD, BEETLE, BLACK-WIDOW, MISTAKE.",
                   "The black paintbrush will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 200000,
                 "item_type": null
@@ -3074,7 +3144,9 @@
                   "This is wig powder that will suppress the itchy messaging you would normally get while wearing a wig.  It has 18 applications remaining before it will run out.",
                   "The wooden canister will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 20000,
                 "item_type": null
@@ -3537,7 +3609,9 @@
                   "Analysis of a golden plaque indicates the item is free from merchant alteration restrictions.",
                   "The golden plaque will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 999999999,
                 "item_type": null
@@ -3589,7 +3663,9 @@
                   "The amulet is a crystal amulet which allows you to THINK LOCATION {target} while engaged in ESP.",
                   "The crystal amulet will cost 1,350 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "cost": 1350,
                 "wear_location": "around the neck",
@@ -3699,7 +3775,9 @@
                   "Analysis of a tincture of pothinir indicates the item is free from merchant alteration restrictions.",
                   "The tincture of pothinir will cost 250 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250,
                 "item_type": null
               },
@@ -3714,7 +3792,9 @@
                   "Analysis of a tincture of aloeas indicates the item is free from merchant alteration restrictions.",
                   "The tincture of aloeas will cost 250 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250,
                 "item_type": null
               },
@@ -3729,7 +3809,9 @@
                   "Analysis of a tincture of ephlox indicates the item is free from merchant alteration restrictions.",
                   "The tincture of ephlox will cost 250 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250,
                 "item_type": null
               },
@@ -3744,7 +3826,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               },
@@ -3759,7 +3843,9 @@
                   "Analysis of a crystalline flask containing a sparkling aquamarine potion indicates the item is free from merchant alteration restrictions.",
                   "The aquamarine potion will cost 14,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 14000,
                 "item_type": null
               },
@@ -3774,7 +3860,9 @@
                   "Analysis of a smooth stone indicates the item is free from merchant alteration restrictions.",
                   "The smooth stone will cost 500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 500,
                 "item_type": null
               },
@@ -3811,7 +3899,9 @@
                   "Analysis of a bar of charcoal soap indicates the item is free from merchant alteration restrictions.",
                   "The charcoal soap will cost 32,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 32000,
                 "item_type": null
@@ -3827,7 +3917,9 @@
                   "Analysis of a black crystal indicates the item is free from merchant alteration restrictions.",
                   "The black crystal will cost 2,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 2000,
                 "item_type": null
               },
@@ -3842,7 +3934,9 @@
                   "Analysis of a cracked clay disc indicates the item is free from merchant alteration restrictions.",
                   "The clay disc will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               }
@@ -3859,7 +3953,9 @@
                   "Alterations to the adjective must make sense to be on a fletching.  This includes: colors; paint and dyes (eg. blue-painted, red-dyed, green-stained); designs that make sense on a small fletching (pink-striped, trident-stamped); or feathers of a specific bird (green parrot, mottled falcon).  Nothing crazy, like attachable adornments (no deathstone-studded fletchings!), are allowed.",
                   "The blood red eagle fletchings will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -3993,7 +4089,9 @@
                   "Analysis of a pair of blue wave-patterned socks indicates the item is free from merchant alteration restrictions.",
                   "The wave-patterned socks will cost 30,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "socks",
                 "material": "cloth, an extremely common material",
                 "cost": 30000,
@@ -4018,7 +4116,9 @@
         {
           "room_title": "white crystals",
           "branch": "fresh",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Kaldonis's Smuggled Treasure",
@@ -4064,7 +4164,9 @@
                   "Analysis of a greater mana regeneration potion indicates the item is free from merchant alteration restrictions.",
                   "The regeneration potion will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -4080,7 +4182,9 @@
                   "The description of the golden ash wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
                   "The golden ash wand will cost 3,100 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 3100,
                 "item_type": null
               },
@@ -4157,7 +4261,9 @@
                   "The description of the golden ash wand may be altered, but its noun must remain wand, and it must retain its plant-based composition.  Standard alteration restrictions still apply.",
                   "The golden ash wand will cost 3,100 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 3100,
                 "item_type": null
               },
@@ -4192,7 +4298,9 @@
                   "The statue can not be worn.",
                   "The small statue will cost 4,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 4000,
                 "item_type": null
               }
@@ -4206,7 +4314,9 @@
                   "The statue can not be worn.",
                   "The small statue will cost 4,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 4000,
                 "item_type": null
               },
@@ -4270,7 +4380,9 @@
                   "Analysis of a greater mana potion indicates the creator has provided the following information:",
                   "The mana potion will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 10000,
                 "item_type": null
               },
@@ -4285,7 +4397,9 @@
                   "Analysis of a full mana potion indicates the creator has provided the following information:",
                   "The mana potion will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -4420,7 +4534,9 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The indigo mushroom will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 250000,
                 "item_type": null
@@ -4534,7 +4650,9 @@
                   "Analysis of some fermented sea pineapple indicates the creator has provided the following information:",
                   "The sea pineapple will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 1000,
                 "item_type": null
               },
@@ -4642,7 +4760,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The sparkling dust will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -4899,7 +5019,9 @@
                   "This churn can be freely altered with a long description or a show description.",
                   "The rhimar-lined churn will cost 65,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "rhimar, a rare metal",
                 "cost": 65000000,
                 "item_type": null
@@ -5938,7 +6060,9 @@
                   " Your token may not be altered or changed in any way.",
                   "The firewheel style token will cost 290,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 290000,
                 "item_type": null
@@ -5956,7 +6080,9 @@
                   "This is a mean humanoid toy.  It has no tiers and traps TAP, HUG, SMOOCH, and TURN.  It can be altered as long as it remains a humanoid toy and the alteration suits the ornery messaging.  No happy/cheerful/sickly sweet toy descriptions!",
                   "The domania doll will cost 4,900,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 4900000,
                 "item_type": null
@@ -6349,7 +6475,9 @@
         {
           "room_title": "Eldekkar's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Eldekkar's Outfitting",
@@ -6410,7 +6538,9 @@
                   " Your curio may not be altered or changed in any way.",
                   "The illusion style curio will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -6443,7 +6573,9 @@
                   "Analysis of a violet orc hide bodice indicates the item is free from merchant alteration restrictions.",
                   "The orc hide bodice will cost 2,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pin",
                 "cost": 2000,
                 "wear_location": "anywhere on the body",
@@ -6500,7 +6632,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 8000,
                 "item_type": null
@@ -6522,7 +6656,9 @@
                   "It cannot be altered.",
                   "The flexing arm token will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 8000,
                 "item_type": null
@@ -7096,7 +7232,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 19900,
                 "item_type": null
@@ -7118,7 +7256,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 19900,
                 "item_type": null
@@ -7140,7 +7280,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 19900,
                 "item_type": null
@@ -7162,7 +7304,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 19,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 19900,
                 "item_type": null
@@ -7227,7 +7371,9 @@
                   "Analysis of a half-filled bottle of stale beer indicates the creator has provided the following information:",
                   "The stale beer will cost 2,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 2500,
                 "item_type": null
               },
@@ -7570,7 +7716,9 @@
                   "Analysis of an ivy-engraved chartreuse fire agate indicates the item is free from merchant alteration restrictions.",
                   "The chartreuse fire agate will cost 6,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 6000,
                 "item_type": null
@@ -7627,7 +7775,9 @@
                   "Analysis of an inky necrotic core indicates the item is free from merchant alteration restrictions.",
                   "The necrotic core will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 10000,
                 "item_type": null
               },
@@ -7645,7 +7795,9 @@
                   "Alterations are fine so long as it remains a napkin, rag, piece of cloth, etc.",
                   "The silk napkin will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 1000,
                 "item_type": null
@@ -7731,7 +7883,9 @@
                   "There is a chance you can sell this at a local Herbal Shop.",
                   "The mistweed will cost 3,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 3500,
                 "item_type": null
@@ -7786,7 +7940,9 @@
                   "You get the feeling, just by appearance, that if you BREAK or EAT the parchment, you would effectively destroy it.",
                   "The parchment will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 1000,
                 "item_type": null
@@ -8188,7 +8344,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The pincer-shaped gauntlet will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "metal, an extremely common material",
                 "cost": 5000,
@@ -8276,7 +8434,9 @@
                   "Usage: BUNDLE",
                   "The moonstone sphere will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 75000,
                 "item_type": null
@@ -8327,7 +8487,9 @@
                   "It cannot be permified.  There are 3 doses left.",
                   "The lagoon blue bottle will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 100000,
                 "item_type": null
@@ -9170,7 +9332,9 @@
                   "Each individual projectile will be \"a light glaes-tipped bolt\".",
                   "The glaes-tipped bolts will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -9189,7 +9353,9 @@
                   "Each individual projectile will be \"a light vaalin-banded bolt\".",
                   "The vaalin-banded bolts will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -9208,7 +9374,9 @@
                   "Each individual projectile will be \"a light vaalin-banded bolt\".",
                   "The vaalin-banded bolts will cost 40,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 40000,
                 "item_type": null
               },
@@ -9227,7 +9395,9 @@
                   "Each individual projectile will be \"a light glaes-tipped bolt\".",
                   "The glaes-tipped bolts will cost 40,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 40000,
                 "item_type": null
               },
@@ -9246,7 +9416,9 @@
                   "Each individual projectile will be \"a light blade-tipped bolt\".",
                   "The blade-tipped bolts will cost 30,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 30000,
                 "item_type": null
               },
@@ -9262,7 +9434,9 @@
                   "It looks like this item has been mainly crafted out of drakar, a rare metal.  This material cannot be dyed.",
                   "The drakar caps will cost 4,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "drakar, a rare metal",
                 "cost": 4500,
                 "item_type": null
@@ -9279,7 +9453,9 @@
                   "It looks like this item has been mainly crafted out of drakar, a rare metal.  This material cannot be dyed.",
                   "The drakar arrowheads will cost 7,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "drakar, a rare metal",
                 "cost": 7500,
                 "item_type": null
@@ -9302,7 +9478,9 @@
                   "Exit Message: The air bubble encasing the room suddenly begins to disintegrate and as a surge of water rushes towards you, your surroundings blur...",
                   "The monkey's paw trinket will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 100000,
                 "wear_location": "bar",
@@ -9337,7 +9515,9 @@
                   "Specific Spell Restriction:  602",
                   "The sheaf of parchment will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               },
@@ -9370,7 +9550,9 @@
                   "Specific Spell Restriction:  106",
                   "The off-white vellum will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               },
@@ -9403,7 +9585,9 @@
                   "Spell Circle Restrictions:  Major Elemental",
                   "The hoarfrost-rimed slip will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               }
@@ -9435,7 +9619,9 @@
                   "Specific Spell Restriction:  216",
                   "The thick parchment will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               },
@@ -9451,7 +9637,9 @@
                   "Analysis of a gnomish woodcarver effigy indicates the item is free from merchant alteration restrictions.",
                   "The woodcarver effigy will cost 3,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 3500,
                 "item_type": null
@@ -9653,7 +9841,9 @@
                   "Meditation mats were originally released at Festival of Lumnea 2007.  You may SIT or BREATHE on the mat.  The item must remain a \"meditation mat\".",
                   "The grey meditation mat will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 75000,
                 "item_type": null
@@ -9669,7 +9859,9 @@
                   "It looks like this item has been mainly crafted out of bronze, a very common alloy.  This material cannot be dyed.",
                   "The bronze tool will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "bronze, a very common alloy",
                 "cost": 100000,
                 "item_type": null
@@ -9689,7 +9881,9 @@
                   "It may be altered, but it must remain a veil-like cloth face covering of some sort.",
                   "The kidskin face wrap will cost 45,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "head",
                 "material": "leather, an extremely common material",
                 "cost": 45000,
@@ -9711,7 +9905,9 @@
                   "You can TURN and RUB your compass.",
                   "The copper compass will cost 35,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material",
                 "cost": 35000,
                 "item_type": null
@@ -9734,7 +9930,9 @@
                   "This item has Stay-Put qualities.  If you PLACE it, it will be moved to the ground in your current room and stay there, unable to be picked up by others or taken by the janitor, for 4 hours.  You may NUDGE it at a valid container to place the lamp on top of the container until you NUDGE it out of its place again.  After the duration expires, the item is fair game for others and for the janitor.  Alternately, the item may be PLACEd by the owner of a private property within the grounds of the property or by the owner of a stall or loft in and will stay there until PLACEd or NUDGEd again.",
                   "The red crystal oil lamp will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -9789,7 +9987,9 @@
                   "It may be altered freely provided the noun remains blanket.",
                   "The shaggy rackhal blanket will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "cloak",
                 "material": "cloth, an extremely common material",
                 "cost": 150000,
@@ -9808,7 +10008,9 @@
                   "This is carrier oil for a Sacred Flame lamp.  It can take on the scent of a perfume and used to light a Sacred Flame oil lamp.  POUR the perfume into the oil.  This has 5 charges",
                   "The unscented lamp oil will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 100000,
                 "item_type": null
@@ -9827,7 +10029,9 @@
                   "Try to TURN and TOSS the wrench!",
                   "The golden invar wrench will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "invar, an unusual metal",
                 "cost": 5000,
                 "item_type": null
@@ -9870,7 +10074,9 @@
                   "Lip Gloss by Naidem",
                   "The cotton rag will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 5000,
                 "item_type": null
@@ -9888,7 +10094,9 @@
                   "This item cannot be altered in any way.",
                   "The ingot of laje will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "laje, an infrequent metal",
                 "cost": 50000,
                 "item_type": null
@@ -9924,7 +10132,9 @@
                   "It cannot be altered.",
                   "The urchin guide contract will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -9941,7 +10151,9 @@
                   "Analysis of an iridescent blush pink crystal indicates the item is free from merchant alteration restrictions.",
                   "The blush pink crystal will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -9958,7 +10170,9 @@
                   "Analysis of a gold-flushed fiery crimson crystal indicates the item is free from merchant alteration restrictions.",
                   "The fiery crimson crystal will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -9995,7 +10209,9 @@
                   "Specific Spell Restriction:  1006",
                   "The sheet of music will cost 750,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 750000,
                 "item_type": null
               },
@@ -10028,7 +10244,9 @@
                   "Specific Spell Restriction:  1215",
                   "The hoarfrost-rimed papyrus will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 250000,
                 "item_type": null
               },
@@ -10046,7 +10264,9 @@
                   "You can WAVE, TURN, WEAR, or REMOVE the band.",
                   "The metal band will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "finger",
                 "material": "metal, an extremely common material",
                 "cost": 10000,
@@ -10064,7 +10284,9 @@
                   "It looks like this item has been mainly crafted out of glass, an extremely common material.",
                   "The string-wrapped vial will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -10080,7 +10302,9 @@
                   "It looks like this item has been mainly crafted out of glass, an extremely common material.",
                   "The frosted glass bottle will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 75000,
                 "item_type": null
@@ -10121,7 +10345,9 @@
                   "Analysis of an ecru card sketched with a fine-lined wyrwood sapling indicates the item is free from merchant alteration restrictions.",
                   "The ecru card will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 15000,
                 "item_type": null
@@ -10255,7 +10481,9 @@
                   "  You can TURN, CLENCH, PUSH and FLIP the cutter.",
                   "The glaes cigar cutter will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glaes, a rare metal",
                 "cost": 5000000,
                 "item_type": null
@@ -10275,7 +10503,9 @@
                   "TAP, CLEAN, SCOWL (SCOWL my lorgnette at <TARGET>).",
                   "The villswood lorgnette will cost 45,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "villswood, an infrequent wood",
                 "cost": 45000,
                 "item_type": null
@@ -10320,7 +10550,9 @@
                   "It looks like this item has been mainly crafted out of metal, an extremely common material.",
                   "The brass tuner will cost 7,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material",
                 "cost": 7500,
                 "item_type": null
@@ -10338,7 +10570,9 @@
                   "This item can be held while playing a two-handed instrument in the off-hand.  It may be altered freely, provided it remains as a pick, plectrum or other appropriate noun.",
                   "The mother-of-pearl plectrum will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 5000,
                 "item_type": null
@@ -10356,7 +10590,9 @@
                   "This item can be held while playing a two-handed instrument in the off-hand.  It may be altered freely, provided it remains as a pick, plectrum or other appropriate noun.",
                   "The toroise shell pick will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 5000,
                 "item_type": null
@@ -10375,7 +10611,9 @@
                   "Currently, this stein is Tier 1 (of 2), and you can PUSH and RAISE it.  Some merchants may be able to unlock it further for you.",
                   "The silver stein will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -10411,7 +10649,9 @@
                   "Specific Spell Restriction:  1004",
                   "The off-white parchment will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 500000,
                 "item_type": null
               },
@@ -10427,7 +10667,9 @@
                   "It looks like this item has been mainly crafted out of wood, an extremely common material.",
                   "The mahogany case will cost 1,500 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 1500,
                 "item_type": null
@@ -11778,12 +12020,16 @@
         {
           "room_title": "crystal sighted crossbows - 4x OTS mech bows",
           "branch": "T1",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "golvern maul - 5x, ELEGANT forging",
           "branch": "blessed",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -12026,7 +12272,9 @@
                   "It cannot be altered.",
                   "The larger locker contract will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 300000,
                 "item_type": null
@@ -12046,7 +12294,9 @@
                   "It cannot be altered.",
                   "The larger locker contract will cost 300,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 300000,
                 "item_type": null
@@ -12134,7 +12384,9 @@
                   "It cannot be altered.",
                   "The blue-green potion will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 150000,
                 "item_type": null
@@ -12158,7 +12410,9 @@
                   "It is a basic project (151 difficulty) for an adventurer to modify.",
                   "It has a temporarily unlocked loresong by Wretors."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "imflass",
                 "weight": 3,
@@ -14269,7 +14523,9 @@
                   "You can RUB and TOUCH the mesh handflower.",
                   "The mesh handflower will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "hands",
                 "material": "silver, an extremely common metal",
                 "cost": 50000,
@@ -14327,7 +14583,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The material swatch will cost 450,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 450000,
                 "item_type": null
@@ -14347,7 +14605,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The wooden rod will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 250000,
                 "item_type": null
@@ -14367,7 +14627,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The sparkling dust will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 100000,
                 "item_type": null
@@ -14387,7 +14649,9 @@
                   "This item can NOT be used as alter fodder and may not be altered in any way.",
                   "The veniom thread will cost 1,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "veniom, a very rare metal",
                 "cost": 1500000,
                 "item_type": null
@@ -14402,7 +14666,9 @@
                   "Analysis of a pair of ivory leather boots embossed with a lace ribbon design indicates the item is free from merchant alteration restrictions.",
                   "The ivory leather boots will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "feet",
                 "cost": 25000,
                 "wear_location": "on the feet",
@@ -14419,7 +14685,9 @@
                   "Analysis of a pair of cream suede pants with bronze-threaded accents indicates the item is free from merchant alteration restrictions.",
                   "The cream suede pants will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pants",
                 "material": "leather, an extremely common material",
                 "cost": 25000,
@@ -14437,7 +14705,9 @@
                   "Analysis of a trio of plaited cream suede belts indicates the item is free from merchant alteration restrictions.",
                   "The plaited suede belts will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "waist",
                 "material": "leather, an extremely common material",
                 "cost": 5000,
@@ -14478,7 +14748,9 @@
                   "Analysis of a midnight blue chemise indicates the item is free from merchant alteration restrictions.",
                   "The midnight blue chemise will cost 1,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "chest",
                 "cost": 1000,
                 "wear_location": "around the chest",
@@ -14528,7 +14800,9 @@
                   "Analysis of some glossy ebon cordovan boots with polished electrum buckles indicates the item is free from merchant alteration restrictions.",
                   "The ebon cordovan boots will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "feet",
                 "material": "leather, an extremely common material",
                 "cost": 15000,
@@ -14545,7 +14819,9 @@
                   "Analysis of a pair of tailored ebon suede trousers with eahnor-accented cuffs indicates the item is free from merchant alteration restrictions.",
                   "The ebon suede trousers will cost 20,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "pants",
                 "cost": 20000,
                 "wear_location": "on the legs",
@@ -14562,7 +14838,9 @@
                   "Analysis of a fitted ebony shirt of silk satin edged in ornate embroidery indicates the item is free from merchant alteration restrictions.",
                   "The ebony shirt will cost 25,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "chest",
                 "material": "cloth, an extremely common material",
                 "cost": 25000,
@@ -14579,7 +14857,9 @@
                   "Analysis of a opal-clasped ebony silk cravat indicates the item is free from merchant alteration restrictions.",
                   "The ebony silk cravat will cost 10,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "neck",
                 "cost": 10000,
                 "wear_location": "around the neck",
@@ -14968,7 +15248,9 @@
                   "This totem is not suitable for alterations or fodder.  It appears as if it might be suitable for carving with a chisel.  You should find a jagged stone which can be found within the Duskruin tunnels.",
                   "The ur-barath totem will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material",
                 "cost": 75000,
                 "wear_location": "totem's reddish surface toward a caged ruby tip",
@@ -14987,7 +15269,9 @@
                   "This totem is not suitable for alterations or fodder.  It appears as if it might be suitable for carving with a chisel.  You should find a jagged stone which can be found within the Duskruin tunnels.",
                   "The ur-barath totem will cost 75,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "stone, an extremely common material",
                 "cost": 75000,
                 "wear_location": "totem's reddish surface toward a caged ruby tip",
@@ -15347,7 +15631,9 @@
                   "Analysis of a simple tabard indicates the item is free from merchant alteration restrictions.",
                   "The simple tabard will cost 250,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "front",
                 "material": "cloth, an extremely common material",
                 "cost": 250000,
@@ -15365,7 +15651,9 @@
                   "Analysis of a large sourdough bagel indicates the creator has provided the following information:",
                   "The sourdough bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15379,7 +15667,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               },
@@ -15394,7 +15684,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               },
@@ -15409,7 +15701,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               },
@@ -15424,7 +15718,9 @@
                   "The sphere can not be worn.",
                   "The black crystal sphere will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               },
@@ -15440,7 +15736,9 @@
                   "Analysis of a perfect dill pickle indicates the creator has provided the following information:",
                   "The dill pickle will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15455,7 +15753,9 @@
                   "Analysis of a munched-on lightly toasted bagel indicates the creator has provided the following information:",
                   "The lightly toasted bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15493,7 +15793,9 @@
                   "This is a fire bomb that can only be used within Duskruin Arena.  It causes fire damage over time.",
                   "The crimson glass sphere will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 50000,
                 "item_type": null
@@ -15563,7 +15865,9 @@
                   "The permit can not be worn.",
                   "The shop permit will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 999999999,
                 "item_type": null
               }
@@ -15587,7 +15891,9 @@
                   "The permit can not be worn.",
                   "The shop permit will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 999999999,
                 "item_type": null
               }
@@ -15602,7 +15908,9 @@
                   "Analysis of a dish of slightly melted butter indicates the creator has provided the following information:",
                   "The slightly melted butter will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15617,7 +15925,9 @@
                   "Analysis of a pickled egg indicates the creator has provided the following information:",
                   "The pickled egg will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15640,7 +15950,9 @@
                   "It cannot be altered.",
                   "The green potion will cost 17,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 17500000,
                 "item_type": null
@@ -15657,7 +15969,9 @@
                   "Analysis of a toasted wheat bagel indicates the creator has provided the following information:",
                   "The wheat bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15672,7 +15986,9 @@
                   "Analysis of a saucer of cream cheese indicates the creator has provided the following information:",
                   "The cream cheese will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15699,7 +16015,9 @@
                   "Analysis of a chewed-on buttered bagel indicates the creator has provided the following information:",
                   "The buttered bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15714,7 +16032,9 @@
                   "Analysis of a half chewed-on bagel indicates the creator has provided the following information:",
                   "The chewed-on bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -15729,7 +16049,9 @@
                   "Analysis of a chewy sea salt-topped bagel indicates the creator has provided the following information:",
                   "The sea salt-topped bagel will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               },
@@ -16120,7 +16442,9 @@
                   "It cannot be altered.",
                   "The coin-shaped token will cost 15,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 15000,
                 "item_type": null
@@ -16137,7 +16461,9 @@
                   "Analysis of a handful of mint leaves indicates the creator has provided the following information:",
                   "The mint leaves will cost 999,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 999999,
                 "item_type": null
               },
@@ -16153,7 +16479,9 @@
                   "Analysis of some dried-out journey bread crumbs indicates the creator has provided the following information:",
                   "The journey bread crumbs will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -16168,7 +16496,9 @@
                   "Analysis of a perfect dill pickle indicates the creator has provided the following information:",
                   "The dill pickle will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -16384,7 +16714,9 @@
                   "The register can not be worn.",
                   "The partner's register will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 999999999,
                 "item_type": null
               }
@@ -16399,7 +16731,9 @@
                   "The register can not be worn.",
                   "The partner's register will cost 999,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 999999999,
                 "item_type": null
               }
@@ -16417,7 +16751,9 @@
                   "Verbs: MEASURE, STARE, TOUCH.",
                   "The sai hilt-glyph will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gold, an uncommon metal",
                 "cost": 100000,
                 "item_type": null
@@ -16544,7 +16880,9 @@
                   "Analysis of a crystal clear potion vial indicates the item is free from merchant alteration restrictions.",
                   "The clear potion vial will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               },
@@ -16561,7 +16899,9 @@
                   "This is a vial of fake blood for a trick dagger that makes it look as though you injure yourself.  You can EAT or SHAKE the vial.  EATing the vial will destroy it and add a temporary unique feature line of 'Blood drips from the corner of his lip.' if no other unique feature-altering items are worn.",
                   "The liquid-filled vial will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               },
@@ -16575,7 +16915,9 @@
                   "The votive can not be worn.",
                   "The red votive will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               },
@@ -16591,7 +16933,9 @@
                   "Analysis of a ruic block indicates the item is free from merchant alteration restrictions.",
                   "The ruic block will cost 12,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "ruic, an uncommon wood",
                 "cost": 12000,
                 "item_type": null
@@ -16770,7 +17114,9 @@
                   "Analysis of a giant pumpkin cookie indicates the creator has provided the following information:",
                   "The pumpkin cookie will cost 50,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 50000,
                 "item_type": null
               }
@@ -17245,7 +17591,9 @@
                   "It is an involved project (212 difficulty) for an adventurer to modify.",
                   "It has a temporarily unlocked loresong by a bard."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "ora",
                 "weight": 3,
@@ -17795,7 +18143,9 @@
                   "Analysis of a crystalline vial containing some anointing oil indicates the item is free from merchant alteration restrictions.",
                   "The anointing oil will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 8000,
                 "item_type": null
               }
@@ -17809,7 +18159,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 8000,
                 "item_type": null
               }
@@ -17823,7 +18175,9 @@
                   "Analysis of a crystalline vial containing some glowing prismatic oil indicates the item is free from merchant alteration restrictions.",
                   "The prismatic oil will cost 8,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 8000,
                 "item_type": null
               }
@@ -17856,7 +18210,9 @@
                   "Analysis of a crystalline flask containing a scintillating pale red potion indicates the item is free from merchant alteration restrictions.",
                   "The pale red potion will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               }
@@ -17870,7 +18226,9 @@
                   "Analysis of a crystalline flask containing a softly glowing blue potion indicates the item is free from merchant alteration restrictions.",
                   "The glowing blue potion will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               },
@@ -17885,7 +18243,9 @@
                   "Analysis of a crystalline flask containing a gold-flecked clear potion indicates the item is free from merchant alteration restrictions.",
                   "The clear potion will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               }
@@ -17899,7 +18259,9 @@
                   "Analysis of a lesser health potion indicates the creator has provided the following information:",
                   "The health potion will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               }
@@ -17913,7 +18275,9 @@
                   "Analysis of a crystalline flask containing a gold-flecked clear potion indicates the item is free from merchant alteration restrictions.",
                   "The clear potion will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               }
@@ -17926,7 +18290,9 @@
                   "The talisman can not be worn.",
                   "The malachite talisman will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000,
                 "item_type": null
               },
@@ -18005,7 +18371,9 @@
         {
           "room_title": "Klyle's General Store",
           "branch": "entry",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on an oak plank sign:",
             "an enruned gold ring 100 use.",
@@ -18019,12 +18387,16 @@
         {
           "room_title": "Klyle's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Klyle's General Store",
           "branch": "west",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -18410,7 +18782,9 @@
                   "It cannot be altered.",
                   "The yellow-green potion will cost 2,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 2500000,
                 "item_type": null
@@ -18429,7 +18803,9 @@
                   "This is a 4x modifier with 1000 flat experience award orb.  It is currently attuned to someone else.",
                   "The violet orb will cost 19,499,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 19499999,
                 "item_type": null
@@ -18495,7 +18871,9 @@
                   "This is a 2x modifier with 500 flat experience award orb.  It is not currently attuned to any character.",
                   "The blue orb will cost 3,899,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 3899999,
                 "item_type": null
@@ -18580,7 +18958,9 @@
                   "This is a 3x modifier with 750 flat experience award orb.  It is not currently attuned to any character.",
                   "The indigo orb will cost 10,499,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 10499999,
                 "item_type": null
@@ -18652,7 +19032,9 @@
                   "This is a 1.5x modifier with 250 flat experience award orb.  It is not currently attuned to any character.",
                   "The green orb will cost 299,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 299999,
                 "item_type": null
@@ -19569,7 +19951,9 @@
                   " Your nugget may not be altered or changed in any way.",
                   "The faenor nugget will cost 33,999,900 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "faenor, a rare metal",
                 "cost": 33999999,
                 "wear_location": "location",
@@ -19649,7 +20033,9 @@
                   "This is a 1.5x modifier with 250 flat experience award orb.  It is not currently attuned to any character.",
                   "The green orb will cost 249,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "gemstone, an extremely common material",
                 "cost": 249999,
                 "item_type": null
@@ -20147,6 +20533,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-27 06:22:51 UTC",
+  "processed_at": "2025-12-27 06:25:24 UTC",
   "processing_version": "v2.0"
 }

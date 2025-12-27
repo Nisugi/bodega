@@ -77,7 +77,9 @@
                   "It cannot be altered.",
                   "The yellow-green potion will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 1000000,
                 "item_type": null
@@ -98,7 +100,9 @@
                   "It cannot be altered.",
                   "The yellow-green potion will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 1000000,
                 "item_type": null
@@ -491,7 +495,9 @@
                   "It cannot be altered.",
                   "The yellow-green potion will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 1000000,
                 "item_type": null
@@ -977,7 +983,9 @@
                   "It cannot be altered.",
                   "The Guilds voucher pack will cost 1,500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 1500000,
                 "item_type": null
               },
@@ -2675,7 +2683,9 @@
                   "It cannot be altered.",
                   "The yellow-green potion will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 1000000,
                 "item_type": null
@@ -3106,7 +3116,9 @@
                   "Analysis of a bundle of eonake arrows indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.  This material cannot be dyed.",
                   "The eonake arrows will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 1000000,
                 "item_type": null
               },
@@ -3125,7 +3137,9 @@
                   "Analysis of a bundle of urglaes-tipped arrows indicates the item is free from merchant alteration restrictions.",
                   "The urglaes-tipped arrows will cost 750,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 750000,
                 "item_type": null
               },
@@ -3146,7 +3160,9 @@
                   "Analysis of a bundle of glowbark bolts indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
                   "The glowbark bolts will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 100000,
                 "item_type": null
               },
@@ -3810,7 +3826,9 @@
                   "This item cannot be altered in any way.",
                   "The bolt of elesine cloth will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 5000000,
                 "item_type": null
@@ -4390,7 +4408,9 @@
                   "Analysis of a mangled steel spoon indicates the item is free from merchant alteration restrictions.",
                   "The steel spoon will cost 349,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "steel, an extremely common metal",
                 "cost": 349999,
                 "item_type": null
@@ -4780,7 +4800,9 @@
                   "Analysis of a delicately carved mistwood table leg indicates the item is free from merchant alteration restrictions.",
                   "The table leg will cost 9,999,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "wood, an extremely common material",
                 "cost": 9999999,
                 "item_type": null
@@ -5075,7 +5097,9 @@
                   "It is predominantly crafted of bone.",
                   "It has a permanently unlocked loresong by Eamun."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "weight": 2,
                 "material": "bone",
@@ -5475,7 +5499,9 @@
                   "The marionette can not be worn.",
                   "The kobold marionette will cost 1,249,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 1249999,
                 "item_type": null
               }
@@ -5721,7 +5747,9 @@
                   "It looks like this item has been mainly crafted out of glass, an extremely common material.",
                   "The blood red lock will cost 9,999,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "glass, an extremely common material",
                 "cost": 9999999,
                 "blessing": "holy",
@@ -5795,7 +5823,9 @@
                   "Both players see: [...] you stagger as a wave of nausea overtakes you and the caustic taste of bile fills your mouth.",
                   "The bile green relic will cost 249,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 249999,
                 "item_type": null
@@ -5812,7 +5842,9 @@
                   "It has 7 charges left.",
                   "The red vial will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 124999,
                 "item_type": null
               }
@@ -5828,7 +5860,9 @@
                   "It has 7 charges left.",
                   "The powder case will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 124999,
                 "item_type": null
               }
@@ -5844,7 +5878,9 @@
                   "It has 7 charges left.",
                   "The blue kohl stick will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 124999,
                 "item_type": null
               }
@@ -5860,7 +5896,9 @@
                   "It has 8 charges left.",
                   "The cerulean blue vial will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 124999,
                 "item_type": null
               }
@@ -5878,7 +5916,9 @@
                   "You could OPEN, CLOSE, LOOK, SHOW, PEER, GAZE, or TURN the map.  It is fully unlocked.",
                   "The papyrus map will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 124999,
                 "wear_location": "map",
@@ -5940,7 +5980,9 @@
                   "Analysis of a fluffy green toy gorilla indicates the item is largely free from merchant alteration restrictions, but the creator has stated that \"There do not seem to be any specific limitations.\"",
                   "The green toy gorilla will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 124999,
                 "item_type": null
               }
@@ -5958,7 +6000,9 @@
                   "You could OPEN, CLOSE, LOOK, SHOW, PEER, GAZE, or TURN the map.  It is fully unlocked.",
                   "The parchment map will cost 124,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 124999,
                 "item_type": null
@@ -6480,7 +6524,9 @@
         {
           "room_title": "Jheu's Outfitting",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Jheu's Weaponry",
@@ -6751,7 +6797,9 @@
                   "The shard can not be worn.",
                   "The Mandis Crystal shard will cost 5,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 5000000,
                 "item_type": null
               }
@@ -7175,7 +7223,9 @@
                   "The scroll can not be worn.",
                   "The arcane scroll will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 500000,
                 "item_type": null
               }
@@ -7313,7 +7363,9 @@
                   "The scroll can not be worn.",
                   "The crumbling scroll will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               }
@@ -7335,7 +7387,9 @@
                   "The papyrus can not be worn.",
                   "The golden papyrus will cost 200,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 200000,
                 "item_type": null
               }
@@ -7357,7 +7411,9 @@
                   "The scroll can not be worn.",
                   "The dark scroll will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "cost": 500000,
                 "item_type": null
               }
@@ -7378,7 +7434,9 @@
                   "HUG your note to see a list of denied scripts.",
                   "The yellow note will cost 49,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 49000,
                 "wear_location": "containers",
@@ -7437,7 +7495,9 @@
                   "Analysis of some deathstone earrings indicates the item is free from merchant alteration restrictions.",
                   "The deathstone earrings will cost 100,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "ears",
                 "cost": 100000000,
                 "item_type": null
@@ -7660,7 +7720,9 @@
         {
           "room_title": "Omra's General Store",
           "branch": "east",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a large sign:",
             "T3 fully unlocked sandwich board! | Corset and Bodice are Vanishing Point | Check out the verb trapped gown &amp;amp;amp; beautiful container clothing items!"
@@ -7669,7 +7731,9 @@
         {
           "room_title": "Omra's General Store",
           "branch": "west",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a large sign:",
             "Magics!  Quivers!  Everything is as you see here.  Gloves are custom altered."
@@ -7686,7 +7750,9 @@
         {
           "room_title": "Frorin's General Store",
           "branch": "entry",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a speckled granite sign:",
             "Welcome to shop of Frorin and Clunk, Dwarven Blade Makers",
@@ -7697,7 +7763,9 @@
         {
           "room_title": "Frorin's General Store",
           "branch": "north",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a speckled granite sign:",
             "This room has wares forged by Frorin Felagun",
@@ -8348,7 +8416,9 @@
                   "A square of sky blue marbrinus is used for the cobbling artisan skill.  It is considered a cobbling upper.",
                   "The sky blue marbrinus will cost 5,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 5000,
                 "item_type": null
@@ -8479,7 +8549,9 @@
                   " Your vellum may not be altered or changed in any way.",
                   "The soft white vellum will cost 500,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 500000,
                 "item_type": null
@@ -8580,7 +8652,9 @@
                   "Both players see: [...] dappled light spilling on your face through rustling leaves.",
                   "The small copper tree will cost 2,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "copper, an extremely common metal",
                 "cost": 2000000,
                 "item_type": null
@@ -8987,7 +9061,9 @@
                   "    The enhancive bonuses provided by this item should last nearly enough time for a giantman to eat dinner.",
                   "It will crumble into dust after its last enhancive charge has been expended."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "enhancives": [
                   {
                     "boost": 5,
@@ -9101,7 +9177,9 @@
                   "You can try to POKE, PULL, SHAKE, TURN, HUG, and SLAP the monster.",
                   "The toy swamp monster will cost 1,000,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "cloth, an extremely common material",
                 "cost": 1000000,
                 "item_type": null
@@ -9215,7 +9293,9 @@
         {
           "room_title": "Althaz's General Store",
           "branch": "entry",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a chiseled black marble plaque:",
             "Shields/Weapons/Fluff Zone"
@@ -9224,7 +9304,9 @@
         {
           "room_title": "Althaz's General Store",
           "branch": "east",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on an etched faenor sign:",
             "Common wares for your everyday needs"
@@ -9233,7 +9315,9 @@
         {
           "room_title": "Althaz's General Store",
           "branch": "west",
-          "items": [],
+          "items": [
+
+          ],
           "sign": [
             "Written on a hand-carved mahogany sign:",
             "Higher-End Enhancives"
@@ -10297,7 +10381,9 @@
                   "It is estimated to be worth about 25,000 silvers.",
                   "It has a permanently unlocked loresong by Humoresque."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "spell": "Eye Spy",
                 "activator": "tapping",
                 "weight": 2,
@@ -10337,7 +10423,9 @@
                   "A glaes-bound blackened tsark tusk is tier 1 of 2 tiers.",
                   "The blackened tsark tusk will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material",
                 "cost": 150000,
@@ -10376,7 +10464,9 @@
                   "An invar-bound carved boar tusk is tier 1 of 2 tiers.",
                   "The carved boar tusk will cost 150,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "belt",
                 "material": "organic material, an extremely common material",
                 "cost": 150000,
@@ -10400,17 +10490,23 @@
         {
           "room_title": "Deleu's General Store",
           "branch": "entry",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Deleu's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Deleu's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     },
@@ -10689,7 +10785,9 @@
         {
           "room_title": "Omrii's General Store",
           "branch": "north",
-          "items": []
+          "items": [
+
+          ]
         },
         {
           "room_title": "Omrii's Weaponry",
@@ -10819,7 +10917,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The iron kettle head will cost 199,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material",
                 "cost": 199999,
                 "item_type": null
@@ -10837,7 +10937,9 @@
                   "This is a part from the Create-a-Golem activity from Duskruin 2024!  You can ADD golem pieces that drop in the arena and sewers to build a golem.  LOOK at it to see what parts you need to complete it!  Be sure to check the announcements for more details.",
                   "The brass arm will cost 199,999 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "metal, an extremely common material",
                 "cost": 199999,
                 "item_type": null
@@ -11372,7 +11474,9 @@
                   "Brodega propels a fierce gout of flames at a giant rat!",
                   "The cinderous token will cost 100,000 coins."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "material": "organic material, an extremely common material",
                 "cost": 100000,
                 "item_type": null
@@ -11684,7 +11788,9 @@
                   "It is a basic project (139 difficulty) for an adventurer to modify.",
                   "It has a permanently unlocked loresong by a bard."
                 ],
-                "tags": [],
+                "tags": [
+
+                ],
                 "worn": "legs",
                 "material": "mithril",
                 "weight": 3,
@@ -12075,11 +12181,13 @@
         {
           "room_title": "Mageriah's General Store",
           "branch": "east",
-          "items": []
+          "items": [
+
+          ]
         }
       ]
     }
   ],
-  "processed_at": "2025-12-27 06:22:52 UTC",
+  "processed_at": "2025-12-27 06:25:26 UTC",
   "processing_version": "v2.0"
 }
