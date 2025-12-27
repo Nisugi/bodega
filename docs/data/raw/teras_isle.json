@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-27 16:23:46 UTC",
+  "created_at": "2025-12-27 18:28:28 UTC",
   "run_time": "03s",
   "town": "Teras Isle",
   "shops": [
@@ -31,6 +31,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 60000,
@@ -55,6 +56,7 @@
                   "The glass jar will cost 40,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -85,6 +87,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 40000,
@@ -109,6 +112,7 @@
                   "The glass jar will cost 40,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -560,6 +564,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -2950,6 +2955,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -2974,6 +2980,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6590,6 +6597,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 88888888,
@@ -6773,6 +6781,7 @@
                   "persists",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6966,6 +6975,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -8161,6 +8171,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11094,6 +11105,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999999,
@@ -11113,6 +11125,7 @@
                   "The silver candy tin will cost 20,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11143,6 +11156,7 @@
                   "The gold chocolate heater will cost 99,999,900 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11188,6 +11202,7 @@
                   "The metal pie machine will cost 99,999,900 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12044,6 +12059,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12068,6 +12084,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12098,6 +12115,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12122,6 +12140,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12264,6 +12283,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12288,6 +12308,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12318,6 +12339,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12342,6 +12364,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12372,6 +12395,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12396,6 +12420,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12426,6 +12451,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12453,6 +12479,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -12477,6 +12504,7 @@
                   "The glaes jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12525,6 +12553,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12549,6 +12578,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12579,6 +12609,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12603,6 +12634,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12633,6 +12665,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12657,6 +12690,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12687,6 +12721,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12711,6 +12746,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12741,6 +12777,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12765,6 +12802,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12795,6 +12833,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12819,6 +12858,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12849,6 +12889,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1250000,
@@ -12873,6 +12914,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12903,6 +12945,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12927,6 +12970,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12957,6 +13001,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -12984,6 +13029,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 230000,
@@ -13008,6 +13054,7 @@
                   "The glass jar will cost 230,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -14584,6 +14631,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000000,
@@ -14718,6 +14766,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -14904,6 +14953,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 35000000,
@@ -14934,6 +14984,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -15208,69 +15259,6 @@
                   }
                 ],
                 "item_type": null
-              }
-            },
-            {
-              "id": "189233038",
-              "name": "a garnet-set gold earring",
-              "details": {
-                "raw": [
-                  "The earring can be worn, hanging it from the ear.  The earring appears to serve some purpose.",
-                  "Analysis of a garnet-set gold earring indicates the item is free from merchant alteration restrictions.",
-                  "The gold earring will cost 1,000,000 coins.",
-                  "It is a magical item which could be imbedded with a spell.",
-                  "It has 0 charges.",
-                  "It could be activated by waving it.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 1 to Mana Recovery.",
-                  "    This enhancement may not be used by adventurers who have not trained 4 times.",
-                  "    It provides a boost of 4 to Logic Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 24 times.",
-                  "    It provides a boost of 2 to Strength Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 14 times.",
-                  "    It provides a boost of 5 to Harness Power Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 15 times.",
-                  "    It seems to have a few enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is a small item, under a pound.",
-                  "It is estimated to be worth about 150,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a permanently unlocked loresong by Broyles."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "small",
-                  "magic_resistant"
-                ],
-                "cost": 1000000,
-                "worn": "ear",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 1,
-                    "ability": "Mana Recovery",
-                    "level": 4
-                  },
-                  {
-                    "boost": 4,
-                    "ability": "Logic Bonus",
-                    "level": 24
-                  },
-                  {
-                    "boost": 2,
-                    "ability": "Strength Bonus",
-                    "level": 14
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Harness Power Bonus",
-                    "level": 15
-                  }
-                ],
-                "is_jewelry": true,
-                "item_type": "jewelry"
               }
             },
             {
