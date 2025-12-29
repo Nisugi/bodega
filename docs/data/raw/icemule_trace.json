@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-28 22:20:49 UTC",
-  "run_time": "16s",
+  "created_at": "2025-12-29 01:45:24 UTC",
+  "run_time": "18s",
   "town": "Icemule Trace",
   "shops": [
     {
@@ -1823,6 +1823,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 60000,
@@ -1957,6 +1958,7 @@
                   "The glass jar will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -2470,6 +2472,7 @@
                   "The sycamore coffin will cost 10,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4184,6 +4187,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000,
@@ -4650,6 +4654,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 175000,
@@ -4912,6 +4917,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -4974,6 +4980,7 @@
                   "max_light",
                   "persists",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6715,6 +6722,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -9473,6 +9481,7 @@
                   "The rhimar ice wizard will cost 450,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -16535,6 +16544,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 250000,
@@ -16920,6 +16930,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -17888,6 +17899,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -23609,7 +23621,7 @@
             {
               "id": "143864",
               "name": "a glowing multicolored swathe",
-              "quantity": 5,
+              "quantity": 4,
               "details": {
                 "raw": [
                   "The swathe can not be worn.",
@@ -25751,6 +25763,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2500000,
@@ -25780,6 +25793,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -25821,6 +25835,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2500000,
@@ -25850,6 +25865,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -28271,6 +28287,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 299999,
@@ -28304,6 +28321,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -28346,6 +28364,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 499999,
@@ -28378,6 +28397,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -28751,6 +28771,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 499999,
@@ -28788,6 +28809,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -29746,6 +29768,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1000000,
@@ -30242,6 +30265,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 14999999,
@@ -30336,6 +30360,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 4999999,
@@ -30369,6 +30394,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -31081,6 +31107,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -31129,6 +31156,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -31153,6 +31181,7 @@
                   "The tall glass jar will cost 220,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -31189,6 +31218,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 220000,
@@ -31213,6 +31243,7 @@
                   "The glass jar will cost 220,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -31249,6 +31280,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -31273,6 +31305,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -31346,6 +31379,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2000000,
@@ -31370,6 +31404,7 @@
                   "The glass jar will cost 2,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -31565,6 +31600,7 @@
                   "The yellow clay vase will cost 1,000,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -36372,6 +36408,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000000,
@@ -40538,6 +40575,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 5000,
@@ -40796,6 +40834,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 500000,
@@ -40818,6 +40857,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -40913,6 +40953,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2000000,
@@ -40941,6 +40982,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -41013,6 +41055,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -41036,6 +41079,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -41089,6 +41133,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -41112,6 +41157,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -42264,6 +42310,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -42407,6 +42454,7 @@
                   "The glass jar will cost 225,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -42704,6 +42752,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 225000,
@@ -42782,6 +42831,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -43139,6 +43189,22 @@
                 "material": "organic material, an extremely common material",
                 "item_type": null
               }
+            },
+            {
+              "id": "335612722",
+              "name": "a long-necked glass jar containing uncut emeralds",
+              "browse_price": 225000,
+              "raw_inspect": [
+                "You see nothing unusual.",
+                "It is estimated that a long-necked glass jar containing uncut emeralds can store a very small amount with enough space for one item.",
+                "The jar can not be worn.",
+                "It looks like this item has been mainly crafted out of glass, an extremely common material.",
+                "Analysis of a long-necked glass jar containing uncut emeralds indicates the creator has provided the following information:",
+                "This glass jar is designed to hold small, nearly identical items -- in particular, gems, alchemy ingredients other than critter skins, etc.",
+                "Alterations are permitted to the base description following the 15/15/15 rule in ALTER 2, provided that it continues to make sense that the contents would be identifiable without looking inside.",
+                "It can hold a maximum of 20 items.  PUT items in to store them.  SHAKE the jar to get them back out.",
+                "The glass jar will cost 225,000 coins."
+              ]
             }
           ],
           "sign": [
@@ -45178,6 +45244,27 @@
                 "weapon_type": "edged weapons",
                 "item_type": "weapon"
               }
+            },
+            {
+              "id": "336089160",
+              "name": "a perfect mithril dagger",
+              "browse_price": 5000000,
+              "raw_inspect": [
+                "It has a small enchanter's glyph and Speelgutz's crafting mark.",
+                "The dagger is a dagger that requires skill in edged weapons to use effectively.",
+                "It looks like this item has been mainly crafted out of mithril, an uncommon metal.",
+                "Analysis of a perfect mithril dagger indicates the item is free from merchant alteration restrictions.",
+                "You can tell that the dagger is as light as it can get.",
+                "The mithril dagger will cost 5,000,000 coins.",
+                "It imparts a bonus of +25 more than usual.",
+                "It is forged by Speelgutz and has increased (+3) effectiveness in combat.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 13,000 silvers.",
+                "It is predominantly crafted of mithril.",
+                "It may be enchanted up to a bonus of 25 by a wizard and was last enchanted by Xanthirra.",
+                "It is a simple project (38 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Bansh."
+              ]
             }
           ],
           "sign": [
@@ -45285,6 +45372,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -45434,6 +45522,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1000000,
@@ -45457,6 +45546,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -45489,6 +45579,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -45555,6 +45646,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -45580,6 +45672,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -45618,6 +45711,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -45645,6 +45739,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -45702,7 +45797,7 @@
             {
               "id": "143225",
               "name": "a glowing urven'eth potion",
-              "quantity": 12,
+              "quantity": 17,
               "details": {
                 "raw": [
                   "The label on the potion reads \"urven'eth\" in a flowing script.",
@@ -46337,6 +46432,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -46361,6 +46457,7 @@
                   "The square glass bottle will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -49208,6 +49305,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -49240,6 +49338,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -49284,6 +49383,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -49316,6 +49416,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -49360,6 +49461,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -49392,6 +49494,7 @@
                 "tags": [
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -49455,6 +49558,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -50615,6 +50719,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -51143,6 +51248,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 70000,
@@ -51167,6 +51273,7 @@
                   "The thick glass jar will cost 140,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -51231,6 +51338,7 @@
                   "The thick glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -52850,6 +52958,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 3000000,
@@ -54044,6 +54153,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2000,
@@ -54433,6 +54543,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 950000,
@@ -54464,6 +54575,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -54542,6 +54654,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 950000,
@@ -54583,6 +54696,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 750000,
@@ -54616,6 +54730,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -54693,6 +54808,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -54944,6 +55060,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 150000,
@@ -55006,6 +55123,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -55102,6 +55220,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2500000,
@@ -55152,6 +55271,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -55274,6 +55394,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 750000,
@@ -55333,6 +55454,7 @@
                   "purpose",
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -55423,6 +55545,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -55813,6 +55936,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -55836,6 +55960,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -55872,6 +55997,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -55902,6 +56028,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -55926,6 +56053,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -56038,6 +56166,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -56061,6 +56190,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -56119,6 +56249,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -56323,6 +56454,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -56346,6 +56478,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -56601,6 +56734,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -57095,6 +57229,7 @@
                   "The blue sapphire case will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -58849,6 +58984,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 5000000,
@@ -59296,6 +59432,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -59327,6 +59464,7 @@
                 "tags": [
                   "purpose",
                   "max_deep",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -59417,6 +59555,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 7000000,
@@ -59493,6 +59632,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -59619,6 +59759,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -62929,6 +63070,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1240000,
@@ -62953,6 +63095,7 @@
                   "The white sea glass bottle will cost 1,240,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -63013,6 +63156,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -63492,6 +63636,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -63526,6 +63671,7 @@
                 "tags": [
                   "max_deep",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -63651,6 +63797,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -63678,6 +63825,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -64025,6 +64173,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000,
@@ -64054,6 +64203,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -64110,6 +64260,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000,
@@ -64132,6 +64283,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67545,6 +67697,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000,
@@ -67569,6 +67722,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67605,6 +67759,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 89000,
@@ -67629,6 +67784,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67665,6 +67821,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 44000,
@@ -67689,6 +67846,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67725,6 +67883,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 44000,
@@ -67755,6 +67914,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -67779,6 +67939,7 @@
                   "The glass jar will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67850,6 +68011,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 12000,
@@ -67890,6 +68052,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 90000,
@@ -67914,6 +68077,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -67950,6 +68114,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 44000,
@@ -67974,6 +68139,7 @@
                   "The tall glass jar will cost 44,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -68010,6 +68176,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -68040,6 +68207,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99000,
@@ -68064,6 +68232,7 @@
                   "The tall glass jar will cost 15,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -68112,6 +68281,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 55000,
@@ -68136,6 +68306,7 @@
                   "The tall glass jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -68172,6 +68343,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 39000,
@@ -68196,6 +68368,7 @@
                   "The tall glass jar will cost 39,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -68232,6 +68405,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 39000,
@@ -68256,6 +68430,7 @@
                   "The tall glass jar will cost 75,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -68292,6 +68467,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -68322,6 +68498,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -68346,6 +68523,7 @@
                   "The tall glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -69592,6 +69770,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69620,6 +69799,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -69660,6 +69840,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -69688,6 +69869,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -70952,6 +71134,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 4000,
@@ -70977,6 +71160,7 @@
                   "The vanilla-dyed box will cost 4,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71035,6 +71219,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 375000,
@@ -71065,6 +71250,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71121,6 +71307,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71186,6 +71373,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1250000,
@@ -71215,6 +71403,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71307,6 +71496,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71573,6 +71763,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -71827,6 +72018,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -71859,6 +72051,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -71885,6 +72078,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71926,6 +72120,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -71954,6 +72149,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -71994,6 +72190,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72022,6 +72219,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72062,6 +72260,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -72090,6 +72289,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72130,6 +72330,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72158,6 +72359,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72198,6 +72400,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72226,6 +72429,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72266,6 +72470,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72300,6 +72505,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -72324,6 +72530,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72486,6 +72693,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 10000,
@@ -72511,6 +72719,7 @@
                   "The charcoal-drawn box will cost 10,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72545,6 +72754,7 @@
                 ],
                 "tags": [
                   "max_deep",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72596,6 +72806,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72624,6 +72835,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72664,6 +72876,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72692,6 +72905,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72732,6 +72946,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 150000,
@@ -72760,6 +72975,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72800,6 +73016,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 150000,
@@ -72828,6 +73045,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72868,6 +73086,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -72902,6 +73121,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -72930,6 +73150,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -72989,6 +73210,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -73079,6 +73301,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -73861,6 +74084,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 65000,
@@ -73885,6 +74109,7 @@
                   "The glass jar will cost 75,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -73921,6 +74146,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -73945,6 +74171,7 @@
                   "The glass jar will cost 65,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -73981,6 +74208,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -74005,6 +74233,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -74041,6 +74270,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -74065,6 +74295,7 @@
                   "The glass jar will cost 20,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -74101,6 +74332,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -74125,6 +74357,7 @@
                   "The glass jar will cost 40,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -74371,6 +74604,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 95000,
@@ -74401,6 +74635,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 95000,
@@ -74425,6 +74660,7 @@
                   "The thick glass jar will cost 95,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -74553,6 +74789,7 @@
                   "The glass jar will cost 100,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -75222,6 +75459,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1250000,
@@ -75456,6 +75694,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 5000000,
@@ -75659,6 +75898,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -75902,6 +76142,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 20000,
@@ -75926,6 +76167,7 @@
                   "The glass jar will cost 7,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -75997,6 +76239,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -76193,6 +76436,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 14500,
@@ -76300,6 +76544,7 @@
                   "The thick glass jar will cost 8,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -78298,6 +78543,7 @@
                   "The thick glass jar will cost 550 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
