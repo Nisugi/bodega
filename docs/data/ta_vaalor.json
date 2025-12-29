@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-29 14:22:57 UTC",
+  "created_at": "2025-12-29 16:26:50 UTC",
   "run_time": "04s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -1253,6 +1253,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -1613,6 +1614,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -1640,6 +1642,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -1822,6 +1825,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3184,6 +3188,7 @@
                   "purpose",
                   "lightenable",
                   "persists",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6278,6 +6283,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 30000,
@@ -6304,6 +6310,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6336,6 +6343,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6362,6 +6370,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6393,6 +6402,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6418,6 +6428,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6449,6 +6460,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6473,6 +6485,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6504,6 +6517,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -6529,6 +6543,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6558,6 +6573,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -6583,6 +6599,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7271,6 +7288,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11331,6 +11349,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999,
@@ -11417,6 +11436,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -13535,6 +13555,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -14336,37 +14357,6 @@
               }
             },
             {
-              "id": "146117",
-              "name": "a bright pink note",
-              "details": {
-                "raw": [
-                  "In the Common language, it reads:",
-                  "This note can be REDEEMed to increase an appropriate item's capacity by 10 pounds up to a maximum of:",
-                  "Back and shoulder containers: 180 pounds",
-                  "Slung on shoulder containers: 80 pounds",
-                  "Torso, attached to belt, and front containers: 60 pounds",
-                  "NOTE: If your item's capacity limit is lower than the service amount, the item is ineligible.",
-                  "Tiny and extremely tiny containers are also ineligible for use with this note.",
-                  "The note can not be worn.",
-                  "It looks like this item has been mainly crafted out of organic material, an extremely common material.",
-                  "Analysis of a bright pink note indicates the creator has provided the following information:",
-                  "This pink note can be REDEEMed to increase the capacity of a worn container (back, shoulder, slung on shoulder, torso, attached to belt, and front) by 10 pounds.  Containers worn in other locations are not eligible for this note.",
-                  "Please note that in some cases, this increase may change your item from non-functional to functional.  In addition, any items restricted to hold a specific number of items (ie: your container will only hold one item) will still only hold X number of items.  This note will not change that.  Normal restrictions will apply and may vary from item to item.",
-                  "Some scripted items are eligible for redemption with this pink note.",
-                  "A bright pink note is a single-use note.",
-                  "HUG your note to see a list of denied scripts.",
-                  "The pink note will cost 285,000 coins."
-                ],
-                "tags": [
-
-                ],
-                "cost": 285000,
-                "material": "organic material, an extremely common material",
-                "wear_location": "container (back",
-                "item_type": null
-              }
-            },
-            {
               "id": "146116",
               "name": "a pale blue note",
               "quantity": 8,
@@ -14937,62 +14927,6 @@
                 ],
                 "wear_location": "around the neck",
                 "item_type": null
-              }
-            },
-            {
-              "id": "153190",
-              "name": "a carved red dreamstone necklace",
-              "details": {
-                "raw": [
-                  "The necklace can be worn around the neck.  The necklace appears to serve some purpose.",
-                  "Analysis of a carved red dreamstone necklace indicates the item is free from merchant alteration restrictions.",
-                  "The red dreamstone necklace will cost 500,000 coins.",
-                  "It is a magical item which could be imbedded with a spell.",
-                  "It has 0 charges.  It is rechargeable.",
-                  "It could be activated by waving it.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 3 to Two-Handed Weapons Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 6 times.",
-                  "    It provides a boost of 1 to Dexterity Base.",
-                  "    This enhancement may not be used by adventurers who have not trained 1 times.",
-                  "    It provides a boost of 5 to Logic Base.",
-                  "    This enhancement may not be used by adventurers who have not trained 10 times.",
-                  "    It seems to have a fair amount of enhancive charges remaining.",
-                  "It will persist after its last enhancive charge has been expended.",
-                  "It is a small item, under a pound.",
-                  "It is estimated to be worth about 100,000 silvers.",
-                  "It has a permanently unlocked loresong by Bolenhart."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbeddable",
-                  "persists",
-                  "small"
-                ],
-                "cost": 500000,
-                "worn": "neck",
-                "activator": "waving",
-                "enhancives": [
-                  {
-                    "boost": 3,
-                    "ability": "Two-Handed Weapons Bonus",
-                    "level": 6
-                  },
-                  {
-                    "boost": 1,
-                    "ability": "Dexterity Base",
-                    "level": 1
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Logic Base",
-                    "level": 10
-                  }
-                ],
-                "wear_location": "around the neck",
-                "is_jewelry": true,
-                "item_type": "jewelry"
               }
             },
             {
@@ -16971,6 +16905,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2440000,
@@ -17101,6 +17036,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-29 14:24:45 UTC",
+  "processed_at": "2025-12-29 16:28:37 UTC",
   "processing_version": "v2.0"
 }
