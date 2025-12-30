@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-30 03:29:17 UTC",
+  "created_at": "2025-12-30 04:40:35 UTC",
   "run_time": "03s",
   "town": "Zul Logoth",
   "shops": [
@@ -1310,49 +1310,6 @@
               }
             },
             {
-              "id": "276476111",
-              "name": "a pearl and ruby stickpin",
-              "details": {
-                "raw": [
-                  "The stickpin can be worn anywhere on the body.  The stickpin appears to serve some purpose.",
-                  "Analysis of a pearl and ruby stickpin indicates the item is free from merchant alteration restrictions.",
-                  "The ruby stickpin will cost 1,000,000 coins.",
-                  "It is currently imbedded with the Grasp of the Grave spell.",
-                  "It has 10 charges.",
-                  "It could be activated by rubbing it.",
-                  "It will disintegrate after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 3 to Dexterity Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 22 times.",
-                  "    It seems to have quite a few enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is a small item, under a pound.",
-                  "It is estimated to be worth about 100,000 silvers.",
-                  "It is magic resistant.",
-                  "It has a permanently unlocked loresong by Broyles."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbedded",
-                  "small",
-                  "magic_resistant"
-                ],
-                "cost": 1000000,
-                "worn": "pin",
-                "activator": "rubbing",
-                "spell": "Grasp of the Grave",
-                "enhancives": [
-                  {
-                    "boost": 3,
-                    "ability": "Dexterity Bonus",
-                    "level": 22
-                  }
-                ],
-                "wear_location": "anywhere on the body",
-                "item_type": null
-              }
-            },
-            {
               "id": "276476112",
               "name": "a glittering silver stickpin",
               "details": {
@@ -1633,54 +1590,6 @@
                     "boost": 7,
                     "ability": "Logic Base",
                     "level": 19
-                  }
-                ],
-                "wear_location": "around the wrist",
-                "item_type": null
-              }
-            },
-            {
-              "id": "40396432",
-              "name": "a sunstone studded copper armband",
-              "details": {
-                "raw": [
-                  "The armband can be worn around the wrist.  The armband appears to serve some purpose.",
-                  "Analysis of a sunstone studded copper armband indicates the item is free from merchant alteration restrictions.",
-                  "The studded copper armband will cost 1,000,000 coins.",
-                  "It is currently imbedded with the Grasp of the Grave spell.",
-                  "It has 19 charges.  It is empowered and can be charged for an additional 310.",
-                  "It could be activated by tapping it.",
-                  "It will persist after its last magical charge has been expended.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 4 to Harness Power Bonus.",
-                  "    This enhancement may not be used by adventurers who have not trained 10 times.",
-                  "    It provides a boost of 5 to Dexterity Base.",
-                  "    This enhancement may not be used by adventurers who have not trained 15 times.",
-                  "    It seems to have several enhancive charges remaining.",
-                  "It will crumble into dust after its last enhancive charge has been expended.",
-                  "It is a small item, under a pound.",
-                  "It is estimated to be worth about 68,000 silvers.",
-                  "It has a permanently unlocked loresong by Broyles."
-                ],
-                "tags": [
-                  "purpose",
-                  "imbedded",
-                  "small"
-                ],
-                "cost": 1000000,
-                "worn": "wrist",
-                "activator": "tapping",
-                "spell": "Grasp of the Grave",
-                "enhancives": [
-                  {
-                    "boost": 4,
-                    "ability": "Harness Power Bonus",
-                    "level": 10
-                  },
-                  {
-                    "boost": 5,
-                    "ability": "Dexterity Base",
-                    "level": 15
                   }
                 ],
                 "wear_location": "around the wrist",
@@ -3714,6 +3623,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -3747,6 +3657,7 @@
                 "tags": [
                   "scripted",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3796,6 +3707,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 100000,
@@ -3825,6 +3737,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3955,6 +3868,7 @@
                   "It has a permanently unlocked loresong by Krayze."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4171,6 +4085,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 7500000,
@@ -4203,6 +4118,7 @@
                 ],
                 "tags": [
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4245,6 +4161,7 @@
                   "deepenable",
                   "small",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -5585,6 +5502,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 399999,
@@ -5618,6 +5536,7 @@
                 "tags": [
                   "lightenable",
                   "magic_resistant",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -5669,6 +5588,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2999999,
@@ -5697,6 +5617,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6309,6 +6230,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1249999,
@@ -6344,6 +6266,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7494,6 +7417,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 200000,
@@ -7540,6 +7464,7 @@
                   "The tall glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7768,6 +7693,7 @@
                   "The glass jar will cost 200,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -8017,6 +7943,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -12564,6 +12491,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-30 03:31:19 UTC",
+  "processed_at": "2025-12-30 04:42:31 UTC",
   "processing_version": "v2.0"
 }
