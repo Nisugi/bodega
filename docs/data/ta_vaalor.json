@@ -1,5 +1,5 @@
 {
-  "created_at": "2025-12-30 20:24:10 UTC",
+  "created_at": "2025-12-30 22:21:05 UTC",
   "run_time": "04s",
   "town": "Ta'Vaalor,",
   "shops": [
@@ -1256,6 +1256,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -1619,6 +1620,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -1646,6 +1648,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -1831,6 +1834,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3196,6 +3200,7 @@
                   "purpose",
                   "lightenable",
                   "persists",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -4728,39 +4733,6 @@
               }
             },
             {
-              "id": "147674",
-              "name": "some deep green faenor-edged leathers",
-              "details": {
-                "raw": [
-                  "It has a small enchanter's glyph.",
-                  "The leathers is leather armor that covers the torso, arms, legs, neck, and head.",
-                  "The leathers can be worn around the chest.  The leathers appear to serve some purpose.",
-                  "It looks like this item has been mainly crafted out of leather, an extremely common material.",
-                  "Analysis of some deep green faenor-edged leathers indicates the item is free from merchant alteration restrictions.",
-                  "You might be able to have a talented merchant lighten the faenor-edged leathers for you.",
-                  "The faenor-edged leathers will cost 125,000 coins.",
-                  "It imparts a bonus of +20 more than usual.",
-                  "It appears to weigh about 16 pounds.",
-                  "It is estimated to be worth about 80,000 silvers.",
-                  "It is predominantly crafted of leather.",
-                  "It is a simple project (46 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Juliannae."
-                ],
-                "tags": [
-                  "lightenable"
-                ],
-                "cost": 125000,
-                "enchant": 20,
-                "material": "leather",
-                "weight": 16,
-                "worn": "chest",
-                "is_armor": true,
-                "armor_type": "leather",
-                "wear_location": "torso",
-                "item_type": "armor"
-              }
-            },
-            {
               "id": "147673",
               "name": "some deep green faenor-edged leathers",
               "details": {
@@ -6240,6 +6212,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 30000,
@@ -6266,6 +6239,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6304,6 +6278,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6330,6 +6305,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6367,6 +6343,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6392,6 +6369,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6429,6 +6407,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6453,6 +6432,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6490,6 +6470,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -6515,6 +6496,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6550,6 +6532,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -6575,6 +6558,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7266,6 +7250,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11332,6 +11317,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999,
@@ -11418,6 +11404,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11711,6 +11698,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container"
@@ -15405,6 +15393,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -18757,6 +18746,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2440000,
@@ -18887,6 +18877,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-30 20:26:02 UTC",
+  "processed_at": "2025-12-30 22:22:57 UTC",
   "processing_version": "v2.0"
 }
