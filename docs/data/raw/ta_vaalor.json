@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-30 16:27:43 UTC",
-  "run_time": "06s",
+  "created_at": "2025-12-30 18:31:07 UTC",
+  "run_time": "09s",
   "town": "Ta'Vaalor,",
   "shops": [
     {
@@ -1253,6 +1253,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -1613,6 +1614,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -1640,6 +1642,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -1822,6 +1825,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3184,6 +3188,7 @@
                   "purpose",
                   "lightenable",
                   "persists",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6278,6 +6283,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 30000,
@@ -6304,6 +6310,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6336,6 +6343,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6362,6 +6370,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6393,6 +6402,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6418,6 +6428,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6449,6 +6460,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6473,6 +6485,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6504,6 +6517,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -6529,6 +6543,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6558,6 +6573,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -6583,6 +6599,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7271,6 +7288,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11331,6 +11349,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999,
@@ -11417,6 +11436,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11691,274 +11711,1266 @@
             {
               "id": "363004838",
               "name": "an opulent silver-stitched pouch",
-              "browse_price": 10000,
-              "raw_inspect": [
-                "It is estimated that an opulent silver-stitched pouch can store a small amount with enough space for several items.",
-                "The pouch can be worn, attaching it to the belt.  The pouch appears to serve some purpose.",
-                "Analysis of an opulent silver-stitched pouch indicates the item is free from merchant alteration restrictions.",
-                "You can tell that the pouch is as light as it can get and that its pockets could not possibly get any deeper.",
-                "The silver-stitched pouch will cost 10,000 coins.",
-                "It is a small item, under a pound.",
-                "It is estimated to be worth about 5 silvers.",
-                "It is a container with a maximum interior capacity of 5 pounds with room for up to 5 items."
-              ]
+              "details": {
+                "raw": [
+                  "It is estimated that an opulent silver-stitched pouch can store a small amount with enough space for several items.",
+                  "The pouch can be worn, attaching it to the belt.  The pouch appears to serve some purpose.",
+                  "Analysis of an opulent silver-stitched pouch indicates the item is free from merchant alteration restrictions.",
+                  "You can tell that the pouch is as light as it can get and that its pockets could not possibly get any deeper.",
+                  "The silver-stitched pouch will cost 10,000 coins.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 5 silvers.",
+                  "It is a container with a maximum interior capacity of 5 pounds with room for up to 5 items."
+                ],
+                "tags": [
+                  "purpose",
+                  "max_deep",
+                  "max_light",
+                  "small",
+                  "container"
+                ],
+                "cost": 10000,
+                "worn": "belt",
+                "capacity_level": "small",
+                "is_container": true,
+                "item_type": "container"
+              }
             },
             {
               "id": "363567424",
               "name": "a glittering platinum crown",
-              "browse_price": 60000,
-              "raw_inspect": [
-                "The crown can be worn on the head.  The crown appears to serve some purpose.",
-                "Analysis of a glittering platinum crown indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the crown may be further lightened.",
-                "The platinum crown will cost 60,000 coins.",
-                "It is a magical item which could be imbedded with a spell.",
-                "It has 0 charges.",
-                "It could be activated by waving it.",
-                "It will persist after its last magical charge has been expended.",
-                "It is an enhancive item:",
-                "    It provides a boost of 2 to Mana Recovery.",
-                "    This enhancement may not be used by adventurers who have not trained 10 times.",
-                "    It provides a boost of 3 to Influence Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 14 times.",
-                "    It provides a boost of 2 to Elemental Lore - Fire Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 5 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
-                "It will persist after its last enhancive charge has been expended.",
-                "It appears to weigh about 2 pounds.",
-                "It is estimated to be worth about 250,000 silvers.",
-                "It is magic resistant.",
-                "It has a permanently unlocked loresong by Sornryn."
-              ]
+              "details": {
+                "raw": [
+                  "The crown can be worn on the head.  The crown appears to serve some purpose.",
+                  "Analysis of a glittering platinum crown indicates the item is free from merchant alteration restrictions.",
+                  "The platinum crown will cost 60,000 coins.",
+                  "It is a magical item which could be imbedded with a spell.",
+                  "It has 0 charges.",
+                  "It could be activated by waving it.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 2 to Mana Recovery.",
+                  "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                  "    It provides a boost of 3 to Influence Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 14 times.",
+                  "    It provides a boost of 2 to Elemental Lore - Fire Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 5 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will persist after its last enhancive charge has been expended.",
+                  "It appears to weigh about 2 pounds.",
+                  "It is estimated to be worth about 250,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "persists",
+                  "magic_resistant"
+                ],
+                "cost": 60000,
+                "weight": 2,
+                "worn": "head",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 2,
+                    "ability": "Mana Recovery",
+                    "level": 10
+                  },
+                  {
+                    "boost": 3,
+                    "ability": "Influence Bonus",
+                    "level": 14
+                  },
+                  {
+                    "boost": 2,
+                    "ability": "Elemental Lore - Fire Bonus",
+                    "level": 5
+                  }
+                ],
+                "wear_location": "on the head",
+                "item_type": null
+              }
             },
             {
               "id": "363567419",
               "name": "an elegant imflass earcuff",
-              "browse_price": 1000000,
+              "details": {
+                "raw": [
+                  "The earcuff can be worn, hanging it from the ear.  The earcuff appears to serve some purpose.",
+                  "Analysis of an elegant imflass earcuff indicates the item is free from merchant alteration restrictions.",
+                  "The imflass earcuff will cost 1,000,000 coins.",
+                  "It is a magical item which could be imbedded with a spell.",
+                  "It has 0 charges.  It is rechargeable.",
+                  "It could be activated by waving it.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 15 to Swimming Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 40 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small"
+                ],
+                "cost": 1000000,
+                "worn": "ear",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 15,
+                    "ability": "Swimming Bonus",
+                    "level": 40
+                  }
+                ],
+                "item_type": null
+              }
+            },
+            {
+              "id": "363567422",
+              "name": "a carved amethyst band",
+              "details": {
+                "raw": [
+                  "The band can be worn around the finger.  The band appears to serve some purpose.",
+                  "Analysis of a carved amethyst band indicates the item is free from merchant alteration restrictions.",
+                  "The amethyst band will cost 100,000 coins.",
+                  "It is a magical item which could be imbedded with a spell.",
+                  "It has 0 charges.",
+                  "It could be activated by waving it.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 1 to Harness Power Ranks.",
+                  "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                  "    It provides a boost of 4 to Spirit Mana Control Ranks.",
+                  "    This enhancement may not be used by adventurers who have not trained 34 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will persist after its last enhancive charge has been expended.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 750,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "persists",
+                  "small",
+                  "magic_resistant"
+                ],
+                "cost": 100000,
+                "worn": "finger",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 1,
+                    "ability": "Harness Power Ranks",
+                    "level": 4
+                  },
+                  {
+                    "boost": 4,
+                    "ability": "Spirit Mana Control Ranks",
+                    "level": 34
+                  }
+                ],
+                "wear_location": "around the finger",
+                "item_type": null
+              }
+            },
+            {
+              "id": "363567420",
+              "name": "a star sapphire inset mithril flagon",
+              "details": {
+                "raw": [
+                  "You notice that the inset mithril flagon can hold liquids.",
+                  "The flagon can be worn, attaching it to the belt.  The flagon appears to serve some purpose.",
+                  "Analysis of a star sapphire inset mithril flagon indicates the creator has provided the following information:",
+                  "This is a drink container.",
+                  "The inset mithril flagon will cost 10,000 coins.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 12,000 silvers.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "small"
+                ],
+                "cost": 10000,
+                "worn": "belt",
+                "item_type": null
+              }
+            },
+            {
+              "id": "363567423",
+              "name": "a delicate pink sapphire circlet",
+              "details": {
+                "raw": [
+                  "The circlet can be worn on the head.  The circlet appears to serve some purpose.",
+                  "Analysis of a delicate pink sapphire circlet indicates the item is free from merchant alteration restrictions.",
+                  "The pink sapphire circlet will cost 1,000,000 coins.",
+                  "It is a magical item which could be imbedded with a spell.",
+                  "It has 0 charges.",
+                  "It could be activated by waving it.",
+                  "It will disintegrate after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 10 to Thrown Weapons Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 55 times.",
+                  "    It provides a boost of 3 to Stalking and Hiding Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                  "    It provides a boost of 1 to Arcane Symbols Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 2 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will crumble into dust after its last enhancive charge has been expended.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 250,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "small",
+                  "magic_resistant"
+                ],
+                "cost": 1000000,
+                "worn": "head",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 10,
+                    "ability": "Thrown Weapons Bonus",
+                    "level": 55
+                  },
+                  {
+                    "boost": 3,
+                    "ability": "Stalking and Hiding Bonus",
+                    "level": 4
+                  },
+                  {
+                    "boost": 1,
+                    "ability": "Arcane Symbols Bonus",
+                    "level": 2
+                  }
+                ],
+                "wear_location": "on the head",
+                "item_type": null
+              }
+            },
+            {
+              "id": "363297511",
+              "name": "a filigreed sterling silver crown",
+              "details": {
+                "raw": [
+                  "The crown can be worn on the head.  The crown appears to serve some purpose.",
+                  "Analysis of a filigreed sterling silver crown indicates the item is free from merchant alteration restrictions.",
+                  "The sterling silver crown will cost 200,000 coins.",
+                  "It is currently imbedded with the Celerity spell.",
+                  "It has 19 charges.  It is rechargeable.",
+                  "It could be activated by tapping it.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It appears to weigh about 2 pounds.",
+                  "It is estimated to be worth about 25,000 silvers.",
+                  "It has a permanently unlocked loresong by Lornn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbedded"
+                ],
+                "cost": 200000,
+                "weight": 2,
+                "worn": "head",
+                "activator": "tapping",
+                "spell": "Celerity",
+                "wear_location": "on the head",
+                "item_type": null
+              }
+            },
+            {
+              "id": "363233571",
+              "name": "a rune-etched golvern falchion",
+              "details": {
+                "raw": [
+                  "The falchion is a falchion that requires skill in edged weapons to use effectively.",
+                  "It looks like this item has been mainly crafted out of golvern, a very rare metal.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+                  "Analysis of a rune-etched golvern falchion indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+                  "You might be able to have a talented merchant lighten the golvern falchion for you.",
+                  "The golvern falchion will cost 200,000 coins.",
+                  "It imparts a bonus of +25 more than usual.",
+                  "It appears to weigh about 5 pounds.",
+                  "It is estimated to be worth about 150,000 silvers.",
+                  "It is predominantly crafted of golvern.",
+                  "It is a simple project (68 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "lightenable"
+                ],
+                "cost": 200000,
+                "enchant": 25,
+                "material": "golvern",
+                "skill": "edged weapons",
+                "weight": 5,
+                "is_weapon": true,
+                "weapon_type": "edged weapons",
+                "item_type": "weapon"
+              }
+            },
+            {
+              "id": "363233454",
+              "name": "an onyx-inlaid pewter tiara",
+              "details": {
+                "raw": [
+                  "The tiara can be worn on the head.  The tiara appears to serve some purpose.",
+                  "Analysis of an onyx-inlaid pewter tiara indicates the item is free from merchant alteration restrictions.",
+                  "The pewter tiara will cost 100,000 coins.",
+                  "It is a magical item which could be imbedded with a spell.",
+                  "It has 0 charges.",
+                  "It could be activated by waving it.",
+                  "It will persist after its last magical charge has been expended.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 5 to Physical Fitness Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                  "    It provides a boost of 4 to Magic Item Use Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 14 times.",
+                  "    It provides a boost of 1 to Elemental Lore - Air Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 2 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will persist after its last enhancive charge has been expended.",
+                  "It is a small item, under a pound.",
+                  "It is estimated to be worth about 200,000 silvers.",
+                  "It is magic resistant.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "purpose",
+                  "imbeddable",
+                  "persists",
+                  "small",
+                  "magic_resistant"
+                ],
+                "cost": 100000,
+                "worn": "head",
+                "activator": "waving",
+                "enhancives": [
+                  {
+                    "boost": 5,
+                    "ability": "Physical Fitness Bonus",
+                    "level": 10
+                  },
+                  {
+                    "boost": 4,
+                    "ability": "Magic Item Use Bonus",
+                    "level": 14
+                  },
+                  {
+                    "boost": 1,
+                    "ability": "Elemental Lore - Air Bonus",
+                    "level": 2
+                  }
+                ],
+                "wear_location": "on the head",
+                "item_type": null
+              }
+            },
+            {
+              "id": "363233572",
+              "name": "a dark azure witchwood runestaff",
+              "details": {
+                "raw": [
+                  "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
+                  "It looks like this item has been mainly crafted out of witchwood, a very rare wood.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+                  "Analysis of a dark azure witchwood runestaff indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
+                  "You might be able to have a talented merchant lighten the witchwood runestaff for you.",
+                  "The witchwood runestaff will cost 40,000 coins.",
+                  "It imparts a bonus of +17 more than usual.",
+                  "It appears to weigh about 3 pounds.",
+                  "It is estimated to be worth about 84,000 silvers.",
+                  "It is predominantly crafted of witchwood.",
+                  "It is a basic project (100 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "lightenable"
+                ],
+                "cost": 40000,
+                "enchant": 17,
+                "material": "witchwood",
+                "skill": "twohanded weapons",
+                "weight": 3,
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "item_type": "weapon"
+              }
+            },
+            {
+              "id": "363233570",
+              "name": "a dull faewood runestaff",
+              "details": {
+                "raw": [
+                  "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
+                  "It looks like this item has been mainly crafted out of faewood, an unusual wood.",
+                  "Analysis of a dull faewood runestaff indicates the item is free from merchant alteration restrictions.",
+                  "You can tell that the runestaff is as light as it can get.",
+                  "The faewood runestaff will cost 60,000 coins.",
+                  "It imparts a bonus of +20 more than usual.",
+                  "It is a holy item.",
+                  "It has been infused with the power of an earth elemental.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 3 to Spirit Mana Control Ranks.",
+                  "    This enhancement may not be used by adventurers who have not trained 12 times.",
+                  "    It provides a boost of 6 to Elemental Mana Control Ranks.",
+                  "    This enhancement may not be used by adventurers who have not trained 42 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will persist after its last enhancive charge has been expended.",
+                  "It appears to weigh about 2 pounds.",
+                  "It is estimated to be worth about 1,850,000 silvers.",
+                  "It is predominantly crafted of faewood.",
+                  "It is a basic project (184 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "max_light",
+                  "holy",
+                  "persists"
+                ],
+                "cost": 60000,
+                "enchant": 20,
+                "material": "faewood",
+                "skill": "twohanded weapons",
+                "flare": "the power of an earth elemental",
+                "weight": 2,
+                "enhancives": [
+                  {
+                    "boost": 3,
+                    "ability": "Spirit Mana Control Ranks",
+                    "level": 12
+                  },
+                  {
+                    "boost": 6,
+                    "ability": "Elemental Mana Control Ranks",
+                    "level": 42
+                  }
+                ],
+                "is_weapon": true,
+                "weapon_type": "twohanded weapons",
+                "flares": [
+                  "the power of an earth elemental"
+                ],
+                "blessing": "holy",
+                "item_type": "weapon"
+              }
+            },
+            {
+              "id": "363840714",
+              "name": "a heavy steel war hammer",
+              "details": {
+                "raw": [
+                  "The hammer is a war hammer that requires skill in blunt weapons to use effectively.",
+                  "It looks like this item has been mainly crafted out of steel, an extremely common metal.",
+                  "Analysis of a heavy steel war hammer indicates the item is free from merchant alteration restrictions.",
+                  "You might be able to have a talented merchant lighten the steel war hammer for you.",
+                  "The steel war hammer will cost 50,000 coins.",
+                  "It is an enhancive item:",
+                  "    It provides a boost of 1 to Agility Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 2 times.",
+                  "    It provides a boost of 5 to Blunt Weapons Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 9 times.",
+                  "    It provides a boost of 3 to Multi Opponent Combat Bonus.",
+                  "    This enhancement may not be used by adventurers who have not trained 7 times.",
+                  "    It seems to have a lot of enhancive charges remaining.",
+                  "It will persist after its last enhancive charge has been expended.",
+                  "It appears to weigh about 14 pounds.",
+                  "It is estimated to be worth about 100,000 silvers.",
+                  "It is predominantly crafted of steel.",
+                  "It is a simple project (15 difficulty) for an adventurer to modify.",
+                  "It has a permanently unlocked loresong by Sornryn."
+                ],
+                "tags": [
+                  "lightenable",
+                  "persists"
+                ],
+                "cost": 50000,
+                "material": "steel",
+                "skill": "blunt weapons",
+                "weight": 14,
+                "enhancives": [
+                  {
+                    "boost": 1,
+                    "ability": "Agility Bonus",
+                    "level": 2
+                  },
+                  {
+                    "boost": 5,
+                    "ability": "Blunt Weapons Bonus",
+                    "level": 9
+                  },
+                  {
+                    "boost": 3,
+                    "ability": "Multi Opponent Combat Bonus",
+                    "level": 7
+                  }
+                ],
+                "is_weapon": true,
+                "weapon_type": "blunt weapons",
+                "item_type": "weapon"
+              }
+            },
+            {
+              "id": "364758500",
+              "name": "a red garnet inset platinum sceptre",
+              "browse_price": 20000,
               "raw_inspect": [
-                "The earcuff can be worn, hanging it from the ear.  The earcuff appears to serve some purpose.",
-                "Analysis of an elegant imflass earcuff indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the earcuff may be further lightened.",
-                "The imflass earcuff will cost 1,000,000 coins.",
+                "The sceptre can not be worn.",
+                "Analysis of a red garnet inset platinum sceptre indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the sceptre may be further lightened.",
+                "The inset platinum sceptre will cost 20,000 coins.",
+                "It is currently imbedded with the Mass Blur spell.",
+                "It has 10 charges.  It is empowered and can be charged for an additional 209.",
+                "It could be activated by rubbing it.",
+                "It will persist after its last magical charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 23,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758488",
+              "name": "a delicate sterling silver bracer",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The bracer can be worn around the wrist.  The bracer appears to serve some purpose.",
+                "Analysis of a delicate sterling silver bracer indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the bracer may be further lightened.",
+                "The sterling silver bracer will cost 40,000 coins.",
                 "It is a magical item which could be imbedded with a spell.",
                 "It has 0 charges.  It is rechargeable.",
                 "It could be activated by waving it.",
                 "It will persist after its last magical charge has been expended.",
                 "It is an enhancive item:",
-                "    It provides a boost of 15 to Swimming Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 40 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
+                "    It provides a boost of 3 to Elemental Mana Control Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 20 times.",
+                "    It seems to have more than your average giantman could count enhancive charges remaining.",
                 "It will crumble into dust after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 600,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758493",
+              "name": "a turquoise-set ora earcuff",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The earcuff can be worn, hanging it from the ear.  The earcuff appears to serve some purpose.",
+                "Analysis of a turquoise-set ora earcuff indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the earcuff may be further lightened.",
+                "The ora earcuff will cost 14,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 7,500 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758491",
+              "name": "a peridot inset eonake neckchain",
+              "browse_price": 15000,
+              "raw_inspect": [
+                "The neckchain can be worn around the neck.  The neckchain appears to serve some purpose.",
+                "Analysis of a peridot inset eonake neckchain indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the neckchain may be further lightened.",
+                "The inset eonake neckchain will cost 15,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 18,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758492",
+              "name": "a soulstone inset platinum armband",
+              "browse_price": 15000,
+              "raw_inspect": [
+                "The armband can be worn around the wrist.",
+                "Analysis of a soulstone inset platinum armband indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the armband may be further lightened.",
+                "The inset platinum armband will cost 15,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 9,500 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758486",
+              "name": "an onyx-inlaid white starstone buckle",
+              "browse_price": 60000,
+              "raw_inspect": [
+                "The buckle can be worn anywhere on the body.  The buckle appears to serve some purpose.",
+                "Analysis of an onyx-inlaid white starstone buckle indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the buckle may be further lightened.",
+                "The white starstone buckle will cost 60,000 coins.",
+                "It is currently imbedded with the Grasp of the Grave spell.",
+                "It has 14 charges.  It is empowered and can be charged for an additional 245.",
+                "It could be activated by rubbing it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 18,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758489",
+              "name": "a mithril and red sunstone headband",
+              "browse_price": 100000,
+              "raw_inspect": [
+                "The headband can be worn on the head.  The headband appears to serve some purpose.",
+                "Analysis of a mithril and red sunstone headband indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the headband may be further lightened.",
+                "The red sunstone headband will cost 100,000 coins.",
+                "It is currently imbedded with the Mystic Focus spell.",
+                "It has 6 charges.  It is empowered and can be charged for an additional 99.",
+                "It could be activated by rubbing it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 4 to Harness Power Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                "    It provides a boost of 4 to Magic Item Use Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 14 times.",
+                "    It provides a boost of 2 to Max Stamina.",
+                "    This enhancement may not be used by adventurers who have not trained 3 times.",
+                "    It provides a boost of 1 to Spiritual Lore - Religion Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 2 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
                 "It is a small item, under a pound.",
                 "It is estimated to be worth about 150,000 silvers.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363567422",
-              "name": "a carved amethyst band",
-              "browse_price": 100000,
+              "id": "364758487",
+              "name": "an oval-cut pink topaz talisman",
+              "browse_price": 14000,
               "raw_inspect": [
-                "The band can be worn around the finger.  The band appears to serve some purpose.",
-                "Analysis of a carved amethyst band indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the band may be further lightened.",
-                "The amethyst band will cost 100,000 coins.",
+                "The talisman can be worn around the neck.  The talisman appears to serve some purpose.",
+                "Analysis of an oval-cut pink topaz talisman indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the talisman may be further lightened.",
+                "The pink topaz talisman will cost 14,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 14,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282033",
+              "name": "a birch-handled mithglin spear",
+              "browse_price": 60000,
+              "raw_inspect": [
+                "The spear is a spear that requires skill in polearms to use effectively.",
+                "It looks like this item has been mainly crafted out of mithglin, a rare metal.",
+                "Analysis of a birch-handled mithglin spear indicates the item is free from merchant alteration restrictions.",
+                "You can tell that the spear is as light as it can get.",
+                "The mithglin spear will cost 60,000 coins.",
+                "It imparts a bonus of +15 more than usual.",
+                "It helps defend its wielder with a bonus of 1.",
+                "It appears to weigh about 3 pounds.",
+                "It is estimated to be worth about 150,000 silvers.",
+                "It is lightly weighted to inflict more critical wounds than a normal weapon of its type.",
+                "It is predominantly crafted of mithglin.",
+                "It is a simple project (9 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282034",
+              "name": "a sturdy kakore runestaff",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
+                "It looks like this item has been mainly crafted out of kakore, an uncommon wood.",
+                "Analysis of a sturdy kakore runestaff indicates the item is free from merchant alteration restrictions.",
+                "You can tell that the runestaff is as light as it can get.",
+                "The kakore runestaff will cost 40,000 coins.",
+                "It imparts a bonus of +10 more than usual.",
+                "It has been infused with the power of a fire elemental.",
+                "It is an enhancive item:",
+                "    It provides a boost of 8 to Spiritual Lore - Summoning Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 36 times.",
+                "    It provides a boost of 2 to Mana Recovery.",
+                "    This enhancement may not be used by adventurers who have not trained 6 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 400,000 silvers.",
+                "It is predominantly crafted of kakore.",
+                "It is a basic project (119 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282038",
+              "name": "an ornate illthorn aegis",
+              "browse_price": 125000,
+              "raw_inspect": [
+                "The aegis is a large shield that protects the bearer if carried in the left hand.",
+                "The aegis can be worn, slinging it across the shoulders and back.  The aegis appears to serve some purpose.",
+                "It looks like this item has been mainly crafted out of illthorn, an extremely rare wood.  It cannot be used in alterations.",
+                "Analysis of an ornate illthorn aegis indicates the item has certain alteration restrictions.  It cannot be used in alterations.",
+                "You might be able to have a talented merchant lighten the illthorn aegis for you.",
+                "The illthorn aegis will cost 125,000 coins.",
+                "It imparts a bonus of +25 more than usual.",
+                "It has been infused with the power of a corrosive substance.",
+                "It appears to weigh about 9 pounds.",
+                "It is estimated to be worth about 100,000 silvers.",
+                "It is predominantly crafted of illthorn.",
+                "It is a basic project (158 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282032",
+              "name": "a mithril and alexandrite necklace",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The necklace can be worn around the neck.  The necklace appears to serve some purpose.",
+                "Analysis of a mithril and alexandrite necklace indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the necklace may be further lightened.",
+                "The alexandrite necklace will cost 40,000 coins.",
+                "It is currently imbedded with the Spirit Defense spell.",
+                "It has 14 charges.  It is empowered and can be charged for an additional 513.",
+                "It could be activated by rubbing it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 7 to Two-Handed Weapons Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 28 times.",
+                "    It seems to have a huge number of enhancive charges remaining.",
+                "It will crumble into dust after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 400,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758463",
+              "name": "a filigreed imflass barrette",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The barrette can be worn anywhere on the body.  The barrette appears to serve some purpose.",
+                "Analysis of a filigreed imflass barrette indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the barrette may be further lightened.",
+                "The imflass barrette will cost 40,000 coins.",
                 "It is a magical item which could be imbedded with a spell.",
                 "It has 0 charges.",
                 "It could be activated by waving it.",
                 "It will persist after its last magical charge has been expended.",
                 "It is an enhancive item:",
-                "    It provides a boost of 1 to Harness Power Ranks.",
-                "    This enhancement may not be used by adventurers who have not trained 4 times.",
-                "    It provides a boost of 4 to Spirit Mana Control Ranks.",
-                "    This enhancement may not be used by adventurers who have not trained 34 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
-                "It will persist after its last enhancive charge has been expended.",
+                "    It provides a boost of 5 to Swimming Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 15 times.",
+                "    It provides a boost of 2 to Mana Recovery.",
+                "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                "    It seems to have quite a few enhancive charges remaining.",
+                "It will crumble into dust after its last enhancive charge has been expended.",
                 "It is a small item, under a pound.",
-                "It is estimated to be worth about 750,000 silvers.",
+                "It is estimated to be worth about 250,000 silvers.",
                 "It is magic resistant.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363567420",
-              "name": "a star sapphire inset mithril flagon",
-              "browse_price": 10000,
+              "id": "364758465",
+              "name": "an onyx-inlaid silver neckchain",
+              "browse_price": 14000,
               "raw_inspect": [
-                "You see nothing unusual.",
-                "You carefully inspect a star sapphire inset mithril flagon.",
-                "You notice that the inset mithril flagon can hold liquids.",
-                "The flagon can be worn, attaching it to the belt.  The flagon appears to serve some purpose.",
-                "Analysis of a star sapphire inset mithril flagon indicates the creator has provided the following information:",
-                "This is a drink container.",
-                "You get no sense of whether or not the flagon may be further lightened.",
-                "The inset mithril flagon will cost 10,000 coins.",
+                "The neckchain can be worn around the neck.  The neckchain appears to serve some purpose.",
+                "Analysis of an onyx-inlaid silver neckchain indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the neckchain may be further lightened.",
+                "The silver neckchain will cost 14,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 9,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758462",
+              "name": "a rune-etched pewter earcuff",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The earcuff can be worn, hanging it from the ear.  The earcuff appears to serve some purpose.",
+                "Analysis of a rune-etched pewter earcuff indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the earcuff may be further lightened.",
+                "The pewter earcuff will cost 40,000 coins.",
+                "It is a holy item.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 3 to Spirit Mana Control Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 6 times.",
+                "    It provides a boost of 3 to Trading Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                "    It provides a boost of 2 to Dexterity Base.",
+                "    This enhancement may not be used by adventurers who have not trained 3 times.",
+                "    It seems to have quite a few enhancive charges remaining.",
+                "It will crumble into dust after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 43,000 silvers.",
+                "It is magic resistant.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758461",
+              "name": "an opal and pink dreamstone headband",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The headband can be worn on the head.  The headband appears to serve some purpose.",
+                "Analysis of an opal and pink dreamstone headband indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the headband may be further lightened.",
+                "The pink dreamstone headband will cost 40,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 1 to Spell Aiming Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                "    It provides a boost of 1 to Elemental Mana Control Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                "    It seems to have a fair amount of enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 90,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758469",
+              "name": "a plain ruby tiara",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The tiara can be worn on the head.  The tiara appears to serve some purpose.",
+                "Analysis of a plain ruby tiara indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the tiara may be further lightened.",
+                "The ruby tiara will cost 14,000 coins.",
+                "It is currently imbedded with the Mystic Focus spell.",
+                "It has 5 charges.  It is rechargeable.",
+                "It could be activated by rubbing it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 28,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758470",
+              "name": "an ivory-inlaid aquamarine brooch",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The brooch can be worn anywhere on the body.  The brooch appears to serve some purpose.",
+                "Analysis of an ivory-inlaid aquamarine brooch indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the brooch may be further lightened.",
+                "The aquamarine brooch will cost 14,000 coins.",
+                "It is currently imbedded with the Thurfel's Ward spell.",
+                "It has 16 charges.  It is empowered and can be charged for an additional 642.",
+                "It could be activated by tapping it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 14,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758471",
+              "name": "an alexandrite studded mithril crown",
+              "browse_price": 24000,
+              "raw_inspect": [
+                "The crown can be worn on the head.  The crown appears to serve some purpose.",
+                "Analysis of an alexandrite studded mithril crown indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the crown may be further lightened.",
+                "The studded mithril crown will cost 24,000 coins.",
+                "It is currently imbedded with the Breeze spell.",
+                "It has 8 charges.  It is empowered and can be charged for an additional 225.",
+                "It could be activated by tapping it.",
+                "It will persist after its last magical charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 24,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758483",
+              "name": "a scorched villswood runestaff",
+              "browse_price": 80000,
+              "raw_inspect": [
+                "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
+                "It looks like this item has been mainly crafted out of villswood, an infrequent wood.",
+                "Analysis of a scorched villswood runestaff indicates the item is free from merchant alteration restrictions.",
+                "You can tell that the runestaff is as light as it can get.",
+                "The villswood runestaff will cost 80,000 coins.",
+                "It imparts a bonus of +18 more than usual.",
+                "It is an enhancive item:",
+                "    It provides a boost of 11 to Max Mana.",
+                "    This enhancement may not be used by adventurers who have not trained 40 times.",
+                "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 600,000 silvers.",
+                "It is predominantly crafted of villswood.",
+                "It is a simple project (39 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758484",
+              "name": "a gold-capped orase runestaff",
+              "browse_price": 90000,
+              "raw_inspect": [
+                "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
+                "It looks like this item has been mainly crafted out of orase, an uncommon wood.",
+                "Analysis of a gold-capped orase runestaff indicates the item is free from merchant alteration restrictions.",
+                "You can tell that the runestaff is as light as it can get.",
+                "The orase runestaff will cost 90,000 coins.",
+                "It imparts a bonus of +20 more than usual.",
+                "It has been infused with the power of an earth elemental.",
+                "It is an enhancive item:",
+                "    It provides a boost of 6 to Spiritual Lore - Blessings Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 21 times.",
+                "    It provides a boost of 5 to Dexterity Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 33 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 850,000 silvers.",
+                "It is predominantly crafted of orase.",
+                "It is a basic project (152 difficulty) for an adventurer to modify.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758490",
+              "name": "a petal-cut alexandrite buckle",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The buckle can be worn anywhere on the body.  The buckle appears to serve some purpose.",
+                "Analysis of a petal-cut alexandrite buckle indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the buckle may be further lightened.",
+                "The alexandrite buckle will cost 14,000 coins.",
+                "It is currently imbedded with the Thurfel's Ward spell.",
+                "It has 4 charges.  It is rechargeable.",
+                "It could be activated by rubbing it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 14,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758466",
+              "name": "a round-cut red dreamstone neckchain",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The neckchain can be worn around the neck.  The neckchain appears to serve some purpose.",
+                "Analysis of a round-cut red dreamstone neckchain indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the neckchain may be further lightened.",
+                "The red dreamstone neckchain will cost 14,000 coins.",
+                "It is currently imbedded with the Blink spell.",
+                "It has 9 charges.",
+                "It could be activated by rubbing it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 13,000 silvers.",
+                "It is magic resistant.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758467",
+              "name": "a pearl and peridot talisman",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The talisman can be worn around the neck.  The talisman appears to serve some purpose.",
+                "Analysis of a pearl and peridot talisman indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the talisman may be further lightened.",
+                "The peridot talisman will cost 40,000 coins.",
+                "It is currently imbedded with the Elemental Deflection spell.",
+                "It has 10 charges.  It is empowered and can be charged for an additional 360.",
+                "It could be activated by rubbing it.",
+                "It will disintegrate after its last magical charge has been expended.",
                 "It is a small item, under a pound.",
                 "It is estimated to be worth about 12,000 silvers.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363567423",
-              "name": "a delicate pink sapphire circlet",
-              "browse_price": 1000000,
+              "id": "364758472",
+              "name": "a heart-cut white sunstone medallion",
+              "browse_price": 40000,
               "raw_inspect": [
-                "The circlet can be worn on the head.  The circlet appears to serve some purpose.",
-                "Analysis of a delicate pink sapphire circlet indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the circlet may be further lightened.",
-                "The pink sapphire circlet will cost 1,000,000 coins.",
+                "The medallion can be worn around the neck.  The medallion appears to serve some purpose.",
+                "Analysis of a heart-cut white sunstone medallion indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the medallion may be further lightened.",
+                "The white sunstone medallion will cost 40,000 coins.",
                 "It is a magical item which could be imbedded with a spell.",
                 "It has 0 charges.",
                 "It could be activated by waving it.",
                 "It will disintegrate after its last magical charge has been expended.",
                 "It is an enhancive item:",
-                "    It provides a boost of 10 to Thrown Weapons Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 55 times.",
-                "    It provides a boost of 3 to Stalking and Hiding Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 4 times.",
-                "    It provides a boost of 1 to Arcane Symbols Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 2 times.",
+                "    It provides a boost of 2 to Edged Weapons Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                "    It provides a boost of 3 to Stamina Recovery.",
+                "    This enhancement may not be used by adventurers who have not trained 6 times.",
                 "    It seems to have a lot of enhancive charges remaining.",
                 "It will crumble into dust after its last enhancive charge has been expended.",
                 "It is a small item, under a pound.",
+                "It is estimated to be worth about 150,000 silvers.",
+                "It is magic resistant.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758474",
+              "name": "an onyx-inlaid platinum earring",
+              "browse_price": 14000,
+              "raw_inspect": [
+                "The earring can be worn, hanging it from the ear.  The earring appears to serve some purpose.",
+                "Analysis of an onyx-inlaid platinum earring indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the earring may be further lightened.",
+                "The platinum earring will cost 14,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 13,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364758464",
+              "name": "a fine imflass crown",
+              "browse_price": 300000,
+              "raw_inspect": [
+                "It is difficult to see the imflass crown clearly from this distance.",
+                "The crown can be worn on the head.  The crown appears to serve some purpose.",
+                "Analysis of a fine imflass crown indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the crown may be further lightened.",
+                "The imflass crown will cost 300,000 coins.",
+                "It is an enhancive item:",
+                "    It provides a boost of 1 to Health Recovery.",
+                "    This enhancement may not be used by adventurers who have not trained 4 times.",
+                "    It provides a boost of 7 to Combat Maneuvers Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 28 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will crumble into dust after its last enhancive charge has been expended.",
+                "It appears to weigh about 2 pounds.",
+                "It is estimated to be worth about 200,000 silvers.",
+                "It is magic resistant.",
+                "It has a permanently unlocked loresong by a bard."
+              ]
+            },
+            {
+              "id": "364282039",
+              "name": "a chiseled bloodjewel brooch",
+              "browse_price": 20000,
+              "raw_inspect": [
+                "The brooch can be worn anywhere on the body.  The brooch appears to serve some purpose.",
+                "Analysis of a chiseled bloodjewel brooch indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the brooch may be further lightened.",
+                "The bloodjewel brooch will cost 20,000 coins.",
+                "It is currently imbedded with the Neutralize Curse spell.",
+                "It has 9 charges.",
+                "It could be activated by tapping it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 22,000 silvers.",
+                "It is magic resistant.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282035",
+              "name": "a simple firestone bracer",
+              "browse_price": 60000,
+              "raw_inspect": [
+                "The bracer can be worn around the wrist.  The bracer appears to serve some purpose.",
+                "Analysis of a simple firestone bracer indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the bracer may be further lightened.",
+                "The firestone bracer will cost 60,000 coins.",
+                "It is currently imbedded with the Call Wind spell.",
+                "It has 4 charges.  It is empowered and can be charged for an additional 110.",
+                "It could be activated by tapping it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 2 to Spiritual Lore - Blessings Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 5 times.",
+                "    It provides a boost of 3 to Mental Lore - Transformation Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                "    It seems to have more than your average giantman could count enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 150,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282041",
+              "name": "a square-cut white sunstone clasp",
+              "browse_price": 35000,
+              "raw_inspect": [
+                "The clasp can be worn anywhere on the body.  The clasp appears to serve some purpose.",
+                "Analysis of a square-cut white sunstone clasp indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the clasp may be further lightened.",
+                "The white sunstone clasp will cost 35,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 23,000 silvers.",
+                "It has a permanently unlocked loresong by Sornryn."
+              ]
+            },
+            {
+              "id": "364282043",
+              "name": "a star-cut amber crown",
+              "browse_price": 40000,
+              "raw_inspect": [
+                "The crown can be worn on the head.  The crown appears to serve some purpose.",
+                "Analysis of a star-cut amber crown indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the crown may be further lightened.",
+                "The amber crown will cost 40,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 7 to Max Mana.",
+                "    This enhancement may not be used by adventurers who have not trained 28 times.",
+                "    It provides a boost of 1 to Survival Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 3 times.",
+                "    It provides a boost of 1 to Logic Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 3 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will persist after its last enhancive charge has been expended.",
+                "It appears to weigh about 2 pounds.",
                 "It is estimated to be worth about 250,000 silvers.",
                 "It is magic resistant.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363297511",
-              "name": "a filigreed sterling silver crown",
-              "browse_price": 200000,
+              "id": "364282036",
+              "name": "a princess-cut diamond pendant",
+              "browse_price": 80000,
               "raw_inspect": [
-                "The crown can be worn on the head.  The crown appears to serve some purpose.",
-                "Analysis of a filigreed sterling silver crown indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the crown may be further lightened.",
-                "The sterling silver crown will cost 200,000 coins.",
-                "It is currently imbedded with the Celerity spell.",
-                "It has 19 charges.  It is rechargeable.",
-                "It could be activated by tapping it.",
-                "It will persist after its last magical charge has been expended.",
-                "It appears to weigh about 2 pounds.",
-                "It is estimated to be worth about 25,000 silvers.",
-                "It has a permanently unlocked loresong by Lornn."
-              ]
-            },
-            {
-              "id": "363233571",
-              "name": "a rune-etched golvern falchion",
-              "browse_price": 200000,
-              "raw_inspect": [
-                "The falchion is a falchion that requires skill in edged weapons to use effectively.",
-                "It looks like this item has been mainly crafted out of golvern, a very rare metal.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
-                "Analysis of a rune-etched golvern falchion indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
-                "You might be able to have a talented merchant lighten the golvern falchion for you.",
-                "The golvern falchion will cost 200,000 coins.",
-                "It imparts a bonus of +25 more than usual.",
-                "It appears to weigh about 5 pounds.",
-                "It is estimated to be worth about 150,000 silvers.",
-                "It is predominantly crafted of golvern.",
-                "It is a simple project (68 difficulty) for an adventurer to modify.",
-                "It has a permanently unlocked loresong by Sornryn."
-              ]
-            },
-            {
-              "id": "363233454",
-              "name": "an onyx-inlaid pewter tiara",
-              "browse_price": 100000,
-              "raw_inspect": [
-                "The tiara can be worn on the head.  The tiara appears to serve some purpose.",
-                "Analysis of an onyx-inlaid pewter tiara indicates the item is free from merchant alteration restrictions.",
-                "You get no sense of whether or not the tiara may be further lightened.",
-                "The pewter tiara will cost 100,000 coins.",
-                "It is a magical item which could be imbedded with a spell.",
-                "It has 0 charges.",
-                "It could be activated by waving it.",
-                "It will persist after its last magical charge has been expended.",
+                "It is difficult to see the diamond pendant clearly from this distance.",
+                "The pendant can be worn around the neck.  The pendant appears to serve some purpose.",
+                "Analysis of a princess-cut diamond pendant indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the pendant may be further lightened.",
+                "The diamond pendant will cost 80,000 coins.",
                 "It is an enhancive item:",
-                "    It provides a boost of 5 to Physical Fitness Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 10 times.",
-                "    It provides a boost of 4 to Magic Item Use Bonus.",
+                "    It provides a boost of 2 to Spiritual Lore - Blessings Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 17 times.",
+                "    It provides a boost of 6 to Influence Base.",
                 "    This enhancement may not be used by adventurers who have not trained 14 times.",
-                "    It provides a boost of 1 to Elemental Lore - Air Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 2 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
+                "    It provides a boost of 1 to Magic Item Use Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 5 times.",
+                "    It seems to have one enhancive charge remaining.",
                 "It will persist after its last enhancive charge has been expended.",
                 "It is a small item, under a pound.",
-                "It is estimated to be worth about 200,000 silvers.",
+                "It is estimated to be worth about 550,000 silvers.",
                 "It is magic resistant.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363233572",
-              "name": "a dark azure witchwood runestaff",
+              "id": "364282037",
+              "name": "a round-cut aquamarine stickpin",
               "browse_price": 40000,
               "raw_inspect": [
-                "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
-                "It looks like this item has been mainly crafted out of witchwood, a very rare wood.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
-                "Analysis of a dark azure witchwood runestaff indicates the item has certain alteration restrictions.  It would need to be supplied to be used in an alteration and may only be used as an accent.",
-                "You might be able to have a talented merchant lighten the witchwood runestaff for you.",
-                "The witchwood runestaff will cost 40,000 coins.",
-                "It imparts a bonus of +17 more than usual.",
-                "It appears to weigh about 3 pounds.",
-                "It is estimated to be worth about 84,000 silvers.",
-                "It is predominantly crafted of witchwood.",
-                "It is a basic project (100 difficulty) for an adventurer to modify.",
+                "The stickpin can be worn anywhere on the body.  The stickpin appears to serve some purpose.",
+                "Analysis of a round-cut aquamarine stickpin indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the stickpin may be further lightened.",
+                "The aquamarine stickpin will cost 40,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.",
+                "It could be activated by waving it.",
+                "It will disintegrate after its last magical charge has been expended.",
+                "It is an enhancive item:",
+                "    It provides a boost of 4 to Physical Fitness Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 24 times.",
+                "    It provides a boost of 3 to Stalking and Hiding Ranks.",
+                "    This enhancement may not be used by adventurers who have not trained 14 times.",
+                "    It seems to have a lot of enhancive charges remaining.",
+                "It will crumble into dust after its last enhancive charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 800,000 silvers.",
+                "It is magic resistant.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363233570",
-              "name": "a dull faewood runestaff",
-              "browse_price": 60000,
+              "id": "364282040",
+              "name": "a jade and blue dreamstone torc",
+              "browse_price": 40000,
               "raw_inspect": [
-                "The runestaff is a rune staff that requires skill in twohanded weapons to use effectively.",
-                "It looks like this item has been mainly crafted out of faewood, an unusual wood.",
-                "Analysis of a dull faewood runestaff indicates the item is free from merchant alteration restrictions.",
-                "You can tell that the runestaff is as light as it can get.",
-                "The faewood runestaff will cost 60,000 coins.",
-                "It imparts a bonus of +20 more than usual.",
-                "It is a holy item.",
-                "It has been infused with the power of an earth elemental.",
+                "The torc can be worn around the neck.  The torc appears to serve some purpose.",
+                "Analysis of a jade and blue dreamstone torc indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the torc may be further lightened.",
+                "The blue dreamstone torc will cost 40,000 coins.",
+                "It is a magical item which could be imbedded with a spell.",
+                "It has 0 charges.  It is rechargeable.",
+                "It could be activated by waving it.",
+                "It will persist after its last magical charge has been expended.",
                 "It is an enhancive item:",
-                "    It provides a boost of 3 to Spirit Mana Control Ranks.",
-                "    This enhancement may not be used by adventurers who have not trained 12 times.",
-                "    It provides a boost of 6 to Elemental Mana Control Ranks.",
-                "    This enhancement may not be used by adventurers who have not trained 42 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
+                "    It provides a boost of 4 to Harness Power Bonus.",
+                "    This enhancement may not be used by adventurers who have not trained 10 times.",
+                "    It seems to have a huge number of enhancive charges remaining.",
                 "It will persist after its last enhancive charge has been expended.",
-                "It appears to weigh about 2 pounds.",
-                "It is estimated to be worth about 1,850,000 silvers.",
-                "It is predominantly crafted of faewood.",
-                "It is a basic project (184 difficulty) for an adventurer to modify.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 150,000 silvers.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             },
             {
-              "id": "363840714",
-              "name": "a heavy steel war hammer",
-              "browse_price": 50000,
+              "id": "364282044",
+              "name": "a fire pearl inset silver bracelet",
+              "browse_price": 12000,
               "raw_inspect": [
-                "The hammer is a war hammer that requires skill in blunt weapons to use effectively.",
-                "It looks like this item has been mainly crafted out of steel, an extremely common metal.",
-                "Analysis of a heavy steel war hammer indicates the item is free from merchant alteration restrictions.",
-                "You might be able to have a talented merchant lighten the steel war hammer for you.",
-                "The steel war hammer will cost 50,000 coins.",
-                "It imparts no bonus more than usual.",
-                "It is an enhancive item:",
-                "    It provides a boost of 1 to Agility Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 2 times.",
-                "    It provides a boost of 5 to Blunt Weapons Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 9 times.",
-                "    It provides a boost of 3 to Multi Opponent Combat Bonus.",
-                "    This enhancement may not be used by adventurers who have not trained 7 times.",
-                "    It seems to have a lot of enhancive charges remaining.",
-                "It will persist after its last enhancive charge has been expended.",
-                "It appears to weigh about 14 pounds.",
-                "It is estimated to be worth about 100,000 silvers.",
-                "It is predominantly crafted of steel.",
-                "It is a simple project (15 difficulty) for an adventurer to modify.",
+                "The bracelet can be worn around the wrist.  The bracelet appears to serve some purpose.",
+                "Analysis of a fire pearl inset silver bracelet indicates the item is free from merchant alteration restrictions.",
+                "You get no sense of whether or not the bracelet may be further lightened.",
+                "The inset silver bracelet will cost 12,000 coins.",
+                "It is currently imbedded with the Spirit Defense spell.",
+                "It has 11 charges.  It is empowered and can be charged for an additional 418.",
+                "It could be activated by rubbing it.",
+                "It will persist after its last magical charge has been expended.",
+                "It is a small item, under a pound.",
+                "It is estimated to be worth about 9,000 silvers.",
                 "It has a permanently unlocked loresong by Sornryn."
               ]
             }
@@ -13806,6 +14818,7 @@
                   "The glass jar will cost 1,500,000 coins."
                 ],
                 "tags": [
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -17155,6 +18168,7 @@
                   "deepenable",
                   "persists",
                   "small",
+                  "container",
                   "container",
                   "container",
                   "container",
