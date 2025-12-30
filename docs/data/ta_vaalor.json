@@ -1,6 +1,6 @@
 {
-  "created_at": "2025-12-30 18:31:07 UTC",
-  "run_time": "09s",
+  "created_at": "2025-12-30 20:24:10 UTC",
+  "run_time": "04s",
   "town": "Ta'Vaalor,",
   "shops": [
     {
@@ -1255,6 +1255,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 75000,
@@ -1617,6 +1618,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -1644,6 +1646,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -1828,6 +1831,7 @@
                 "tags": [
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -3192,6 +3196,7 @@
                   "purpose",
                   "lightenable",
                   "persists",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -5981,62 +5986,6 @@
           "branch": "northwest",
           "items": [
             {
-              "id": "3836921",
-              "name": "some thick light leather",
-              "details": {
-                "raw": [
-                  "It has a small enchanter's glyph.",
-                  "The leather is leather armor that covers the torso only.",
-                  "The leather can be worn around the chest.  The leather appears to serve some purpose.",
-                  "It looks like this item has been mainly crafted out of leather, an extremely common material.",
-                  "Analysis of some thick light leather indicates the item is free from merchant alteration restrictions.",
-                  "You might be able to have a talented merchant lighten the light leather for you.",
-                  "The light leather will cost 750,000 coins.",
-                  "It imparts a bonus of +20 more than usual.",
-                  "It is an enhancive item:",
-                  "    It provides a boost of 12 to Influence Base.",
-                  "    This enhancement may not be used by adventurers who have not trained 31 times.",
-                  "    It provides a boost of 1 to Mana Recovery.",
-                  "    This enhancement may not be used by adventurers who have not trained 2 times.",
-                  "    It seems to have a lot of enhancive charges remaining.",
-                  "It will persist after its last enhancive charge has been expended.",
-                  "It is moderately resistant (13%) to puncturing attacks.",
-                  "It is temporarily and moderately resistant (15%) to frigid attacks, provided by a temporary enhancement and will degrade when the wearer is struck in combat.  It has an incredible amount of uses left before the enhancement degrades away completely, which will cause the item to simply return to normal.",
-                  "It appears to weigh about 10 pounds.",
-                  "It is estimated to be worth about 800,000 silvers.",
-                  "It is predominantly crafted of leather.",
-                  "It is a simple project (69 difficulty) for an adventurer to modify.",
-                  "It has a permanently unlocked loresong by Luxelle."
-                ],
-                "tags": [
-                  "purpose",
-                  "lightenable",
-                  "persists"
-                ],
-                "cost": 750000,
-                "enchant": 20,
-                "material": "leather",
-                "weight": 10,
-                "worn": "chest",
-                "enhancives": [
-                  {
-                    "boost": 12,
-                    "ability": "Influence Base",
-                    "level": 31
-                  },
-                  {
-                    "boost": 1,
-                    "ability": "Mana Recovery",
-                    "level": 2
-                  }
-                ],
-                "is_armor": true,
-                "armor_type": "leather",
-                "wear_location": "torso only",
-                "item_type": "armor"
-              }
-            },
-            {
               "id": "147746",
               "name": "a heavy faenor slab",
               "quantity": 40,
@@ -6290,6 +6239,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 30000,
@@ -6316,6 +6266,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6352,6 +6303,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6378,6 +6330,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6413,6 +6366,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6438,6 +6392,7 @@
                   "purpose",
                   "max_light",
                   "deepenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6473,6 +6428,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 25000,
@@ -6497,6 +6453,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6532,6 +6489,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 50000,
@@ -6557,6 +6515,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -6590,6 +6549,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 15000,
@@ -6615,6 +6575,7 @@
                 ],
                 "tags": [
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -7305,6 +7266,7 @@
                 "tags": [
                   "purpose",
                   "lightenable",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11369,6 +11331,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 99999,
@@ -11455,6 +11418,7 @@
                   "purpose",
                   "max_deep",
                   "max_light",
+                  "container",
                   "container",
                   "container",
                   "container",
@@ -11747,6 +11711,7 @@
                   "max_deep",
                   "max_light",
                   "small",
+                  "container",
                   "container",
                   "container"
                 ],
@@ -15439,6 +15404,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 1500000,
@@ -18790,6 +18756,7 @@
                   "container",
                   "container",
                   "container",
+                  "container",
                   "container"
                 ],
                 "cost": 2440000,
@@ -18920,6 +18887,6 @@
       ]
     }
   ],
-  "processed_at": "2025-12-30 18:33:04 UTC",
+  "processed_at": "2025-12-30 20:26:02 UTC",
   "processing_version": "v2.0"
 }
